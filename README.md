@@ -8,14 +8,16 @@
 
 ```text
 src/
-├── auth/        → Autenticação (JWT, middlewares, geração de token)
-├── config/      → Configuração do banco de dados, dotenv, instâncias globais
-├── controllers/ → Recebem as requisições e chamam os services
-├── models/      → Modelos do banco (Prisma / Sequelize / Mongoose)
-├── routes/      → Arquivos de rotas (endpoints → controllers)
-├── services/    → Regras de negócio (sem req/res)
-├── utils/       → Funções auxiliares (validações, scripts, helpers)
-└── migrations/  → Alterações do banco de dados versionadas
+    ├── auth/        → Autenticação (JWT, middlewares, geração de token)
+    ├── config/      → Configuração do banco de dados, dotenv, instâncias globais
+    ├── controllers/ → Recebem as requisições e chamam os services
+    ├── models/      → Modelos do banco (Prisma / Sequelize / Mongoose)
+    ├── routes/      → Arquivos de rotas (endpoints → controllers)
+    ├── services/    → Regras de negócio (sem req/res)
+    └── migrations/  → Alterações do banco de dados versionadas
+    └── middlewares/ → funções que interceptam requisições HTTP para validação,controle de fluxo etc...
+└──email-templates/  → pasta onde estão armazenados os padrões de e-mails da aplicação
+
 ```
 
 ---
@@ -25,7 +27,7 @@ src/
 Fluxo padrão da aplicação:
 
 ```text
-Rota → Controller → Service → Model → Service → Controller → Resposta
+Rota → Middleware(s) → Controller → Service → Model → Service → Controller → Response
 ```
 
 ### Responsabilidades
@@ -34,6 +36,7 @@ Rota → Controller → Service → Model → Service → Controller → Respost
 - **Controller:** recebe a requisição, valida o básico e chama o service
 - **Service:** executa a lógica da aplicação
 - **Model:** acessa e modifica o banco de dados
+- **Middlewares:** intercepta requisições antes do controller.
 
 O service retorna o resultado ao controller, que envia a resposta final ao usuário.
 
@@ -46,7 +49,7 @@ O service retorna o resultado ao controller, que envia a resposta final ao usuá
 - Controllers devem ser leves (sem lógica pesada)
 - Toda a regra de negócio fica nos services
 - Models são exclusivos para acesso ao banco
-- Evitar duplicação de código (usar `utils/`)
+- Evitar duplicação de código (usar `middlewares/`)
 - Sempre utilizar `try/catch` para tratamento de erros
 
 ---
@@ -72,31 +75,37 @@ O service retorna o resultado ao controller, que envia a resposta final ao usuá
 ## 4. Como subir uma alteração
 
 1. Trocar para a branch correta:
+
 ```bash
 git checkout nomeBranch
 ```
 
 2. Atualizar a branch:
+
 ```bash
 git pull origin nomeBranch
 ```
 
 3. Adicionar arquivos:
+
 ```bash
 git add .
 ```
 
 Ou arquivo específico:
+
 ```bash
 git add nomeArquivo
 ```
 
 4. Criar commit:
+
 ```bash
 git commit -m "descrição do que foi alterado"
 ```
 
 5. Enviar para o repositório:
+
 ```bash
 git push origin nomeBranch
 ```
@@ -128,6 +137,7 @@ npx typeorm migration:run
 ```bash
 npx typeorm migration:revert
 ```
+
 ### Agradecimentos
 
 Agradeço a todos por participarem da realização deste projeto e por seguirem rigorosamente as regras estabelecidas.
