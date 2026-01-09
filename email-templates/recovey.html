@@ -2,7 +2,7 @@
 <html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
-    <title>PiggyXP - Boas-vindas</title>
+    <title>PiggyXP - Recuperação de Senha</title>
     <style>
       /* Reset básico */
       body {
@@ -44,6 +44,18 @@
         font-size: 12px;
         color: gray;
       }
+
+      /* Código de recuperação */
+      .code {
+        display: inline-block;
+        background-color: #ecf0f1;
+        padding: 10px 15px;
+        margin: 15px 0;
+        font-size: 18px;
+        font-weight: bold;
+        letter-spacing: 2px;
+        border-radius: 5px;
+      }
     </style>
   </head>
   <body>
@@ -56,9 +68,10 @@
     <div class="content">
       <p>Olá {{name}},</p>
       <p>
-        Agradecemos por testar e aprovar nosso app. Estamos muito felizes em ter
-        você conosco!
+        Você solicitou a troca de sua senha. Abaixo está o código de
+        recuperação. Por favor, não compartilhe com ninguém:
       </p>
+      <div class="code">{{recovery_code}}</div>
       <p>
         No <strong>PiggyXP</strong>, você aprende educação financeira de forma
         simples, prática e divertida.

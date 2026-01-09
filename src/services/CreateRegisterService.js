@@ -2,13 +2,23 @@ import { AppDataSource } from "../config/dbconnect.js";
 import { User } from "../models/User.js";
 import bcrypt from "bcrypt";
 import autoemailWelcome from "../middlewares/autoemail.js";
+import { ILike } from "typeorm";
 
 export async function createRegisterService({ name, email, password }) {
   const userRepository = AppDataSource.getRepository(User);
 
-  const userAlreadyExists = await userRepository.findOne({ where: { email } });
+  const userAlreadyExists = await userRepository.findOne({
+    where: { email: ILike(email) },
+  });
   if (userAlreadyExists) {
     throw new Error("Email já cadastrado!");
+  }
+
+  const userNameAlreadyExists = await userRepository.findOne({
+    where: { name },
+  });
+  if (userNameAlreadyExists) {
+    throw new Error("Nome de usuário já existente");
   }
 
   const hashedPassword = await bcrypt.hash(password, 10);

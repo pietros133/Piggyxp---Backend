@@ -34,7 +34,6 @@ export async function registerController(req, res) {
 
     return res.status(201).json({
       message: "Usuário cadastrado com sucesso!",
-      user: newUser,
       token,
     });
   } catch (err) {
