@@ -1,5 +1,6 @@
 import { uploadUserImgService } from "../services/UploadImgService.js";
 import jwt from "jsonwebtoken";
+import cloudinary from "../config/cloudinaryconfig.js";
 
 export async function uploadUserImgController(req, res) {
   try {
@@ -7,8 +8,8 @@ export async function uploadUserImgController(req, res) {
     if (!authHeader) {
       return res.status(401).json({ message: "Token não fornecido" });
     }
-    const token = authHeader.split(" ")[1];
 
+    const token = authHeader.split(" ")[1];
     const decoded = jwt.verify(token, process.env.JWT_SECRET);
     const userId = decoded.id;
 
@@ -17,10 +18,16 @@ export async function uploadUserImgController(req, res) {
       return res.status(400).json({ message: "Nenhuma imagem enviada!" });
     }
 
-    const updatedUser = await uploadUserImgService(
-      userId,
-      `/uploads/${file.filename}`
+    const result = await cloudinary.uploader.upload(
+      `data:${file.mimetype};base64,${file.buffer.toString("base64")}`,
+      {
+        folder: "users",
+        public_id: `user_${userId}`,
+        overwrite: true,
+      }
     );
+
+    const updatedUser = await uploadUserImgService(userId, result.secure_url);
 
     return res.status(200).json({
       message: "Imagem do usuário atualizada com sucesso",

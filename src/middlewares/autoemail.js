@@ -13,7 +13,7 @@ const transporter = nodemailer.createTransport({
   },
 });
 
-const autoemail = async (req) => {
+const autoemailWelcome = async (req) => {
   try {
     const user = req.user;
 
@@ -49,4 +49,4 @@ const autoemail = async (req) => {
   }
 };
 
-export default autoemail;
+export default autoemailWelcome;

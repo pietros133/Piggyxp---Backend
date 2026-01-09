@@ -1,5 +1,6 @@
 import { AppDataSource } from "../config/dbconnect.js";
 import { User } from "../models/User.js";
+import cloudinary from "../config/cloudinaryconfig.js";
 
 export async function uploadUserImgService(userId, imgpath) {
   const userRepository = AppDataSource.getRepository(User);
@@ -12,7 +13,11 @@ export async function uploadUserImgService(userId, imgpath) {
     throw new Error("Usuário não encontrado!");
   }
 
-  user.user_img = imgpath;
+  const result = await cloudinary.uploader.upload(imgpath, {
+    folder: "users",
+  });
+
+  user.user_img = result.secure_url;
 
   const updatedUser = await userRepository.save(user);
 

@@ -1,7 +1,7 @@
 import { AppDataSource } from "../config/dbconnect.js";
 import { User } from "../models/User.js";
 import bcrypt from "bcrypt";
-import autoemail from "../middlewares/autoemail.js";
+import autoemailWelcome from "../middlewares/autoemail.js";
 
 export async function createRegisterService({ name, email, password }) {
   const userRepository = AppDataSource.getRepository(User);
@@ -19,7 +19,7 @@ export async function createRegisterService({ name, email, password }) {
   delete newUser.password;
 
   try {
-    await autoemail({ user: newUser });
+    await autoemailWelcome({ user: newUser });
     console.log("Email de boas-vindas enviado com sucesso!");
   } catch (error) {
     console.error("Erro ao enviar email de boas-vindas:", error);
