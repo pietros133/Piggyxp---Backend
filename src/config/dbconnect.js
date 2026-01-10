@@ -2,7 +2,7 @@ import "reflect-metadata";
 import { DataSource } from "typeorm";
 import dotenv from "dotenv";
 import { User } from "../models/User.js";
-
+import { UserProgress } from "../models/UserProgress.js";
 dotenv.config();
 
 export const AppDataSource = new DataSource({
@@ -16,6 +16,6 @@ export const AppDataSource = new DataSource({
   synchronize: false,
   logging: false,
 
-  entities: [User],
+  entities: [User, UserProgress],
   migrations: ["src/migrations/*.cjs"],
 });
