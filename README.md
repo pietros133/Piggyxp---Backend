@@ -1,6 +1,37 @@
-# Documentação do Back-End
+# PiggyXP – Back-End API
 
-**Autor:** Pietro Miranda
+**Autor:** Pietro Miranda  
+
+Back-end desenvolvido como parte do **TCC**, responsável por toda a lógica de autenticação, progressão de usuário e regras de negócio de uma aplicação de **educação financeira gamificada**.
+
+O sistema gerencia usuários, autenticação segura, fases, progresso, XP, níveis e recompensas, seguindo boas práticas de arquitetura e separação de responsabilidades.
+
+---
+
+## Objetivo do Projeto
+
+Criar uma API robusta e organizada para servir como base de uma aplicação gamificada que incentiva jovens a aprenderem **educação financeira** por meio de missões, fases e recompensas virtuais.
+
+Este projeto foi pensado não apenas como um trabalho acadêmico, mas como um **projeto de portfólio profissional**, aplicando conceitos reais do mercado.
+
+---
+
+## Tecnologias Utilizadas
+
+- Node.js  
+- JavaScript (ES Modules)  
+- TypeORM  
+- JWT (JSON Web Token)  
+- Bcrypt  
+- Banco de Dados SQL  
+- Dotenv  
+- Templates de e-mail em HTML  
+
+---
+
+## Arquitetura do Back-End
+
+A aplicação segue uma arquitetura baseada em **camadas**, garantindo organização, escalabilidade e fácil manutenção.
 
 ---
 
