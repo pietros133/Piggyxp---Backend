@@ -172,3 +172,5 @@ npx typeorm migration:revert
 ### Agradecimentos
 
 Agradeço a todos por participarem da realização deste projeto e por seguirem rigorosamente as regras estabelecidas.
+
+ © 2026 Piggyxp by vss
