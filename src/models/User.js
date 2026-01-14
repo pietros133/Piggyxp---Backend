@@ -44,6 +44,17 @@ export const User = new EntitySchema({
       nullable: true,
     },
 
+    recovery_code: {
+      type: "varchar",
+      length: 255,
+      nullable: true,
+    },
+
+    recovery_code_expiration: {
+      type: "timestamp",
+      nullable: true,
+    },
+
     created_at: {
       type: "timestamp",
       default: () => "CURRENT_TIMESTAMP",

@@ -12,7 +12,9 @@ import { AppDataSource } from "./src/config/dbconnect.js";
 import registerRoutes from "./src/routes/registerRoutes.js";
 import uploadRoutes from "./src/routes/userImgRoutes.js";
 import infoRoutes from "./src/routes/getUserInfoRoutes.js";
-
+import loginRoutes from "./src/routes/loginRoutes.js";
+import recoveryRoutes from "./src/routes/recoveryRoutes.js";
+import refreshToken from "./src/routes/refreshTokenRoutes.js";
 const app = express();
 const PORT = process.env.PORT || 3000;
 
@@ -23,6 +25,9 @@ app.use(express.urlencoded({ extended: true }));
 app.use("/api", registerRoutes);
 app.use("/api", uploadRoutes);
 app.use("/api", infoRoutes);
+app.use("/api", loginRoutes);
+app.use("/api", recoveryRoutes);
+app.use("/api", refreshToken);
 
 AppDataSource.initialize()
   .then(() => {

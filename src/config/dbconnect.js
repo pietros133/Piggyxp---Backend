@@ -3,6 +3,7 @@ import { DataSource } from "typeorm";
 import dotenv from "dotenv";
 import { User } from "../models/User.js";
 import { UserProgress } from "../models/UserProgress.js";
+import { RefreshToken } from "../models/RefreshToken.js";
 dotenv.config();
 
 export const AppDataSource = new DataSource({
@@ -16,6 +17,6 @@ export const AppDataSource = new DataSource({
   synchronize: false,
   logging: false,
 
-  entities: [User, UserProgress],
+  entities: [User, UserProgress, RefreshToken],
   migrations: ["src/migrations/*.cjs"],
 });

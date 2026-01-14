@@ -1,7 +1,8 @@
 import { AppDataSource } from "../config/dbconnect.js";
 import { User } from "../models/User.js";
 import bcrypt from "bcrypt";
-import autoemailWelcome from "../middlewares/autoemail.js";
+import emailWelcome from "../middlewares/emailWelcome.js";
+
 import { ILike } from "typeorm";
 
 export async function createRegisterService({ name, email, password }) {
@@ -29,7 +30,7 @@ export async function createRegisterService({ name, email, password }) {
   delete newUser.password;
 
   try {
-    await autoemailWelcome({ user: newUser });
+    await emailWelcome({ user: newUser });
     console.log("Email de boas-vindas enviado com sucesso!");
   } catch (error) {
     console.error("Erro ao enviar email de boas-vindas:", error);
