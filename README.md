@@ -1,5 +1,4 @@
-# PiggyXP 
-# Back-End API
+# PiggyXP - Back-End API
 
 **Autor:** Pietro Miranda  
 
