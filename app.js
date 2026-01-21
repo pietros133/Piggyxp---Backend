@@ -16,6 +16,7 @@ import loginRoutes from "./src/routes/loginRoutes.js";
 import recoveryRoutes from "./src/routes/recoveryRoutes.js";
 import refreshToken from "./src/routes/refreshTokenRoutes.js";
 import difficultySelection from "./src/routes/difficultySelectionRoutes.js";
+import progressInfo from "./src/routes/getUserProgressInfoRoutes.js";
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -31,6 +32,7 @@ app.use("/api", loginRoutes);
 app.use("/api", recoveryRoutes);
 app.use("/api", refreshToken);
 app.use("/api", difficultySelection);
+app.use("/api", progressInfo);
 
 AppDataSource.initialize()
   .then(() => {
