@@ -19,6 +19,7 @@ import difficultySelection from "./src/routes/difficultySelectionRoutes.js";
 import progressInfo from "./src/routes/getUserProgressInfoRoutes.js";
 import updateUser from "./src/routes/updateUserRoute.js";
 import updateImg from "./src/routes/updateImgRoute.js";
+import deleteUser from "./src/routes/deleteUserRoute.js";
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -37,6 +38,7 @@ app.use("/api", difficultySelection);
 app.use("/api", progressInfo);
 app.use("/api", updateUser);
 app.use("/api", updateImg);
+app.use("/api", deleteUser);
 
 AppDataSource.initialize()
   .then(() => {
