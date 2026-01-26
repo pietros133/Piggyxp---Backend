@@ -4,6 +4,10 @@
 
 ---
 
+### Documentaçõa API (Swagger)
+
+A documentação completa das rotas da API está disponível via Swagger:
+-> http://localhost:8081/api-docs  
 ## 1. Estrutura de Pastas
 
 ```text
