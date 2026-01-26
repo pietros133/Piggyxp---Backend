@@ -3,7 +3,7 @@
 **Autor:** Pietro Miranda
 
 ---
-### 📄 Documentação da API (Swagger)
+### Documentação da API (Swagger)
 
 A documentação completa das rotas da API está disponível via Swagger:
 
