@@ -5,7 +5,8 @@ import "reflect-metadata";
 import express from "express";
 import cors from "cors";
 import path from "path";
-
+import swaggerUi from "swagger-ui-express";
+import swaggerSpec from "./src/config/swagger.js";
 import { AppDataSource } from "./src/config/dbconnect.js";
 
 // Rotas
@@ -39,6 +40,9 @@ app.use("/api", progressInfo);
 app.use("/api", updateUser);
 app.use("/api", updateImg);
 app.use("/api", deleteUser);
+
+// Swagger
+app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 
 AppDataSource.initialize()
   .then(() => {
