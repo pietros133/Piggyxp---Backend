@@ -1,0 +1,215 @@
+{
+  "phases": [
+    {
+      "order": 1,
+      "text": "Dinheiro é uma ferramenta criada para facilitar trocas, guardar valor e ajudar no planejamento da vida financeira. Ele não é bom nem ruim, tudo depende de como você usa.",
+      "questions": [
+        {
+          "question": "O que é dinheiro?",
+          "answers": [
+            "Um fim em si mesmo",
+            "Uma ferramenta para troca de bens e serviços",
+            "Um tipo de imposto",
+            "Algo que só serve para gastar"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Para que o dinheiro foi criado?",
+          "answers": [
+            "Para deixar pessoas ricas",
+            "Para substituir o escambo",
+            "Para aumentar impostos",
+            "Para causar dívidas"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Antes do dinheiro, como as pessoas faziam trocas?",
+          "answers": ["Pix", "Cartão de crédito", "Escambo", "Banco digital"],
+          "rightAnswerIndex": 2
+        },
+        {
+          "question": "O dinheiro é bom ou ruim?",
+          "answers": [
+            "Sempre bom",
+            "Sempre ruim",
+            "Depende de como é usado",
+            "Nunca é necessário"
+          ],
+          "rightAnswerIndex": 2
+        },
+        {
+          "question": "Uma função do dinheiro é:",
+          "answers": [
+            "Criar problemas",
+            "Guardar valor para o futuro",
+            "Aumentar dívidas",
+            "Controlar pessoas"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Quem aprende a usar bem o dinheiro tende a:",
+          "answers": [
+            "Ter menos controle da vida",
+            "Evitar planejamento",
+            "Ter mais segurança financeira",
+            "Gastar sem pensar"
+          ],
+          "rightAnswerIndex": 2
+        },
+        {
+          "question": "Educação financeira começa com:",
+          "answers": [
+            "Ganhar muito dinheiro",
+            "Gastar tudo",
+            "Entender o que é dinheiro",
+            "Fazer dívidas"
+          ],
+          "rightAnswerIndex": 2
+        },
+        {
+          "question": "O dinheiro ajuda principalmente a:",
+          "answers": [
+            "Criar conflitos",
+            "Realizar objetivos",
+            "Impedir sonhos",
+            "Gerar dependência"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Qual é um uso saudável do dinheiro?",
+          "answers": [
+            "Gastar sem controle",
+            "Planejar gastos e economizar",
+            "Ignorar contas",
+            "Viver endividado"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O dinheiro deve ser visto como:",
+          "answers": [
+            "Um vilão",
+            "Um objetivo final",
+            "Uma ferramenta de apoio",
+            "Algo sem importância"
+          ],
+          "rightAnswerIndex": 2
+        }
+      ],
+      "rewards": {
+        "xp": 120,
+        "coins": 40
+      }
+    },
+
+    {
+      "order": 2,
+      "text": "Ativos e passivos ajudam a entender para onde o seu dinheiro está indo. Ativos colocam dinheiro no seu bolso. Passivos tiram dinheiro do seu bolso. Saber a diferença é essencial para tomar decisões melhores.",
+      "questions": [
+        {
+          "question": "O que é um ativo?",
+          "answers": [
+            "Algo que gera gastos",
+            "Algo que coloca dinheiro no seu bolso",
+            "Uma dívida",
+            "Um imposto"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O que é um passivo?",
+          "answers": [
+            "Algo que gera renda",
+            "Algo que não custa nada",
+            "Algo que tira dinheiro do seu bolso",
+            "Um investimento"
+          ],
+          "rightAnswerIndex": 2
+        },
+        {
+          "question": "Qual é um exemplo de ativo?",
+          "answers": [
+            "Conta de luz",
+            "Aluguel recebido",
+            "Dívida no cartão",
+            "Mensalidade"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Qual é um exemplo de passivo?",
+          "answers": [
+            "Renda extra",
+            "Aplicação financeira",
+            "Parcela de financiamento",
+            "Aluguel recebido"
+          ],
+          "rightAnswerIndex": 2
+        },
+        {
+          "question": "Um celular novo comprado parcelado é:",
+          "answers": ["Um ativo", "Um passivo", "Um investimento", "Uma renda"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Ter muitos passivos significa:",
+          "answers": [
+            "Mais liberdade financeira",
+            "Mais dinheiro sobrando",
+            "Mais gastos frequentes",
+            "Mais investimentos"
+          ],
+          "rightAnswerIndex": 2
+        },
+        {
+          "question": "Qual é o principal benefício de ter ativos?",
+          "answers": [
+            "Gastar mais",
+            "Gerar renda ou valor no tempo",
+            "Aumentar dívidas",
+            "Evitar planejamento"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Educação financeira ajuda a:",
+          "answers": [
+            "Comprar tudo o que quiser",
+            "Ignorar gastos",
+            "Equilibrar ativos e passivos",
+            "Viver sem regras"
+          ],
+          "rightAnswerIndex": 2
+        },
+        {
+          "question": "Uma pessoa financeiramente consciente tende a:",
+          "answers": [
+            "Acumular apenas passivos",
+            "Evitar qualquer gasto",
+            "Priorizar ativos ao longo do tempo",
+            "Ignorar o futuro"
+          ],
+          "rightAnswerIndex": 2
+        },
+        {
+          "question": "Ativos e passivos servem para:",
+          "answers": [
+            "Confundir as pessoas",
+            "Organizar e entender melhor o dinheiro",
+            "Criar mais dívidas",
+            "Aumentar impostos"
+          ],
+          "rightAnswerIndex": 1
+        }
+      ],
+      "rewards": {
+        "xp": 180,
+        "coins": 45
+      }
+    }
+  ]
+}

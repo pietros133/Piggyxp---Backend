@@ -4,9 +4,6 @@ import dotenv from "dotenv";
 import { User } from "../models/User.js";
 import { UserProgress } from "../models/UserProgress.js";
 import { RefreshToken } from "../models/RefreshToken.js";
-import { Unit } from "../models/Unit.js";
-import { Phases } from "../models/Phases.js";
-import { User_Phase } from "../models/User_Phase_Content.js";
 dotenv.config();
 
 export const AppDataSource = new DataSource({
@@ -20,6 +17,6 @@ export const AppDataSource = new DataSource({
   synchronize: false,
   logging: false,
 
-  entities: [User, UserProgress, RefreshToken, Unit, Phases, User_Phase],
+  entities: [User, UserProgress, RefreshToken],
   migrations: ["src/migrations/*.cjs"],
 });
