@@ -5,9 +5,11 @@ import "reflect-metadata";
 import express from "express";
 import cors from "cors";
 import path from "path";
-import swaggerUi from "swagger-ui-express";
-import swaggerSpec from "./src/config/swagger.js";
+// import swaggerUi from "swagger-ui-express";
+// import swaggerSpec from "./src/config/swagger.js";
 import { AppDataSource } from "./src/config/dbconnect.js";
+import { swaggerDocs } from "./src/config/swagger.js";
+
 
 // Rotas
 import registerRoutes from "./src/routes/registerRoutes.js";
@@ -42,7 +44,9 @@ app.use("/api", updateImg);
 app.use("/api", deleteUser);
 
 // Swagger
-app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerSpec));
+// app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerSpec));
+swaggerDocs(app);
+
 
 AppDataSource.initialize()
   .then(() => {

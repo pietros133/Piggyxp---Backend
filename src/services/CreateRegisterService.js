@@ -1,5 +1,6 @@
 import { AppDataSource } from "../config/dbconnect.js";
 import { User } from "../models/User.js";
+import { UserProgress } from "../models/UserProgress.js"
 import bcrypt from "bcrypt";
 import emailWelcome from "../middlewares/emailWelcome.js";
 
@@ -7,6 +8,7 @@ import { ILike } from "typeorm";
 
 export async function createRegisterService({ name, email, password }) {
   const userRepository = AppDataSource.getRepository(User);
+  const progressRepository = AppDataSource.getRepository(UserProgress);
 
   const userAlreadyExists = await userRepository.findOne({
     where: { email: ILike(email) },
@@ -26,6 +28,9 @@ export async function createRegisterService({ name, email, password }) {
 
   const user = userRepository.create({ name, email, password: hashedPassword });
   const newUser = await userRepository.save(user);
+
+  const progress = progressRepository.create({user: newUser})
+  const newProgress = await progressRepository.save(progress);
 
   delete newUser.password;
 
