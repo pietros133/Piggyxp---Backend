@@ -31,6 +31,14 @@ export async function resetPasswordController(req, res) {
       return res.status(400).json({ message: "As senhas não coincidem!" });
     }
 
+    const passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*[@$!%*?&]).{6,}$/;
+    if (!passwordRegex.test(confirmPassword)) {
+      return res.status(400).json({
+        message:
+          "Senha deve ter no mínimo 6 caracteres, 1 letra maiúscula, 1 letra minúscula e 1 caractere especial!",
+      });
+    }
+
     const result = await resetPasswordWithCode(code, newPassword);
     return res.status(200).json(result);
   } catch (err) {
