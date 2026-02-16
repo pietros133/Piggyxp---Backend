@@ -25,8 +25,8 @@ export async function registerController(req, res) {
     }
 
     const emojiRegex = /\p{Extended_Pictographic}/u;
-    if(emojiRegex.test(name)){
-      return res.status(400).json({message:"Nome não deve conter emojis."});
+    if(emojiRegex.test(name) || emojiRegex.test(password) || emojiRegex.test(email)){
+      return res.status(400).json({message:"Não deve conter emojis."});
     }
 
     const newUser = await createRegisterService({ name, email, password });
