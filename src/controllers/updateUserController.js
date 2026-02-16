@@ -44,6 +44,11 @@ export async function updateUserController(req, res) {
       return res.status(400).json({ message: "Email inválido!" });
     }
 
+    const emojiRegex = /\p{Extended_Pictographic}/u;
+    if(emojiRegex.test(name)){
+      return res.status(400).json({message:"Nome não deve conter emojis."});
+    }
+
     const updatedUser = await updateUserService(id, { name, email });
 
     return res.status(200).json({
