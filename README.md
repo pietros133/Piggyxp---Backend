@@ -171,6 +171,7 @@ npx typeorm migration:revert
 ---
 ### Variáveis de Ambiente
 O Arquivo .env precisa estar na raiz do projeto
+```bash
 - DB_HOST               Endereço do servidor do banco
 - DB_PORT               Porta do banco
 - DB_USER               Usuário do banco
@@ -183,7 +184,8 @@ O Arquivo .env precisa estar na raiz do projeto
 - CLOUDINARY_CLOUD_NAME Encontrados no dashboard do cloudinary
 - CLOUDINARY_API_KEY    Encontrados no dashboard do cloudinary
 - CLOUDINARY_API_SECRET Encontrados no dashboard do cloudinary
-
+```
+---
 
 ### Agradecimentos
 
