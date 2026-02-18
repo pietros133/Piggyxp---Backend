@@ -1,13 +1,39 @@
-# Documentação do Back-End
+# PiggyXP - Back-End API
 
-**Autor:** Pietro Miranda
+**Autor:** Pietro Miranda  
+
+Back-end desenvolvido como parte do **TCC**, responsável por toda a lógica de autenticação, progressão de usuário e regras de negócio de uma aplicação de **educação financeira gamificada**.
+
+O sistema gerencia usuários, autenticação segura, fases, progresso, XP, níveis e recompensas, seguindo boas práticas de arquitetura e separação de responsabilidades.
 
 ---
-### Documentação da API (Swagger)
 
-A documentação completa das rotas da API está disponível via Swagger:
+## Objetivo do Projeto
 
-working ◌👩🏻‍💻
+Criar uma API robusta e organizada para servir como base de uma aplicação gamificada que incentiva jovens a aprenderem **educação financeira** por meio de missões, fases e recompensas virtuais.
+
+Este projeto foi pensado não apenas como um trabalho acadêmico, mas como um **projeto de portfólio profissional**, aplicando conceitos reais do mercado.
+
+---
+
+## Tecnologias Utilizadas
+
+- Node.js  
+- JavaScript (ES Modules)  
+- TypeORM  
+- JWT (JSON Web Token)  
+- Bcrypt  
+- Banco de Dados SQL  
+- Dotenv  
+- Templates de e-mail em HTML  
+
+---
+
+## Arquitetura do Back-End
+
+A aplicação segue uma arquitetura baseada em **camadas**, garantindo organização, escalabilidade e fácil manutenção.
+
+---
 
 ## 1. Estrutura de Pastas
 
@@ -142,7 +168,27 @@ npx typeorm migration:run
 ```bash
 npx typeorm migration:revert
 ```
+---
+### Variáveis de Ambiente
+O Arquivo .env precisa estar na raiz do projeto
+```bash
+- DB_HOST               Endereço do servidor do banco
+- DB_PORT               Porta do banco
+- DB_USER               Usuário do banco
+- DB_PASSWORD           Senha do banco de dados
+- DB_NAME               Nome do banco que sua aplicação usa
+- PORT                  Porta onde sua API vai rodar
+- JWT_SECRET            Chaves secretas para gerar tokens de login.
+- JWT_REFRESH_SECRET    Chaves secretas para gerar tokens de login.
+- nodemailer_key        Senha do serviço de email.
+- CLOUDINARY_CLOUD_NAME Encontrados no dashboard do cloudinary
+- CLOUDINARY_API_KEY    Encontrados no dashboard do cloudinary
+- CLOUDINARY_API_SECRET Encontrados no dashboard do cloudinary
+```
+---
 
 ### Agradecimentos
 
 Agradeço a todos por participarem da realização deste projeto e por seguirem rigorosamente as regras estabelecidas.
+---
+### © 2026 Piggyxp by vss
