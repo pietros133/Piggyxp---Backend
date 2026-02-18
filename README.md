@@ -168,6 +168,22 @@ npx typeorm migration:run
 ```bash
 npx typeorm migration:revert
 ```
+---
+### Variáveis de Ambiente
+O Arquivo .env precisa estar na raiz do projeto
+- DB_HOST               Endereço do servidor do banco
+- DB_PORT               Porta do banco
+- DB_USER               Usuário do banco
+- DB_PASSWORD           Senha do banco de dados
+- DB_NAME               Nome do banco que sua aplicação usa
+- PORT                  Porta onde sua API vai rodar
+- JWT_SECRET            Chaves secretas para gerar tokens de login.
+- JWT_REFRESH_SECRET    Chaves secretas para gerar tokens de login.
+- nodemailer_key        Senha do serviço de email.
+- CLOUDINARY_CLOUD_NAME Encontrados no dashboard do cloudinary
+- CLOUDINARY_API_KEY    Encontrados no dashboard do cloudinary
+- CLOUDINARY_API_SECRET Encontrados no dashboard do cloudinary
+
 
 ### Agradecimentos
 
