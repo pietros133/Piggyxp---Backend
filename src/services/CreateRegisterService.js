@@ -35,8 +35,10 @@ export async function createRegisterService({ name, email, password }) {
   delete newUser.password;
 
   try {
-    await emailWelcome({ user: newUser });
-    console.log("Email de boas-vindas enviado com sucesso!");
+    emailWelcome({ user: newUser })
+    .then(() => {
+        console.log("Email de boas-vindas enviado com sucesso!");
+    })
   } catch (error) {
     console.error("Erro ao enviar email de boas-vindas:", error);
   }

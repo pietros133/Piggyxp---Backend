@@ -23,6 +23,7 @@ import progressInfo from "./src/routes/getUserProgressInfoRoutes.js";
 import updateUser from "./src/routes/updateUserRoute.js";
 import updateImg from "./src/routes/updateImgRoute.js";
 import deleteUser from "./src/routes/deleteUserRoute.js";
+import getPhases from "./src/routes/getPhaseRoute.js"
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -42,6 +43,7 @@ app.use("/api", progressInfo);
 app.use("/api", updateUser);
 app.use("/api", updateImg);
 app.use("/api", deleteUser);
+app.use("/api", getPhases);
 
 // Swagger
 // app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerSpec));

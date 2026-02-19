@@ -1,4 +1,4 @@
-import { getUserInfoService } from "../services/getUserInfo.js";
+import { getUserInfoService } from "../services/getUserInfoService.js";
 
 export async function getUserInfoController(req, res) {
   try {
