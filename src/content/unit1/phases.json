@@ -2,7 +2,7 @@
   "phases": [
     {
       "order": 1,
-      "dificulty":0,
+      "dificulty": 0,
       "text": "Dinheiro é uma ferramenta criada para facilitar trocas, guardar valor e ajudar no planejamento da vida financeira. Ele não é bom nem ruim, tudo depende de como você usa.",
       "questions": [
         {
@@ -106,10 +106,9 @@
         "coins": 40
       }
     },
-
     {
       "order": 2,
-      "dificulty":0,
+      "dificulty": 0,
       "text": "Ativos e passivos ajudam a entender para onde o seu dinheiro está indo. Ativos colocam dinheiro no seu bolso. Passivos tiram dinheiro do seu bolso. Saber a diferença é essencial para tomar decisões melhores.",
       "questions": [
         {
@@ -211,6 +210,445 @@
       "rewards": {
         "xp": 180,
         "coins": 45
+      }
+    },
+    {
+      "order": 3,
+      "dificulty": 1,
+      "text": "O dinheiro possui três funções principais na economia: meio de troca, reserva de valor e unidade de conta. Além disso, ele influencia decisões financeiras, consumo e planejamento. Entender essas funções ajuda a tomar decisões mais conscientes e estratégicas.",
+      "questions": [
+        {
+          "question": "Qual das opções representa corretamente as três funções do dinheiro?",
+          "answers": [
+            "Investimento, imposto e dívida",
+            "Meio de troca, reserva de valor e unidade de conta",
+            "Lucro, renda e salário",
+            "Compra, venda e empréstimo"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O que significa o dinheiro ser uma reserva de valor?",
+          "answers": [
+            "Ele pode ser trocado apenas por bens físicos",
+            "Ele mantém seu poder de compra ao longo do tempo",
+            "Ele serve apenas para pagar dívidas",
+            "Ele nunca perde valor"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Quando usamos o dinheiro como unidade de conta, estamos:",
+          "answers": [
+            "Comparando valores de bens e serviços",
+            "Guardando dinheiro no banco",
+            "Evitando gastos",
+            "Criando impostos"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "A inflação afeta qual função do dinheiro principalmente?",
+          "answers": [
+            "Meio de troca",
+            "Reserva de valor",
+            "Unidade de conta",
+            "Nenhuma das anteriores"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Planejamento financeiro eficiente depende principalmente de:",
+          "answers": [
+            "Gastar tudo o que ganha",
+            "Compreender receitas e despesas",
+            "Evitar qualquer investimento",
+            "Usar apenas dinheiro físico"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Guardar dinheiro sem planejamento pode ser arriscado porque:",
+          "answers": [
+            "O dinheiro sempre perde valor imediatamente",
+            "Pode perder poder de compra com o tempo",
+            "É ilegal guardar dinheiro",
+            "Impede o consumo"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Uma decisão financeira estratégica considera:",
+          "answers": [
+            "Apenas desejos imediatos",
+            "Consequências de curto e longo prazo",
+            "Somente promoções",
+            "Opinião de amigos"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O dinheiro facilita trocas porque:",
+          "answers": [
+            "Elimina a necessidade de valorizar produtos",
+            "Substitui a necessidade de trabalho",
+            "Evita a coincidência de interesses do escambo",
+            "Impede negociações"
+          ],
+          "rightAnswerIndex": 2
+        },
+        {
+          "question": "Educação financeira ajuda principalmente a:",
+          "answers": [
+            "Aumentar consumo impulsivo",
+            "Tomar decisões conscientes sobre recursos",
+            "Eliminar riscos totalmente",
+            "Evitar qualquer gasto"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Uma pessoa financeiramente organizada tende a:",
+          "answers": [
+            "Ignorar variações econômicas",
+            "Planejar metas e acompanhar resultados",
+            "Depender apenas de sorte",
+            "Evitar aprender sobre dinheiro"
+          ],
+          "rightAnswerIndex": 1
+        }
+      ],
+      "rewards": {
+        "xp": 200,
+        "coins": 50
+      }
+    },
+    {
+      "order": 4,
+      "dificulty": 1,
+      "text": "Ativos e passivos são conceitos fundamentais na construção de patrimônio. Ativos geram renda ou valorização ao longo do tempo. Passivos geram despesas recorrentes ou obrigações financeiras. Compreender essa diferença é essencial para crescimento financeiro sustentável.",
+      "questions": [
+        {
+          "question": "Qual característica define um ativo financeiro?",
+          "answers": [
+            "Gera despesas mensais",
+            "Possui alto valor emocional",
+            "Tem potencial de gerar renda ou valorização",
+            "É comprado parcelado"
+          ],
+          "rightAnswerIndex": 2
+        },
+        {
+          "question": "Um carro financiado que gera parcelas mensais é considerado:",
+          "answers": [
+            "Ativo",
+            "Passivo",
+            "Investimento garantido",
+            "Reserva de valor"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Uma ação que paga dividendos pode ser classificada como:",
+          "answers": ["Passivo", "Despesa fixa", "Ativo", "Imposto"],
+          "rightAnswerIndex": 2
+        },
+        {
+          "question": "A principal diferença entre ativo e passivo está em:",
+          "answers": [
+            "Preço de compra",
+            "Quantidade adquirida",
+            "Impacto no fluxo de caixa",
+            "Forma de pagamento"
+          ],
+          "rightAnswerIndex": 2
+        },
+        {
+          "question": "Financiamentos com juros elevados tendem a:",
+          "answers": [
+            "Aumentar ativos",
+            "Reduzir despesas",
+            "Aumentar passivos",
+            "Gerar renda automática"
+          ],
+          "rightAnswerIndex": 2
+        },
+        {
+          "question": "Construção de patrimônio ocorre quando:",
+          "answers": [
+            "Passivos crescem mais que ativos",
+            "Ativos superam passivos ao longo do tempo",
+            "Há apenas consumo constante",
+            "Não existe planejamento"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Fluxo de caixa positivo significa que:",
+          "answers": [
+            "As despesas são maiores que receitas",
+            "As receitas superam as despesas",
+            "Não há movimentação financeira",
+            "Existe apenas dívida"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Investimentos são considerados ativos porque:",
+          "answers": [
+            "Sempre têm lucro garantido",
+            "Geram potencial de retorno financeiro",
+            "Não envolvem risco",
+            "Não precisam de planejamento"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Acumular muitos passivos pode resultar em:",
+          "answers": [
+            "Maior liberdade financeira",
+            "Dependência de renda futura",
+            "Aumento automático de patrimônio",
+            "Redução de despesas"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Uma estratégia financeira inteligente prioriza:",
+          "answers": [
+            "Consumo imediato",
+            "Aumento progressivo de ativos",
+            "Uso frequente de crédito",
+            "Ignorar fluxo de caixa"
+          ],
+          "rightAnswerIndex": 1
+        }
+      ],
+      "rewards": {
+        "xp": 220,
+        "coins": 60
+      }
+    },
+    {
+      "order": 5,
+      "dificulty": 2,
+      "text": "Investimentos complexos, diversificação e risco são conceitos essenciais para quem quer avançar no mundo financeiro. Compreender volatilidade, liquidez e retornos esperados ajuda a tomar decisões mais estratégicas.",
+      "questions": [
+        {
+          "question": "Qual é a principal vantagem da diversificação em investimentos?",
+          "answers": [
+            "Garantir lucros enormes rapidamente",
+            "Reduzir riscos concentrados em um único ativo",
+            "Evitar qualquer perda financeira",
+            "Investir apenas em um ativo confiável"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O que significa liquidez em um investimento?",
+          "answers": [
+            "Facilidade de transformar em dinheiro rapidamente",
+            "Ganho garantido",
+            "Quantidade de ativos possuídos",
+            "Risco zero"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Volatilidade indica:",
+          "answers": [
+            "Estabilidade do investimento",
+            "Oscilações de preço ao longo do tempo",
+            "Garantia de retorno financeiro",
+            "Que não há risco"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Risco de investimento se refere a:",
+          "answers": [
+            "Possibilidade de perder dinheiro ou não atingir retorno esperado",
+            "Aumento automático de patrimônio",
+            "Controle total sobre ganhos",
+            "Não se aplica a ações"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Investir em ações e fundos diferentes ajuda a:",
+          "answers": [
+            "Aumentar exposição a risco",
+            "Reduzir risco global do portfólio",
+            "Evitar estudar o mercado",
+            "Garantir retorno fixo"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Um investimento de alto risco pode gerar:",
+          "answers": [
+            "Altos ganhos ou grandes perdas",
+            "Lucro garantido",
+            "Sem impacto financeiro",
+            "Somente prejuízo certo"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "O retorno esperado é:",
+          "answers": [
+            "O valor que se espera ganhar com um investimento",
+            "O valor que se perde automaticamente",
+            "Garantia de lucro real",
+            "Só relevante para passivos"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Educação financeira avançada ajuda a:",
+          "answers": [
+            "Ignorar riscos",
+            "Tomar decisões estratégicas e conscientes",
+            "Investir sem estudo",
+            "Evitar qualquer decisão financeira"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Qual é a relação entre risco e retorno?",
+          "answers": [
+            "Maior risco tende a maior retorno esperado",
+            "Maior risco sempre gera prejuízo",
+            "Risco não impacta retorno",
+            "Menor risco sempre gera maior retorno"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Planejamento financeiro avançado envolve:",
+          "answers": [
+            "Ignorar objetivos de longo prazo",
+            "Alinhar objetivos, risco e liquidez",
+            "Investir apenas em passivos",
+            "Evitar investimentos"
+          ],
+          "rightAnswerIndex": 1
+        }
+      ],
+      "rewards": {
+        "xp": 300,
+        "coins": 80
+      }
+    },
+    {
+      "order": 6,
+      "dificulty": 2,
+      "text": "Planejamento financeiro avançado envolve análise detalhada de ativos, passivos, fluxo de caixa e investimentos estratégicos. Entender alocação de recursos e antecipar riscos é fundamental para crescimento sustentável.",
+      "questions": [
+        {
+          "question": "O que é alocação de ativos?",
+          "answers": [
+            "Distribuir investimentos entre diferentes classes para balancear risco e retorno",
+            "Concentrar todos os recursos em uma única ação",
+            "Gastar todo o dinheiro em consumo imediato",
+            "Guardar dinheiro apenas na poupança"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Fluxo de caixa negativo indica:",
+          "answers": [
+            "As receitas são maiores que as despesas",
+            "As despesas superam as receitas",
+            "Não há movimentação financeira",
+            "Existem apenas ativos"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Uma carteira diversificada visa:",
+          "answers": [
+            "Aumentar riscos concentrados",
+            "Minimizar impactos de perdas em um único investimento",
+            "Evitar qualquer tipo de investimento",
+            "Garantir lucros imediatos"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O que é investimento de longo prazo?",
+          "answers": [
+            "Investimento que exige poucos dias para retorno",
+            "Investimento focado em crescimento de valor ao longo de anos",
+            "Investimento de alto risco apenas",
+            "Compra de passivos para liquidez imediata"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O que significa risco sistemático?",
+          "answers": [
+            "Risco que afeta apenas um ativo isolado",
+            "Risco que afeta o mercado inteiro",
+            "Risco que não existe",
+            "Risco sem impacto no retorno"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Uma análise fundamental de investimentos considera:",
+          "answers": [
+            "A sorte do mercado",
+            "Dados financeiros, balanços e indicadores econômicos",
+            "A opinião de amigos",
+            "Somente a tendência de curto prazo"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O que é retorno ajustado ao risco?",
+          "answers": [
+            "Lucro absoluto sem considerar risco",
+            "Lucro esperado considerando risco do investimento",
+            "Garantia de lucro fixo",
+            "Valor sem impacto financeiro"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Investimentos em diferentes moedas ajudam a:",
+          "answers": [
+            "Reduzir risco cambial e diversificar exposição",
+            "Aumentar risco de perda",
+            "Evitar estudar o mercado",
+            "Garantir retorno fixo"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Hedge financeiro é usado para:",
+          "answers": [
+            "Aumentar exposição ao risco",
+            "Proteger investimentos contra variações desfavoráveis",
+            "Evitar qualquer análise",
+            "Garantir lucro instantâneo"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Uma estratégia financeira avançada envolve:",
+          "answers": [
+            "Apenas compras impulsivas",
+            "Alinhar objetivos, riscos, liquidez e diversificação",
+            "Investir apenas em passivos",
+            "Ignorar fluxo de caixa"
+          ],
+          "rightAnswerIndex": 1
+        }
+      ],
+      "rewards": {
+        "xp": 320,
+        "coins": 85
       }
     }
   ]
