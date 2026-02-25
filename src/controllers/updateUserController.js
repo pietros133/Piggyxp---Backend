@@ -45,7 +45,7 @@ export async function updateUserController(req, res) {
     }
 
     const emojiRegex = /\p{Extended_Pictographic}/u;
-    if(emojiRegex.test(name) || emojiRegex.test(password) || emojiRegex.test(email)){
+    if(emojiRegex.test(name) || emojiRegex.test(email)){
       return res.status(400).json({message:"Não deve conter emojis."});
     }
 
