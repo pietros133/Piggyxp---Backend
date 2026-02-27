@@ -39,6 +39,11 @@ export const User = new EntitySchema({
       nullable: true,
     },
 
+    first_login: {
+      type: "boolean",
+      default: false
+    },
+
     last_login: {
       type: "timestamp",
       nullable: true,
