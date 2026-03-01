@@ -41,7 +41,7 @@ export const User = new EntitySchema({
 
     first_login: {
       type: "boolean",
-      default: false
+      default: true,
     },
 
     last_login: {

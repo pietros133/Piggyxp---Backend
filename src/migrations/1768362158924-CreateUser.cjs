@@ -16,6 +16,7 @@ module.exports = class CreateUser1768362158924 {
         password VARCHAR(255) NOT NULL,
         difficulty INT DEFAULT 1,
         user_img VARCHAR(255) NULL,
+        first_login BOOLEAN DEFAULT true,
         last_login TIMESTAMP NULL,
         recovery_code VARCHAR(255) NULL,
         recovery_code_expiration TIMESTAMP NULL,

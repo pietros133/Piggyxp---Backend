@@ -17,6 +17,7 @@ export async function difficultySelectionService(userId, difficulty) {
   }
 
   user.difficulty = diff;
+  user.first_login = false;
 
   await userRepository.save(user);
 }
