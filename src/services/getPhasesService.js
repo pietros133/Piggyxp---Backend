@@ -1,4 +1,4 @@
-import phasesData from "../content/unit1/phases.json" with { type: "json" };
+import phasesData from "../content/units/unit1/phases.json" with { type: "json" };
 
 export async function getPhasesService(userDifficulty, userOrder) {
   const phases = phasesData.phases;

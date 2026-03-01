@@ -8,6 +8,7 @@ import path from "path";
 // import swaggerUi from "swagger-ui-express";
 // import swaggerSpec from "./src/config/swagger.js";
 import { AppDataSource } from "./src/config/dbconnect.js";
+import { MongoDataSource } from "./src/Mongo/Database/mdbconnect.js";
 import { swaggerDocs } from "./src/config/swagger.js";
 
 
@@ -24,6 +25,7 @@ import updateUser from "./src/routes/updateUserRoute.js";
 import updateImg from "./src/routes/updateImgRoute.js";
 import deleteUser from "./src/routes/deleteUserRoute.js";
 import getPhases from "./src/routes/getPhaseRoute.js"
+import phasesRoutes from "./src/routes/PhasesRoute.js";
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -44,22 +46,29 @@ app.use("/api", updateUser);
 app.use("/api", updateImg);
 app.use("/api", deleteUser);
 app.use("/api", getPhases);
+app.use("/api", phasesRoutes);
 
 // Swagger
 // app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 swaggerDocs(app);
 
 
-AppDataSource.initialize()
-  .then(() => {
-    console.log("Banco de dados conectado");
+async function startServer() {
+  try {
+    await AppDataSource.initialize();
+    console.log("Banco SQL conectado");
+
+    await MongoDataSource.initialize();
+    console.log("MongoDB conectado");
 
     app.listen(PORT, () => {
       console.log(`Servidor rodando na porta ${PORT}`);
     });
-  })
-  .catch((err) => {
-    console.error("Erro ao conectar no banco:", err);
-  });
+  } catch (err) {
+    console.error("Erro ao conectar nos bancos:", err);
+  }
+}
+
+startServer();
 
 export default app;
