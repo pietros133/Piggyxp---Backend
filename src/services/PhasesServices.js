@@ -5,7 +5,6 @@ import { Phases } from "../models/Phases.js";
 
 export async function PhasesService() {
   
-  await MongoDataSource.initialize();
   const phasesRepository = MongoDataSource.getMongoRepository(Phases);
 
   // Pasta que contém as unidades

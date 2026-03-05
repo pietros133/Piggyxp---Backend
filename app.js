@@ -11,7 +11,6 @@ import { AppDataSource } from "./src/config/dbconnect.js";
 import { MongoDataSource } from "./src/mongo/database/mdbconnect.js";
 import { swaggerDocs } from "./src/config/swagger.js";
 
-
 // Rotas
 import registerRoutes from "./src/routes/registerRoutes.js";
 import uploadRoutes from "./src/routes/userImgRoutes.js";
@@ -24,10 +23,9 @@ import progressInfo from "./src/routes/getUserProgressInfoRoutes.js";
 import updateUser from "./src/routes/updateUserRoute.js";
 import updateImg from "./src/routes/updateImgRoute.js";
 import deleteUser from "./src/routes/deleteUserRoute.js";
-import getPhases from "./src/routes/getPhaseRoute.js"
+import getPhases from "./src/routes/getPhaseRoute.js";
 import phasesRoutes from "./src/routes/PhasesRoute.js";
 import getRanking from "./src/routes/RankingRoutes.js";
-
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -55,14 +53,15 @@ app.use("/api", getRanking);
 // app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 swaggerDocs(app);
 
-
 async function startServer() {
   try {
-    await AppDataSource.initialize();
-    console.log("Banco SQL conectado");
+    AppDataSource.initialize().then(() => {
+      console.log("Banco SQL conectado");
+    });
 
-    await MongoDataSource.initialize();
-    console.log("MongoDB conectado");
+    MongoDataSource.initialize().then(() => {
+      console.log("MongoDB conectado");
+    });
 
     app.listen(PORT, () => {
       console.log(`Servidor rodando na porta ${PORT}`);
