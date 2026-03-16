@@ -1,0 +1,670 @@
+{
+  "phases": [
+    {
+      "order": 1,
+      "dificulty": 0,
+      "text": "Investimentos avançados exigem conhecimento sobre diferentes tipos de ativos, risco, retorno e liquidez para decisões estratégicas.",
+      "questions": [
+        {
+          "question": "O que é risco em investimento?",
+          "answers": [
+            "Possibilidade de perda ou de não atingir o retorno esperado",
+            "Lucro garantido",
+            "Ganho imediato sempre",
+            "Não existe risco"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "O que é liquidez?",
+          "answers": [
+            "Facilidade de transformar um investimento em dinheiro rapidamente",
+            "Garantia de lucro",
+            "Quantidade de ativos",
+            "Impossibilidade de venda"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "O que significa diversificação?",
+          "answers": [
+            "Distribuir investimentos para reduzir risco concentrado",
+            "Colocar tudo em um único ativo",
+            "Evitar qualquer investimento",
+            "Investir impulsivamente"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Investimentos de alto risco tendem a:",
+          "answers": [
+            "Oferecer maior potencial de retorno, mas maior possibilidade de perda",
+            "Garantir lucro fixo",
+            "Não impactar o capital",
+            "Sempre dar prejuízo"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "O que é retorno esperado?",
+          "answers": [
+            "Valor que se espera ganhar considerando risco e prazo",
+            "Lucro garantido",
+            "Perda automática",
+            "Investimento sem resultado"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Hedge financeiro serve para:",
+          "answers": [
+            "Proteger investimentos contra variações desfavoráveis",
+            "Aumentar risco intencionalmente",
+            "Evitar análise",
+            "Garantir lucro instantâneo"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Risco sistemático é:",
+          "answers": [
+            "Aquele que afeta todo o mercado",
+            "Afeta apenas um ativo",
+            "Não existe",
+            "Sem impacto no retorno"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Investir em diferentes moedas ajuda a:",
+          "answers": [
+            "Reduzir risco cambial e diversificar",
+            "Aumentar risco",
+            "Ignorar mercado",
+            "Garantir retorno fixo"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Alocação de ativos significa:",
+          "answers": [
+            "Distribuir recursos entre diferentes classes para balancear risco e retorno",
+            "Colocar tudo em renda fixa",
+            "Investir apenas em ações",
+            "Evitar investimentos"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "O que é análise fundamentalista?",
+          "answers": [
+            "Avaliar balanços, indicadores e dados financeiros para decidir investimentos",
+            "Escolher ações pela sorte",
+            "Investir conforme dicas de amigos",
+            "Evitar análise de dados"
+          ],
+          "rightAnswerIndex": 0
+        }
+      ],
+      "rewards": {
+        "xp": 180,
+        "coins": 60
+      }
+    },
+    {
+      "order": 2,
+      "dificulty": 0,
+      "text": "Avaliar perfil de risco e objetivos financeiros é essencial para escolher produtos de investimento alinhados com metas de longo prazo.",
+      "questions": [
+        {
+          "question": "O que é perfil de risco conservador?",
+          "answers": [
+            "Prioriza segurança e menor risco de perda",
+            "Busca altos retornos com risco elevado",
+            "Gasta todo dinheiro agora",
+            "Evita qualquer investimento"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "O que é perfil de risco moderado?",
+          "answers": [
+            "Equilíbrio entre risco e retorno",
+            "Evita investimentos",
+            "Gasta impulsivamente",
+            "Investimento sem análise"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Perfil de risco agressivo busca:",
+          "answers": [
+            "Altos retornos aceitando maiores riscos",
+            "Investimentos totalmente seguros",
+            "Ignorar investimentos",
+            "Aumentar dívidas"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Objetivos financeiros determinam:",
+          "answers": [
+            "Prazo e tipo de investimento adequado",
+            "Gastar tudo",
+            "Ignorar planejamento",
+            "Investir sem critério"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Investimentos de longo prazo devem ser:",
+          "answers": [
+            "Alinhados aos objetivos e tolerância a risco",
+            "Aleatórios e impulsivos",
+            "Ignorados",
+            "Concentrados em curto prazo"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Diversificação ajuda a:",
+          "answers": [
+            "Reduzir riscos e proteger patrimônio",
+            "Aumentar risco intencionalmente",
+            "Evitar qualquer análise",
+            "Gastar impulsivamente"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Investimentos estratégicos consideram:",
+          "answers": [
+            "Risco, retorno, prazo e objetivos",
+            "Apenas retorno sem risco",
+            "Sugestões de amigos",
+            "Compras impulsivas"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Risco diversificável pode ser:",
+          "answers": [
+            "Reduzido distribuindo recursos",
+            "Eliminado apenas com sorte",
+            "Não influencia nada",
+            "Sempre constante"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Liquidez deve ser avaliada para:",
+          "answers": [
+            "Saber se o dinheiro pode ser resgatado rapidamente",
+            "Ignorar tempo de resgate",
+            "Sempre investir em longo prazo",
+            "Evitar investimentos líquidos"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Investir com objetivos claros ajuda a:",
+          "answers": [
+            "Alcançar metas sem surpresas financeiras",
+            "Gastar tudo",
+            "Ignorar planejamento",
+            "Criar dívidas desnecessárias"
+          ],
+          "rightAnswerIndex": 0
+        }
+      ],
+      "rewards": {
+        "xp": 200,
+        "coins": 65
+      }
+    },
+    {
+      "order": 3,
+      "dificulty": 1,
+      "text": "Acompanhar o mercado e revisar a carteira periodicamente permite reagir a mudanças econômicas e ajustar estratégias de investimento.",
+      "questions": [
+        {
+          "question": "Por que acompanhar a carteira de investimentos?",
+          "answers": [
+            "Para ajustar posições conforme mercado e objetivos",
+            "Gastar tudo",
+            "Ignorar metas",
+            "Investir aleatoriamente"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Revisar carteira periodicamente ajuda a:",
+          "answers": [
+            "Reduzir riscos e aumentar eficiência do investimento",
+            "Gastar impulsivamente",
+            "Ignorar planejamento",
+            "Criar dívidas"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Mudanças econômicas exigem:",
+          "answers": [
+            "Ajuste estratégico dos investimentos",
+            "Gastar tudo",
+            "Evitar qualquer ação",
+            "Ignorar o mercado"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Monitorar investimentos evita:",
+          "answers": [
+            "Perdas inesperadas e desalinhamento com objetivos",
+            "Gastar tudo",
+            "Investir aleatoriamente",
+            "Aumentar dívidas"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Indicadores econômicos ajudam a:",
+          "answers": [
+            "Tomar decisões mais informadas",
+            "Ignorar investimentos",
+            "Gastar impulsivamente",
+            "Aumentar risco desnecessário"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Rebalanceamento da carteira significa:",
+          "answers": [
+            "Ajustar a distribuição de ativos conforme mudanças de mercado",
+            "Comprar mais de um único ativo",
+            "Ignorar planejamento",
+            "Gastar todo dinheiro"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Investimentos devem ser revisados:",
+          "answers": [
+            "Regularmente, para manter alinhamento com objetivos",
+            "Nunca",
+            "Somente quando der prejuízo",
+            "De forma aleatória"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Carteira bem gerida permite:",
+          "answers": [
+            "Maximizar retorno ajustado ao risco",
+            "Gastar impulsivamente",
+            "Ignorar metas",
+            "Aumentar dívidas"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Revisar liquidez ajuda a:",
+          "answers": [
+            "Garantir que recursos estejam disponíveis quando necessário",
+            "Gastar tudo",
+            "Ignorar mercado",
+            "Investir aleatoriamente"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Acompanhar notícias financeiras auxilia:",
+          "answers": [
+            "Tomar decisões conscientes e estratégicas",
+            "Gastar impulsivamente",
+            "Ignorar metas",
+            "Criar dívidas desnecessárias"
+          ],
+          "rightAnswerIndex": 0
+        }
+      ],
+      "rewards": {
+        "xp": 220,
+        "coins": 70
+      }
+    },
+    {
+      "order": 4,
+      "dificulty": 1,
+      "text": "Estratégias avançadas incluem derivativos, fundos multimercados e investimentos internacionais, que exigem análise detalhada e gestão de riscos.",
+      "questions": [
+        {
+          "question": "Derivativos são usados para:",
+          "answers": [
+            "Hedging ou especulação sobre preços futuros",
+            "Gastar dinheiro",
+            "Comprar impulsivamente",
+            "Evitar análise"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Fundos multimercados permitem:",
+          "answers": [
+            "Diversificação em diferentes ativos",
+            "Colocar tudo em um único ativo",
+            "Evitar riscos",
+            "Investir sem estratégia"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Investir internacionalmente ajuda a:",
+          "answers": [
+            "Diversificar riscos geográficos",
+            "Concentrar risco",
+            "Evitar análise",
+            "Gastar tudo"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Derivativos podem aumentar:",
+          "answers": [
+            "Risco e potencial de retorno",
+            "Segurança garantida",
+            "Retorno fixo",
+            "Liquidez imediata"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Investimentos avançados exigem:",
+          "answers": [
+            "Mais conhecimento e acompanhamento constante",
+            "Ignorar riscos",
+            "Gastar impulsivamente",
+            "Investir aleatoriamente"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Risco de mercado afeta:",
+          "answers": [
+            "Todos os ativos de um mercado",
+            "Apenas um ativo específico",
+            "Não existe",
+            "Somente derivativos"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Fundos internacionais consideram:",
+          "answers": [
+            "Economias estrangeiras e moedas",
+            "Somente o mercado local",
+            "Evitar diversificação",
+            "Gastar tudo"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Gestão ativa significa:",
+          "answers": [
+            "Tomar decisões frequentes para melhorar retorno",
+            "Comprar e manter sem análise",
+            "Evitar mercado",
+            "Gastar impulsivamente"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Alocação tática ajusta:",
+          "answers": [
+            "Percentual de ativos conforme oportunidades de mercado",
+            "Não muda nada",
+            "Evitar análise",
+            "Gastar tudo"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Investidor avançado busca:",
+          "answers": [
+            "Maximizar retorno ajustado ao risco",
+            "Gastar impulsivamente",
+            "Ignorar planejamento",
+            "Evitar qualquer análise"
+          ],
+          "rightAnswerIndex": 0
+        }
+      ],
+      "rewards": {
+        "xp": 240,
+        "coins": 75
+      }
+    },
+    {
+      "order": 5,
+      "dificulty": 2,
+      "text": "Gestão de risco é essencial para proteger patrimônio. Estratégias incluem stop loss, alocação diversificada e análise contínua do mercado.",
+      "questions": [
+        {
+          "question": "O que é stop loss?",
+          "answers": [
+            "Ordem para vender ativo quando atingir preço mínimo definido",
+            "Garantia de lucro",
+            "Gasto imediato",
+            "Evitar perdas sempre"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Alocação diversificada ajuda a:",
+          "answers": [
+            "Reduzir risco concentrado",
+            "Aumentar risco",
+            "Evitar análise",
+            "Gastar impulsivamente"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Gestão de risco envolve:",
+          "answers": [
+            "Monitoramento contínuo de investimentos",
+            "Ignorar mercado",
+            "Gastar tudo",
+            "Investir aleatoriamente"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Análise contínua permite:",
+          "answers": [
+            "Reagir a mudanças de mercado",
+            "Gastar impulsivamente",
+            "Ignorar objetivos",
+            "Investir sem critério"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Stop loss protege:",
+          "answers": [
+            "Patrimônio de perdas inesperadas",
+            "Garante lucro fixo",
+            "Evita riscos totalmente",
+            "Aumenta riscos"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Diversificação internacional reduz:",
+          "answers": [
+            "Risco geográfico e cambial",
+            "Risco de liquidez",
+            "Evita ganhos",
+            "Garante perda"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Gestão de risco é importante para:",
+          "answers": [
+            "Investidores avançados e conservadores",
+            "Apenas iniciantes",
+            "Somente para gastos",
+            "Evitar investimentos"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Hedge pode ser feito com:",
+          "answers": [
+            "Derivativos, moedas e ativos correlacionados",
+            "Compras impulsivas",
+            "Evitar análise",
+            "Gastar tudo"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Analisar volatilidade ajuda a:",
+          "answers": [
+            "Entender variações de preço e risco",
+            "Ignorar mercado",
+            "Gastar impulsivamente",
+            "Criar dívidas"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Proteção de patrimônio significa:",
+          "answers": [
+            "Minimizar perdas e manter objetivos financeiros",
+            "Gastar tudo",
+            "Evitar análise",
+            "Investir aleatoriamente"
+          ],
+          "rightAnswerIndex": 0
+        }
+      ],
+      "rewards": {
+        "xp": 260,
+        "coins": 80
+      }
+    },
+    {
+      "order": 6,
+      "dificulty": 2,
+      "text": "Investimentos avançados requerem monitoramento constante, ajuste de estratégias e avaliação de performance para maximizar resultados e minimizar riscos.",
+      "questions": [
+        {
+          "question": "Avaliação de performance mede:",
+          "answers": [
+            "Retorno ajustado ao risco dos investimentos",
+            "Lucro absoluto sem risco",
+            "Gasto diário",
+            "Evitar investimentos"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Ajustar estratégias significa:",
+          "answers": [
+            "Modificar carteira conforme mudanças e objetivos",
+            "Gastar impulsivamente",
+            "Ignorar mercado",
+            "Comprar aleatoriamente"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Monitoramento constante ajuda a:",
+          "answers": [
+            "Detectar problemas e oportunidades rapidamente",
+            "Gastar tudo",
+            "Evitar análise",
+            "Criar dívidas"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "KPIs financeiros servem para:",
+          "answers": [
+            "Medir resultados e eficiência do investimento",
+            "Gastar impulsivamente",
+            "Ignorar objetivos",
+            "Investir aleatoriamente"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Investidor estratégico busca:",
+          "answers": [
+            "Maximizar retorno e proteger patrimônio",
+            "Gastar tudo",
+            "Evitar planejamento",
+            "Investir sem critério"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Alocação dinâmica ajusta:",
+          "answers": [
+            "Distribuição de ativos conforme oportunidades",
+            "Nunca muda",
+            "Evitar análise",
+            "Gastar impulsivamente"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Controle de risco inclui:",
+          "answers": [
+            "Stop loss, diversificação e análise de mercado",
+            "Ignorar riscos",
+            "Gastar tudo",
+            "Investir aleatoriamente"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Performance ajustada ao risco considera:",
+          "answers": [
+            "Rendimento relativo ao risco assumido",
+            "Lucro absoluto",
+            "Gasto diário",
+            "Evitar análise"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Revisão periódica garante:",
+          "answers": [
+            "Carteira alinhada aos objetivos",
+            "Gasto impulsivo",
+            "Ignorar planejamento",
+            "Investir aleatoriamente"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Decisões estratégicas avançadas envolvem:",
+          "answers": [
+            "Risco, retorno, liquidez e diversificação",
+            "Gastar tudo",
+            "Evitar mercado",
+            "Comprar impulsivamente"
+          ],
+          "rightAnswerIndex": 0
+        }
+      ],
+      "rewards": {
+        "xp": 300,
+        "coins": 85
+      }
+    }
+  ]
+}

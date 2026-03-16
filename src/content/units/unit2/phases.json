@@ -1,0 +1,670 @@
+{
+  "phases": [
+    {
+      "order": 1,
+      "dificulty": 0,
+      "text": "Ativos e passivos ajudam a entender para onde o seu dinheiro está indo. Ativos colocam dinheiro no seu bolso. Passivos tiram dinheiro do seu bolso. Reconhecer cada um ajuda a tomar decisões financeiras simples.",
+      "questions": [
+        {
+          "question": "O que é um ativo?",
+          "answers": [
+            "Algo que gera gastos",
+            "Algo que coloca dinheiro no seu bolso",
+            "Uma dívida",
+            "Um imposto"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O que é um passivo?",
+          "answers": [
+            "Algo que gera renda",
+            "Algo que tira dinheiro do seu bolso",
+            "Uma aplicação financeira",
+            "Uma poupança"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Qual destes é um exemplo de ativo?",
+          "answers": [
+            "Dinheiro investido em ações",
+            "Parcelas de financiamento",
+            "Conta de luz",
+            "Mensalidade escolar"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Qual destes é um passivo?",
+          "answers": [
+            "Aluguel recebido",
+            "Carro financiado",
+            "Depósito em poupança",
+            "Investimento em fundo"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Um livro comprado para revenda é considerado:",
+          "answers": [
+            "Ativo",
+            "Passivo",
+            "Despesa fixa",
+            "Renda extra"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Ter muitos passivos significa:",
+          "answers": [
+            "Mais liberdade financeira",
+            "Mais gastos frequentes",
+            "Mais dinheiro sobrando",
+            "Mais investimentos"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Um terreno que valoriza ao longo do tempo é:",
+          "answers": [
+            "Um passivo",
+            "Um ativo",
+            "Uma despesa",
+            "Um imposto"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Por que é importante diferenciar ativos de passivos?",
+          "answers": [
+            "Para gastar mais dinheiro",
+            "Para tomar decisões financeiras conscientes",
+            "Para pagar impostos",
+            "Para evitar contas"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Uma renda extra de aluguel é:",
+          "answers": [
+            "Ativo",
+            "Passivo",
+            "Despesas",
+            "Imposto"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "A educação financeira ajuda principalmente a:",
+          "answers": [
+            "Comprar tudo sem pensar",
+            "Equilibrar ativos e passivos",
+            "Ignorar gastos",
+            "Evitar planejamento"
+          ],
+          "rightAnswerIndex": 1
+        }
+      ],
+      "rewards": {
+        "xp": 130,
+        "coins": 45
+      }
+    },
+    {
+      "order": 2,
+      "dificulty": 0,
+      "text": "Compreender despesas, receitas e orçamento permite organizar melhor sua vida financeira. Planejar ajuda a poupar e evitar dívidas desnecessárias.",
+      "questions": [
+        {
+          "question": "O que é receita?",
+          "answers": [
+            "Dinheiro que entra no seu bolso",
+            "Dinheiro que você deve pagar",
+            "Despesa futura",
+            "Imposto"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "O que é despesa?",
+          "answers": [
+            "Dinheiro que entra no bolso",
+            "Dinheiro que sai do bolso",
+            "Renda extra",
+            "Investimento"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O que é orçamento pessoal?",
+          "answers": [
+            "Planejamento de receitas e despesas",
+            "Lista de desejos",
+            "Conta bancária",
+            "Investimento"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Gastar mais do que recebe gera:",
+          "answers": [
+            "Poupança",
+            "Dívidas",
+            "Lucro",
+            "Renda extra"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Planejar gastos permite:",
+          "answers": [
+            "Evitar dívidas e poupar",
+            "Gastar tudo de uma vez",
+            "Ignorar contas",
+            "Viver sem controle"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Um exemplo de despesa fixa:",
+          "answers": [
+            "Salário recebido",
+            "Aluguel mensal",
+            "Lucro de investimento",
+            "Renda extra"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Um exemplo de receita:",
+          "answers": [
+            "Conta de água",
+            "Venda de produtos",
+            "Financiamento do carro",
+            "Mensalidade escolar"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Registrar todas as despesas ajuda a:",
+          "answers": [
+            "Perder dinheiro",
+            "Entender para onde o dinheiro vai",
+            "Ignorar contas",
+            "Aumentar passivos"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Controlar o orçamento evita:",
+          "answers": [
+            "Planejamento financeiro",
+            "Dívidas desnecessárias",
+            "Poupança",
+            "Renda extra"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Educação financeira permite principalmente:",
+          "answers": [
+            "Gastar sem pensar",
+            "Tomar decisões conscientes sobre dinheiro",
+            "Ignorar investimentos",
+            "Evitar controle de gastos"
+          ],
+          "rightAnswerIndex": 1
+        }
+      ],
+      "rewards": {
+        "xp": 140,
+        "coins": 50
+      }
+    },
+    {
+      "order": 3,
+      "dificulty": 1,
+      "text": "Fluxo de caixa e planejamento de médio prazo ajudam a tomar decisões conscientes sobre consumo e investimento. Controlar entradas e saídas de dinheiro é essencial para construir patrimônio.",
+      "questions": [
+        {
+          "question": "Fluxo de caixa positivo significa:",
+          "answers": [
+            "Receitas maiores que despesas",
+            "Despesas maiores que receitas",
+            "Não há movimentação financeira",
+            "Investimento apenas em ativos"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Fluxo de caixa negativo significa:",
+          "answers": [
+            "Receitas maiores que despesas",
+            "Despesas maiores que receitas",
+            "Mais ativos que passivos",
+            "Não há contas a pagar"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Planejar receitas e despesas permite:",
+          "answers": [
+            "Evitar dívidas e poupar",
+            "Gastar sem controle",
+            "Ignorar investimentos",
+            "Reduzir receitas"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Uma despesa variável é:",
+          "answers": [
+            "Aluguel mensal",
+            "Conta de luz que muda todo mês",
+            "Salário recebido",
+            "Lucro de investimento"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Uma decisão financeira estratégica considera:",
+          "answers": [
+            "Desejos imediatos",
+            "Consequências de curto e longo prazo",
+            "Apenas promoções",
+            "Opinião de amigos"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Guardar dinheiro sem planejamento pode:",
+          "answers": [
+            "Sempre aumentar patrimônio",
+            "Perder poder de compra com o tempo",
+            "Gerar renda automaticamente",
+            "Não ter impacto"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O que ajuda a evitar dívidas desnecessárias?",
+          "answers": [
+            "Planejamento financeiro",
+            "Ignorar contas",
+            "Gastar tudo",
+            "Evitar investimentos"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Investimento planejado é considerado:",
+          "answers": [
+            "Ativo que gera renda ou valorização",
+            "Despesa que tira dinheiro do bolso",
+            "Conta de consumo",
+            "Passivo imediato"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Controle de fluxo de caixa permite:",
+          "answers": [
+            "Tomar decisões financeiras conscientes",
+            "Ignorar receitas e despesas",
+            "Aumentar passivos",
+            "Evitar poupança"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Educação financeira ajuda principalmente a:",
+          "answers": [
+            "Planejar metas e acompanhar resultados",
+            "Viver sem controle financeiro",
+            "Depender de sorte",
+            "Evitar aprender sobre dinheiro"
+          ],
+          "rightAnswerIndex": 0
+        }
+      ],
+      "rewards": {
+        "xp": 200,
+        "coins": 55
+      }
+    },
+    {
+      "order": 4,
+      "dificulty": 1,
+      "text": "Riscos, investimentos e diversificação são importantes para avançar financeiramente. Conhecer diferentes tipos de ativos ajuda a equilibrar segurança e retorno.",
+      "questions": [
+        {
+          "question": "Diversificação significa:",
+          "answers": [
+            "Investir em diferentes ativos para reduzir risco",
+            "Concentrar recursos em uma única ação",
+            "Evitar qualquer tipo de investimento",
+            "Investir apenas em passivos"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Risco de investimento é:",
+          "answers": [
+            "Possibilidade de perda ou retorno diferente do esperado",
+            "Lucro garantido",
+            "Sem impacto financeiro",
+            "Apenas uma preocupação teórica"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Investimento de longo prazo foca em:",
+          "answers": [
+            "Crescimento de valor ao longo de anos",
+            "Lucro imediato",
+            "Evitar análise financeira",
+            "Apenas passivos"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Liquidez é:",
+          "answers": [
+            "Facilidade de transformar em dinheiro rapidamente",
+            "Garantia de lucro",
+            "Quantidade de ativos",
+            "Sem risco"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Hedge financeiro serve para:",
+          "answers": [
+            "Proteger investimentos de variações desfavoráveis",
+            "Aumentar risco de perda",
+            "Evitar qualquer análise",
+            "Garantir lucro imediato"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Volatilidade indica:",
+          "answers": [
+            "Oscilações de preço ao longo do tempo",
+            "Estabilidade total",
+            "Garantia de retorno",
+            "Sem impacto financeiro"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Uma carteira diversificada ajuda a:",
+          "answers": [
+            "Minimizar impactos de perdas em um único ativo",
+            "Concentrar risco em uma aplicação",
+            "Evitar planejamento",
+            "Garantir retorno fixo"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Retorno esperado significa:",
+          "answers": [
+            "Valor que se espera ganhar com um investimento",
+            "Valor perdido automaticamente",
+            "Garantia de lucro real",
+            "Somente relevante para passivos"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Investimentos em moedas diferentes ajudam a:",
+          "answers": [
+            "Reduzir risco cambial e diversificar exposição",
+            "Aumentar risco",
+            "Evitar estudo do mercado",
+            "Garantir lucro imediato"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Educação financeira avançada ajuda a:",
+          "answers": [
+            "Tomar decisões estratégicas e conscientes",
+            "Ignorar riscos",
+            "Investir sem estudo",
+            "Evitar qualquer decisão financeira"
+          ],
+          "rightAnswerIndex": 0
+        }
+      ],
+      "rewards": {
+        "xp": 250,
+        "coins": 70
+      }
+    },
+    {
+      "order": 5,
+      "dificulty": 2,
+      "text": "Planejamento financeiro avançado envolve análise detalhada de ativos, passivos, fluxo de caixa e investimentos estratégicos. Alocação de recursos, riscos e liquidez devem ser equilibrados.",
+      "questions": [
+        {
+          "question": "O que é alocação de ativos?",
+          "answers": [
+            "Distribuir investimentos entre classes para balancear risco e retorno",
+            "Concentrar todo investimento em uma ação",
+            "Gastar todo dinheiro em consumo",
+            "Guardar apenas na poupança"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Risco sistemático afeta:",
+          "answers": [
+            "Apenas um ativo isolado",
+            "O mercado inteiro",
+            "Não existe risco",
+            "Não impacta retorno"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Retorno ajustado ao risco significa:",
+          "answers": [
+            "Lucro absoluto sem considerar risco",
+            "Lucro esperado considerando risco do investimento",
+            "Garantia de lucro fixo",
+            "Valor sem impacto financeiro"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Análise fundamental considera:",
+          "answers": [
+            "Sorte do mercado",
+            "Dados financeiros e indicadores econômicos",
+            "Opinião de amigos",
+            "Tendência de curto prazo apenas"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Uma carteira diversificada busca:",
+          "answers": [
+            "Minimizar impactos de perdas em um investimento",
+            "Concentrar risco em único ativo",
+            "Evitar investimentos",
+            "Garantir lucro imediato"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Investimentos em diferentes moedas ajudam a:",
+          "answers": [
+            "Reduzir risco cambial",
+            "Aumentar risco",
+            "Evitar estudar mercado",
+            "Garantir lucro fixo"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Hedge financeiro é usado para:",
+          "answers": [
+            "Proteger investimentos de variações desfavoráveis",
+            "Aumentar exposição a risco",
+            "Evitar análise",
+            "Garantir lucro instantâneo"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Investimento de longo prazo busca:",
+          "answers": [
+            "Crescimento de valor ao longo de anos",
+            "Lucro imediato",
+            "Evitar análise financeira",
+            "Apenas passivos"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Uma estratégia financeira avançada envolve:",
+          "answers": [
+            "Alinhar objetivos, riscos, liquidez e diversificação",
+            "Compras impulsivas",
+            "Investir apenas em passivos",
+            "Ignorar fluxo de caixa"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Planejamento financeiro avançado permite:",
+          "answers": [
+            "Tomar decisões mais conscientes e estratégicas",
+            "Ignorar objetivos",
+            "Investir sem estudo",
+            "Evitar análise de risco"
+          ],
+          "rightAnswerIndex": 0
+        }
+      ],
+      "rewards": {
+        "xp": 320,
+        "coins": 85
+      }
+    },
+    {
+      "order": 6,
+      "dificulty": 2,
+      "text": "Investimentos complexos exigem atenção ao risco, retorno, liquidez e diversificação. Entender esses conceitos permite decisões financeiras mais estratégicas e seguras.",
+      "questions": [
+        {
+          "question": "Risco de investimento se refere a:",
+          "answers": [
+            "Possibilidade de não atingir retorno esperado",
+            "Lucro garantido",
+            "Sem impacto financeiro",
+            "Controle total sobre ganhos"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Liquidez em investimentos significa:",
+          "answers": [
+            "Facilidade de transformar em dinheiro rapidamente",
+            "Risco zero",
+            "Quantidade de ativos",
+            "Ganho garantido"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Volatilidade indica:",
+          "answers": [
+            "Oscilações de preço ao longo do tempo",
+            "Estabilidade total",
+            "Garantia de retorno fixo",
+            "Sem risco"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Diversificação reduz:",
+          "answers": [
+            "Risco concentrado em um único ativo",
+            "Liquidez da carteira",
+            "Retorno esperado",
+            "Investimentos seguros"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Hedge financeiro serve para:",
+          "answers": [
+            "Proteger investimentos de riscos específicos",
+            "Aumentar risco de perda",
+            "Evitar análise financeira",
+            "Garantir lucro fixo"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Retorno esperado é:",
+          "answers": [
+            "O valor que se espera ganhar com o investimento",
+            "Perda automática",
+            "Garantia de lucro real",
+            "Somente relevante para passivos"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Investimentos em diferentes moedas ajudam a:",
+          "answers": [
+            "Reduzir risco cambial",
+            "Aumentar risco",
+            "Evitar estudo do mercado",
+            "Garantir lucro fixo"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Uma carteira diversificada busca:",
+          "answers": [
+            "Equilibrar risco e retorno",
+            "Concentrar todo capital em um ativo",
+            "Evitar análise",
+            "Garantir retorno fixo"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Investimento planejado considera:",
+          "answers": [
+            "Riscos, liquidez e objetivos financeiros",
+            "Apenas desejo de curto prazo",
+            "Evitar análise de risco",
+            "Apostar na sorte"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Educação financeira avançada permite:",
+          "answers": [
+            "Tomar decisões estratégicas e conscientes",
+            "Ignorar riscos",
+            "Investir sem estudo",
+            "Evitar planejamento"
+          ],
+          "rightAnswerIndex": 0
+        }
+      ],
+      "rewards": {
+        "xp": 340,
+        "coins": 90
+      }
+    }
+  ]
+}

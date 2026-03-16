@@ -1,0 +1,670 @@
+{
+  "phases": [
+    {
+      "order": 1,
+      "dificulty": 0,
+      "text": "Compreender o comportamento financeiro é essencial para tomar decisões conscientes sobre gastos, poupança e investimento.",
+      "questions": [
+        {
+          "question": "O que significa comportamento financeiro?",
+          "answers": [
+            "Maneira como uma pessoa administra seu dinheiro",
+            "Gastar tudo sem controle",
+            "Ignorar finanças",
+            "Seguir apenas dicas de amigos"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Tomar decisões conscientes ajuda a:",
+          "answers": [
+            "Evitar dívidas e atingir metas financeiras",
+            "Gastar impulsivamente",
+            "Ignorar orçamento",
+            "Criar dívidas rapidamente"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Planejamento financeiro pessoal inclui:",
+          "answers": [
+            "Controlar receitas, despesas e poupança",
+            "Gastar tudo no lazer",
+            "Evitar registro de gastos",
+            "Comprar impulsivamente"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "O autoconhecimento financeiro permite:",
+          "answers": [
+            "Identificar hábitos e tendências de consumo",
+            "Ignorar orçamento",
+            "Gastar sem limites",
+            "Seguir o que os outros fazem"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Comportamento impulsivo leva a:",
+          "answers": [
+            "Gastos desnecessários e dívidas",
+            "Mais economia",
+            "Investimentos estratégicos",
+            "Planejamento eficiente"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Hábito de poupar ajuda a:",
+          "answers": [
+            "Criar reservas e atingir objetivos",
+            "Gastar tudo",
+            "Ignorar planejamento",
+            "Comprar impulsivamente"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Controle emocional nas finanças significa:",
+          "answers": [
+            "Evitar decisões impulsivas e desnecessárias",
+            "Gastar sem pensar",
+            "Evitar poupança",
+            "Ignorar metas financeiras"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Planejar compras evita:",
+          "answers": [
+            "Gastos por impulso e arrependimentos",
+            "Comprar só o necessário",
+            "Ignorar despesas",
+            "Investir corretamente"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Educação financeira ajuda a:",
+          "answers": [
+            "Tomar decisões conscientes e estratégicas",
+            "Gastar impulsivamente",
+            "Evitar orçamento",
+            "Criar dívidas desnecessárias"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Refletir sobre gastos permite:",
+          "answers": [
+            "Ajustar hábitos para melhor gerenciamento do dinheiro",
+            "Ignorar finanças",
+            "Gastar tudo",
+            "Evitar metas financeiras"
+          ],
+          "rightAnswerIndex": 0
+        }
+      ],
+      "rewards": {
+        "xp": 150,
+        "coins": 50
+      }
+    },
+    {
+      "order": 2,
+      "dificulty": 0,
+      "text": "Entender a relação emocional com dinheiro ajuda a evitar hábitos prejudiciais e a tomar decisões mais saudáveis financeiramente.",
+      "questions": [
+        {
+          "question": "O que é psicologia financeira?",
+          "answers": [
+            "Estudo da influência das emoções e hábitos nas decisões financeiras",
+            "Gastar sem pensar",
+            "Investir impulsivamente",
+            "Ignorar planejamento"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "O consumo emocional ocorre quando:",
+          "answers": [
+            "Compramos para suprir sentimentos, não necessidades",
+            "Planejamos compras necessárias",
+            "Investimos estrategicamente",
+            "Economizamos para metas"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Reconhecer gatilhos financeiros ajuda a:",
+          "answers": [
+            "Evitar gastos impulsivos",
+            "Gastar sem controle",
+            "Ignorar orçamento",
+            "Comprar sem planejar"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Autocontrole financeiro permite:",
+          "answers": [
+            "Resistir a impulsos e manter orçamento",
+            "Gastar sem pensar",
+            "Evitar poupança",
+            "Ignorar metas"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Hábito de anotar gastos ajuda a:",
+          "answers": [
+            "Visualizar padrões de consumo",
+            "Ignorar despesas",
+            "Gastar tudo",
+            "Evitar planejamento"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Decisões racionais evitam:",
+          "answers": [
+            "Arrependimentos e dívidas desnecessárias",
+            "Economia",
+            "Investimentos conscientes",
+            "Planejamento estratégico"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Consumismo excessivo pode levar a:",
+          "answers": [
+            "Endividamento e estresse financeiro",
+            "Mais poupança",
+            "Investimentos estratégicos",
+            "Planejamento eficiente"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Reflexão antes de gastar ajuda a:",
+          "answers": [
+            "Evitar compras impulsivas",
+            "Gastar tudo",
+            "Ignorar finanças",
+            "Evitar poupança"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Equilíbrio financeiro significa:",
+          "answers": [
+            "Combinar gastos conscientes, poupança e investimentos",
+            "Gastar tudo sem pensar",
+            "Evitar planejamento",
+            "Criar dívidas desnecessárias"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Autoavaliação financeira permite:",
+          "answers": [
+            "Melhorar hábitos e alcançar objetivos",
+            "Gastar impulsivamente",
+            "Ignorar planejamento",
+            "Evitar metas financeiras"
+          ],
+          "rightAnswerIndex": 0
+        }
+      ],
+      "rewards": {
+        "xp": 160,
+        "coins": 55
+      }
+    },
+    {
+      "order": 3,
+      "dificulty": 1,
+      "text": "Estabelecer metas financeiras claras ajuda a direcionar esforços, manter disciplina e alcançar objetivos de curto, médio e longo prazo.",
+      "questions": [
+        {
+          "question": "Metas de curto prazo incluem:",
+          "answers": [
+            "Pequenas economias e compras planejadas em meses",
+            "Planejamento de aposentadoria",
+            "Investimentos internacionais",
+            "Gastos impulsivos"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Metas de médio prazo incluem:",
+          "answers": [
+            "Aquisição de bens ou investimentos em alguns anos",
+            "Gastar tudo imediatamente",
+            "Evitar planejamento",
+            "Compras impulsivas"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Metas de longo prazo incluem:",
+          "answers": [
+            "Aposentadoria e patrimônio significativo",
+            "Pequenas compras diárias",
+            "Gastos impulsivos",
+            "Evitar planejamento"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Disciplina financeira ajuda a:",
+          "answers": [
+            "Cumprir metas e evitar dívidas",
+            "Gastar tudo",
+            "Ignorar objetivos",
+            "Comprar sem controle"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Revisão de metas permite:",
+          "answers": [
+            "Ajustar planos conforme mudanças na vida",
+            "Gastar impulsivamente",
+            "Evitar planejamento",
+            "Ignorar objetivos"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Registrar progresso financeiro ajuda a:",
+          "answers": [
+            "Visualizar conquistas e identificar ajustes necessários",
+            "Gastar tudo",
+            "Ignorar finanças",
+            "Evitar planejamento"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Planejar antes de gastar evita:",
+          "answers": [
+            "Compras impulsivas e arrependimentos",
+            "Investimentos estratégicos",
+            "Economia planejada",
+            "Planejamento eficiente"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Estabelecer prioridades financeiras significa:",
+          "answers": [
+            "Definir o que é mais importante gastar ou investir primeiro",
+            "Gastar sem controle",
+            "Evitar planejamento",
+            "Criar dívidas"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Acompanhamento de metas ajuda a:",
+          "answers": [
+            "Garantir que os objetivos sejam alcançados",
+            "Ignorar finanças",
+            "Gastar impulsivamente",
+            "Evitar planejamento"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Recompensar conquistas financeiras:",
+          "answers": [
+            "Mantém motivação sem comprometer orçamento",
+            "Gasta tudo",
+            "Evita planejamento",
+            "Criar dívidas"
+          ],
+          "rightAnswerIndex": 0
+        }
+      ],
+      "rewards": {
+        "xp": 180,
+        "coins": 60
+      }
+    },
+    {
+      "order": 4,
+      "dificulty": 1,
+      "text": "Comportamento financeiro saudável envolve educação, disciplina e hábitos positivos que refletem no controle de gastos e no crescimento do patrimônio.",
+      "questions": [
+        {
+          "question": "Hábito de controlar gastos ajuda a:",
+          "answers": [
+            "Evitar dívidas e planejar melhor",
+            "Gastar impulsivamente",
+            "Ignorar finanças",
+            "Criar dívidas desnecessárias"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Educação financeira contribui para:",
+          "answers": [
+            "Tomar decisões conscientes e eficientes",
+            "Gastar sem pensar",
+            "Evitar planejamento",
+            "Comprar impulsivamente"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Disciplina financeira permite:",
+          "answers": [
+            "Cumprir objetivos e metas",
+            "Gastar tudo",
+            "Ignorar planejamento",
+            "Criar dívidas"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Evitar dívidas desnecessárias exige:",
+          "answers": [
+            "Planejamento e autocontrole",
+            "Gastar impulsivamente",
+            "Ignorar orçamento",
+            "Comprar sem critério"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Poupança regular ajuda a:",
+          "answers": [
+            "Garantir reserva e segurança financeira",
+            "Gastar tudo",
+            "Evitar planejamento",
+            "Criar dívidas"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Investimentos planejados permitem:",
+          "answers": [
+            "Crescimento do patrimônio e alcance de objetivos",
+            "Gastar impulsivamente",
+            "Ignorar metas",
+            "Evitar análise"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Autoconhecimento financeiro ajuda a:",
+          "answers": [
+            "Identificar hábitos e corrigir excessos",
+            "Gastar tudo",
+            "Ignorar finanças",
+            "Evitar metas financeiras"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Planejamento financeiro eficiente evita:",
+          "answers": [
+            "Surpresas financeiras e dívidas",
+            "Economia planejada",
+            "Investimentos estratégicos",
+            "Conquistas financeiras"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Decisões baseadas em dados ajudam a:",
+          "answers": [
+            "Maximizar resultados e minimizar riscos",
+            "Gastar impulsivamente",
+            "Ignorar objetivos",
+            "Criar dívidas"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Comportamento financeiro positivo reflete em:",
+          "answers": [
+            "Controle, segurança e crescimento patrimonial",
+            "Gastar tudo",
+            "Evitar planejamento",
+            "Dívidas desnecessárias"
+          ],
+          "rightAnswerIndex": 0
+        }
+      ],
+      "rewards": {
+        "xp": 200,
+        "coins": 65
+      }
+    },
+    {
+      "order": 5,
+      "dificulty": 2,
+      "text": "Tomar decisões financeiras complexas exige análise de risco, retorno, liquidez e impacto emocional para garantir escolhas sustentáveis.",
+      "questions": [
+        {
+          "question": "Decisões financeiras complexas envolvem:",
+          "answers": [
+            "Risco, retorno, liquidez e comportamento",
+            "Gastar tudo",
+            "Evitar análise",
+            "Comprar impulsivamente"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Avaliar impacto emocional ajuda a:",
+          "answers": [
+            "Evitar decisões impulsivas",
+            "Gastar tudo",
+            "Ignorar metas",
+            "Criar dívidas"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Planejamento estratégico financeiro permite:",
+          "answers": [
+            "Alinhar decisões a objetivos de curto e longo prazo",
+            "Gastar impulsivamente",
+            "Evitar análise",
+            "Ignorar metas"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Gestão de risco pessoal ajuda a:",
+          "answers": [
+            "Proteger patrimônio e evitar surpresas",
+            "Gastar tudo",
+            "Ignorar planejamento",
+            "Comprar impulsivamente"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Decisões sustentáveis garantem:",
+          "answers": [
+            "Segurança financeira e consistência",
+            "Gastar tudo",
+            "Ignorar objetivos",
+            "Criar dívidas"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Análise de retorno ajuda a:",
+          "answers": [
+            "Escolher melhores investimentos",
+            "Gastar impulsivamente",
+            "Ignorar finanças",
+            "Evitar metas financeiras"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Avaliar liquidez é importante para:",
+          "answers": [
+            "Saber quando o dinheiro estará disponível",
+            "Gastar tudo",
+            "Ignorar planejamento",
+            "Comprar impulsivamente"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Risco financeiro pessoal deve ser:",
+          "answers": [
+            "Medido e controlado",
+            "Ignorado",
+            "Aceito sem análise",
+            "Aumentado propositalmente"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Decisões conscientes levam a:",
+          "answers": [
+            "Estabilidade e crescimento financeiro",
+            "Gastar impulsivamente",
+            "Ignorar metas",
+            "Criar dívidas"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Gestão emocional nas finanças permite:",
+          "answers": [
+            "Evitar gastos impulsivos e manter disciplina",
+            "Gastar tudo",
+            "Evitar planejamento",
+            "Criar dívidas desnecessárias"
+          ],
+          "rightAnswerIndex": 0
+        }
+      ],
+      "rewards": {
+        "xp": 220,
+        "coins": 70
+      }
+    },
+    {
+      "order": 6,
+      "dificulty": 2,
+      "text": "A relação saudável com dinheiro depende de hábitos conscientes, controle emocional, planejamento e investimentos consistentes.",
+      "questions": [
+        {
+          "question": "Relação saudável com dinheiro significa:",
+          "answers": [
+            "Equilíbrio entre gastos, poupança e investimento",
+            "Gastar tudo",
+            "Evitar planejamento",
+            "Criar dívidas"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Hábitos financeiros positivos incluem:",
+          "answers": [
+            "Controle de despesas, poupança e investimentos regulares",
+            "Gastar impulsivamente",
+            "Ignorar metas",
+            "Comprar sem critério"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Controle emocional evita:",
+          "answers": [
+            "Gastos impulsivos e decisões prejudiciais",
+            "Gastar tudo",
+            "Ignorar metas",
+            "Criar dívidas desnecessárias"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Planejamento financeiro ajuda a:",
+          "answers": [
+            "Alcançar objetivos e manter segurança",
+            "Gastar impulsivamente",
+            "Evitar metas",
+            "Criar dívidas"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Investimentos consistentes permitem:",
+          "answers": [
+            "Crescimento do patrimônio ao longo do tempo",
+            "Gastar tudo",
+            "Ignorar planejamento",
+            "Comprar impulsivamente"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Equilíbrio financeiro garante:",
+          "answers": [
+            "Segurança e estabilidade",
+            "Gastar tudo",
+            "Evitar metas",
+            "Criar dívidas"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Revisão de hábitos financeiros ajuda a:",
+          "answers": [
+            "Melhorar decisões e resultados",
+            "Gastar impulsivamente",
+            "Ignorar metas",
+            "Evitar planejamento"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Educação financeira contínua permite:",
+          "answers": [
+            "Tomar decisões mais conscientes",
+            "Gastar tudo",
+            "Ignorar finanças",
+            "Criar dívidas"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Disciplina e consistência ajudam a:",
+          "answers": [
+            "Atingir metas financeiras de forma sustentável",
+            "Gastar impulsivamente",
+            "Evitar planejamento",
+            "Criar dívidas"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Relação positiva com dinheiro resulta em:",
+          "answers": [
+            "Segurança, planejamento e crescimento patrimonial",
+            "Gastar tudo",
+            "Ignorar metas",
+            "Dívidas desnecessárias"
+          ],
+          "rightAnswerIndex": 0
+        }
+      ],
+      "rewards": {
+        "xp": 240,
+        "coins": 75
+      }
+    }
+  ]
+}

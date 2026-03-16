@@ -1,0 +1,670 @@
+{
+  "phases": [
+    {
+      "order": 1,
+      "dificulty": 0,
+      "text": "Crédito é quando você toma dinheiro ou bens agora e paga depois. Pode ser útil em emergências, mas deve ser usado com cuidado para evitar dívidas desnecessárias.",
+      "questions": [
+        {
+          "question": "O que é crédito?",
+          "answers": [
+            "Dinheiro ou bens usados agora e pagos depois",
+            "Dinheiro já ganho",
+            "Investimento garantido",
+            "Receita mensal"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Usar crédito pode ser:",
+          "answers": [
+            "Útil em emergências",
+            "Sempre ruim",
+            "Sem regras",
+            "Sempre gratuito"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Exemplo de crédito é:",
+          "answers": [
+            "Compra parcelada no cartão",
+            "Recebimento de salário",
+            "Despesa paga à vista",
+            "Doação"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Crédito usado de forma consciente:",
+          "answers": [
+            "Ajuda a evitar dívidas desnecessárias",
+            "Sempre cria dívidas grandes",
+            "Não tem impacto financeiro",
+            "Ignora o orçamento"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Tomar crédito sem planejamento pode:",
+          "answers": [
+            "Provocar dívidas difíceis de pagar",
+            "Garantir economia",
+            "Aumentar renda automaticamente",
+            "Criar metas"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Crédito é:",
+          "answers": [
+            "Dinheiro emprestado para pagar depois",
+            "Receita mensal",
+            "Despesa fixa",
+            "Bem de consumo"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Quando o crédito é necessário?",
+          "answers": [
+            "Em situações planejadas ou emergenciais",
+            "Para todo gasto",
+            "Sem pensar",
+            "Sempre"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Ignorar os termos do crédito pode:",
+          "answers": [
+            "Aumentar custos com juros",
+            "Reduzir despesas",
+            "Garantir lucro",
+            "Evitar orçamento"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Pagar com crédito significa:",
+          "answers": [
+            "Pagar depois do consumo",
+            "Pagar agora sem juros",
+            "Ganhar dinheiro",
+            "Receber um presente"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Educação financeira ajuda a:",
+          "answers": [
+            "Usar crédito com mais consciência",
+            "Ignorar orçamento",
+            "Criar dívidas",
+            "Gastar compulsivamente"
+          ],
+          "rightAnswerIndex": 0
+        }
+      ],
+      "rewards": {
+        "xp": 150,
+        "coins": 45
+      }
+    },
+    {
+      "order": 2,
+      "dificulty": 0,
+      "text": "Dívidas são valores que você deve pagar no futuro. É importante conhecer as condições antes de pegar crédito para não comprometer seu orçamento.",
+      "questions": [
+        {
+          "question": "O que significa ter dívida?",
+          "answers": [
+            "Ter uma obrigação de pagamento no futuro",
+            "Receber dinheiro no futuro",
+            "Ignorar contas",
+            "Comprar sem pagar"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Antes de pegar crédito você deve:",
+          "answers": [
+            "Entender as condições de pagamento",
+            "Aceitar sem ler",
+            "Ignorar juros",
+            "Evitar orçamento"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Dívida pode comprometer:",
+          "answers": [
+            "Seu orçamento mensal",
+            "Seu lazer imediato",
+            "Somente suas metas",
+            "Seu histórico de poupança"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Evitar dívidas desnecessárias ajuda a:",
+          "answers": [
+            "Manter melhor controle financeiro",
+            "Aumentar juros",
+            "Ignorar planejamento",
+            "Criar mais crédito"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Uma dívida planejada pode:",
+          "answers": [
+            "Ajudar em emergências planejadas",
+            "Criar problemas sempre",
+            "Gerar renda imediata",
+            "Ignorar orçamento"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Juros são:",
+          "answers": [
+            "Valor extra cobrado por usar crédito",
+            "Receita extra",
+            "Lucro garantido",
+            "Renda fixa"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "O custo total do crédito é:",
+          "answers": [
+            "Valor principal + juros e taxas",
+            "Somente valor principal",
+            "Apenas taxas",
+            "Valor fixo único"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Pagar contas no prazo evita:",
+          "answers": [
+            "Juros por atraso",
+            "Economia imediata",
+            "Reserva de emergência",
+            "Planejamento"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Dívidas acumuladas podem:",
+          "answers": [
+            "Comprometer seu orçamento",
+            "Aumentar renda",
+            "Garantir lucro",
+            "Eliminar despesas"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Para evitar dívidas é importante:",
+          "answers": [
+            "Planejar antes de usar crédito",
+            "Gastar sem pensar",
+            "Aceitar qualquer oferta",
+            "Ignorar orçamento"
+          ],
+          "rightAnswerIndex": 0
+        }
+      ],
+      "rewards": {
+        "xp": 170,
+        "coins": 50
+      }
+    },
+    {
+      "order": 3,
+      "dificulty": 1,
+      "text": "Juros são o custo de pegar dinheiro emprestado. Saber como eles funcionam ajuda a escolher o crédito mais barato e evitar pagamentos maiores no longo prazo.",
+      "questions": [
+        {
+          "question": "O que são juros?",
+          "answers": [
+            "Custo extra cobrado pelo uso do dinheiro emprestado",
+            "Dinheiro ganho sem risco",
+            "Receita mensal garantida",
+            "Lucro certo"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Juros altos fazem com que:",
+          "answers": [
+            "O custo total da dívida aumente",
+            "O custo diminua",
+            "O crédito fique grátis",
+            "Não tenha impacto"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Juros simples são calculados sobre:",
+          "answers": [
+            "Somente o valor principal",
+            "Valor + juros anteriores",
+            "Somente taxas",
+            "Nada"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Juros compostos são calculados sobre:",
+          "answers": [
+            "Valor principal + juros acumulados",
+            "Somente principal",
+            "Somente taxas",
+            "Valor fixo"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Comparar taxas de juros ajuda a:",
+          "answers": [
+            "Escolher crédito mais barato",
+            "Aumentar dívidas",
+            "Ignorar orçamento",
+            "Evitar reserva"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Se a taxa de juros for alta, isso pode:",
+          "answers": [
+            "Tornar a dívida mais cara",
+            "Reduzir o custo",
+            "Garantir lucro",
+            "Ser irrelevante"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Entender juros ajuda a:",
+          "answers": [
+            "Planejar melhor o uso do crédito",
+            "Ignorar orçamento",
+            "Gastar mais",
+            "Criar dívidas sem estudar"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Em um empréstimo, os juros são:",
+          "answers": [
+            "Parte do custo total do crédito",
+            "Somente o principal",
+            "Somente taxas bancárias",
+            "Somente receita"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Juros podem ser medidos em:",
+          "answers": [
+            "Percentual ao ano ou mês",
+            "Moedas diferentes",
+            "Unidades de tempo sem valor",
+            "Sem medida"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Educação financeira ajuda a:",
+          "answers": [
+            "Entender como juros impactam suas dívidas",
+            "Ignorar o uso de crédito",
+            "Criar dívidas impulsivas",
+            "Evitar orçamento"
+          ],
+          "rightAnswerIndex": 0
+        }
+      ],
+      "rewards": {
+        "xp": 200,
+        "coins": 60
+      }
+    },
+    {
+      "order": 4,
+      "dificulty": 1,
+      "text": "Cartão de crédito e cheque especial são formas populares de crédito, mas costumam ter juros altos se não forem pagos corretamente. Conhecer suas características ajuda a usá‑los de forma consciente.",
+      "questions": [
+        {
+          "question": "O que é cartão de crédito?",
+          "answers": [
+            "Uma forma de pagar depois por compras feitas hoje",
+            "Dinheiro recebido como salário",
+            "Uma receita fixa",
+            "Um investimento"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Se a fatura do cartão não for paga, ocorre:",
+          "answers": [
+            "Cobrança de juros",
+            "Redução automática de dívida",
+            "Nenhuma consequência",
+            "Ganhos extras"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Cheque especial é:",
+          "answers": [
+            "Crédito pré‑aprovado na conta corrente",
+            "Um investimento seguro",
+            "Rendimento automático",
+            "Uma meta financeira"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Usar cheque especial sem necessidade pode:",
+          "answers": [
+            "Gerar altos juros",
+            "Reduzir despesas",
+            "Garantir lucro",
+            "Aumentar receita"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Pagar no cartão integralmente evita:",
+          "answers": [
+            "Juros sobre a fatura",
+            "Ganhos extras",
+            "Crédito fácil",
+            "Poupança automática"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Parcelar no cartão pode:",
+          "answers": [
+            "Aumentar o custo total se houver juros",
+            "Diminuir o crédito disponível",
+            "Eliminar juros sempre",
+            "Ignorar prazo"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Cheque especial deve ser usado:",
+          "answers": [
+            "Com cautela e apenas quando necessário",
+            "Para todo gasto diário",
+            "Sem limites",
+            "Para investimentos"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Juros do cartão de crédito costumam ser:",
+          "answers": [
+            "Altos quando não pagos corretamente",
+            "Sempre baixos",
+            "Sem impacto",
+            "Garantidos"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Uma forma de evitar juros altos é:",
+          "answers": [
+            "Pagar a fatura integralmente",
+            "Só pagar o mínimo",
+            "Ignorar prazo",
+            "Gastar sem pensar"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Educação financeira ajuda a:",
+          "answers": [
+            "Usar crédito rotativo com mais consciência",
+            "Evitar todo crédito",
+            "Criar dívidas impulsivas",
+            "Ignorar juros"
+          ],
+          "rightAnswerIndex": 0
+        }
+      ],
+      "rewards": {
+        "xp": 230,
+        "coins": 65
+      }
+    },
+    {
+      "order": 5,
+      "dificulty": 2,
+      "text": "Comparar ofertas de crédito e entender como os juros compostos funcionam ajuda a escolher opções mais vantajosas de empréstimos e financiamentos.",
+      "questions": [
+        {
+          "question": "O que é taxa de juros efetiva?",
+          "answers": [
+            "Juros reais pagos depois de todos os encargos",
+            "Juros sem custos extras",
+            "Uma taxa fixa só para investimentos",
+            "Sem relação com dívida"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Financiamento envolve:",
+          "answers": [
+            "Parcelar uma compra com juros",
+            "Pagar tudo à vista",
+            "Receber dinheiro sem pagar",
+            "Ignorar orçamento"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Comparar taxas de diferentes ofertas ajuda a:",
+          "answers": [
+            "Escolher o crédito mais barato",
+            "Criar dívidas mais altas",
+            "Ignorar juros",
+            "Aumentar gastos"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Juros anuais são calculados:",
+          "answers": [
+            "Porcentagem sobre o valor emprestado ao ano",
+            "Sobre valores imobiliários",
+            "Sem relação com dívida",
+            "Sempre fixos"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Custo efetivo total considera:",
+          "answers": [
+            "Todos os encargos do crédito",
+            "Somente o principal",
+            "Ignorar taxas",
+            "Rendimento financeiro"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Financiamentos podem ser:",
+          "answers": [
+            "Com parcelas fixas ou variáveis",
+            "Sempre iguais",
+            "Sem juros",
+            "Garantidos"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Juros podem impactar:",
+          "answers": [
+            "O valor final pago no crédito",
+            "Somente a renda",
+            "Só as despesas fixas",
+            "Nada no orçamento"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Uma boa comparação de crédito exige:",
+          "answers": [
+            "Analisar taxas, juros e prazo",
+            "Só olhar percentual",
+            "Ignorar tudo",
+            "Evitar opções"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Educação financeira ajuda a:",
+          "answers": [
+            "Entender como o crédito afeta seu orçamento",
+            "Criar dívidas sem pensar",
+            "Ignorar ofertas",
+            "Evitar orçamento"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Usar crédito planejado pode:",
+          "answers": [
+            "Ajudar a alcançar objetivos sem comprometer o futuro",
+            "Aumentar gastos impulsivos",
+            "Ignorar orçamento",
+            "Criar dívidas dispendiosas"
+          ],
+          "rightAnswerIndex": 0
+        }
+      ],
+      "rewards": {
+        "xp": 300,
+        "coins": 80
+      }
+    },
+    {
+      "order": 6,
+      "dificulty": 2,
+      "text": "Planejar o uso de crédito envolve analisar seu orçamento, taxas de juros, prazos e adesão às melhores práticas para evitar endividamento e manter saúde financeira.",
+      "questions": [
+        {
+          "question": "Planejar o uso de crédito significa:",
+          "answers": [
+            "Analisar orçamento, juros e prazos antes de aceitar",
+            "Usar crédito sem pensar",
+            "Pedir sempre o máximo disponível",
+            "Ignorar condições"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Um crédito vantajoso deve ter:",
+          "answers": [
+            "Taxas menores e condicões claras",
+            "Taxas altas",
+            "Riscos desconhecidos",
+            "Sem prazo"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Dívidas planejadas ajudam a:",
+          "answers": [
+            "Organizar fluxo financeiro",
+            "Criar descontrole",
+            "Ignorar orçamento",
+            "Somar juros sem pensar"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Verificar taxas de juros e encargos evita:",
+          "answers": [
+            "Surpresas no valor pago",
+            "Crescimento automático de dinheiro",
+            "Ignorar metas",
+            "Aumentar renda"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Fazer um comparativo de opções permite:",
+          "answers": [
+            "Escolher melhor oferta",
+            "Criar dívidas mais caras",
+            "Ignorar juros",
+            "Evitar orçamento"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Planejar crédito ajuda a:",
+          "answers": [
+            "Evitar endividamento excessivo",
+            "Gastar sem controle",
+            "Ignorar metas",
+            "Evitar orçamento"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Uma boa prática é:",
+          "answers": [
+            "Ler todas as condições antes de aceitar",
+            "Aceitar sem pensar",
+            "Ignorar taxas",
+            "Evitar orçamento"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Entender seu orçamento ajuda a:",
+          "answers": [
+            "Saber quanto pode pagar sem risco",
+            "Criar mais dívidas",
+            "Gastar sem metas",
+            "Ignorar fluxo"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Planejar crédito evita:",
+          "answers": [
+            "Dívidas que comprometem o futuro",
+            "Economia",
+            "Poupança",
+            "Objetivos financeiros"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Educação financeira permite:",
+          "answers": [
+            "Tomar decisões de crédito mais conscientes",
+            "Ignorar orçamento",
+            "Criar dívidas impulsivas",
+            "Evitar metas"
+          ],
+          "rightAnswerIndex": 0
+        }
+      ],
+      "rewards": {
+        "xp": 320,
+        "coins": 85
+      }
+    }
+  ]
+}

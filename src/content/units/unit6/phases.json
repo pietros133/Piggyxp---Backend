@@ -1,0 +1,670 @@
+{
+  "phases": [
+    {
+      "order": 1,
+      "dificulty": 0,
+      "text": "Segurança financeira começa com atenção a fraudes e proteção de informações pessoais. Estar atento evita perdas e prejuízos desnecessários.",
+      "questions": [
+        {
+          "question": "O que significa segurança financeira?",
+          "answers": [
+            "Proteger seu dinheiro e dados contra fraudes",
+            "Gastar sem limites",
+            "Pedir empréstimos frequentemente",
+            "Ignorar contas"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Por que é importante proteger senhas e dados pessoais?",
+          "answers": [
+            "Evitar que terceiros acessem suas contas",
+            "Facilitar empréstimos",
+            "Aumentar gastos",
+            "Ignorar planejamento"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "O que é fraude financeira?",
+          "answers": [
+            "Uso indevido de dinheiro ou informações para enganar alguém",
+            "Uma promoção de banco",
+            "Gasto planejado",
+            "Investimento seguro"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Como identificar golpes online?",
+          "answers": [
+            "Desconfiar de mensagens suspeitas e links desconhecidos",
+            "Clicar em todas promoções",
+            "Compartilhar senhas",
+            "Ignorar segurança"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Cartões e contas devem ser protegidos com:",
+          "answers": [
+            "Senhas fortes e autenticação de dois fatores",
+            "Senha fácil",
+            "Compartilhamento com amigos",
+            "Ignorar segurança"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Atualizar sistemas de segurança ajuda a:",
+          "answers": [
+            "Evitar vulnerabilidades e ataques digitais",
+            "Ignorar proteção",
+            "Aumentar riscos",
+            "Esquecer senhas"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Não compartilhar dados bancários significa:",
+          "answers": [
+            "Reduzir chances de fraude",
+            "Facilitar acesso de terceiros",
+            "Evitar planejamento",
+            "Aumentar gastos"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Alertas de transações ajudam a:",
+          "answers": [
+            "Monitorar movimentações suspeitas",
+            "Ignorar contas",
+            "Aumentar dívidas",
+            "Gastar mais"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Senhas diferentes para cada conta servem para:",
+          "answers": [
+            "Evitar que um acesso comprometa todas as contas",
+            "Facilitar roubos",
+            "Ignorar proteção",
+            "Usar uma senha simples"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Educação sobre fraudes financeiras ajuda a:",
+          "answers": [
+            "Reconhecer golpes e proteger patrimônio",
+            "Gastar sem pensar",
+            "Pedir empréstimos constantemente",
+            "Ignorar finanças"
+          ],
+          "rightAnswerIndex": 0
+        }
+      ],
+      "rewards": {
+        "xp": 100,
+        "coins": 40
+      }
+    },
+    {
+      "order": 2,
+      "dificulty": 0,
+      "text": "Pequenos hábitos, como verificar remetentes de mensagens e não clicar em links suspeitos, são fundamentais para prevenir fraudes simples.",
+      "questions": [
+        {
+          "question": "Como evitar golpes por e-mail ou mensagem?",
+          "answers": [
+            "Não clicar em links desconhecidos e desconfiar de ofertas suspeitas",
+            "Clicar em todas promoções",
+            "Compartilhar senhas",
+            "Ignorar segurança"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Verificar a procedência de lojas e sites significa:",
+          "answers": [
+            "Garantir que são confiáveis antes de comprar",
+            "Comprar em qualquer site",
+            "Ignorar reputação",
+            "Confiar apenas em amigos"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Monitorar extratos bancários ajuda a:",
+          "answers": [
+            "Identificar transações suspeitas rapidamente",
+            "Ignorar movimentações",
+            "Aumentar dívidas",
+            "Gastar sem controle"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Não salvar senhas em dispositivos públicos é importante para:",
+          "answers": [
+            "Evitar que outras pessoas acessem suas contas",
+            "Facilitar logins",
+            "Compartilhar facilmente",
+            "Ignorar segurança"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Ativar autenticação de dois fatores significa:",
+          "answers": [
+            "Exigir confirmação extra ao acessar contas",
+            "Usar senha única",
+            "Ignorar proteção",
+            "Facilitar acesso de terceiros"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Alertas por SMS ou e-mail servem para:",
+          "answers": [
+            "Notificar sobre movimentações suspeitas",
+            "Ignorar movimentações",
+            "Gastar mais",
+            "Evitar planejamento"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Evitar Wi-Fi público para transações financeiras ajuda a:",
+          "answers": [
+            "Reduzir riscos de interceptação de dados",
+            "Aumentar segurança automaticamente",
+            "Ignorar contas",
+            "Gastar sem controle"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Não responder mensagens pedindo dados pessoais significa:",
+          "answers": [
+            "Evitar cair em golpes",
+            "Facilitar fraudes",
+            "Ignorar segurança",
+            "Aumentar dívidas"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Dispositivos seguros e atualizados ajudam a:",
+          "answers": [
+            "Evitar vírus e ataques digitais",
+            "Ignorar proteção",
+            "Facilitar invasões",
+            "Aumentar gastos"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Educar-se sobre fraudes permite:",
+          "answers": [
+            "Reconhecer ameaças e agir preventivamente",
+            "Comprar tudo sem pensar",
+            "Ignorar orçamento",
+            "Aumentar dívidas"
+          ],
+          "rightAnswerIndex": 0
+        }
+      ],
+      "rewards": {
+        "xp": 120,
+        "coins": 45
+      }
+    },
+    {
+      "order": 3,
+      "dificulty": 1,
+      "text": "Segurança intermediária envolve hábitos como autenticação, monitoramento de contas e cuidados com dispositivos e redes.",
+      "questions": [
+        {
+          "question": "O que é autenticação de dois fatores?",
+          "answers": [
+            "Uma verificação extra ao acessar contas",
+            "Senha única simples",
+            "Compartilhar senha com amigos",
+            "Ignorar segurança"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Por que atualizar softwares de segurança é importante?",
+          "answers": [
+            "Corrige falhas e previne ataques digitais",
+            "Aumenta vulnerabilidades",
+            "Ignorar proteção",
+            "Gastar menos"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Como detectar transações suspeitas?",
+          "answers": [
+            "Verificando alertas e extratos regularmente",
+            "Ignorando notificações",
+            "Gastar sem controle",
+            "Compartilhar dados com terceiros"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Não usar Wi-Fi público protege:",
+          "answers": [
+            "Seus dados de transações financeiras",
+            "Somente redes sociais",
+            "Aumenta riscos",
+            "Não protege nada"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Cuidado com e-mails suspeitos ajuda a:",
+          "answers": [
+            "Evitar golpes de phishing",
+            "Aceitar qualquer oferta",
+            "Ignorar mensagens",
+            "Facilitar fraude"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Senhas únicas para cada conta evitam:",
+          "answers": [
+            "Que uma violação comprometa todas as contas",
+            "Maior segurança automaticamente",
+            "Ignorar proteção",
+            "Facilitar logins"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Alertas financeiros ajudam a:",
+          "answers": [
+            "Monitorar atividades suspeitas rapidamente",
+            "Ignorar transações",
+            "Gastar mais",
+            "Aumentar dívidas"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Criptografia protege:",
+          "answers": [
+            "Seus dados digitais de acessos e transações",
+            "Aumenta riscos",
+            "Ignora informações",
+            "Facilita fraudes"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Educação sobre fraudes digitais permite:",
+          "answers": [
+            "Reconhecer e evitar ameaças avançadas",
+            "Ignorar segurança",
+            "Gastar mais",
+            "Aumentar vulnerabilidade"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Cuidado com redes e dispositivos significa:",
+          "answers": [
+            "Evitar invasões e roubo de informações",
+            "Ignorar proteção",
+            "Aumentar riscos",
+            "Compartilhar senhas"
+          ],
+          "rightAnswerIndex": 0
+        }
+      ],
+      "rewards": {
+        "xp": 150,
+        "coins": 50
+      }
+    },
+    {
+      "order": 4,
+      "dificulty": 1,
+      "text": "Segurança avançada envolve análise de riscos de fraudes complexas, proteção de contas e cuidado ao investir em plataformas digitais.",
+      "questions": [
+        {
+          "question": "Verificar a reputação de uma plataforma de investimento é importante para:",
+          "answers": [
+            "Evitar golpes e perdas financeiras",
+            "Investir sem estudo",
+            "Ignorar alertas",
+            "Seguir dicas de amigos"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Phishing é:",
+          "answers": [
+            "Golpe digital para roubar dados",
+            "Investimento seguro",
+            "Proteção bancária",
+            "Transação oficial"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Auditar suas contas ajuda a:",
+          "answers": [
+            "Detectar fraudes e movimentações suspeitas",
+            "Ignorar movimentações",
+            "Aumentar dívidas",
+            "Gastar sem controle"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Desconfiar de promessas de retorno muito alto significa:",
+          "answers": [
+            "Evitar cair em esquemas fraudulentos",
+            "Investir sem análise",
+            "Ignorar alertas",
+            "Aceitar qualquer oferta"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Seguros e garantias financeiras ajudam a:",
+          "answers": [
+            "Proteger patrimônio em casos de fraude ou perdas",
+            "Aumentar riscos",
+            "Ignorar planejamento",
+            "Gastar sem controle"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Proteção de dados pessoais inclui:",
+          "answers": [
+            "Criptografia, senhas fortes e backup seguro",
+            "Compartilhar dados livremente",
+            "Usar senhas fáceis",
+            "Ignorar segurança digital"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Planejamento de contingência financeira significa:",
+          "answers": [
+            "Ter estratégias para lidar com perdas e fraudes",
+            "Gastar todo o dinheiro",
+            "Ignorar riscos",
+            "Investir sem análise"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Educação contínua sobre segurança financeira permite:",
+          "answers": [
+            "Atualizar conhecimento e agir preventivamente",
+            "Ignorar mudanças do mercado",
+            "Gastar impulsivamente",
+            "Aumentar dívidas"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Investir em plataformas confiáveis significa:",
+          "answers": [
+            "Minimizar riscos de perda e fraude",
+            "Aceitar qualquer oferta",
+            "Evitar planejamento",
+            "Gastar em especulação"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Cuidado com links suspeitos em mensagens ajuda a:",
+          "answers": [
+            "Evitar roubo de dados",
+            "Facilitar fraude",
+            "Ignorar segurança",
+            "Aumentar riscos"
+          ],
+          "rightAnswerIndex": 0
+        }
+      ],
+      "rewards": {
+        "xp": 180,
+        "coins": 55
+      }
+    },
+    {
+      "order": 5,
+      "dificulty": 2,
+      "text": "Segurança profissional envolve análise detalhada de riscos em investimentos, prevenção de fraudes sofisticadas e uso de ferramentas digitais avançadas.",
+      "questions": [
+        {
+          "question": "Hedge financeiro serve para:",
+          "answers": [
+            "Proteger investimentos contra variações desfavoráveis",
+            "Aumentar risco",
+            "Ignorar análise",
+            "Garantir lucro instantâneo"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Diversificação de investimentos ajuda a:",
+          "answers": [
+            "Reduzir riscos concentrados",
+            "Aumentar risco",
+            "Ignorar planejamento",
+            "Garantir lucro fixo"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Monitoramento constante das contas permite:",
+          "answers": [
+            "Detectar fraudes rapidamente",
+            "Ignorar movimentações",
+            "Aumentar dívidas",
+            "Gastar sem controle"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Investimentos de alto risco exigem:",
+          "answers": [
+            "Avaliação criteriosa de segurança e risco",
+            "Aplicação imediata sem estudo",
+            "Ignorar alertas",
+            "Aceitar qualquer oferta"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Senhas complexas e gerenciadores ajudam a:",
+          "answers": [
+            "Proteger contas e informações sensíveis",
+            "Ignorar segurança",
+            "Aumentar vulnerabilidade",
+            "Facilitar logins"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Investimentos confiáveis exigem:",
+          "answers": [
+            "Verificação de regulamentação e histórico da plataforma",
+            "Aceitar qualquer recomendação",
+            "Ignorar reputação",
+            "Gastar sem estudo"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Proteção avançada envolve:",
+          "answers": [
+            "Criptografia, autenticação e monitoramento contínuo",
+            "Ignorar alertas",
+            "Gastar em riscos desnecessários",
+            "Compartilhar senhas"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Reconhecer fraudes sofisticadas exige:",
+          "answers": [
+            "Atualização constante e análise crítica",
+            "Ignorar notícias de segurança",
+            "Aumentar vulnerabilidade",
+            "Aceitar qualquer promessa"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Planejamento de contingência profissional ajuda a:",
+          "answers": [
+            "Minimizar perdas em caso de fraude ou erro",
+            "Gastar sem controle",
+            "Ignorar riscos",
+            "Investir aleatoriamente"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Educação financeira avançada permite:",
+          "answers": [
+            "Tomar decisões estratégicas e seguras",
+            "Ignorar riscos",
+            "Investir sem estudo",
+            "Evitar decisões financeiras"
+          ],
+          "rightAnswerIndex": 0
+        }
+      ],
+      "rewards": {
+        "xp": 250,
+        "coins": 70
+      }
+    },
+    {
+      "order": 6,
+      "dificulty": 2,
+      "text": "Segurança máxima envolve controle total sobre informações financeiras, monitoramento de todas transações e preparação para qualquer eventualidade.",
+      "questions": [
+        {
+          "question": "Como garantir segurança máxima das finanças?",
+          "answers": [
+            "Controlando informações, usando autenticação e monitorando contas",
+            "Ignorando contas",
+            "Compartilhando senhas",
+            "Gastar sem controle"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Backups de dados financeiros ajudam a:",
+          "answers": [
+            "Recuperar informações em caso de problemas",
+            "Ignorar informações",
+            "Aumentar riscos",
+            "Gastar sem controle"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Monitoramento de transações 24h permite:",
+          "answers": [
+            "Detectar fraudes imediatamente",
+            "Ignorar movimentações",
+            "Gastar sem controle",
+            "Aumentar vulnerabilidade"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Plataformas seguras devem ter:",
+          "answers": [
+            "Criptografia e certificação reconhecida",
+            "Nenhuma proteção",
+            "Compartilhar dados",
+            "Senhas simples"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Cuidado com links e anexos desconhecidos evita:",
+          "answers": [
+            "Roubo de dados e fraudes",
+            "Gastar mais",
+            "Ignorar segurança",
+            "Facilitar ataques"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Planejamento para emergências financeiras inclui:",
+          "answers": [
+            "Reservas, seguros e estratégias preventivas",
+            "Gastar tudo",
+            "Ignorar riscos",
+            "Investir aleatoriamente"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Ferramentas avançadas de segurança incluem:",
+          "answers": [
+            "Gerenciadores de senhas, autenticação multifator e monitoramento",
+            "Ignorar proteções",
+            "Senhas simples",
+            "Compartilhar dados"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Educação contínua sobre segurança digital permite:",
+          "answers": [
+            "Prevenir fraudes sofisticadas",
+            "Ignorar mudanças",
+            "Gastar sem controle",
+            "Aceitar qualquer proposta"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Diversificação de proteções digitais significa:",
+          "answers": [
+            "Combinar senhas, backups e autenticação",
+            "Usar apenas uma senha",
+            "Ignorar segurança",
+            "Gastar sem controle"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Segurança máxima protege:",
+          "answers": [
+            "Todo patrimônio e informações pessoais",
+            "Somente contas bancárias",
+            "Apenas senhas",
+            "Não protege nada"
+          ],
+          "rightAnswerIndex": 0
+        }
+      ],
+      "rewards": {
+        "xp": 300,
+        "coins": 80
+      }
+    }
+  ]
+}
