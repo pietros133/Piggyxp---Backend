@@ -5,7 +5,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon app.js",
+    "run-migration": "npx typeorm migration:run -d src/config/dbconnect.js",
+    "revert-migration": "npx typeorm migration:revert"
   },
   "author": "VSS",
   "license": "ISC",
