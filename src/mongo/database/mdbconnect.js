@@ -2,6 +2,7 @@ import "reflect-metadata";
 import { DataSource } from "typeorm"; 
 import dotenv from "dotenv"; 
 import { Phases } from "../models/Phases.js"; 
+import { Titles } from "../models/Title.js";
 dotenv.config(); 
 
 export const MongoDataSource = new DataSource({ 
@@ -9,5 +10,5 @@ export const MongoDataSource = new DataSource({
     url: process.env.MONGO_URL,
     logging: true,
        
-    entities: [Phases]
+    entities: [Phases, Titles]
  });

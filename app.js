@@ -26,6 +26,8 @@ import deleteUser from "./src/routes/deleteUserRoute.js";
 import getPhases from "./src/routes/getPhaseRoute.js";
 import phasesRoutes from "./src/routes/PhasesRoute.js";
 import getRanking from "./src/routes/RankingRoutes.js";
+import titlesRoute from "./src/routes/TitlesRoute.js";
+import getTitleRoute from "./src/routes/getTitlesRoute.js";
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -48,6 +50,8 @@ app.use("/api", deleteUser);
 app.use("/api", getPhases);
 app.use("/api", phasesRoutes);
 app.use("/api", getRanking);
+app.use("/api", titlesRoute);
+app.use("/api", getTitleRoute);
 
 // Swagger
 // app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerSpec));
