@@ -223,7 +223,7 @@
       }
     },
     {
-      "order": 1,
+      "order": 3,
       "dificulty": 1,
       "text": "Aprofundar o planejamento do consumo permite controlar melhor o dinheiro, evitando compras desnecessárias e escolhendo produtos de maior valor e qualidade.",
       "questions": [
@@ -334,7 +334,7 @@
       }
     },
     {
-      "order": 2,
+      "order": 4,
       "dificulty": 1,
       "text": "Consumir de forma responsável também inclui avaliar impactos ambientais e sociais das escolhas de compra, priorizando produtos que respeitem pessoas e o planeta.",
       "questions": [
@@ -445,7 +445,7 @@
       }
     },
     {
-      "order": 1,
+      "order": 5,
       "dificulty": 2,
       "text": "No consumo avançado, decisões financeiras envolvem análise de custo-benefício, impacto social e ambiental, e integração com orçamento pessoal e metas de longo prazo.",
       "questions": [
@@ -556,7 +556,7 @@
       }
     },
     {
-      "order": 2,
+      "order": 6,
       "dificulty": 2,
       "text": "Consumir de forma estratégica significa alinhar cada gasto às metas financeiras, valores pessoais e impacto social e ambiental, garantindo decisões conscientes de longo prazo.",
       "questions": [

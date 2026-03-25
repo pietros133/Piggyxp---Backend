@@ -223,7 +223,7 @@
       }
     },
     {
-      "order": 1,
+      "order": 3,
       "dificulty": 1,
       "text": "Simular cenários futuros e calcular quanto será necessário mensalmente permite ajustar investimentos e poupança de forma eficiente.",
       "questions": [
@@ -334,7 +334,7 @@
       }
     },
     {
-      "order": 2,
+      "order": 4,
       "dificulty": 1,
       "text": "Escolher produtos de aposentadoria adequados ao perfil de risco garante segurança e rentabilidade ao longo do tempo.",
       "questions": [
@@ -445,7 +445,7 @@
       }
     },
     {
-      "order": 1,
+      "order": 5,
       "dificulty": 2,
       "text": "Monitorar e ajustar o plano de aposentadoria garante que metas financeiras serão alcançadas mesmo com mudanças econômicas ou pessoais.",
       "questions": [
@@ -556,7 +556,7 @@
       }
     },
     {
-      "order": 2,
+      "order": 6,
       "dificulty": 2,
       "text": "Compreender impostos, taxas e inflação ajuda a proteger a aposentadoria, garantindo que o poder de compra seja mantido ao longo do tempo.",
       "questions": [
