@@ -223,7 +223,7 @@
       }
     },
     {
-      "order": 3,
+      "order": 1,
       "dificulty": 1,
       "text": "Fluxo de caixa e planejamento de médio prazo ajudam a tomar decisões conscientes sobre consumo e investimento. Controlar entradas e saídas de dinheiro é essencial para construir patrimônio.",
       "questions": [
@@ -334,7 +334,7 @@
       }
     },
     {
-      "order": 4,
+      "order": 2,
       "dificulty": 1,
       "text": "Riscos, investimentos e diversificação são importantes para avançar financeiramente. Conhecer diferentes tipos de ativos ajuda a equilibrar segurança e retorno.",
       "questions": [
@@ -445,7 +445,7 @@
       }
     },
     {
-      "order": 5,
+      "order": 1,
       "dificulty": 2,
       "text": "Planejamento financeiro avançado envolve análise detalhada de ativos, passivos, fluxo de caixa e investimentos estratégicos. Alocação de recursos, riscos e liquidez devem ser equilibrados.",
       "questions": [
@@ -556,7 +556,7 @@
       }
     },
     {
-      "order": 6,
+      "order": 2,
       "dificulty": 2,
       "text": "Investimentos complexos exigem atenção ao risco, retorno, liquidez e diversificação. Entender esses conceitos permite decisões financeiras mais estratégicas e seguras.",
       "questions": [

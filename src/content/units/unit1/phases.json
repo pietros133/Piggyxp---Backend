@@ -2,50 +2,55 @@
   "phases": [
     {
       "order": 1,
-      "dificulty": 0,
+      "difficulty": 0,
       "text": "Dinheiro é uma ferramenta criada para facilitar trocas, guardar valor e ajudar no planejamento da vida financeira. Ele não é bom nem ruim, tudo depende de como você usa.",
       "questions": [
         {
           "question": "O que é dinheiro?",
           "answers": [
-            "Um fim em si mesmo",
-            "Uma ferramenta para troca de bens e serviços",
+            "Algo que só serve para gastar",
             "Um tipo de imposto",
-            "Algo que só serve para gastar"
+            "Uma ferramenta para troca de bens e serviços",
+            "Um fim em si mesmo"
           ],
-          "rightAnswerIndex": 1
+          "rightAnswerIndex": 2
         },
         {
           "question": "Para que o dinheiro foi criado?",
           "answers": [
-            "Para deixar pessoas ricas",
             "Para substituir o escambo",
-            "Para aumentar impostos",
-            "Para causar dívidas"
+            "Para causar dívidas",
+            "Para deixar pessoas ricas",
+            "Para aumentar impostos"
           ],
-          "rightAnswerIndex": 1
+          "rightAnswerIndex": 0
         },
         {
           "question": "Antes do dinheiro, como as pessoas faziam trocas?",
-          "answers": ["Pix", "Cartão de crédito", "Escambo", "Banco digital"],
+          "answers": [
+            "Pix",
+            "Banco digital",
+            "Escambo",
+            "Cartão de crédito"
+          ],
           "rightAnswerIndex": 2
         },
         {
           "question": "O dinheiro é bom ou ruim?",
           "answers": [
-            "Sempre bom",
             "Sempre ruim",
             "Depende de como é usado",
+            "Sempre bom",
             "Nunca é necessário"
           ],
-          "rightAnswerIndex": 2
+          "rightAnswerIndex": 1
         },
         {
           "question": "Uma função do dinheiro é:",
           "answers": [
-            "Criar problemas",
-            "Guardar valor para o futuro",
             "Aumentar dívidas",
+            "Guardar valor para o futuro",
+            "Criar problemas",
             "Controlar pessoas"
           ],
           "rightAnswerIndex": 1
@@ -53,29 +58,29 @@
         {
           "question": "Quem aprende a usar bem o dinheiro tende a:",
           "answers": [
-            "Ter menos controle da vida",
-            "Evitar planejamento",
             "Ter mais segurança financeira",
-            "Gastar sem pensar"
+            "Gastar sem pensar",
+            "Ter menos controle da vida",
+            "Evitar planejamento"
           ],
-          "rightAnswerIndex": 2
+          "rightAnswerIndex": 0
         },
         {
           "question": "Educação financeira começa com:",
           "answers": [
-            "Ganhar muito dinheiro",
-            "Gastar tudo",
+            "Fazer dívidas",
             "Entender o que é dinheiro",
-            "Fazer dívidas"
+            "Ganhar muito dinheiro",
+            "Gastar tudo"
           ],
-          "rightAnswerIndex": 2
+          "rightAnswerIndex": 1
         },
         {
           "question": "O dinheiro ajuda principalmente a:",
           "answers": [
-            "Criar conflitos",
-            "Realizar objetivos",
             "Impedir sonhos",
+            "Realizar objetivos",
+            "Criar conflitos",
             "Gerar dependência"
           ],
           "rightAnswerIndex": 1
@@ -83,12 +88,12 @@
         {
           "question": "Qual é um uso saudável do dinheiro?",
           "answers": [
-            "Gastar sem controle",
             "Planejar gastos e economizar",
+            "Gastar sem controle",
             "Ignorar contas",
             "Viver endividado"
           ],
-          "rightAnswerIndex": 1
+          "rightAnswerIndex": 0
         },
         {
           "question": "O dinheiro deve ser visto como:",
@@ -213,107 +218,107 @@
       }
     },
     {
-      "order": 3,
-      "dificulty": 1,
-      "text": "O dinheiro possui três funções principais na economia: meio de troca, reserva de valor e unidade de conta. Além disso, ele influencia decisões financeiras, consumo e planejamento. Entender essas funções ajuda a tomar decisões mais conscientes e estratégicas.",
+      "order": 2,
+      "difficulty": 0,
+      "text": "Ativos e passivos ajudam a entender para onde o seu dinheiro está indo. Ativos colocam dinheiro no seu bolso. Passivos tiram dinheiro do seu bolso. Saber a diferença é essencial para tomar decisões melhores.",
       "questions": [
         {
-          "question": "Qual das opções representa corretamente as três funções do dinheiro?",
+          "question": "O que é um ativo?",
           "answers": [
-            "Investimento, imposto e dívida",
-            "Meio de troca, reserva de valor e unidade de conta",
-            "Lucro, renda e salário",
-            "Compra, venda e empréstimo"
+            "Uma dívida",
+            "Algo que gera gastos",
+            "Um imposto",
+            "Algo que coloca dinheiro no seu bolso"
           ],
-          "rightAnswerIndex": 1
+          "rightAnswerIndex": 3
         },
         {
-          "question": "O que significa o dinheiro ser uma reserva de valor?",
+          "question": "O que é um passivo?",
           "answers": [
-            "Ele pode ser trocado apenas por bens físicos",
-            "Ele mantém seu poder de compra ao longo do tempo",
-            "Ele serve apenas para pagar dívidas",
-            "Ele nunca perde valor"
-          ],
-          "rightAnswerIndex": 1
-        },
-        {
-          "question": "Quando usamos o dinheiro como unidade de conta, estamos:",
-          "answers": [
-            "Comparando valores de bens e serviços",
-            "Guardando dinheiro no banco",
-            "Evitando gastos",
-            "Criando impostos"
-          ],
-          "rightAnswerIndex": 0
-        },
-        {
-          "question": "A inflação afeta qual função do dinheiro principalmente?",
-          "answers": [
-            "Meio de troca",
-            "Reserva de valor",
-            "Unidade de conta",
-            "Nenhuma das anteriores"
-          ],
-          "rightAnswerIndex": 1
-        },
-        {
-          "question": "Planejamento financeiro eficiente depende principalmente de:",
-          "answers": [
-            "Gastar tudo o que ganha",
-            "Compreender receitas e despesas",
-            "Evitar qualquer investimento",
-            "Usar apenas dinheiro físico"
-          ],
-          "rightAnswerIndex": 1
-        },
-        {
-          "question": "Guardar dinheiro sem planejamento pode ser arriscado porque:",
-          "answers": [
-            "O dinheiro sempre perde valor imediatamente",
-            "Pode perder poder de compra com o tempo",
-            "É ilegal guardar dinheiro",
-            "Impede o consumo"
-          ],
-          "rightAnswerIndex": 1
-        },
-        {
-          "question": "Uma decisão financeira estratégica considera:",
-          "answers": [
-            "Apenas desejos imediatos",
-            "Consequências de curto e longo prazo",
-            "Somente promoções",
-            "Opinião de amigos"
-          ],
-          "rightAnswerIndex": 1
-        },
-        {
-          "question": "O dinheiro facilita trocas porque:",
-          "answers": [
-            "Elimina a necessidade de valorizar produtos",
-            "Substitui a necessidade de trabalho",
-            "Evita a coincidência de interesses do escambo",
-            "Impede negociações"
+            "Algo que gera renda",
+            "Algo que não custa nada",
+            "Algo que tira dinheiro do seu bolso",
+            "Um investimento"
           ],
           "rightAnswerIndex": 2
         },
         {
-          "question": "Educação financeira ajuda principalmente a:",
+          "question": "Qual é um exemplo de ativo?",
           "answers": [
-            "Aumentar consumo impulsivo",
-            "Tomar decisões conscientes sobre recursos",
-            "Eliminar riscos totalmente",
-            "Evitar qualquer gasto"
+            "Conta de luz",
+            "Mensalidade",
+            "Aluguel recebido",
+            "Dívida no cartão"
+          ],
+          "rightAnswerIndex": 2
+        },
+        {
+          "question": "Qual é um exemplo de passivo?",
+          "answers": [
+            "Aplicação financeira",
+            "Aluguel recebido",
+            "Renda extra",
+            "Parcela de financiamento"
+          ],
+          "rightAnswerIndex": 3
+        },
+        {
+          "question": "Um celular novo comprado parcelado é:",
+          "answers": [
+            "Um passivo",
+            "Um investimento",
+            "Uma renda",
+            "Um ativo"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Ter muitos passivos significa:",
+          "answers": [
+            "Mais liberdade financeira",
+            "Mais gastos frequentes",
+            "Mais dinheiro sobrando",
+            "Mais investimentos"
           ],
           "rightAnswerIndex": 1
         },
         {
-          "question": "Uma pessoa financeiramente organizada tende a:",
+          "question": "Qual é o principal benefício de ter ativos?",
           "answers": [
-            "Ignorar variações econômicas",
-            "Planejar metas e acompanhar resultados",
-            "Depender apenas de sorte",
-            "Evitar aprender sobre dinheiro"
+            "Aumentar dívidas",
+            "Gastar mais",
+            "Evitar planejamento",
+            "Gerar renda ou valor no tempo"
+          ],
+          "rightAnswerIndex": 3
+        },
+        {
+          "question": "Educação financeira ajuda a:",
+          "answers": [
+            "Viver sem regras",
+            "Equilibrar ativos e passivos",
+            "Ignorar gastos",
+            "Comprar tudo o que quiser"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Uma pessoa financeiramente consciente tende a:",
+          "answers": [
+            "Evitar qualquer gasto",
+            "Ignorar o futuro",
+            "Priorizar ativos ao longo do tempo",
+            "Acumular apenas passivos"
+          ],
+          "rightAnswerIndex": 2
+        },
+        {
+          "question": "Ativos e passivos servem para:",
+          "answers": [
+            "Criar mais dívidas",
+            "Organizar e entender melhor o dinheiro",
+            "Aumentar impostos",
+            "Confundir as pessoas"
           ],
           "rightAnswerIndex": 1
         }
@@ -324,7 +329,7 @@
       }
     },
     {
-      "order": 4,
+      "order": 2,
       "dificulty": 1,
       "text": "Ativos e passivos são conceitos fundamentais na construção de patrimônio. Ativos geram renda ou valorização ao longo do tempo. Passivos geram despesas recorrentes ou obrigações financeiras. Compreender essa diferença é essencial para crescimento financeiro sustentável.",
       "questions": [
@@ -430,7 +435,7 @@
       }
     },
     {
-      "order": 5,
+      "order": 1,
       "dificulty": 2,
       "text": "Investimentos complexos, diversificação e risco são conceitos essenciais para quem quer avançar no mundo financeiro. Compreender volatilidade, liquidez e retornos esperados ajuda a tomar decisões mais estratégicas.",
       "questions": [
@@ -541,7 +546,7 @@
       }
     },
     {
-      "order": 6,
+      "order": 2,
       "dificulty": 2,
       "text": "Planejamento financeiro avançado envolve análise detalhada de ativos, passivos, fluxo de caixa e investimentos estratégicos. Entender alocação de recursos e antecipar riscos é fundamental para crescimento sustentável.",
       "questions": [

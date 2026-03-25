@@ -223,7 +223,7 @@
       }
     },
     {
-      "order": 3,
+      "order": 1,
       "dificulty": 1,
       "text": "Acompanhar o mercado e revisar a carteira periodicamente permite reagir a mudanças econômicas e ajustar estratégias de investimento.",
       "questions": [
@@ -334,7 +334,7 @@
       }
     },
     {
-      "order": 4,
+      "order": 2,
       "dificulty": 1,
       "text": "Estratégias avançadas incluem derivativos, fundos multimercados e investimentos internacionais, que exigem análise detalhada e gestão de riscos.",
       "questions": [
@@ -445,7 +445,7 @@
       }
     },
     {
-      "order": 5,
+      "order": 1,
       "dificulty": 2,
       "text": "Gestão de risco é essencial para proteger patrimônio. Estratégias incluem stop loss, alocação diversificada e análise contínua do mercado.",
       "questions": [
@@ -556,7 +556,7 @@
       }
     },
     {
-      "order": 6,
+      "order": 2,
       "dificulty": 2,
       "text": "Investimentos avançados requerem monitoramento constante, ajuste de estratégias e avaliação de performance para maximizar resultados e minimizar riscos.",
       "questions": [

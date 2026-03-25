@@ -223,7 +223,7 @@
       }
     },
     {
-      "order": 3,
+      "order": 1,
       "dificulty": 1,
       "text": "Juros são o custo de pegar dinheiro emprestado. Saber como eles funcionam ajuda a escolher o crédito mais barato e evitar pagamentos maiores no longo prazo.",
       "questions": [
@@ -334,7 +334,7 @@
       }
     },
     {
-      "order": 4,
+      "order": 2,
       "dificulty": 1,
       "text": "Cartão de crédito e cheque especial são formas populares de crédito, mas costumam ter juros altos se não forem pagos corretamente. Conhecer suas características ajuda a usá‑los de forma consciente.",
       "questions": [
@@ -445,7 +445,7 @@
       }
     },
     {
-      "order": 5,
+      "order": 1,
       "dificulty": 2,
       "text": "Comparar ofertas de crédito e entender como os juros compostos funcionam ajuda a escolher opções mais vantajosas de empréstimos e financiamentos.",
       "questions": [
@@ -556,7 +556,7 @@
       }
     },
     {
-      "order": 6,
+      "order": 2,
       "dificulty": 2,
       "text": "Planejar o uso de crédito envolve analisar seu orçamento, taxas de juros, prazos e adesão às melhores práticas para evitar endividamento e manter saúde financeira.",
       "questions": [

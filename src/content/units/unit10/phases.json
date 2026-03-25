@@ -223,7 +223,7 @@
       }
     },
     {
-      "order": 3,
+      "order": 1,
       "dificulty": 1,
       "text": "Estabelecer metas financeiras claras ajuda a direcionar esforços, manter disciplina e alcançar objetivos de curto, médio e longo prazo.",
       "questions": [
@@ -334,7 +334,7 @@
       }
     },
     {
-      "order": 4,
+      "order": 2,
       "dificulty": 1,
       "text": "Comportamento financeiro saudável envolve educação, disciplina e hábitos positivos que refletem no controle de gastos e no crescimento do patrimônio.",
       "questions": [
@@ -445,7 +445,7 @@
       }
     },
     {
-      "order": 5,
+      "order": 1,
       "dificulty": 2,
       "text": "Tomar decisões financeiras complexas exige análise de risco, retorno, liquidez e impacto emocional para garantir escolhas sustentáveis.",
       "questions": [
@@ -556,7 +556,7 @@
       }
     },
     {
-      "order": 6,
+      "order": 2,
       "dificulty": 2,
       "text": "A relação saudável com dinheiro depende de hábitos conscientes, controle emocional, planejamento e investimentos consistentes.",
       "questions": [
