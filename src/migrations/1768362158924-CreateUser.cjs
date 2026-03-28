@@ -3,27 +3,27 @@
  * @typedef {import('typeorm').QueryRunner} QueryRunner
  */
 
-module.exports = class CreateUsers1767806299357 {
+module.exports = class CreateUser1768362158924 {
   /**
    * @param {QueryRunner} queryRunner
    */
   async up(queryRunner) {
     await queryRunner.query(`
       CREATE TABLE users (
-        id INT NOT NULL AUTO_INCREMENT,
+        id INT AUTO_INCREMENT PRIMARY KEY,
         name VARCHAR(255) NOT NULL,
         email VARCHAR(255) NOT NULL UNIQUE,
         password VARCHAR(255) NOT NULL,
-        user_img VARCHAR(255),
-        nivel INT DEFAULT 0,
-        xp INT DEFAULT 0,
-        coins INT DEFAULT 0,
+        difficulty INT DEFAULT 1,
+        user_img VARCHAR(255) NULL,
+        first_login BOOLEAN DEFAULT true,
         last_login TIMESTAMP NULL,
-        offensive_days INT DEFAULT 0,
+        recovery_code VARCHAR(255) NULL,
+        recovery_code_expiration TIMESTAMP NULL,
         created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-        updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-        PRIMARY KEY (id)
-      ) ENGINE=InnoDB;
+        updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+          ON UPDATE CURRENT_TIMESTAMP
+      )
     `);
   }
 
@@ -32,7 +32,7 @@ module.exports = class CreateUsers1767806299357 {
    */
   async down(queryRunner) {
     await queryRunner.query(`
-      DROP TABLE users;
+      DROP TABLE users
     `);
   }
 };

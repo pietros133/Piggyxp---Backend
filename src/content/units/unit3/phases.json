@@ -1,0 +1,670 @@
+{
+  "phases": [
+    {
+      "order": 1,
+      "dificulty": 0,
+      "text": "Organizar o dinheiro começa por entender quanto você ganha e quanto gasta. Controlar entradas e saídas é essencial para evitar surpresas no final do mês.",
+      "questions": [
+        {
+          "question": "O que significa controlar suas receitas?",
+          "answers": [
+            "Anotar todo o dinheiro que você recebe",
+            "Gastar sem pensar",
+            "Evitar contas",
+            "Pedir empréstimos"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "O que significa controlar suas despesas?",
+          "answers": [
+            "Registrar todos os gastos que você tem",
+            "Comprar sempre no cartão",
+            "Ignorar faturas",
+            "Economizar apenas uma vez"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Por que é importante acompanhar o orçamento?",
+          "answers": [
+            "Para saber para onde seu dinheiro está indo",
+            "Para acumular dívidas",
+            "Para gastar sem limites",
+            "Para evitar contas"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Quem pode fazer um orçamento pessoal?",
+          "answers": [
+            "Qualquer pessoa que queira organizar suas finanças",
+            "Somente contadores",
+            "Apenas empresas",
+            "Apenas bancos"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "O registro de receitas e despesas ajuda a:",
+          "answers": [
+            "Evitar surpresas financeiras",
+            "Aumentar gastos",
+            "Ignorar o dinheiro",
+            "Criar dívidas"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Um orçamento equilibrado deve:",
+          "answers": [
+            "Registrar receitas e despesas de forma realista",
+            "Ignorar pequenas compras",
+            "Somente controlar grandes despesas",
+            "Evitar registrar despesas mensais"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Anotar gastos ajuda a:",
+          "answers": [
+            "Identificar padrões de consumo",
+            "Esquecer o dinheiro",
+            "Aumentar dívidas",
+            "Evitar planejamento"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Receitas são:",
+          "answers": [
+            "Todo dinheiro que entra no seu bolso",
+            "Contas a pagar",
+            "Compras de lazer",
+            "Empréstimos apenas"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Despesas são:",
+          "answers": [
+            "Todo dinheiro que sai do seu bolso",
+            "Dinheiro ganho extra",
+            "Renda futura",
+            "Lucro de investimentos"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Controlar finanças ajuda a:",
+          "answers": [
+            "Evitar surpresas e gastar com consciência",
+            "Comprar tudo que quiser",
+            "Ignorar planejamento",
+            "Criar dívidas rapidamente"
+          ],
+          "rightAnswerIndex": 0
+        }
+      ],
+      "rewards": {
+        "xp": 150,
+        "coins": 45
+      }
+    },
+    {
+      "order": 2,
+      "dificulty": 0,
+      "text": "Analisar gastos é tão importante quanto registrá-los. Identificar despesas essenciais e não essenciais ajuda a economizar e a planejar melhor o uso do dinheiro.",
+      "questions": [
+        {
+          "question": "Gastos essenciais são:",
+          "answers": [
+            "Necessários para viver, como moradia e alimentação",
+            "Compras por impulso",
+            "Lazer frequente",
+            "Compras de luxo"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Gastos não essenciais são:",
+          "answers": [
+            "Aqueles que podem ser reduzidos ou adiados",
+            "Contas de água e luz",
+            "Aluguel",
+            "Supermercado"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Analisar despesas permite:",
+          "answers": [
+            "Economizar e priorizar gastos",
+            "Ignorar contas",
+            "Gastar impulsivamente",
+            "Criar dívidas"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Uma estratégia para economizar é:",
+          "answers": [
+            "Reduzir gastos não essenciais",
+            "Parar de pagar contas",
+            "Evitar orçamento",
+            "Comprar mais crédito"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Priorizar despesas significa:",
+          "answers": [
+            "Pagar primeiro o que é mais importante",
+            "Gastar no que quiser",
+            "Ignorar contas pequenas",
+            "Fazer empréstimos frequentes"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Um gasto planejado é:",
+          "answers": [
+            "Aquele que foi previsto no orçamento",
+            "Compra por impulso",
+            "Gasto inesperado",
+            "Dinheiro emprestado"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Registrar despesas ajuda a:",
+          "answers": [
+            "Evitar desperdício de dinheiro",
+            "Ignorar finanças",
+            "Aumentar dívidas",
+            "Gastar sem limites"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Qual é a vantagem de reduzir gastos desnecessários?",
+          "answers": [
+            "Mais dinheiro disponível para economias ou investimentos",
+            "Mais dívidas",
+            "Mais gastos supérfluos",
+            "Ignorar planejamento"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Organizar gastos permite:",
+          "answers": [
+            "Ter controle sobre o dinheiro",
+            "Gastar impulsivamente",
+            "Criar dívidas desnecessárias",
+            "Evitar planejamento"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Monitorar despesas não essenciais ajuda a:",
+          "answers": [
+            "Evitar surpresas e gastar melhor",
+            "Ignorar orçamento",
+            "Aumentar dívidas",
+            "Evitar planejamento"
+          ],
+          "rightAnswerIndex": 0
+        }
+      ],
+      "rewards": {
+        "xp": 170,
+        "coins": 50
+      }
+    },
+    {
+      "order": 3,
+      "dificulty": 1,
+      "text": "Definir prioridades financeiras ajuda a direcionar o uso do dinheiro, garantindo que despesas essenciais sejam pagas antes de gastos supérfluos.",
+      "questions": [
+        {
+          "question": "O que significa definir prioridades financeiras?",
+          "answers": [
+            "Escolher o que é mais importante para gastar primeiro",
+            "Gastar tudo no que quiser",
+            "Ignorar contas",
+            "Criar dívidas"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Exemplo de prioridade financeira:",
+          "answers": [
+            "Pagar contas essenciais",
+            "Comprar roupas de luxo",
+            "Fazer viagens frequentes",
+            "Lazer excessivo"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Priorizar despesas ajuda a:",
+          "answers": [
+            "Evitar dívidas e garantir necessidades básicas",
+            "Ignorar orçamento",
+            "Gastar impulsivamente",
+            "Evitar planejamento"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Despesas de menor prioridade podem ser:",
+          "answers": [
+            "Reduzidas ou adiadas",
+            "Pagas primeiro",
+            "Essenciais",
+            "Imediatas"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Decidir prioridades permite:",
+          "answers": [
+            "Melhor planejamento financeiro",
+            "Mais dívidas",
+            "Ignorar orçamento",
+            "Gastar sem limites"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Quem define prioridades financeiras:",
+          "answers": [
+            "A própria pessoa de acordo com suas necessidades",
+            "O banco",
+            "O governo",
+            "O gerente de loja"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Orçamento sem prioridades pode causar:",
+          "answers": [
+            "Dificuldade para pagar contas essenciais",
+            "Mais economia",
+            "Gastos planejados",
+            "Investimentos automáticos"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Prioridades ajudam a:",
+          "answers": [
+            "Alcançar metas financeiras de forma eficiente",
+            "Evitar planejamento",
+            "Gastar impulsivamente",
+            "Criar dívidas desnecessárias"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Exemplo de prioridade de médio prazo:",
+          "answers": [
+            "Comprar um equipamento importante para trabalho",
+            "Fazer compras supérfluas",
+            "Viajar sem planejar",
+            "Comprar roupas de moda"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Exemplo de prioridade de longo prazo:",
+          "answers": [
+            "Planejar aposentadoria ou compra de imóvel",
+            "Comprar snacks diariamente",
+            "Lazer sem limites",
+            "Gastar todo o dinheiro"
+          ],
+          "rightAnswerIndex": 0
+        }
+      ],
+      "rewards": {
+        "xp": 200,
+        "coins": 60
+      }
+    },
+    {
+      "order": 4,
+      "dificulty": 1,
+      "text": "Criar reservas financeiras é essencial para lidar com imprevistos. Poupar uma parte do que ganha evita endividamento em situações inesperadas.",
+      "questions": [
+        {
+          "question": "O que é reserva financeira?",
+          "answers": [
+            "Dinheiro guardado para emergências",
+            "Gastar em lazer",
+            "Fazer compras impulsivas",
+            "Pedir empréstimos"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Qual é a principal vantagem de uma reserva?",
+          "answers": [
+            "Evitar dívidas em imprevistos",
+            "Aumentar gastos",
+            "Ignorar planejamento",
+            "Comprar sem pensar"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Quanto reservar do seu dinheiro?",
+          "answers": [
+            "Uma parte de acordo com sua renda e despesas",
+            "Todo o dinheiro",
+            "Nada",
+            "Somente lucros"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Reserva financeira ajuda a:",
+          "answers": [
+            "Cobrir emergências sem se endividar",
+            "Fazer viagens",
+            "Comprar luxo",
+            "Gastar impulsivamente"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Onde guardar a reserva?",
+          "answers": [
+            "Em lugar seguro e de fácil acesso",
+            "Investimento de alto risco",
+            "Lazer",
+            "Gastar imediatamente"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Poupança periódica é:",
+          "answers": [
+            "Guardar dinheiro regularmente",
+            "Gastar todo mês",
+            "Comprar por impulso",
+            "Evitar orçamento"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Uma reserva financeira evita:",
+          "answers": [
+            "Endividamento por imprevistos",
+            "Gastos planejados",
+            "Investimentos",
+            "Economia"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Reserva ajuda a ter:",
+          "answers": [
+            "Tranquilidade financeira",
+            "Mais dívidas",
+            "Gastos desnecessários",
+            "Comprar impulsivamente"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Planejar reserva significa:",
+          "answers": [
+            "Definir quanto e quando guardar",
+            "Gastar tudo",
+            "Ignorar orçamento",
+            "Aumentar dívidas"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Reserva financeira é parte de:",
+          "answers": [
+            "Educação financeira pessoal",
+            "Comprar sem limites",
+            "Gastos impulsivos",
+            "Endividamento"
+          ],
+          "rightAnswerIndex": 0
+        }
+      ],
+      "rewards": {
+        "xp": 220,
+        "coins": 60
+      }
+    },
+    {
+      "order": 5,
+      "dificulty": 2,
+      "text": "Investir é uma forma de multiplicar o dinheiro. Entender risco, retorno e liquidez ajuda a tomar decisões mais estratégicas e a proteger o patrimônio.",
+      "questions": [
+        {
+          "question": "O que significa risco em investimento?",
+          "answers": [
+            "Possibilidade de perder dinheiro ou não atingir retorno esperado",
+            "Ganho garantido",
+            "Lucro absoluto",
+            "Não existe risco"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Liquidez indica:",
+          "answers": [
+            "Facilidade de transformar em dinheiro rapidamente",
+            "Garantia de lucro",
+            "Quantidade de ativos",
+            "Impossibilidade de venda"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Diversificação serve para:",
+          "answers": [
+            "Reduzir riscos concentrados",
+            "Aumentar risco",
+            "Evitar planejamento",
+            "Garantir lucro fixo"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Retorno esperado é:",
+          "answers": [
+            "Valor que se espera ganhar com um investimento",
+            "Valor perdido automaticamente",
+            "Garantia de lucro",
+            "Sem impacto financeiro"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Investimento de longo prazo:",
+          "answers": [
+            "Foca em crescimento ao longo de anos",
+            "Retorno imediato",
+            "Sem risco",
+            "Somente luxo"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Hedge financeiro é usado para:",
+          "answers": [
+            "Proteger investimentos contra variações desfavoráveis",
+            "Aumentar risco",
+            "Evitar análise",
+            "Garantir lucro instantâneo"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Maior risco tende a:",
+          "answers": [
+            "Maior retorno esperado",
+            "Maior perda sempre",
+            "Não impacta retorno",
+            "Menor retorno"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Investir em diferentes moedas ajuda a:",
+          "answers": [
+            "Reduzir risco cambial e diversificar",
+            "Aumentar risco",
+            "Ignorar mercado",
+            "Garantir lucro"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Investimento estratégico considera:",
+          "answers": [
+            "Risco, retorno e objetivos financeiros",
+            "Desejos imediatos",
+            "Somente promoções",
+            "Opinião de amigos"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Educação financeira avançada permite:",
+          "answers": [
+            "Tomar decisões estratégicas e conscientes",
+            "Ignorar riscos",
+            "Investir sem estudo",
+            "Evitar decisões financeiras"
+          ],
+          "rightAnswerIndex": 0
+        }
+      ],
+      "rewards": {
+        "xp": 300,
+        "coins": 80
+      }
+    },
+    {
+      "order": 6,
+      "dificulty": 2,
+      "text": "Planejamento financeiro avançado envolve análise detalhada de ativos, passivos, fluxo de caixa e investimentos estratégicos. Entender alocação de recursos e antecipar riscos é fundamental para crescimento sustentável.",
+      "questions": [
+        {
+          "question": "O que é alocação de ativos?",
+          "answers": [
+            "Distribuir investimentos entre classes para balancear risco e retorno",
+            "Concentrar tudo em uma ação",
+            "Gastar em consumo",
+            "Guardar na poupança"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Fluxo de caixa negativo indica:",
+          "answers": [
+            "Despesas maiores que receitas",
+            "Receitas maiores que despesas",
+            "Sem movimentação",
+            "Somente ativos"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Carteira diversificada visa:",
+          "answers": [
+            "Minimizar impactos de perdas em um único investimento",
+            "Aumentar riscos",
+            "Evitar investimentos",
+            "Garantir lucros imediatos"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Investimento de longo prazo significa:",
+          "answers": [
+            "Crescimento de valor ao longo de anos",
+            "Poucos dias para retorno",
+            "Alto risco apenas",
+            "Liquidez imediata"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Risco sistemático é:",
+          "answers": [
+            "Aquele que afeta o mercado inteiro",
+            "Afeta apenas um ativo",
+            "Não existe",
+            "Sem impacto no retorno"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Análise fundamental considera:",
+          "answers": [
+            "Balanços, indicadores e dados financeiros",
+            "Sorte do mercado",
+            "Opinião de amigos",
+            "Tendência de curto prazo"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Retorno ajustado ao risco é:",
+          "answers": [
+            "Lucro esperado considerando risco do investimento",
+            "Lucro absoluto sem risco",
+            "Garantia de lucro fixo",
+            "Valor sem impacto"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Investir em diferentes moedas ajuda a:",
+          "answers": [
+            "Reduzir risco cambial e diversificar",
+            "Aumentar risco",
+            "Ignorar mercado",
+            "Garantir retorno fixo"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Hedge financeiro serve para:",
+          "answers": [
+            "Proteger investimentos contra variações desfavoráveis",
+            "Aumentar risco",
+            "Evitar análise",
+            "Garantir lucro instantâneo"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Estratégia financeira avançada envolve:",
+          "answers": [
+            "Alinhar objetivos, riscos, liquidez e diversificação",
+            "Compras impulsivas",
+            "Investir em passivos",
+            "Ignorar fluxo de caixa"
+          ],
+          "rightAnswerIndex": 0
+        }
+      ],
+      "rewards": {
+        "xp": 320,
+        "coins": 85
+      }
+    }
+  ]
+}

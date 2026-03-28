@@ -1,0 +1,670 @@
+{
+  "phases": [
+    {
+      "order": 1,
+      "dificulty": 0,
+      "text": "Consumir de forma consciente significa pensar antes de comprar e avaliar se o produto é realmente necessário para evitar gastos desnecessários.",
+      "questions": [
+        {
+          "question": "O que é consumo consciente?",
+          "answers": [
+            "Avaliar a necessidade antes de comprar",
+            "Comprar tudo que vê",
+            "Ignorar orçamento",
+            "Pedir empréstimos frequentemente"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Por que planejar compras ajuda?",
+          "answers": [
+            "Evita gastos impulsivos e desperdício",
+            "Aumenta dívidas",
+            "Ignora finanças",
+            "Gasta sem limites"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "O que é gasto planejado?",
+          "answers": [
+            "Compra prevista no orçamento",
+            "Compra por impulso",
+            "Gasto inesperado",
+            "Dinheiro emprestado"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Comparar preços antes de comprar significa:",
+          "answers": [
+            "Escolher melhor custo-benefício",
+            "Comprar a primeira opção",
+            "Ignorar valores",
+            "Gastar sem pensar"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Evitar compras por impulso ajuda a:",
+          "answers": [
+            "Controlar gastos e economizar",
+            "Aumentar dívidas",
+            "Ignorar orçamento",
+            "Comprar sem planejamento"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Lista de compras é importante para:",
+          "answers": [
+            "Organizar o que é realmente necessário",
+            "Comprar sem controle",
+            "Ignorar necessidades",
+            "Aumentar gastos supérfluos"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Consumir de forma consciente protege:",
+          "answers": [
+            "Seu patrimônio e planejamento financeiro",
+            "Aumenta dívidas",
+            "Ignora metas financeiras",
+            "Gasta impulsivamente"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Pesquisar produtos antes de comprar significa:",
+          "answers": [
+            "Avaliar qualidade, preço e necessidade",
+            "Comprar sem análise",
+            "Ignorar comparações",
+            "Aceitar qualquer oferta"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Planejar gastos mensais ajuda a:",
+          "answers": [
+            "Evitar surpresas e manter controle financeiro",
+            "Gastar tudo de forma aleatória",
+            "Ignorar finanças",
+            "Aumentar dívidas"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Consumir conscientemente também significa:",
+          "answers": [
+            "Evitar desperdício e respeitar o meio ambiente",
+            "Comprar sem pensar",
+            "Ignorar orçamento",
+            "Aumentar gastos supérfluos"
+          ],
+          "rightAnswerIndex": 0
+        }
+      ],
+      "rewards": {
+        "xp": 100,
+        "coins": 40
+      }
+    },
+    {
+      "order": 2,
+      "dificulty": 0,
+      "text": "Organizar prioridades de consumo ajuda a identificar o que é essencial, o que pode esperar e o que é supérfluo, garantindo melhor controle financeiro.",
+      "questions": [
+        {
+          "question": "O que são necessidades básicas de consumo?",
+          "answers": [
+            "Alimentação, moradia e transporte",
+            "Roupas de luxo",
+            "Viagens frequentes",
+            "Lazer supérfluo"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "O que são gastos supérfluos?",
+          "answers": [
+            "Compras que não são essenciais",
+            "Contas de água e luz",
+            "Aluguel",
+            "Supermercado"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Priorizar gastos significa:",
+          "answers": [
+            "Pagar primeiro o que é mais importante",
+            "Gastar sem pensar",
+            "Ignorar pequenas despesas",
+            "Fazer empréstimos"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Planejar compras grandes ajuda a:",
+          "answers": [
+            "Evitar endividamento e fazer escolhas conscientes",
+            "Comprar por impulso",
+            "Ignorar orçamento",
+            "Gastar sem controle"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Avaliar promoções significa:",
+          "answers": [
+            "Comprar apenas quando realmente vale a pena",
+            "Comprar todas ofertas",
+            "Ignorar preços",
+            "Gastar sem pensar"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Gastar dentro do orçamento garante:",
+          "answers": [
+            "Mais segurança financeira e controle",
+            "Mais dívidas",
+            "Ignorar metas",
+            "Comprar sem limite"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Consumir de forma planejada evita:",
+          "answers": [
+            "Endividamento desnecessário",
+            "Economias",
+            "Investimentos",
+            "Compras essenciais"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Anotar gastos ajuda a:",
+          "answers": [
+            "Identificar onde cortar despesas supérfluas",
+            "Ignorar controle",
+            "Aumentar gastos",
+            "Esquecer orçamento"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Reavaliar hábitos de consumo significa:",
+          "answers": [
+            "Melhorar escolhas e reduzir desperdícios",
+            "Ignorar compras",
+            "Aumentar dívidas",
+            "Gastar impulsivamente"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Consumo consciente promove:",
+          "answers": [
+            "Bem-estar financeiro e sustentável",
+            "Endividamento",
+            "Gastos impulsivos",
+            "Ignorar planejamento"
+          ],
+          "rightAnswerIndex": 0
+        }
+      ],
+      "rewards": {
+        "xp": 120,
+        "coins": 45
+      }
+    },
+    {
+      "order": 3,
+      "dificulty": 1,
+      "text": "Aprofundar o planejamento do consumo permite controlar melhor o dinheiro, evitando compras desnecessárias e escolhendo produtos de maior valor e qualidade.",
+      "questions": [
+        {
+          "question": "O que significa consumo planejado?",
+          "answers": [
+            "Comprar após avaliar necessidade e orçamento",
+            "Comprar tudo imediatamente",
+            "Ignorar orçamento",
+            "Gastar impulsivamente"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Avaliar qualidade antes de comprar ajuda a:",
+          "answers": [
+            "Evitar desperdício e economizar a longo prazo",
+            "Comprar mais barato sem pensar",
+            "Ignorar comparação",
+            "Aumentar gastos supérfluos"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Comprar à vista pode:",
+          "answers": [
+            "Reduzir juros e facilitar planejamento",
+            "Aumentar dívidas",
+            "Ignorar controle",
+            "Gastar mais"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Revisar prioridades de consumo significa:",
+          "answers": [
+            "Decidir o que é essencial e o que pode esperar",
+            "Comprar tudo por impulso",
+            "Ignorar orçamento",
+            "Aumentar dívidas"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Evitar compras motivadas por pressão externa significa:",
+          "answers": [
+            "Tomar decisões conscientes",
+            "Seguir sempre amigos ou propagandas",
+            "Ignorar controle",
+            "Gastar impulsivamente"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Planejar consumo ajuda a:",
+          "answers": [
+            "Alcançar metas financeiras e evitar desperdício",
+            "Gastar tudo",
+            "Ignorar orçamento",
+            "Comprar supérfluos"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Pesquisar opiniões sobre produtos significa:",
+          "answers": [
+            "Escolher melhor qualidade e custo-benefício",
+            "Comprar sem avaliação",
+            "Ignorar análise",
+            "Gastar impulsivamente"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Evitar promoções enganosas ajuda a:",
+          "answers": [
+            "Não gastar com produtos desnecessários",
+            "Comprar sem pensar",
+            "Aumentar dívidas",
+            "Ignorar planejamento"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Organizar prioridades de consumo permite:",
+          "answers": [
+            "Investir em necessidades antes de supérfluos",
+            "Gastar sem controle",
+            "Ignorar finanças",
+            "Comprar tudo por impulso"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Consumo consciente influencia:",
+          "answers": [
+            "Bem-estar financeiro e sustentabilidade",
+            "Gastos impulsivos",
+            "Endividamento",
+            "Ignorar planejamento"
+          ],
+          "rightAnswerIndex": 0
+        }
+      ],
+      "rewards": {
+        "xp": 150,
+        "coins": 50
+      }
+    },
+    {
+      "order": 4,
+      "dificulty": 1,
+      "text": "Consumir de forma responsável também inclui avaliar impactos ambientais e sociais das escolhas de compra, priorizando produtos que respeitem pessoas e o planeta.",
+      "questions": [
+        {
+          "question": "O que é consumo sustentável?",
+          "answers": [
+            "Comprar produtos que respeitam o meio ambiente e pessoas",
+            "Gastar sem pensar",
+            "Ignorar impactos",
+            "Comprar supérfluos"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Por que avaliar a origem dos produtos é importante?",
+          "answers": [
+            "Para apoiar produção ética e sustentável",
+            "Ignorar fornecedores",
+            "Comprar sem pesquisa",
+            "Aumentar desperdício"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Optar por produtos duráveis significa:",
+          "answers": [
+            "Evitar desperdício e economizar",
+            "Comprar barato sem qualidade",
+            "Gastar mais supérfluos",
+            "Ignorar planejamento"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Reduzir consumo excessivo ajuda a:",
+          "answers": [
+            "Preservar recursos e poupar dinheiro",
+            "Aumentar dívidas",
+            "Ignorar orçamento",
+            "Comprar supérfluos"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Escolher fornecedores confiáveis garante:",
+          "answers": [
+            "Segurança e qualidade dos produtos",
+            "Ignorar riscos",
+            "Comprar qualquer produto",
+            "Gastar impulsivamente"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Reciclar e reaproveitar produtos contribui para:",
+          "answers": [
+            "Consumo consciente e sustentável",
+            "Gastos supérfluos",
+            "Aumentar desperdício",
+            "Ignorar planejamento"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Evitar marcas que exploram trabalhadores significa:",
+          "answers": [
+            "Tomar decisões de compra éticas",
+            "Ignorar práticas sociais",
+            "Comprar por impulso",
+            "Gastar sem pensar"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Planejar compras de forma consciente ajuda a:",
+          "answers": [
+            "Equilibrar finanças e valores pessoais",
+            "Gastar sem controle",
+            "Ignorar orçamento",
+            "Comprar supérfluos"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Priorizar qualidade sobre quantidade significa:",
+          "answers": [
+            "Evitar desperdício e compras desnecessárias",
+            "Comprar muitos produtos baratos",
+            "Ignorar escolhas",
+            "Gastar impulsivamente"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Consumo responsável impacta:",
+          "answers": [
+            "Finanças pessoais e sustentabilidade ambiental",
+            "Gastos supérfluos",
+            "Endividamento",
+            "Ignorar planejamento"
+          ],
+          "rightAnswerIndex": 0
+        }
+      ],
+      "rewards": {
+        "xp": 180,
+        "coins": 55
+      }
+    },
+    {
+      "order": 5,
+      "dificulty": 2,
+      "text": "No consumo avançado, decisões financeiras envolvem análise de custo-benefício, impacto social e ambiental, e integração com orçamento pessoal e metas de longo prazo.",
+      "questions": [
+        {
+          "question": "O que é análise de custo-benefício?",
+          "answers": [
+            "Comparar vantagens e custos antes de decidir comprar",
+            "Comprar sem pensar",
+            "Ignorar planejamento",
+            "Gastar impulsivamente"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Por que integrar compras ao orçamento pessoal?",
+          "answers": [
+            "Evita dívidas e garante controle financeiro",
+            "Comprar tudo sem limite",
+            "Ignorar metas financeiras",
+            "Gastar impulsivamente"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Avaliar impacto social das compras significa:",
+          "answers": [
+            "Considerar ética e responsabilidade dos fornecedores",
+            "Ignorar práticas sociais",
+            "Comprar por impulso",
+            "Aumentar desperdício"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Escolher produtos duráveis ajuda a:",
+          "answers": [
+            "Reduzir gastos e desperdício",
+            "Comprar barato sem pensar",
+            "Ignorar qualidade",
+            "Aumentar consumo supérfluo"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Planejamento de consumo avançado inclui:",
+          "answers": [
+            "Metas financeiras, orçamento e impactos sociais/ambientais",
+            "Gastar tudo de forma aleatória",
+            "Ignorar planejamento",
+            "Comprar supérfluos"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Comparar preços e benefícios ajuda a:",
+          "answers": [
+            "Tomar decisões mais conscientes",
+            "Comprar sem analisar",
+            "Ignorar orçamento",
+            "Gastar impulsivamente"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Consumo consciente de longo prazo permite:",
+          "answers": [
+            "Economia e escolhas mais sustentáveis",
+            "Aumentar dívidas",
+            "Ignorar planejamento",
+            "Comprar supérfluos"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Integrar consumo às metas pessoais significa:",
+          "answers": [
+            "Priorizar necessidades e investimentos antes de supérfluos",
+            "Comprar por impulso",
+            "Ignorar orçamento",
+            "Gastar sem pensar"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Avaliar impactos ambientais ajuda a:",
+          "answers": [
+            "Tomar decisões de compra sustentáveis",
+            "Ignorar natureza",
+            "Gastar impulsivamente",
+            "Comprar sem pensar"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Consumo planejado e consciente influencia:",
+          "answers": [
+            "Finanças pessoais, ética e sustentabilidade",
+            "Gastos impulsivos",
+            "Endividamento",
+            "Ignorar planejamento"
+          ],
+          "rightAnswerIndex": 0
+        }
+      ],
+      "rewards": {
+        "xp": 250,
+        "coins": 70
+      }
+    },
+    {
+      "order": 6,
+      "dificulty": 2,
+      "text": "Consumir de forma estratégica significa alinhar cada gasto às metas financeiras, valores pessoais e impacto social e ambiental, garantindo decisões conscientes de longo prazo.",
+      "questions": [
+        {
+          "question": "O que significa consumo estratégico?",
+          "answers": [
+            "Alinhar cada gasto às metas financeiras e valores pessoais",
+            "Comprar sem pensar",
+            "Ignorar orçamento",
+            "Gastar impulsivamente"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Decisões conscientes de longo prazo ajudam a:",
+          "answers": [
+            "Evitar endividamento e desperdício",
+            "Gastar tudo rapidamente",
+            "Ignorar metas financeiras",
+            "Comprar supérfluos"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Priorizar necessidades antes de supérfluos garante:",
+          "answers": [
+            "Controle financeiro e planejamento",
+            "Gastos impulsivos",
+            "Ignorar orçamento",
+            "Aumentar dívidas"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Integrar valores pessoais ao consumo significa:",
+          "answers": [
+            "Comprar de forma ética e sustentável",
+            "Ignorar ética",
+            "Gastar sem pensar",
+            "Comprar supérfluos"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Reavaliar hábitos de consumo estrategicamente ajuda a:",
+          "answers": [
+            "Melhorar escolhas financeiras e sociais",
+            "Ignorar planejamento",
+            "Gastar impulsivamente",
+            "Aumentar dívidas"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Analisar impacto ambiental antes de comprar significa:",
+          "answers": [
+            "Evitar produtos prejudiciais à natureza",
+            "Ignorar sustentabilidade",
+            "Comprar qualquer produto",
+            "Gastar sem pensar"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Decisões estratégicas de consumo promovem:",
+          "answers": [
+            "Economia, ética e sustentabilidade",
+            "Endividamento",
+            "Gastos impulsivos",
+            "Ignorar planejamento"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Planejar compras alinhadas a objetivos permite:",
+          "answers": [
+            "Cumprir metas financeiras e valores pessoais",
+            "Gastar sem controle",
+            "Ignorar orçamento",
+            "Comprar supérfluos"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Avaliar fornecedores estrategicamente garante:",
+          "answers": [
+            "Produtos de qualidade e responsabilidade social",
+            "Ignorar práticas",
+            "Comprar qualquer produto",
+            "Gastar impulsivamente"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Consumo consciente estratégico impacta:",
+          "answers": [
+            "Finanças, ética e sustentabilidade a longo prazo",
+            "Gastos impulsivos",
+            "Endividamento",
+            "Ignorar planejamento"
+          ],
+          "rightAnswerIndex": 0
+        }
+      ],
+      "rewards": {
+        "xp": 300,
+        "coins": 80
+      }
+    }
+  ]
+}

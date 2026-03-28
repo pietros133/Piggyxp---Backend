@@ -1,21 +1,25 @@
 import { AppDataSource } from "../config/dbconnect.js";
 import { User } from "../models/User.js";
+import cloudinary from "../config/cloudinaryconfig.js";
 
-export async function uploadUserImgService(userId, imgpath) {
+export async function uploadUserImgService(userId, file) {
   const userRepository = AppDataSource.getRepository(User);
 
-  const user = await userRepository.findOne({
-    where: { id: userId },
-  });
+  const user = await userRepository.findOne({ where: { id: userId } });
 
   if (!user) {
     throw new Error("Usuário não encontrado!");
   }
 
-  user.user_img = imgpath;
+  const result = await cloudinary.uploader.upload(
+    `data:${file.mimetype};base64,${file.buffer.toString("base64")}`,
+    {
+      folder: "users",
+      public_id: `user_${userId}`,
+      overwrite: true,
+    }
+  );
 
-  const updatedUser = await userRepository.save(user);
-
-  delete updatedUser.password;
-  return updatedUser;
+  user.user_img = result.secure_url;
+  await userRepository.save(user);
 }

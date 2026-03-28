@@ -1,0 +1,670 @@
+{
+  "phases": [
+    {
+      "order": 1,
+      "dificulty": 0,
+      "text": "Planejar a aposentadoria significa pensar no futuro e garantir recursos suficientes para manter o padrão de vida quando não houver mais renda ativa.",
+      "questions": [
+        {
+          "question": "O que é aposentadoria?",
+          "answers": [
+            "Momento em que a pessoa deixa de trabalhar regularmente e recebe recursos financeiros",
+            "Férias prolongadas",
+            "Ganho extra por investimento",
+            "Qualquer pausa no trabalho"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Por que é importante planejar a aposentadoria?",
+          "answers": [
+            "Para garantir segurança financeira no futuro",
+            "Para gastar todo o dinheiro agora",
+            "Para evitar poupar",
+            "Para depender sempre de outros"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "O que significa renda passiva?",
+          "answers": [
+            "Receita obtida sem trabalho ativo, como investimentos",
+            "Salário mensal",
+            "Dinheiro emprestado",
+            "Compras parceladas"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Planejar aposentadoria começa com:",
+          "answers": [
+            "Avaliar quanto dinheiro será necessário no futuro",
+            "Gastar tudo agora",
+            "Evitar investimentos",
+            "Ignorar metas financeiras"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Contribuições para previdência ajudam a:",
+          "answers": [
+            "Garantir renda futura segura",
+            "Gastar dinheiro sem planejamento",
+            "Ignorar finanças",
+            "Aumentar dívidas"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Poupar regularmente significa:",
+          "answers": [
+            "Guardar dinheiro aos poucos para o futuro",
+            "Gastar sem pensar",
+            "Evitar controle financeiro",
+            "Aumentar dívidas"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Investir para aposentadoria ajuda a:",
+          "answers": [
+            "Multiplicar recursos e proteger patrimônio",
+            "Gastar impulsivamente",
+            "Ignorar metas",
+            "Criar dívidas"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Quanto começar a poupar depende de:",
+          "answers": [
+            "Renda atual, idade e objetivos futuros",
+            "Dinheiro disponível só no final do ano",
+            "Somente de quanto se ganha no presente",
+            "Valores de amigos"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Planejamento antecipado garante:",
+          "answers": [
+            "Tranquilidade financeira na aposentadoria",
+            "Gastos impulsivos",
+            "Endividamento",
+            "Ignorar metas"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Poupar de forma consistente permite:",
+          "answers": [
+            "Acumular recursos de forma segura",
+            "Gastar tudo de forma aleatória",
+            "Evitar investimentos",
+            "Ignorar orçamento"
+          ],
+          "rightAnswerIndex": 0
+        }
+      ],
+      "rewards": {
+        "xp": 120,
+        "coins": 45
+      }
+    },
+    {
+      "order": 2,
+      "dificulty": 0,
+      "text": "Conhecer produtos financeiros para aposentadoria ajuda a garantir maior segurança e retorno no longo prazo.",
+      "questions": [
+        {
+          "question": "O que é previdência privada?",
+          "answers": [
+            "Plano de aposentadoria complementar ao público",
+            "Salário extra do governo",
+            "Empréstimo pessoal",
+            "Poupança imediata"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "O que é investimento de longo prazo?",
+          "answers": [
+            "Aplicação que rende ao longo de anos, ideal para aposentadoria",
+            "Compra de curto prazo",
+            "Gastos supérfluos",
+            "Dinheiro sem planejamento"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Diversificar investimentos significa:",
+          "answers": [
+            "Distribuir recursos em diferentes opções para reduzir riscos",
+            "Colocar tudo em um único investimento",
+            "Evitar aplicações financeiras",
+            "Gastar sem controle"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "O que é rendimento composto?",
+          "answers": [
+            "Lucro que cresce sobre o capital inicial e sobre os rendimentos anteriores",
+            "Dinheiro fixo sem juros",
+            "Perda garantida",
+            "Gasto imediato"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Quanto antes começar a poupar:",
+          "answers": [
+            "Mais tempo o dinheiro tem para render",
+            "Não faz diferença",
+            "Só importa no futuro próximo",
+            "Menos tempo para investir"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Escolher investimentos adequados depende de:",
+          "answers": [
+            "Objetivos, prazo e perfil de risco",
+            "Sorte e promoções",
+            "Indicação de amigos",
+            "Última moda"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Investir cedo ajuda a:",
+          "answers": [
+            "Aproveitar juros compostos e acumular mais",
+            "Gastar tudo",
+            "Ignorar finanças",
+            "Aumentar riscos desnecessários"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Segurança financeira na aposentadoria depende de:",
+          "answers": [
+            "Planejamento, investimento e poupança consistente",
+            "Gastos impulsivos",
+            "Ignorar orçamento",
+            "Endividamento"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Contribuições regulares significam:",
+          "answers": [
+            "Investir continuamente para garantir recursos no futuro",
+            "Gastar de forma aleatória",
+            "Ignorar planejamento",
+            "Aumentar dívidas"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Aposentadoria planejada ajuda a evitar:",
+          "answers": [
+            "Falta de recursos e endividamento na velhice",
+            "Economia",
+            "Investimentos",
+            "Gastos conscientes"
+          ],
+          "rightAnswerIndex": 0
+        }
+      ],
+      "rewards": {
+        "xp": 140,
+        "coins": 50
+      }
+    },
+    {
+      "order": 3,
+      "dificulty": 1,
+      "text": "Simular cenários futuros e calcular quanto será necessário mensalmente permite ajustar investimentos e poupança de forma eficiente.",
+      "questions": [
+        {
+          "question": "O que é simulação financeira para aposentadoria?",
+          "answers": [
+            "Calcular quanto será necessário no futuro",
+            "Ignorar planejamento",
+            "Gastar sem pensar",
+            "Apostar na sorte"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Calcular gastos futuros ajuda a:",
+          "answers": [
+            "Planejar poupança e investimentos adequados",
+            "Gastar tudo agora",
+            "Ignorar orçamento",
+            "Comprar supérfluos"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Ajustar investimentos significa:",
+          "answers": [
+            "Distribuir recursos conforme metas e risco",
+            "Gastar tudo de forma aleatória",
+            "Ignorar planejamento",
+            "Comprar supérfluos"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Quanto maior o tempo até aposentadoria:",
+          "answers": [
+            "Mais flexibilidade e rendimento sobre investimentos",
+            "Menor impacto do planejamento",
+            "Não faz diferença",
+            "Mais risco sem retorno"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Simular diferentes cenários ajuda a:",
+          "answers": [
+            "Antecipar necessidades e ajustar decisões financeiras",
+            "Gastar impulsivamente",
+            "Ignorar planejamento",
+            "Aumentar dívidas"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Simulação de aporte mensal ajuda a:",
+          "answers": [
+            "Determinar quanto guardar para alcançar metas",
+            "Gastar tudo sem controle",
+            "Ignorar orçamento",
+            "Aumentar dívidas"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Ajustar plano de aposentadoria periodicamente garante:",
+          "answers": [
+            "Que objetivos e recursos fiquem alinhados",
+            "Ignorar metas",
+            "Gastar impulsivamente",
+            "Endividamento"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Considerar inflação futura significa:",
+          "answers": [
+            "Planejar compras e investimentos adequadamente",
+            "Ignorar preço do dinheiro no tempo",
+            "Gastar sem pensar",
+            "Comprar supérfluos"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Planejamento antecipado permite:",
+          "answers": [
+            "Acumular recursos suficientes com menos esforço",
+            "Gastar tudo de forma aleatória",
+            "Ignorar investimentos",
+            "Aumentar dívidas"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Planejamento de aposentadoria ajuda a:",
+          "answers": [
+            "Ter previsibilidade e controle financeiro",
+            "Gastar tudo",
+            "Ignorar finanças",
+            "Aumentar dívidas"
+          ],
+          "rightAnswerIndex": 0
+        }
+      ],
+      "rewards": {
+        "xp": 170,
+        "coins": 55
+      }
+    },
+    {
+      "order": 4,
+      "dificulty": 1,
+      "text": "Escolher produtos de aposentadoria adequados ao perfil de risco garante segurança e rentabilidade ao longo do tempo.",
+      "questions": [
+        {
+          "question": "Perfil de risco conservador significa:",
+          "answers": [
+            "Prioriza segurança com menor risco de perda",
+            "Aceita alto risco para altos retornos",
+            "Gasta sem planejamento",
+            "Evita qualquer investimento"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Perfil de risco moderado significa:",
+          "answers": [
+            "Busca equilíbrio entre risco e retorno",
+            "Evita qualquer investimento",
+            "Gasta impulsivamente",
+            "Investimento sem análise"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Perfil de risco agressivo significa:",
+          "answers": [
+            "Aceita riscos maiores para maiores retornos",
+            "Evita qualquer investimento",
+            "Gasta tudo de forma aleatória",
+            "Investimento seguro sem retorno"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Escolher produtos compatíveis com o perfil ajuda a:",
+          "answers": [
+            "Reduzir risco e aumentar chances de atingir metas",
+            "Gastar impulsivamente",
+            "Ignorar planejamento",
+            "Aumentar dívidas"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Diversificar investimentos de aposentadoria significa:",
+          "answers": [
+            "Distribuir recursos em diferentes produtos",
+            "Concentrar em um só",
+            "Gastar tudo",
+            "Evitar qualquer aplicação"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Escolher produtos adequados permite:",
+          "answers": [
+            "Ter equilíbrio entre segurança e crescimento do patrimônio",
+            "Gastar sem controle",
+            "Ignorar investimentos",
+            "Aumentar dívidas"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Produtos de aposentadoria incluem:",
+          "answers": [
+            "Previdência privada, fundos e ações de longo prazo",
+            "Empréstimos e dívidas",
+            "Cartão de crédito",
+            "Compras supérfluas"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Planejar com produtos adequados garante:",
+          "answers": [
+            "Renda suficiente e segurança financeira no futuro",
+            "Gastar tudo",
+            "Ignorar planejamento",
+            "Endividamento"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Revisar produtos periodicamente ajuda a:",
+          "answers": [
+            "Ajustar investimentos conforme mudanças no mercado e objetivos",
+            "Gastar tudo sem controle",
+            "Ignorar planejamento",
+            "Aumentar dívidas"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Investimentos de longo prazo devem ser:",
+          "answers": [
+            "Consistentes e alinhados aos objetivos da aposentadoria",
+            "Aleatórios e impulsivos",
+            "Evitar qualquer aplicação",
+            "Concentrados em curto prazo"
+          ],
+          "rightAnswerIndex": 0
+        }
+      ],
+      "rewards": {
+        "xp": 190,
+        "coins": 60
+      }
+    },
+    {
+      "order": 5,
+      "dificulty": 2,
+      "text": "Monitorar e ajustar o plano de aposentadoria garante que metas financeiras serão alcançadas mesmo com mudanças econômicas ou pessoais.",
+      "questions": [
+        {
+          "question": "Por que monitorar aposentadoria é importante?",
+          "answers": [
+            "Para ajustar aportes e investimentos conforme necessidade",
+            "Gastar tudo de forma aleatória",
+            "Ignorar planejamento",
+            "Endividamento"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Ajustes periódicos incluem:",
+          "answers": [
+            "Revisar aportes, diversificação e objetivos",
+            "Gastar impulsivamente",
+            "Evitar qualquer investimento",
+            "Endividamento"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Mudanças econômicas exigem:",
+          "answers": [
+            "Ajuste de investimentos e planejamento",
+            "Gastar tudo",
+            "Ignorar finanças",
+            "Aumentar dívidas"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Revisar metas garante:",
+          "answers": [
+            "Que a aposentadoria será alcançada conforme esperado",
+            "Gastar tudo de forma aleatória",
+            "Evitar investimentos",
+            "Endividamento"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Revisão ajuda a:",
+          "answers": [
+            "Corrigir desvios e antecipar problemas",
+            "Gastar sem controle",
+            "Ignorar planejamento",
+            "Criar dívidas"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Planejamento flexível permite:",
+          "answers": [
+            "Adaptar-se a mudanças no mercado e vida pessoal",
+            "Gastar impulsivamente",
+            "Ignorar metas",
+            "Aumentar dívidas"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Monitoramento ajuda a identificar:",
+          "answers": [
+            "Necessidade de aumentar ou reduzir aportes",
+            "Gastar tudo",
+            "Evitar investimento",
+            "Endividamento"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Acompanhamento frequente garante:",
+          "answers": [
+            "Que metas financeiras permanecem realistas e alcançáveis",
+            "Gastar impulsivamente",
+            "Ignorar orçamento",
+            "Aumentar dívidas"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Revisar investimentos evita:",
+          "answers": [
+            "Perdas inesperadas e falta de recursos",
+            "Gastar tudo",
+            "Ignorar metas",
+            "Aumentar dívidas"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Plano de aposentadoria atualizado garante:",
+          "answers": [
+            "Segurança financeira e tranquilidade futura",
+            "Gastos impulsivos",
+            "Ignorar planejamento",
+            "Endividamento"
+          ],
+          "rightAnswerIndex": 0
+        }
+      ],
+      "rewards": {
+        "xp": 220,
+        "coins": 65
+      }
+    },
+    {
+      "order": 6,
+      "dificulty": 2,
+      "text": "Compreender impostos, taxas e inflação ajuda a proteger a aposentadoria, garantindo que o poder de compra seja mantido ao longo do tempo.",
+      "questions": [
+        {
+          "question": "Por que considerar inflação é importante?",
+          "answers": [
+            "Para manter o poder de compra ao longo do tempo",
+            "Ignorar preços futuros",
+            "Gastar tudo",
+            "Aumentar dívidas"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Taxas e custos de investimentos:",
+          "answers": [
+            "Afetam o rendimento final e devem ser analisados",
+            "Não importam",
+            "Devem ser ignorados",
+            "Sempre são iguais"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Impostos sobre investimentos:",
+          "answers": [
+            "Reduzem o retorno líquido e devem ser considerados no planejamento",
+            "Não existem",
+            "Não influenciam nada",
+            "Sempre são altos"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Proteger aposentadoria significa:",
+          "answers": [
+            "Planejar considerando inflação, impostos e taxas",
+            "Gastar tudo",
+            "Ignorar investimentos",
+            "Aumentar dívidas"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Planejar impostos ajuda a:",
+          "answers": [
+            "Maximizar rendimento líquido",
+            "Gastar impulsivamente",
+            "Evitar planejamento",
+            "Aumentar dívidas"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Inflação alta exige:",
+          "answers": [
+            "Investimentos que superem a perda do poder de compra",
+            "Gastar tudo",
+            "Evitar qualquer aplicação",
+            "Ignorar planejamento"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Escolher investimentos eficientes significa:",
+          "answers": [
+            "Proteger patrimônio e atingir objetivos financeiros",
+            "Gastar impulsivamente",
+            "Ignorar metas",
+            "Aumentar dívidas"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Taxas elevadas podem:",
+          "answers": [
+            "Reduzir significativamente os rendimentos",
+            "Não ter efeito",
+            "Aumentar ganhos automaticamente",
+            "Ignorar planejamento"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Monitorar inflação e taxas garante:",
+          "answers": [
+            "Que o poder de compra seja mantido na aposentadoria",
+            "Gastar tudo",
+            "Evitar investimento",
+            "Aumentar dívidas"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Planejamento completo inclui:",
+          "answers": [
+            "Renda, investimentos, aportes, impostos, taxas e inflação",
+            "Só gastar dinheiro",
+            "Ignorar metas",
+            "Aumentar dívidas"
+          ],
+          "rightAnswerIndex": 0
+        }
+      ],
+      "rewards": {
+        "xp": 240,
+        "coins": 70
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+    "tittles": [
+        {
+        "difficulty": 0,
+        "tittle":"Conceitos Básicos e Perfil de Risco"
+        },
+        {
+        "difficulty": 1,
+        "tittle":"Estratégias Avançadas na Gestão"
+        },
+        {
+        "difficulty": 2,
+        "tittle":"Proteção do Patrimônio"
+        }
+    ]
+}
