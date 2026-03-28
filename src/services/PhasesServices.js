@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
 import { MongoDataSource } from "../mongo/database/mdbconnect.js";
-import { Phases } from "../models/Phases.js";
+import { Phases } from "../mongo/models/Phases.js";
 
 export async function PhasesService() {
   
