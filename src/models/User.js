@@ -49,6 +49,18 @@ export const User = new EntitySchema({
       nullable: true,
     },
 
+    achievements: {
+      type: "char",
+      nullable: false,
+      default: "0000000000",
+    },
+
+    collectedAchievements: {
+      type: "char",
+      nullable: false,
+      default: "0000000000",
+    },
+
     recovery_code: {
       type: "varchar",
       length: 255,

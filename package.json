@@ -6,28 +6,30 @@
   "type": "module",
   "scripts": {
     "start": "nodemon app.js",
+    "generate-migration": "npx typeorm migration:generate -d src/config/dbconnect.js src/migrations/CreateUserTable",
     "run-migration": "npx typeorm migration:run -d src/config/dbconnect.js",
-    "revert-migration": "npx typeorm migration:revert"
+    "revert-migration": "npx typeorm migration:revert -d src/config/dbconnect.js"
   },
   "author": "VSS",
   "license": "ISC",
   "dependencies": {
-    "-": "^0.0.1",
     "bcrypt": "^6.0.0",
     "cloudinary": "^2.8.0",
     "cors": "^2.8.5",
     "express": "^5.2.1",
-    "g": "^2.0.1",
     "ioredis": "^5.10.0",
     "jsonwebtoken": "^9.0.3",
     "mongodb": "^6.21.0",
     "multer": "^2.0.2",
     "mysql2": "^3.15.3",
-    "nodemailer": "^7.0.12",
-    "nodemon": "^3.1.14",
+    "nodemailer": "^8.0.4",
     "reflect-metadata": "^0.2.2",
     "swagger-jsdoc": "^6.2.8",
     "swagger-ui-express": "^5.0.1",
     "typeorm": "^0.3.28"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "nodemon": "^3.1.14"
   }
 }

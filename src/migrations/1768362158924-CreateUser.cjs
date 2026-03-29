@@ -18,6 +18,8 @@ module.exports = class CreateUser1768362158924 {
         user_img VARCHAR(255) NULL,
         first_login BOOLEAN DEFAULT true,
         last_login TIMESTAMP NULL,
+        achievements CHAR(10) default "0000000000",
+        collectedAchievements CHAR(10) default "0000000000",
         recovery_code VARCHAR(255) NULL,
         recovery_code_expiration TIMESTAMP NULL,
         created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,

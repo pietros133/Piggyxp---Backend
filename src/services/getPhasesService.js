@@ -5,10 +5,10 @@ export async function getPhasesService(userDifficulty, userOrder, userUnit) {
   const phasesRepository = MongoDataSource.getMongoRepository(Phases);
 
   const phase = await phasesRepository.findOneBy({
-      dificulty: Number(userDifficulty),
-      order: Number(userOrder),
-      unit: Number(userUnit)
-  })
+    dificulty: Number(userDifficulty),
+    order: Number(userOrder),
+    unit: Number(userUnit),
+  });
 
   if (!phase) {
     throw new Error("Fase não encontrada");

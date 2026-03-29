@@ -1,6 +1,6 @@
 # PiggyXP - Back-End API
 
-**Autor:** Pietro Miranda  
+**Autor:** Pietro Miranda
 
 Back-end desenvolvido como parte do **TCC**, responsável por toda a lógica de autenticação, progressão de usuário e regras de negócio de uma aplicação de **educação financeira gamificada**.
 
@@ -18,14 +18,14 @@ Este projeto foi pensado não apenas como um trabalho acadêmico, mas como um **
 
 ## Tecnologias Utilizadas
 
-- Node.js  
-- JavaScript (ES Modules)  
-- TypeORM  
-- JWT (JSON Web Token)  
-- Bcrypt  
-- Banco de Dados SQL  
-- Dotenv  
-- Templates de e-mail em HTML  
+- Node.js
+- JavaScript (ES Modules)
+- TypeORM
+- JWT (JSON Web Token)
+- Bcrypt
+- Banco de Dados SQL
+- Dotenv
+- Templates de e-mail em HTML
 
 ---
 
@@ -148,7 +148,7 @@ git push origin nomeBranch
 ### 5.1 Gerar migration automaticamente
 
 ```bash
-npx typeorm migration:generate -d src/config/dbconnect.js src/migrations/CreateUserTable
+npm run generate-migration
 ```
 
 > O parâmetro `-d` indica o caminho do arquivo `dbconnect.js`.
@@ -158,7 +158,7 @@ npx typeorm migration:generate -d src/config/dbconnect.js src/migrations/CreateU
 ### 5.2 Executar migrations
 
 ```bash
-npx typeorm migration:run
+npm run run-migration
 ```
 
 ---
@@ -166,11 +166,15 @@ npx typeorm migration:run
 ### 5.3 Reverter última migration
 
 ```bash
-npx typeorm migration:revert
+npm run revert-migration
 ```
+
 ---
+
 ### Variáveis de Ambiente
+
 O Arquivo .env precisa estar na raiz do projeto
+
 ```bash
 - DB_HOST               Endereço do servidor do banco
 - DB_PORT               Porta do banco
@@ -185,10 +189,11 @@ O Arquivo .env precisa estar na raiz do projeto
 - CLOUDINARY_API_KEY    Encontrados no dashboard do cloudinary
 - CLOUDINARY_API_SECRET Encontrados no dashboard do cloudinary
 ```
+
 ---
 
 ### Agradecimentos
 
-Agradeço a todos por participarem da realização deste projeto e por seguirem rigorosamente as regras estabelecidas.
----
-### © 2026 Piggyxp by vss
+## Agradeço a todos por participarem da realização deste projeto e por seguirem rigorosamente as regras estabelecidas.
+
+### © 2026 Piggyxp by VSS

@@ -11,7 +11,9 @@ export async function getUserInfoService(userId) {
       email: true,
       user_img: true,
       difficulty: true,
-      first_login: true
+      first_login: true,
+      achievements: true,
+      collectedAchievements: true,
     },
   });
 
