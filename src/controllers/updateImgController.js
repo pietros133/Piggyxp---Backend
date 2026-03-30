@@ -18,7 +18,7 @@ export async function updateImgController(req, res) {
       return res.status(401).json({ message: "Token inválido ou expirado" });
     }
 
-    const userId = decoded.id;
+    const userId = decoded.userId;
 
     if (!req.file) {
       return res.status(400).json({ message: "Nenhuma imagem enviada!" });
