@@ -28,7 +28,7 @@ import phasesRoutes from "./src/routes/PhasesRoute.js";
 import getRanking from "./src/routes/RankingRoutes.js";
 import titlesRoute from "./src/routes/TitlesRoute.js";
 import getTitleRoute from "./src/routes/getTitlesRoute.js";
-import achievementsRoutes from "./src/routes/achievementsRoute.ts";
+import achievementsRoutes from "./src/routes/achievementsRoute.js";
 
 const app = express();
 const PORT = process.env.PORT || 3000;

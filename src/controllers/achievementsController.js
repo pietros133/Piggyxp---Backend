@@ -1,18 +1,9 @@
-import type { Request, Response } from "express";
-
 import { AppDataSource } from "../config/dbconnect.js";
 import { User } from "../models/User.js";
 
-import { setUserAchievements } from "../services/achievementsService.ts";
+import { setUserAchievements } from "../services/achievementsService.js";
 
-type ReqParams = {
-  userId: string;
-};
-
-export async function achievementsController(
-  req: Request<ReqParams>,
-  res: Response,
-) {
+export async function achievementsController(req, res) {
   try {
     const { userId } = req.params;
 
@@ -24,7 +15,7 @@ export async function achievementsController(
       throw new Error("Usuário inválido!");
     }
 
-    const actualAchievements = user.achievements as string;
+    const actualAchievements = user.achievements;
 
     /* SE ELE JÁ COMPLETOU AS CONQUISTAS, JÁ RETORNA A RESPOSTA */
     if (actualAchievements === "1".repeat(actualAchievements.length)) {
@@ -43,7 +34,7 @@ export async function achievementsController(
       message: "Conquistas verificadas com sucesso!",
       newAchievements,
     });
-  } catch (error: any) {
+  } catch (error) {
     return res
       .status(500)
       .send({ error: "Erro no servidor: " + error.message });

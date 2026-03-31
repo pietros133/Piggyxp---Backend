@@ -29,7 +29,6 @@
     "typeorm": "^0.3.28"
   },
   "devDependencies": {
-    "@types/express": "^5.0.6",
     "nodemon": "^3.1.14"
   }
 }

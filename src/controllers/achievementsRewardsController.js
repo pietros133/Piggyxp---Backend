@@ -1,17 +1,6 @@
-import type { Request, Response } from "express";
+import { giveUserRewards } from "../services/userRewardsService.js";
 
-import { giveUserRewards } from "../services/userRewardsService.ts";
-
-type ReqParams = { userId: string };
-
-type ReqBody = {
-  achievementId: number;
-};
-
-export async function achievementsRewardsController(
-  req: Request<ReqParams, {}, ReqBody>,
-  res: Response,
-) {
+export async function achievementsRewardsController(req, res) {
   try {
     const userId = Number(req.params.userId);
     const { achievementId } = req.body;
@@ -25,7 +14,7 @@ export async function achievementsRewardsController(
     return res
       .status(200)
       .send({ message: "Recompensa recebida com sucesso!" });
-  } catch (error: any) {
+  } catch (error) {
     return res
       .status(500)
       .send({ error: "Erro no servidor: " + error.message });

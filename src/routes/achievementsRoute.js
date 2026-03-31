@@ -1,7 +1,7 @@
 import express from "express";
 
-import { achievementsController } from "../controllers/achievementsController.ts";
-import { achievementsRewardsController } from "../controllers/achievementsRewardsController.ts";
+import { achievementsController } from "../controllers/achievementsController.js";
+import { achievementsRewardsController } from "../controllers/achievementsRewardsController.js";
 
 const Router = express.Router();
 
