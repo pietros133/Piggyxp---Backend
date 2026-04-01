@@ -186,7 +186,7 @@ O Arquivo .env precisa estar na raiz do projeto
 - CLOUDINARY_API_SECRET Encontrados no dashboard do cloudinary
 ```
 ---
-
+### UTILIZAR EXTENSÃO DE ARQUIVO .JS
 ### Agradecimentos
 
 Agradeço a todos por participarem da realização deste projeto e por seguirem rigorosamente as regras estabelecidas.
