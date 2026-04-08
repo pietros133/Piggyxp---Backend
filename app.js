@@ -29,6 +29,7 @@ import getRanking from "./src/routes/RankingRoutes.js";
 import titlesRoute from "./src/routes/TitlesRoute.js";
 import getTitleRoute from "./src/routes/getTitlesRoute.js";
 import achievementsRoutes from "./src/routes/achievementsRoute.js";
+import finishRoute from "./src/routes/FinishPhaseRoute.js";
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -54,6 +55,7 @@ app.use("/api", getRanking);
 app.use("/api", titlesRoute);
 app.use("/api", getTitleRoute);
 app.use("/api", achievementsRoutes);
+app.use("/api", finishRoute);
 
 // Swagger
 // app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerSpec));
