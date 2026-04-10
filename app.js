@@ -30,6 +30,7 @@ import titlesRoute from "./src/routes/TitlesRoute.js";
 import getTitleRoute from "./src/routes/getTitlesRoute.js";
 import achievementsRoutes from "./src/routes/achievementsRoute.js";
 import finishRoute from "./src/routes/FinishPhaseRoute.js";
+import regenRoute from "./src/routes/regenLivesRoute.js";
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -56,6 +57,7 @@ app.use("/api", titlesRoute);
 app.use("/api", getTitleRoute);
 app.use("/api", achievementsRoutes);
 app.use("/api", finishRoute);
+app.use("/api", regenRoute);
 
 // Swagger
 // app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerSpec));

@@ -40,9 +40,13 @@ export async function FinishPhaseService(userDifficulty, userOrder, userUnit, us
   user.xp += phase.rewards.xp;
   user.coins += phase.rewards.coins;
 
-  if (user.lives < 5 && !user.reset_lives_at) {
-  user.reset_lives_at = new Date(Date.now() + 12 * 60 * 1000);
-} 
+  if (user.lives < 5 && !user.reset_lives_at && user.lives != 0) {
+    user.reset_lives_at = new Date(Date.now() + 12 * 60 * 1000);
+  }
+  
+  if (user.lives === 0 && !user.reset_lives_at) {
+    user.reset_lives_at = new Date(Date.now() + 5 * 60 * 60 * 1000);
+  }
 
   await userProgressRepository.save(user);
 
