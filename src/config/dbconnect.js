@@ -4,6 +4,8 @@ import dotenv from "dotenv";
 import { User } from "../models/User.js";
 import { UserProgress } from "../models/UserProgress.js";
 import { RefreshToken } from "../models/RefreshToken.js";
+import { Mission } from "../models/missions.js";
+import { UserMission } from "../models/UserMissions.js";
 
 dotenv.config();
 
@@ -18,6 +20,6 @@ export const AppDataSource = new DataSource({
   synchronize: false,
   logging: false,
 
-  entities: [User, UserProgress, RefreshToken],
+  entities: [User, UserProgress, RefreshToken, Mission, UserMission],
   migrations: ["src/migrations/*.cjs"],
 });

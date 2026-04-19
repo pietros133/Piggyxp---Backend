@@ -223,7 +223,7 @@
       }
     },
     {
-      "order": 3,
+      "order": 1,
       "dificulty": 1,
       "text": "Definir prioridades financeiras ajuda a direcionar o uso do dinheiro, garantindo que despesas essenciais sejam pagas antes de gastos supérfluos.",
       "questions": [
@@ -334,7 +334,7 @@
       }
     },
     {
-      "order": 4,
+      "order": 2,
       "dificulty": 1,
       "text": "Criar reservas financeiras é essencial para lidar com imprevistos. Poupar uma parte do que ganha evita endividamento em situações inesperadas.",
       "questions": [
@@ -445,7 +445,7 @@
       }
     },
     {
-      "order": 5,
+      "order": 1,
       "dificulty": 2,
       "text": "Investir é uma forma de multiplicar o dinheiro. Entender risco, retorno e liquidez ajuda a tomar decisões mais estratégicas e a proteger o patrimônio.",
       "questions": [
@@ -556,7 +556,7 @@
       }
     },
     {
-      "order": 6,
+      "order": 2,
       "dificulty": 2,
       "text": "Planejamento financeiro avançado envolve análise detalhada de ativos, passivos, fluxo de caixa e investimentos estratégicos. Entender alocação de recursos e antecipar riscos é fundamental para crescimento sustentável.",
       "questions": [

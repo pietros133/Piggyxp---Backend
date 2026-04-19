@@ -213,7 +213,7 @@
       }
     },
     {
-      "order": 3,
+      "order": 1,
       "dificulty": 1,
       "text": "O dinheiro possui três funções principais na economia: meio de troca, reserva de valor e unidade de conta. Além disso, ele influencia decisões financeiras, consumo e planejamento. Entender essas funções ajuda a tomar decisões mais conscientes e estratégicas.",
       "questions": [
@@ -324,7 +324,7 @@
       }
     },
     {
-      "order": 4,
+      "order": 2,
       "dificulty": 1,
       "text": "Ativos e passivos são conceitos fundamentais na construção de patrimônio. Ativos geram renda ou valorização ao longo do tempo. Passivos geram despesas recorrentes ou obrigações financeiras. Compreender essa diferença é essencial para crescimento financeiro sustentável.",
       "questions": [
@@ -430,7 +430,7 @@
       }
     },
     {
-      "order": 5,
+      "order": 1,
       "dificulty": 2,
       "text": "Investimentos complexos, diversificação e risco são conceitos essenciais para quem quer avançar no mundo financeiro. Compreender volatilidade, liquidez e retornos esperados ajuda a tomar decisões mais estratégicas.",
       "questions": [
@@ -541,7 +541,7 @@
       }
     },
     {
-      "order": 6,
+      "order": 2,
       "dificulty": 2,
       "text": "Planejamento financeiro avançado envolve análise detalhada de ativos, passivos, fluxo de caixa e investimentos estratégicos. Entender alocação de recursos e antecipar riscos é fundamental para crescimento sustentável.",
       "questions": [

@@ -223,7 +223,7 @@
       }
     },
     {
-      "order": 3,
+      "order": 1,
       "dificulty": 1,
       "text": "Segurança intermediária envolve hábitos como autenticação, monitoramento de contas e cuidados com dispositivos e redes.",
       "questions": [
@@ -334,7 +334,7 @@
       }
     },
     {
-      "order": 4,
+      "order": 2,
       "dificulty": 1,
       "text": "Segurança avançada envolve análise de riscos de fraudes complexas, proteção de contas e cuidado ao investir em plataformas digitais.",
       "questions": [
@@ -445,7 +445,7 @@
       }
     },
     {
-      "order": 5,
+      "order": 1,
       "dificulty": 2,
       "text": "Segurança profissional envolve análise detalhada de riscos em investimentos, prevenção de fraudes sofisticadas e uso de ferramentas digitais avançadas.",
       "questions": [
@@ -556,7 +556,7 @@
       }
     },
     {
-      "order": 6,
+      "order": 2,
       "dificulty": 2,
       "text": "Segurança máxima envolve controle total sobre informações financeiras, monitoramento de todas transações e preparação para qualquer eventualidade.",
       "questions": [
