@@ -23,7 +23,7 @@ Este projeto foi pensado não apenas como um trabalho acadêmico, mas como um **
 - TypeORM  
 - JWT (JSON Web Token)  
 - Bcrypt  
-- Banco de Dados SQL  
+- Banco de Dados SQL/NoSQL
 - Dotenv  
 - Templates de e-mail em HTML  
 
