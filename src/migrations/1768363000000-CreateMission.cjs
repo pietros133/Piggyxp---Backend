@@ -16,8 +16,8 @@ module.exports = class CreateMissions1768363000000 {
         target INT NOT NULL,
         frequency VARCHAR(20) NOT NULL,
         \`condition\` VARCHAR(50) NULL,
-        xp INT DEFAULT 0,
-        coins INT DEFAULT 0,
+        xp INT DEFAULT 0 NOT NULL,
+        coins INT DEFAULT 0 NOT NULL,
         created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
         updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
           ON UPDATE CURRENT_TIMESTAMP

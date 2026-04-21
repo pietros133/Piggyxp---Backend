@@ -23,7 +23,7 @@ export const UserMission = new EntitySchema({
       default: false,
     },
 
-    last_updated: {
+    updated_at: {
       type: "timestamp",
       default: () => "CURRENT_TIMESTAMP",
       onUpdate: "CURRENT_TIMESTAMP",

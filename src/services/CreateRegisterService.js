@@ -3,12 +3,16 @@ import { User } from "../models/User.js";
 import { UserProgress } from "../models/UserProgress.js"
 import bcrypt from "bcrypt";
 import emailWelcome from "../middlewares/emailWelcome.js";
+import { UserMission } from "../models/UserMissions.js";
+import { Mission } from "../models/missions.js";
 
 import { ILike } from "typeorm";
 
 export async function createRegisterService({ name, email, password }) {
   const userRepository = AppDataSource.getRepository(User);
   const progressRepository = AppDataSource.getRepository(UserProgress);
+  const missionRepository = AppDataSource.getRepository(Mission);
+  const userMissionRepository = AppDataSource.getRepository(UserMission);
 
   const userAlreadyExists = await userRepository.findOne({
     where: { email: ILike(email) },
@@ -31,6 +35,33 @@ export async function createRegisterService({ name, email, password }) {
 
   const progress = progressRepository.create({user: newUser})
   const newProgress = await progressRepository.save(progress);
+
+  function calculateResetAt(frequency) {
+    if (frequency === "daily") {
+    return new Date(Date.now() + 24 * 60 * 60 * 1000);
+    }
+
+    if (frequency === "weekly") {
+      return new Date(Date.now() + 7 * 24 * 60 * 60 * 1000);
+    }
+
+    if (frequency === "monthly") {
+      const now = new Date();
+      now.setMonth(now.getMonth() + 1);
+      return now;
+    }
+  }
+
+  const missions = await missionRepository.find();
+
+  const userMissions = missions.map((mission) => {
+    return userMissionRepository.create({
+      user: newUser,
+      mission: mission,
+      reset_at: calculateResetAt(mission.frequency)
+    });
+  });  
+  await userMissionRepository.save(userMissions);
 
   delete newUser.password;
 

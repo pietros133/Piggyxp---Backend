@@ -14,17 +14,20 @@ export const Mission = new EntitySchema({
     name: {
       type: "varchar",
       length: 255,
+      nullable: false
     },
 
     type: {
       type: "varchar",
       length: 50,
+      nullable: false,
       comment: "complete_phases | correct_answers | streak | etc",
     },
 
     target: {
       type: "int",
       comment: "quantidade necessária",
+      nullable: false
     },
 
     condition: {
@@ -37,15 +40,18 @@ export const Mission = new EntitySchema({
     frequency: {
       type: "varchar",
       length: 20,
+      nullable: false,
       comment: "daily | weekly | monthly",
     },
 
     xp: {
       type: "int",
+      nullable: false
     },
 
     coins: {
       type: "int",
+      nullable: false
     },
   },
 });
