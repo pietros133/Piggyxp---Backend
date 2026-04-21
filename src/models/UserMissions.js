@@ -23,6 +23,12 @@ export const UserMission = new EntitySchema({
       default: false,
     },
 
+    selected: {
+      type: "boolean",
+      default: false,
+      comment: "quais são as missões atuais do usuário"
+    },
+
     updated_at: {
       type: "timestamp",
       default: () => "CURRENT_TIMESTAMP",

@@ -3,6 +3,6 @@ import { MissionController } from "../controllers/MissionController.js";
 
 const router = Router();
 
-router.put("/mission", MissionController);
+router.post("/mission", MissionController);
 
 export default router;

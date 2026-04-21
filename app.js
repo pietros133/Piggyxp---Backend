@@ -32,6 +32,7 @@ import achievementsRoutes from "./src/routes/achievementsRoute.js";
 import finishRoute from "./src/routes/FinishPhaseRoute.js";
 import regenRoute from "./src/routes/regenLivesRoute.js";
 import missionRoute from "./src/routes/MissionRoute.js";
+import selectMissionRoute from "./src/routes/selectMissionRoute.js";
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -60,6 +61,7 @@ app.use("/api", achievementsRoutes);
 app.use("/api", finishRoute);
 app.use("/api", regenRoute);
 app.use("/api", missionRoute);
+app.use("/api", selectMissionRoute);
 
 // Swagger
 // app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerSpec));

@@ -14,6 +14,7 @@ module.exports = class CreateUserMissions1768363100000 {
         user_id INT NOT NULL,
         mission_id INT NOT NULL,
         progress INT DEFAULT 0,
+        selected BOOLEAN DEFAULT FALSE,
         completed BOOLEAN DEFAULT FALSE,
         reset_at TIMESTAMP NULL,
         created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
