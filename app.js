@@ -34,6 +34,8 @@ import regenRoute from "./src/routes/regenLivesRoute.js";
 import missionRoute from "./src/routes/MissionRoute.js";
 import selectMissionRoute from "./src/routes/selectMissionRoute.js";
 import getMissionRoute from "./src/routes/getMissionRoute.js";
+import Livesroute from "./src/routes/LivesRoute.js";
+import updateMissionRoute from "./src/routes/UpdateMissionRoute.js";
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -64,6 +66,8 @@ app.use("/api", regenRoute);
 app.use("/api", missionRoute);
 app.use("/api", selectMissionRoute);
 app.use("/api", getMissionRoute);
+app.use("/api", updateMissionRoute);
+app.use("/api", Livesroute);
 
 
 // Swagger

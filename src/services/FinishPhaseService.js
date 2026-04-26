@@ -3,7 +3,7 @@ import { AppDataSource } from "../config/dbconnect.js";
 import { Phases } from "../mongo/models/Phases.js";
 import { UserProgress } from "../models/UserProgress.js";
 
-export async function FinishPhaseService(userDifficulty, userOrder, userUnit, userId, erro) {
+export async function FinishPhaseService(userDifficulty, userOrder, userUnit, userId) {
   const phasesRepository = MongoDataSource.getMongoRepository(Phases);
   const userProgressRepository = AppDataSource.getRepository(UserProgress);
 
@@ -25,10 +25,9 @@ export async function FinishPhaseService(userDifficulty, userOrder, userUnit, us
     where: { user: { id: userId } },
     select: {
           id: true,
-          lives: true,
           xp: true,
           coins: true,
-          reset_lives_at: true
+          lives: true
         },
   });
 
@@ -36,18 +35,15 @@ export async function FinishPhaseService(userDifficulty, userOrder, userUnit, us
     throw new Error("Usuário inexistente");
   }
 
-  user.lives = Math.max(0, user.lives - erro);
-  user.xp += phase.rewards.xp;
-  user.coins += phase.rewards.coins;
+  if(user.lives == 0) {
+    throw new Error("Vidas acabaram")
+  }
 
-  if (user.lives < 5 && !user.reset_lives_at && user.lives != 0) {
-    user.reset_lives_at = new Date(Date.now() + 12 * 60 * 1000);
+  if(user.lives > 0){
+    user.xp += phase.rewards.xp;
+    user.coins += phase.rewards.coins;
   }
   
-  if (user.lives === 0 && !user.reset_lives_at) {
-    user.reset_lives_at = new Date(Date.now() + 5 * 60 * 60 * 1000);
-  }
-
   await userProgressRepository.save(user);
 
   return {

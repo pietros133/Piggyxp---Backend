@@ -1,7 +1,7 @@
-import { FinishPhaseService } from "../services/FinishPhaseService.js";
+import { LivesService } from "../services/LivesService.js"; 
 import jwt from "jsonwebtoken"; 
 
-export async function FinishPhaseController(req, res) {
+export async function LivesController(req, res) {
   try {
     // Verificação jwt
     const authHeader = req.headers.authorization;
@@ -16,23 +16,18 @@ export async function FinishPhaseController(req, res) {
     const decoded = jwt.verify(token, process.env.JWT_SECRET);
     
     // Controller do service
-    const { difficulty, order, unit, id } = req.query;
+    const id = decoded.id;
+    const { erro } = req.body;
 
-    if (!difficulty || !order || !unit) {
-      return res.status(400).json({
-        message: "unit, difficulty e order são obrigatórios",
-      });
-    }
-
-    if(!id) {
+    if(!erro){
         return res.status(400).json({
-            message: "Informar o id é obrigatório"
+            message: "informe a quantidade de erros."
         })
     }
 
-    const finish = await FinishPhaseService(difficulty, order, unit, id);
+    const live = await LivesService(id, erro);
 
-    return res.status(200).json(finish);
+    return res.status(200).json(live);
   } catch (error) {
     return res.status(404).json({
       message: error.message,
