@@ -11,7 +11,15 @@ const MISSION_TYPES = {
   COMPLETE_UNIT: "complete_unit",
 };
 
-export async function UpdateMissionService(userId, erro, acerts, streak, completePhase, completeUnit, login) {
+export async function UpdateMissionService(
+  userId,
+  erro,
+  acerts,
+  streak,
+  completePhase,
+  completeUnit,
+  login,
+) {
   const userMissionRepository = AppDataSource.getRepository(UserMission);
   const userRepository = AppDataSource.getRepository(User);
 
@@ -46,33 +54,41 @@ export async function UpdateMissionService(userId, erro, acerts, streak, complet
       }
     }
 
-    if (mission.type === MISSION_TYPES.CORRECT_ANSWERS && mission.condition == null) {
+    if (
+      mission.type === MISSION_TYPES.CORRECT_ANSWERS &&
+      mission.condition == null
+    ) {
       userMission.progress += acerts;
     }
 
-    if(mission.type === MISSION_TYPES.CORRECT_ANSWERS && mission.condition == "no_errors"){
-      if(erro > 0){
+    if (
+      mission.type === MISSION_TYPES.CORRECT_ANSWERS &&
+      mission.condition == "no_errors"
+    ) {
+      if (erro > 0) {
         userMission.progress = 0;
-      }else{
+      } else {
         userMission.progress += acerts;
       }
     }
 
     if (mission.type === MISSION_TYPES.STREAK) {
-      if(streak){
+      if (streak) {
         userMission.progress += 1;
       }
     }
 
     if (mission.type === MISSION_TYPES.LOGIN_DAYS) {
-      if(login){
+      if (login) {
         userMission.progress += 1;
       }
-      
     }
 
-    if (mission.type === MISSION_TYPES.PERFECT_RUN && mission.condition == "no_errors"){
-      if(erro > 0){
+    if (
+      mission.type === MISSION_TYPES.PERFECT_RUN &&
+      mission.condition == "no_errors"
+    ) {
+      if (erro > 0) {
         userMission.progress = 0;
       } else {
         userMission.progress += 1;
@@ -80,7 +96,7 @@ export async function UpdateMissionService(userId, erro, acerts, streak, complet
     }
 
     if (mission.type === MISSION_TYPES.COMPLETE_UNIT) {
-      if(completeUnit){
+      if (completeUnit) {
         userMission.progress += 1;
       }
     }

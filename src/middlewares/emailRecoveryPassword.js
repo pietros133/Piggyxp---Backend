@@ -19,7 +19,7 @@ export default async function emailRecoveryPassword({ user, code }) {
   const templatePath = path.join(
     process.cwd(),
     "email-templates",
-    "recovery.html"
+    "recovery.html",
   );
 
   let html = fs.readFileSync(templatePath, "utf-8");
@@ -27,7 +27,7 @@ export default async function emailRecoveryPassword({ user, code }) {
   html = html.replace("{{recovery_code}}", code);
 
   await transporter.sendMail({
-    from: `"PiggyXP" <piggyxp.oficial@gmail.com>`,
+    from: "'PiggyXP' <piggyxp.oficial@gmail.com>",
     to: user.email,
     subject: "Recuperação de senha",
     html,

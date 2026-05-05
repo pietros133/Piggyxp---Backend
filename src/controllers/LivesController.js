@@ -1,5 +1,5 @@
-import { LivesService } from "../services/LivesService.js"; 
-import jwt from "jsonwebtoken"; 
+import { LivesService } from "../services/LivesService.js";
+import jwt from "jsonwebtoken";
 
 export async function LivesController(req, res) {
   try {
@@ -7,22 +7,23 @@ export async function LivesController(req, res) {
     const authHeader = req.headers.authorization;
 
     if (!authHeader) {
-      return res.status(401).json({ 
-        message: "Token não fornecido" 
+      return res.status(401).json({
+        message: "Token não fornecido",
       });
     }
-    
+
     const token = authHeader.split(" ")[1];
     const decoded = jwt.verify(token, process.env.JWT_SECRET);
-    
+
     // Controller do service
-    const id = decoded.id;
+    const id = decoded.userId;
+    console.log(id);
     const { erro } = req.body;
 
-    if(!erro){
-        return res.status(400).json({
-            message: "informe a quantidade de erros."
-        })
+    if (!erro) {
+      return res.status(400).json({
+        message: "informe a quantidade de erros.",
+      });
     }
 
     const live = await LivesService(id, erro);

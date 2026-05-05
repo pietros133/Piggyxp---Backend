@@ -23,11 +23,11 @@ export async function refreshTokenController(req, res) {
     const newAccessToken = jwt.sign(
       { userId: tokenEntry.user.id },
       process.env.JWT_SECRET,
-      { expiresIn: "15m" }
+      { expiresIn: "15m" },
     );
 
     return res.json({ accessToken: newAccessToken });
-  } catch (err) {
+  } catch {
     return res.status(403).json({ message: "Refresh token inválido!" });
   }
 }

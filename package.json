@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "nodemon app.js",
+    "lint": "eslint .",
     "generate-migration": "npx typeorm migration:generate -d src/config/dbconnect.js src/migrations/CreateUserTable",
     "run-migration": "npx typeorm migration:run -d src/config/dbconnect.js",
     "revert-migration": "npx typeorm migration:revert -d src/config/dbconnect.js"
@@ -29,6 +30,10 @@
     "typeorm": "^0.3.28"
   },
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.3.0",
+    "eslint-plugin-import": "^2.32.0",
+    "globals": "^17.6.0",
     "nodemon": "^3.1.14"
   }
 }

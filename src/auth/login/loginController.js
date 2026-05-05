@@ -1,4 +1,4 @@
-import { loginService } from "../services/LoginService.js";
+import { loginService } from "./loginService.js";
 
 export async function loginController(req, res) {
   try {
@@ -10,7 +10,7 @@ export async function loginController(req, res) {
         .json({ message: "Todos os campos são obrigatórios!" });
     }
 
-    const { token, refreshToken, user } = await loginService({
+    const { token, refreshToken } = await loginService({
       email,
       password,
     });
