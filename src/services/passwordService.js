@@ -22,7 +22,7 @@ export async function sendRecoveryCode(email) {
   await emailRecoveryPassword({ user, code });
 
   // Apenas uma mensagem informativa no console
-  console.log(`Email de Troca de Senha enviado!`);
+  console.log("Email de Troca de Senha enviado!");
 
   return { message: "Código de recuperação enviado!" };
 }

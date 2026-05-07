@@ -10,17 +10,17 @@ export const Explication = new EntitySchema({
     },
     unit: {
       type: String,
-      nullable: true, 
+      nullable: true,
     },
     dificulty: {
       type: Number,
     },
     tittle: {
-        type: Text,
+      type: Text,
     },
     flashcards: {
-        type: "simple-json",
-        nullable: true,
-    }
+      type: "simple-json",
+      nullable: true,
+    },
   },
 });

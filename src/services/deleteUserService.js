@@ -15,5 +15,5 @@ export async function deleteUserService(userId) {
 
   await userRepository.remove(user);
 
-  return { message: `Usuário deletado com sucesso.` };
+  return { message: "Usuário deletado com sucesso." };
 }

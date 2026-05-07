@@ -1,14 +1,14 @@
-import { AppDataSource } from "../config/dbconnect.js";
-import { User } from "../models/User.js";
-import { UserProgress } from "../models/UserProgress.js"
+import { AppDataSource } from "../../config/dbconnect.js";
+import { User } from "../../models/User.js";
+import { UserProgress } from "../../models/UserProgress.js";
 import bcrypt from "bcrypt";
-import emailWelcome from "../middlewares/emailWelcome.js";
-import { UserMission } from "../models/UserMissions.js";
-import { Mission } from "../models/missions.js";
+import emailWelcome from "../../middlewares/emailWelcome.js";
+import { UserMission } from "../../models/UserMissions.js";
+import { Mission } from "../../models/missions.js";
 
 import { ILike } from "typeorm";
 
-export async function createRegisterService({ name, email, password }) {
+export async function registerService({ name, email, password }) {
   const userRepository = AppDataSource.getRepository(User);
   const progressRepository = AppDataSource.getRepository(UserProgress);
   const missionRepository = AppDataSource.getRepository(Mission);
@@ -33,12 +33,12 @@ export async function createRegisterService({ name, email, password }) {
   const user = userRepository.create({ name, email, password: hashedPassword });
   const newUser = await userRepository.save(user);
 
-  const progress = progressRepository.create({user: newUser})
-  const newProgress = await progressRepository.save(progress);
+  const progress = progressRepository.create({ user: newUser });
+  await progressRepository.save(progress);
 
   function calculateResetAt(frequency) {
     if (frequency === "daily") {
-    return new Date(Date.now() + 24 * 60 * 60 * 1000);
+      return new Date(Date.now() + 24 * 60 * 60 * 1000);
     }
 
     if (frequency === "weekly") {
@@ -58,18 +58,17 @@ export async function createRegisterService({ name, email, password }) {
     return userMissionRepository.create({
       user: newUser,
       mission: mission,
-      reset_at: calculateResetAt(mission.frequency)
+      reset_at: calculateResetAt(mission.frequency),
     });
-  });  
+  });
   await userMissionRepository.save(userMissions);
 
   delete newUser.password;
 
   try {
-    emailWelcome({ user: newUser })
-    .then(() => {
-        console.log("Email de boas-vindas enviado com sucesso!");
-    })
+    emailWelcome({ user: newUser }).then(() => {
+      console.log("Email de boas-vindas enviado com sucesso!");
+    });
   } catch (error) {
     console.error("Erro ao enviar email de boas-vindas:", error);
   }

@@ -19,14 +19,14 @@ export default async function emailWelcome({ user }) {
   const templatePath = path.join(
     process.cwd(),
     "email-templates",
-    "welcome.html"
+    "welcome.html",
   );
 
   let html = fs.readFileSync(templatePath, "utf-8");
   html = html.replace("{{name}}", user.name);
 
   await transporter.sendMail({
-    from: `"PiggyXP" <piggyxp.oficial@gmail.com>`,
+    from: "'PiggyXP' <piggyxp.oficial@gmail.com>",
     to: user.email,
     subject: "Bem-vindo ao PiggyXP 🐷💰",
     html,

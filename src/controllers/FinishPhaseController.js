@@ -1,5 +1,5 @@
 import { FinishPhaseService } from "../services/FinishPhaseService.js";
-import jwt from "jsonwebtoken"; 
+import jwt from "jsonwebtoken";
 
 export async function FinishPhaseController(req, res) {
   try {
@@ -7,14 +7,14 @@ export async function FinishPhaseController(req, res) {
     const authHeader = req.headers.authorization;
 
     if (!authHeader) {
-      return res.status(401).json({ 
-        message: "Token não fornecido" 
+      return res.status(401).json({
+        message: "Token não fornecido",
       });
     }
-    
+
     const token = authHeader.split(" ")[1];
-    const decoded = jwt.verify(token, process.env.JWT_SECRET);
-    
+    jwt.verify(token, process.env.JWT_SECRET);
+
     // Controller do service
     const { difficulty, order, unit, id } = req.query;
 
@@ -24,10 +24,10 @@ export async function FinishPhaseController(req, res) {
       });
     }
 
-    if(!id) {
-        return res.status(400).json({
-            message: "Informar o id é obrigatório"
-        })
+    if (!id) {
+      return res.status(400).json({
+        message: "Informar o id é obrigatório",
+      });
     }
 
     const finish = await FinishPhaseService(difficulty, order, unit, id);
