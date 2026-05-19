@@ -17,7 +17,6 @@ export async function LivesController(req, res) {
 
     // Controller do service
     const id = decoded.userId;
-    console.log(id);
     const { erro } = req.body;
 
     if (!erro) {

@@ -1,17 +1,14 @@
-// src/models/Payment.js
-
 import { EntitySchema } from "typeorm";
 
-export default new EntitySchema({
+export const Payment = new EntitySchema({
   name: "Payment",
-
   tableName: "payments",
 
   columns: {
     id: {
+      type: "int",
       primary: true,
-      type: "uuid",
-      generated: "uuid",
+      generated: "increment",
     },
 
     userId: {

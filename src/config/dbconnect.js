@@ -6,10 +6,9 @@ import { UserProgress } from "../models/UserProgress.js";
 import { RefreshToken } from "../models/RefreshToken.js";
 import { Mission } from "../models/missions.js";
 import { UserMission } from "../models/UserMissions.js";
-import Payment from "../models/Payment.js";
-import Purchase from "../models/Purchase.js";
-import Product from "../models/Product.js";
-
+import { Payment } from "../models/Payment.js";
+import { Purchase } from "../models/Purchase.js";
+import { Product } from "../models/Product.js";
 dotenv.config();
 
 export const AppDataSource = new DataSource({

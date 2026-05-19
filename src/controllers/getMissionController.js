@@ -2,7 +2,7 @@ import { getMissionService } from "../services/getMissionService.js";
 
 export async function getMissionController(req, res) {
   try {
-    const { id } = req.body;
+    const { id } = req.query;
 
     if(!id) {
       res.status(400).json({message: "Informar id é obrigatório"});

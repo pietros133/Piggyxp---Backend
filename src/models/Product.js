@@ -1,17 +1,14 @@
-// src/models/Product.js
-
 import { EntitySchema } from "typeorm";
 
-export default new EntitySchema({
+export const Product = new EntitySchema({
   name: "Product",
-
   tableName: "products",
 
   columns: {
     id: {
+      type: "int",
       primary: true,
-      type: "uuid",
-      generated: "uuid",
+      generated: "increment",
     },
 
     name: {

@@ -1,17 +1,14 @@
-// src/models/Purchase.js
-
 import { EntitySchema } from "typeorm";
 
-export default new EntitySchema({
+export const Purchase = new EntitySchema({
   name: "Purchase",
-
   tableName: "purchases",
 
   columns: {
     id: {
+      type: "int",
       primary: true,
-      type: "uuid",
-      generated: "uuid",
+      generated: "increment",
     },
 
     userId: {
