@@ -4,7 +4,7 @@ import { Phases } from "../mongo/models/Phases.js";
 export async function getPhasesService(userDifficulty, userOrder, userUnit) {
   const phasesRepository = MongoDataSource.getMongoRepository(Phases);
 
-  const phase = await phasesRepository.findOneBy({
+  const phase = await phasesRepository.findOne({
     dificulty: Number(userDifficulty),
     order: Number(userOrder),
     unit: Number(userUnit),
