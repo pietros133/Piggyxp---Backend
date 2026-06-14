@@ -31,6 +31,7 @@ import selectMissionRoute from "./src/routes/selectMissionRoute.js";
 import getMissionRoute from "./src/routes/getMissionRoute.js";
 import Livesroute from "./src/routes/LivesRoute.js";
 import updateMissionRoute from "./src/routes/UpdateMissionRoute.js";
+import NivelRoute from "./src/routes/NivelRoute.js"
 
 // Rotas Auth
 import loginRoutes from "./src/auth/login/loginRoutes.js";
@@ -65,6 +66,7 @@ app.use("/api", selectMissionRoute);
 app.use("/api", getMissionRoute);
 app.use("/api", updateMissionRoute);
 app.use("/api", Livesroute);
+app.use("/api", NivelRoute);
 
 // Rotas Auth
 app.use("/api", loginRoutes);

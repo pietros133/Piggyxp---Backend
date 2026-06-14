@@ -17,6 +17,11 @@ export const UserProgress = new EntitySchema({
       default: 0,
     },
 
+    nivel_ph: {
+      type: "int",
+      default: 1,
+    },
+
     xp: {
       type: "int",
       default: 0,

@@ -27,7 +27,8 @@ export async function FinishPhaseService(userDifficulty, userOrder, userUnit, us
           id: true,
           xp: true,
           coins: true,
-          lives: true
+          lives: true,
+          nivel_ph: true
         },
   });
 
@@ -42,6 +43,7 @@ export async function FinishPhaseService(userDifficulty, userOrder, userUnit, us
   if(user.lives > 0){
     user.xp += phase.rewards.xp;
     user.coins += phase.rewards.coins;
+    user.nivel_ph += 1;
   }
   
   await userProgressRepository.save(user);

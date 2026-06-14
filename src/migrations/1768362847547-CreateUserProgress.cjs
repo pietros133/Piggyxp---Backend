@@ -13,6 +13,7 @@ module.exports = class CreateUserProgress1768362847547 {
                 id INT AUTO_INCREMENT PRIMARY KEY,
                 user_id INT NOT NULL,
                 nivel INT DEFAULT 0,
+                nivel_ph INT DEFAULT 1,
                 xp INT DEFAULT 0,
                 coins INT DEFAULT 0,
                 offensive_days INT DEFAULT 0,
