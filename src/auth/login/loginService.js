@@ -7,14 +7,28 @@ import jwt from "jsonwebtoken";
 import crypto from "crypto";
 import { UserMission } from "../../models/UserMissions.js";
 import { Mission } from "../../models/missions.js";
+import { UserProgress } from "../../models/UserProgress.js";
 
 export async function loginService({ email, password }) {
   const userRepository = AppDataSource.getRepository(User);
   const missionRepository = AppDataSource.getRepository(Mission);
   const userMissionRepository = AppDataSource.getRepository(UserMission);
+  const userProgressRepository = AppDataSource.getRepository(UserProgress);
 
   const user = await userRepository.findOne({ where: { email: ILike(email) } });
   if (!user) throw new Error("Usuário não encontrado!");
+
+  const userProgress = await userProgressRepository.findOne({
+    where: {
+      user: {
+        id: user.id,
+      },
+    },
+  });
+
+  if (!userProgress) {
+    throw new Error("Progresso do usuário não encontrado");
+  }
 
   const passwordMatch = await bcrypt.compare(password, user.password);
   if (!passwordMatch) throw new Error("Email ou senha incorreta");
@@ -83,6 +97,33 @@ export async function loginService({ email, password }) {
   if (userMissionsToCreate.length > 0) {
     await userMissionRepository.save(userMissionsToCreate);
   }
+
+  //Ofensiva
+  const now = new Date();
+
+  if (!user.last_login) {
+    user.last_login = now;
+    userProgress.offensive_days = 1;
+  } else {
+    const lastLogin = new Date(user.last_login);
+
+    const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+    const lastDay = new Date(lastLogin.getFullYear(), lastLogin.getMonth(), lastLogin.getDate());
+
+    const diffTime = today - lastDay;
+    const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
+
+    if (diffDays === 1) {
+      userProgress.offensive_days += 1;
+    } else if(diffDays > 1){
+      userProgress.offensive_days = 1;
+    }
+  
+    user.last_login = now;
+  }
+
+  await userRepository.save(user);
+  await userProgressRepository.save(userProgress);
 
   return {
     token,

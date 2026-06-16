@@ -11,7 +11,8 @@ export async function getUserProgressInfoService(progressId) {
       xp: true,
       coins: true,
       lives: true,
-      reset_lives_at: true
+      reset_lives_at: true,
+      nivel_ph: true
     },
   });
     
