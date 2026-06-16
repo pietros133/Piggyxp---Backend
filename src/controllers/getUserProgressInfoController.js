@@ -2,13 +2,13 @@ import { getUserProgressInfoService } from "../services/getUserProgressInfo.js";
 
 export async function getUserProgressController(req, res) {
   try {
-    const { progressId } = req.query;
+    const { userId } = req.query;
 
-    if (!progressId) {
-      return res.status(400).json({ message: "progressId é obrigatório" });
+    if (!userId) {
+      return res.status(400).json({ message: "userId é obrigatório" });
     }
 
-    const progress = await getUserProgressInfoService(Number(progressId));
+    const progress = await getUserProgressInfoService(Number(userId));
 
     return res.status(200).json(progress);
   } catch (err) {

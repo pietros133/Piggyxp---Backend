@@ -11,7 +11,7 @@ export async function giveUserRewards(userId, achievementId) {
 
   const [user, userProgress] = await Promise.all([
     userRepository.findOne({ where: { id: userId } }),
-    userProgressRepository.findOne({ where: { id: userId } }),
+    userProgressRepository.findOne({ where: { user: { id: userId } } }),
   ]);
 
   if (!user) throw new Error("Usuário inválido!");

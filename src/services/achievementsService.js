@@ -13,10 +13,11 @@ export async function setUserAchievements(userId) {
 
   const [user, userProgress] = await Promise.all([
     userRepository.findOne({ where: { id: userId } }),
-    userProgressRepository.findOne({ where: { id: userId } }),
+    userProgressRepository.findOne({ where: { user: { id: userId } } }),
   ]);
 
   if (!user) throw new Error("Usuário inválido!");
+  if (!userProgress) throw new Error("Progresso não existente");
 
   const actualAchievements = user.achievements;
 
