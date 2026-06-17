@@ -1,0 +1,1924 @@
+{
+  "phases": [
+    {
+      "order": 1,
+      "dificulty": 0,
+      "rewards": { "xp": 120, "coins": 40 },
+      "text": {
+        "title": ["O que é Orçamento", "A Bússola Financeira"],
+        "card": [
+          "O orçamento é a sua principal ferramenta de planejamento para garantir a sustentabilidade financeira.",
+          "Ele funciona como uma bússola, permitindo entender o equilíbrio entre o que se ganha e o que se gasta."
+        ]
+      },
+      "questions": [
+        {
+          "question": "Qual a principal função do orçamento pessoal?",
+          "answers": ["Garantir lucros rápidos", "Planejar e controlar entradas e saídas", "Aumentar o limite do cartão", "Eliminar todas as despesas"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O orçamento é comparado a qual objeto no texto?",
+          "answers": ["Calculadora", "Bússola", "Mapa de tesouro", "Cofre"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Segundo dados (Miranda/UFRGS), quantos brasileiros não sabem controlar suas despesas?",
+          "answers": ["2 em cada 10", "5 em cada 10", "8 em cada 10", "10 em cada 10"],
+          "rightAnswerIndex": 2
+        },
+        {
+          "question": "O orçamento pessoal visa evitar qual situação negativa?",
+          "answers": ["O superávit", "O endividamento excessivo", "A poupança", "O ganho de capital"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Qual destas é uma das 4 etapas da metodologia de orçamento?",
+          "answers": ["Especulação", "Planejamento", "Marketing", "Empréstimo"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O conhecimento financeiro ajuda o indivíduo a ser mais:",
+          "answers": ["Dependente", "Autônomo e consciente", "Arriscado", "Desorganizado"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O orçamento é uma ferramenta para garantir a:",
+          "answers": ["Sustentabilidade financeira", "Compra de luxos", "Sorte no mercado", "Falta de controle"],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "O que a falta de educação financeira dificulta?",
+          "answers": ["O acesso à rede", "A gestão de gastos", "O uso de apps", "O lazer"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Para que serve a etapa de 'Avaliação'?",
+          "answers": ["Para nada", "Para analisar o cumprimento do plano", "Para aumentar dívidas", "Para esconder gastos"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Conhecimento financeiro é proporcional a quê?",
+          "answers": ["Aumento de dívidas", "Formação de patrimônio e equilíbrio", "Idade", "Número de cartões"],
+          "rightAnswerIndex": 1
+        }
+      ]
+    },
+    {
+      "order": 1,
+      "dificulty": 1,
+      "rewards": { "xp": 200, "coins": 50 },
+      "text": {
+        "title": ["Estruturação de Dados", "Input e Output"],
+        "card": [
+          "Organizar um orçamento é como estruturar um arquivo JSON: cada dado precisa estar no seu lugar.",
+          "Sem uma estrutura clara, é impossível processar as informações para tomar decisões."
+        ]
+      },
+      "questions": [
+        {
+          "question": "Se você tem 2000 de entradas e 1800 de saídas, qual seu saldo?",
+          "answers": ["Déficit de 200", "Superávit de 200", "Equilíbrio", "Déficit de 1800"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Por que comparamos a organização financeira a um JSON?",
+          "answers": ["Porque gera dinheiro", "Porque exige dados estruturados para análise", "Porque é um tipo de moeda", "Porque impede gastos"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O que acontece se um dado de saída for esquecido no registro?",
+          "answers": ["O saldo real será menor que o planejado", "O saldo real será maior", "Nada muda", "Aumenta o salário"],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Qual a importância de 'parsear' (analisar) seus gastos mensais?",
+          "answers": ["Para gastar mais", "Para identificar padrões de consumo", "Para apagar os dados", "Para ignorar boletos"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Um orçamento 'equilibrado' ocorre quando:",
+          "answers": ["Entradas > Saídas", "Entradas = Saídas", "Saídas > Entradas", "Não há entradas"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "A análise técnica/gráfica (Rara Journal) foca em:",
+          "answers": ["Longo prazo", "Tendências de curto prazo", "Patrimônio total", "Dividendos"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O registro imediato de gastos serve para:",
+          "answers": ["Gastar papel", "Evitar o esquecimento", "Confundir o plano", "Pagar menos impostos"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Na gestão de dados financeiros, o que é um 'Input'?",
+          "answers": ["Uma despesa", "Uma receita", "Um investimento", "Uma dívida"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Qual ferramenta ajuda a captar a situação patrimonial real (Rara Journal)?",
+          "answers": ["Análise Fundamentalista", "Análise Técnica", "Sorte", "Gráfico de barras"],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "O que compõe o conjunto de bens, direitos e obrigações?",
+          "answers": ["Apenas o dinheiro no banco", "A situação patrimonial", "As receitas fixas", "As férias"],
+          "rightAnswerIndex": 1
+        }
+      ]
+    },
+    {
+      "order": 1,
+      "dificulty": 2,
+      "rewards": { "xp": 300, "coins": 80 },
+      "text": {
+        "title": ["Visão Estratégica", "Proteção de Dados"],
+        "card": [
+          "Um orçamento robusto é a primeira linha de defesa contra fraudes (Miranda/UFRGS).",
+          "Diferenciar promessas de lucros impossíveis de rentabilidades reais garante a sustentabilidade."
+        ]
+      },
+      "questions": [
+        {
+          "question": "Cenário: Família A tem renda alta, mas 90% está comprometida com dívidas. Qual o risco estratégico?",
+          "answers": ["Falta de liquidez para emergências", "Excesso de patrimônio", "Investimento alto", "Segurança total"],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Como a educação financeira protege contra pirâmides?",
+          "answers": ["Garante lucro", "Ajuda a identificar promessas de risco zero e ganho alto", "Impede qualquer investimento", "Aumenta a Selic"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "No Brasil, uma promessa de 8% ao mês com 'risco zero' é suspeita porque:",
+          "answers": ["Está abaixo da Selic", "Renda variável sempre possui riscos", "É comum no mercado", "O governo garante"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Qual o perigo estratégico de ignorar o orçamento familiar?",
+          "answers": ["Tornar-se alvo fácil para fraudes", "Ficar rico rápido", "Ganhar prêmios", "Ter excesso de liquidez"],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "A 'Análise de Conteúdo' (Bardin) no orçamento ajuda a:",
+          "answers": ["Ignorar faturas", "Identificar similaridades entre gastos e receitas", "Comprar sem planejar", "Aumentar o cheque especial"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "A incapacidade de 'Negar Ofertas' (Ury) afeta o orçamento ao:",
+          "answers": ["Aumentar a poupança", "Aceitar gastos que prejudicam o plano", "Melhorar o score", "Reduzir dívidas"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Sustentabilidade financeira exige que o indivíduo:",
+          "answers": ["Consuma desenfreadamente", "Identifique seus fluxos financeiros", "Tenha sorte", "Peça empréstimos"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "A falta de regulação em certos ativos (como cripto) exige do orçamento:",
+          "answers": ["Descarte total", "Provisões para volatilidade e risco", "Aposta total", "Confiança cega"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Um gestor financeiro maduro busca:",
+          "answers": ["Dinheiro fácil", "Tranquilidade e bem-estar via gerenciamento", "Apostas constantes", "Ocultar despesas"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O que a 'Educação Financeira Intelectual' proporciona?",
+          "answers": ["Pensamento próprio sobre negócios", "Dependência de gerentes", "Cegueira diante de riscos", "Foco no passado"],
+          "rightAnswerIndex": 0
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "dificulty": 0,
+      "rewards": { "xp": 130, "coins": 45 },
+      "text": {
+        "title": ["Receitas: O Input", "Fixas vs Variáveis"],
+        "card": [
+          "Receitas são todos os valores que entram no seu orçamento (os 'inputs' do sistema).",
+          "Elas podem ser fixas (como o salário) ou variáveis (como comissões e freelas)."
+        ]
+      },
+      "questions": [
+        {
+          "question": "O que caracteriza uma receita fixa?",
+          "answers": ["Muda todo mês", "Ocorre regularmente com valor previsível", "É um presente", "Vem de vendas esporádicas"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Qual destes é um exemplo de receita variável?",
+          "answers": ["Salário base", "Comissão de vendas", "Aposentadoria", "Aluguel fixo recebido"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Receitas são consideradas:",
+          "answers": ["Saídas", "Entradas", "Dívidas", "Despesas"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O salário líquido é:",
+          "answers": ["O valor antes dos impostos", "O valor que cai na conta", "O bônus anual", "A dívida do mês"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Por que identificar as fontes de receita?",
+          "answers": ["Para saber quanto pode planejar gastar", "Para pagar mais taxas", "Para gastar antes de ganhar", "Não é necessário"],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Um 'freelance' ocasional entra em qual categoria?",
+          "answers": ["Receita Fixa", "Receita Variável", "Despesa Fixa", "Passivo"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "A soma de todas as entradas resulta na:",
+          "answers": ["Receita bruta", "Dívida total", "Margem de erro", "Liquidez seca"],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "O que fazer se a receita variável cair?",
+          "answers": ["Aumentar gastos", "Ajustar despesas proporcionalmente", "Ignorar", "Pedir empréstimo"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Receitas recorrentes facilitam:",
+          "answers": ["O endividamento", "O planejamento de longo prazo", "O esquecimento", "A desorganização"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "A primeira regra das receitas é:",
+          "answers": ["Gastar tudo", "Conhecer o valor real disponível", "Esperar sobrar", "Não contar"],
+          "rightAnswerIndex": 1
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "dificulty": 1,
+      "rewards": { "xp": 210, "coins": 55 },
+      "text": {
+        "title": ["Cálculo de Disponibilidade", "Margem de Segurança"],
+        "card": [
+          "Para um orçamento seguro, calcule sua receita líquida subtraindo descontos obrigatórios.",
+          "Trabalhe sempre com valores reais, não com promessas de bônus incertos."
+        ]
+      },
+      "questions": [
+        {
+          "question": "Salário de 3000 com 400 de descontos. Qual a receita líquida?",
+          "answers": ["3400", "3000", "2600", "400"],
+          "rightAnswerIndex": 2
+        },
+        {
+          "question": "Se você recebe 2000 fixos e 500 variáveis, qual sua receita total?",
+          "answers": ["2000", "2500", "1500", "500"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Em um mês de baixa nas vendas, a receita variável caiu de 1000 para 200. O que ocorreu?",
+          "answers": ["Aumento de capital", "Redução de 800 na entrada total", "Equilíbrio", "Aumento de despesa"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Qual a melhor estratégia para lidar com receitas variáveis?",
+          "answers": ["Gastar o máximo", "Considerar a média ou o valor mínimo para despesas essenciais", "Ignorar o registro", "Pedir crédito"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Se a receita líquida é 1500 e as despesas são 1500, o saldo é:",
+          "answers": ["Superávit", "Equilíbrio (Zero)", "Déficit", "Investimento"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Por que não contar com bônus incertos no planejamento básico?",
+          "answers": ["Para ser pessimista", "Para evitar déficit caso o valor não entre", "Porque bônus é proibido", "Porque bônus não é dinheiro"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Receita bruta 5000, impostos 1000, previdência 500. Receita líquida?",
+          "answers": ["5000", "4000", "3500", "4500"],
+          "rightAnswerIndex": 2
+        },
+        {
+          "question": "O acréscimo de uma nova fonte de renda variável exige:",
+          "answers": ["Novo registro no orçamento", "Aumento imediato de luxos", "Ignorar os dados", "Fim do planejamento"],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "A soma de (Salário + Freela + Aluguel Recebido) define:",
+          "answers": ["Despesa total", "Receita total", "Saldo final", "Liquidez imediata"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Se as entradas subirem e as saídas ficarem iguais, o superávit:",
+          "answers": ["Diminui", "Aumenta", "Soma zero", "Desaparece"],
+          "rightAnswerIndex": 1
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "dificulty": 2,
+      "rewards": { "xp": 310, "coins": 85 },
+      "text": {
+        "title": ["Gestão de Fluxo de Caixa", "Cenários de Receita"],
+        "card": [
+          "O fluxo de caixa estratégico considera o tempo das entradas para evitar juros de mora.",
+          "Receitas variáveis exigem 'buffers' (reservas) para manter a sustentabilidade em períodos de queda."
+        ]
+      },
+      "questions": [
+        {
+          "question": "Cenário: Autônomo recebe 10.000 em Janeiro, mas nada em Fevereiro. Qual a estratégia correta?",
+          "answers": ["Gastar tudo em Janeiro", "Provisionar metade do valor para cobrir Fevereiro", "Pedir empréstimo em Fevereiro", "Esquecer o orçamento"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Como a análise fundamentalista (Rara Journal) se aplica à receita pessoal?",
+          "answers": ["Avaliando a saúde das fontes de renda a longo prazo", "Olhando apenas o extrato do dia", "Ignorando o trabalho", "Apostando tudo"],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Um aumento de salário deve ser estrategicamente usado para:",
+          "answers": ["Aumentar passivos", "Aumentar a margem de poupança/investimento", "Comprar bens depreciáveis", "Nada, dinheiro é para gastar"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O risco de depender de uma única fonte de receita fixa é:",
+          "answers": ["Nenhum", "Vulnerabilidade total em caso de perda do emprego", "Excesso de segurança", "Ganho de capital"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Qual o impacto de converter uma receita variável em um custo fixo (ex: parcelas)?",
+          "answers": ["Aumenta a segurança", "Risco de déficit se a receita oscilar para baixo", "Garante o pagamento", "Melhora o fluxo"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Segundo Miranda (UFRGS), a modernização das fraudes exige que o investidor:",
+          "answers": ["Confie mais", "Duvide de ganhos fáceis e rápidos", "Aposte em pirâmides", "Não use bancos"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O que caracteriza uma gestão de receita madura?",
+          "answers": ["Viver no limite", "Diversificar fontes e provisionar oscilações", "Gastar antes de receber", "Ocultar ganhos"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Se a inflação sobe e sua receita fixa é a mesma, seu poder de compra:",
+          "answers": ["Aumenta", "Mantém-se", "Diminui", "Dobra"],
+          "rightAnswerIndex": 2
+        },
+        {
+          "question": "Em termos estratégicos, bônus anuais devem ser preferencialmente usados para:",
+          "answers": ["Consumo imediato", "Quitação de dívidas ou ativos de longo prazo", "Apostas", "Empréstimos a parentes"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "A 'Liquidez Imediata' pessoal é garantida por:",
+          "answers": ["Imóveis", "Dinheiro em conta ou reserva de emergência", "Ações OGX", "Promessas"],
+          "rightAnswerIndex": 1
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "dificulty": 0,
+      "rewards": { "xp": 140, "coins": 50 },
+      "text": {
+        "title": ["Despesas Fixas", "O Custo de Existir"],
+        "card": [
+          "Despesas fixas são gastos recorrentes que não variam muito conforme o consumo.",
+          "Exemplos: Aluguel, condomínio, mensalidade escolar e planos de assinatura."
+        ]
+      },
+      "questions": [
+        {
+          "question": "O que define uma despesa fixa?",
+          "answers": ["Muda drasticamente todo mês", "Valor recorrente e previsível", "Ocorre uma vez por ano", "É um presente recebido"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Qual destes é um exemplo de despesa fixa?",
+          "answers": ["Cinema", "Aluguel", "Restaurante", "Presente de aniversário"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "As despesas fixas são fundamentais para:",
+          "answers": ["O lazer", "A subsistência e moradia", "O investimento", "A sorte"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Onde o aluguel deve ser classificado?",
+          "answers": ["Receita", "Despesa Fixa", "Despesa Variável", "Investimento"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Por que as despesas fixas são perigosas em excesso?",
+          "answers": ["Porque são baratas", "Porque engessam o orçamento", "Porque mudam muito", "Porque são invisíveis"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "A assinatura de um streaming é:",
+          "answers": ["Receita", "Despesa Fixa", "Despesa Variável", "Saldo"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Qual a primeira coisa a pagar no mês?",
+          "answers": ["Lazer", "Despesas fixas essenciais", "Apostas", "Novas roupas"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Despesas fixas são fáceis de planejar porque:",
+          "answers": ["São gratuitas", "São previsíveis", "São variáveis", "Não existem"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O condomínio é uma despesa de qual tipo?",
+          "answers": ["Fixa", "Variável", "Eventual", "Inexistente"],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Se você cancelar uma assinatura fixa, o que acontece?",
+          "answers": ["Aumenta a despesa", "Reduz o custo fixo mensal", "Aumenta o aluguel", "Nada"],
+          "rightAnswerIndex": 1
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "dificulty": 1,
+      "rewards": { "xp": 220, "coins": 60 },
+      "text": {
+        "title": ["Soma dos Compromissos", "Análise de Peso"],
+        "card": [
+          "Calcular o peso das despesas fixas em relação à receita é vital.",
+          "Se as fixas consomem mais de 50% da renda, o orçamento está sob pressão."
+        ]
+      },
+      "questions": [
+        {
+          "question": "Aluguel (1000) + Condomínio (300) + Escola (700). Total de fixas?",
+          "answers": ["1300", "2000", "1700", "1000"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Se sua renda é 4000 e as fixas são 2000, qual a porcentagem comprometida?",
+          "answers": ["25%", "50%", "75%", "10%"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O que ocorre se as despesas fixas superarem a receita líquida?",
+          "answers": ["Déficit crônico", "Superávit", "Equilíbrio", "Aumento de poupança"],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Para reduzir custos fixos, o que é mais efetivo?",
+          "answers": ["Gastar menos em lazer", "Renegociar aluguel ou cancelar assinaturas inúteis", "Não fazer nada", "Pedir aumento"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Uma despesa fixa de 500 reais representa quanto em um ano?",
+          "answers": ["500", "5000", "6000", "12000"],
+          "rightAnswerIndex": 2
+        },
+        {
+          "question": "Se as despesas fixas subirem 100 reais, o que acontece com o saldo final?",
+          "answers": ["Aumenta 100", "Diminui 100", "Fica igual", "Dobra"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Qual destas é uma despesa fixa 'invisível'?",
+          "answers": ["Anuidade de cartão esquecida", "Aluguel", "Salário", "Supermercado"],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "O controle de despesas fixas ajuda a prever o saldo:",
+          "answers": ["Apenas do dia", "De meses futuros", "De dez anos atrás", "Nenhum"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Se você tem 3000 de renda e 2500 de fixas, quanto sobra para variáveis e poupança?",
+          "answers": ["2500", "500", "3000", "Zero"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Reduzir 200 de uma despesa fixa é melhor que reduzir 200 de uma variável ocasional por quê?",
+          "answers": ["É mais difícil", "O benefício se repete todo mês", "Não é melhor", "Porque fixas são maiores"],
+          "rightAnswerIndex": 1
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "dificulty": 2,
+      "rewards": { "xp": 320, "coins": 90 },
+      "text": {
+        "title": ["Engessamento Orçamentário", "Decisões de Longo Prazo"],
+        "card": [
+          "O engessamento ocorre quando as despesas fixas impedem ajustes rápidos em crises.",
+          "Manter um baixo custo fixo é a chave para a agilidade financeira e proteção contra riscos (Rara Journal)."
+        ]
+      },
+      "questions": [
+        {
+          "question": "Cenário: Família quer mudar para um aluguel maior que consome 70% da renda. Qual o risco?",
+          "answers": ["Nenhum, moradia é prioridade", "Incapacidade de reagir a emergências ou inflação", "Aumento automático de salário", "Melhoria da liquidez"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Como a análise fundamentalista (Rara Journal) avalia dívidas fixas?",
+          "answers": ["Como obrigações que afetam a solvência a longo prazo", "Como dados irrelevantes", "Como ativos", "Como sorte"],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Qual a estratégia para um orçamento com 80% de despesas fixas?",
+          "answers": ["Aumentar o lazer", "Downsizing (redução drástica de padrão de vida)", "Fazer mais dívidas", "Ignorar o problema"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O custo de oportunidade de uma despesa fixa alta é:",
+          "answers": ["Ganhar mais", "O dinheiro que deixa de ser investido", "Pagar menos impostos", "Ter mais crédito"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Por que 'parcelas' são despesas fixas temporárias perigosas?",
+          "answers": ["Porque são baixas", "Porque comprometem a renda futura sem flexibilidade", "Porque não têm juros", "Porque são presentes"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Em uma crise (ex: desemprego), qual despesa é mais difícil de cortar imediatamente?",
+          "answers": ["Restaurante", "Lazer", "Aluguel/Contratos fixos", "Cinema"],
+          "rightAnswerIndex": 2
+        },
+        {
+          "question": "A margem líquida pessoal (Rara Journal) melhora quando:",
+          "answers": ["Fixas aumentam", "Fixas diminuem ou receitas aumentam", "Dívidas sobem", "Não há controle"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Cenário: Você tem uma dívida fixa com juros de 10% e uma aplicação que rende 1%. Estratégia?",
+          "answers": ["Manter a aplicação", "Quitar a dívida fixa prioritariamente", "Fazer outra dívida", "Gastar o dinheiro"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "A 'Imobilização do Patrimônio' (Rara Journal) em imóveis caros pode:",
+          "answers": ["Aumentar a liquidez", "Reduzir a capacidade de honrar compromissos de curto prazo", "Garantir lucro zero", "Melhorar as férias"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O equilíbrio ideal (regra 50-30-20) sugere quanto para necessidades fixas?",
+          "answers": ["90%", "50%", "10%", "100%"],
+          "rightAnswerIndex": 1
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "dificulty": 0,
+      "rewards": { "xp": 150, "coins": 55 },
+      "text": {
+        "title": ["Despesas Variáveis", "O Fluxo Oscilante"],
+        "card": [
+          "Despesas variáveis mudam conforme o consumo ou escolhas pontuais.",
+          "Exemplos: Luz, água, alimentação fora de casa, lazer e transporte por aplicativo."
+        ]
+      },
+      "questions": [
+        {
+          "question": "O que caracteriza uma despesa variável?",
+          "answers": ["É sempre o mesmo valor", "Varia conforme o uso ou escolha", "Ocorre apenas no Natal", "É uma entrada de dinheiro"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Qual destes é um exemplo de despesa variável?",
+          "answers": ["Aluguel", "Conta de luz", "Parcela fixa do carro", "Seguro anual fixo"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O lazer (cinema, viagens) entra em qual categoria?",
+          "answers": ["Receita", "Despesa Fixa", "Despesa Variável", "Saldo"],
+          "rightAnswerIndex": 2
+        },
+        {
+          "question": "A conta de água é variável porque:",
+          "answers": ["O valor depende do consumo", "Não precisa pagar", "É sempre grátis", "Vem do governo"],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Despesas variáveis são mais fáceis de:",
+          "answers": ["Esquecer", "Ajustar ou cortar em curto prazo", "Pagar com juros", "Manter fixas"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O supermercado é geralmente uma despesa:",
+          "answers": ["Fixa", "Variável", "Invisível", "Receita"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Gastos com Uber/Ifood são:",
+          "answers": ["Despesas Fixas", "Despesas Variáveis", "Investimentos", "Direitos"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O que acontece se você economizar energia?",
+          "answers": ["Aumenta a despesa variável", "Reduz a despesa variável de luz", "Nada muda", "Aumenta o aluguel"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Por que devemos monitorar as variáveis?",
+          "answers": ["Porque elas nunca mudam", "Porque pequenos gastos somados podem desequilibrar o plano", "Porque são proibidas", "Para gastar mais"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Despesas variáveis ligadas ao lazer são consideradas:",
+          "answers": ["Essenciais", "Não essenciais/Supérfluas", "Receitas", "Dívidas fixas"],
+          "rightAnswerIndex": 1
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "dificulty": 1,
+      "rewards": { "xp": 230, "coins": 65 },
+      "text": {
+        "title": ["Controle de Consumo", "Ajuste Dinâmico"],
+        "card": [
+          "As despesas variáveis são as primeiras a serem cortadas em caso de emergência.",
+          "Somar os pequenos 'gastos formiga' é essencial para ver o impacto total no orçamento."
+        ]
+      },
+      "questions": [
+        {
+          "question": "Luz (200) + Lazer (300) + Mercado (800). Total de variáveis?",
+          "answers": ["1000", "1300", "1500", "800"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Se você gasta 10 reais por dia em café, quanto gasta em 30 dias?",
+          "answers": ["100", "200", "300", "30"],
+          "rightAnswerIndex": 2
+        },
+        {
+          "question": "Para fechar o mês no azul, qual despesa você corta primeiro?",
+          "answers": ["Aluguel", "Lazer (variável)", "Escola", "Condomínio"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Se a conta de luz subiu de 150 para 250, o impacto no saldo foi:",
+          "answers": ["Aumento de 100 no superávit", "Redução de 100 no superávit", "Nenhum", "Melhoria da liquidez"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O que caracteriza um gasto 'supérfluo'?",
+          "answers": ["Necessário para viver", "Desejo de consumo não essencial", "Obrigações legais", "Receita fixa"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Como estimar uma despesa variável para o próximo mês?",
+          "answers": ["Chutar qualquer valor", "Usar a média dos meses anteriores", "Não estimar", "Esperar a conta chegar"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Se o supermercado subiu devido à inflação, você deve:",
+          "answers": ["Parar de comer", "Ajustar o valor previsto no orçamento", "Ignorar e entrar no cheque especial", "Pedir um cartão novo"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O gasto com transporte por app é variável porque:",
+          "answers": ["O preço é fixo", "Depende da frequência de uso", "É pago pelo governo", "É um investimento"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Qual a vantagem de reduzir despesas variáveis?",
+          "answers": ["É impossível", "Libera saldo imediato para poupança ou dívidas", "Aumenta o aluguel", "Nenhuma"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Cálculo: Se você gasta 400 em lazer e sua meta é reduzir 25%, quanto deve gastar?",
+          "answers": ["100", "300", "200", "350"],
+          "rightAnswerIndex": 1
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "dificulty": 2,
+      "rewards": { "xp": 330, "coins": 95 },
+      "text": {
+        "title": ["Estratégia de Cortes", "Eficiência de Consumo"],
+        "card": [
+          "Gerir variáveis exige disciplina: é o 'ajuste fino' do seu fluxo de caixa.",
+          "Cenários de crise exigem redução imediata de variáveis supérfluas para proteger as essenciais."
+        ]
+      },
+      "questions": [
+        {
+          "question": "Cenário: O carro quebrou (conserto de 1000). A família não tem reserva. O que fazer?",
+          "answers": ["Pegar empréstimo a 10% am", "Cortar lazer e variáveis supérfluas do mês para cobrir o custo", "Não consertar", "Ignorar a dívida"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Como a análise técnica (Rara Journal) se assemelha ao controle de variáveis?",
+          "answers": ["Focando em flutuações e tendências de curto prazo", "Ignorando o preço", "Pensando em 50 anos", "Buscando o valor intrínseco"],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "A 'Margem Líquida' (Rara Journal) melhora quando reduzimos variáveis supérfluas?",
+          "answers": ["Não", "Sim, pois aumenta o lucro líquido sobre a receita", "Apenas se a Selic cair", "Só se ganharmos na loteria"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O perigo dos 'gastos formiga' (pequenas variáveis) é:",
+          "answers": ["Serem muito caros individualmente", "Somarem um montante alto e imperceptível no final do mês", "Não existirem", "Serem receitas"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Em termos de 'Risco vs Retorno', gastar em lazer excessivo sem reserva é:",
+          "answers": ["Baixo risco", "Alto risco de insolvência em caso de emergência", "Estratégia correta", "Investimento"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Um 'Déficit' causado por despesas variáveis indica:",
+          "answers": ["Má gestão de consumo", "Falta de salário", "Sorte", "Investimento"],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Qual o impacto de substituir jantar fora por cozinhar em casa?",
+          "answers": ["Aumento da despesa fixa", "Redução da despesa variável de alimentação", "Nada muda", "Aumento da receita"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "A 'Análise de Conteúdo' (Bardin) aplicada aos gastos variáveis ajuda a:",
+          "answers": ["Esconder recibos", "Categorizar e entender onde o dinheiro está 'vazando'", "Gastar mais", "Comprar ações"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O que é 'Provisionar' uma despesa variável alta esperada?",
+          "answers": ["Gastar antes", "Guardar dinheiro mensalmente para cobrir o gasto futuro", "Pedir cartão", "Não pagar"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Para manter a sustentabilidade financeira, as variáveis devem:",
+          "answers": ["Ser maiores que as fixas", "Ser monitoradas e ajustadas ao saldo disponível", "Ser ignoradas", "Ser pagas com empréstimos"],
+          "rightAnswerIndex": 1
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "dificulty": 0,
+      "rewards": { "xp": 160, "coins": 60 },
+      "text": {
+        "title": ["Anotação de Gastos", "O Hábito do Registro"],
+        "card": [
+          "Anotar gastos imediatamente evita o esquecimento e a perda de controle.",
+          "Pode ser em um caderno, aplicativo ou planilha; o importante é a constância."
+        ]
+      },
+      "questions": [
+        {
+          "question": "Qual o objetivo de anotar os gastos?",
+          "answers": ["Pagar menos impostos", "Ter controle real sobre o dinheiro", "Ocupar o tempo", "Gastar mais papel"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Quando é o melhor momento para registrar um gasto?",
+          "answers": ["No final do ano", "Imediatamente após a compra", "Nunca", "Quando sobrar tempo"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O que acontece se você não anota pequenos gastos?",
+          "answers": ["O dinheiro rende mais", "Você perde a noção do saldo real", "Nada, eles não importam", "O banco anota por você"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Anotar gastos é parte de qual etapa do orçamento?",
+          "answers": ["Planejamento", "Registro", "Investimento", "Marketing"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Onde você pode registrar suas despesas?",
+          "answers": ["Apenas no banco", "Apps, planilhas ou papel", "Apenas mentalmente", "Em lugar nenhum"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Registrar gastos ajuda a evitar o:",
+          "answers": ["Superávit", "Endividamento por descontrole", "Lazer", "Trabalho"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Anotar uma bala de 1 real é importante?",
+          "answers": ["Não", "Sim, para manter a fidelidade do fluxo de caixa", "Só se for paga no cartão", "Depende do sabor"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O hábito de registro gera:",
+          "answers": ["Confusão", "Consciência financeira", "Dívidas", "Sorte"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Quem deve anotar os gastos na família?",
+          "answers": ["Apenas o pai", "Todos que consomem a renda familiar", "Ninguém", "O vizinho"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Anotar o que você 'pretende' gastar é:",
+          "answers": ["Registro", "Planejamento", "Dívida", "Saldo"],
+          "rightAnswerIndex": 1
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "dificulty": 1,
+      "rewards": { "xp": 240, "coins": 70 },
+      "text": {
+        "title": ["Fidelidade dos Dados", "Verificação de Saldo"],
+        "card": [
+          "O registro deve ser fiel ao que realmente aconteceu no mundo físico.",
+          "Compare seu registro com o extrato bancário para validar os dados."
+        ]
+      },
+      "questions": [
+        {
+          "question": "Se o app diz que você tem 500 e o banco diz 400, o que houve?",
+          "answers": ["Ganhou 100", "Faltou registrar um gasto de 100", "O banco errou", "O app criou dinheiro"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Qual a vantagem de usar um app de finanças?",
+          "answers": ["Dá dinheiro grátis", "Facilita o registro em tempo real e gera gráficos", "Substitui o trabalho", "Elimina dívidas"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Anotar o gasto 'bruto' ou 'líquido' no cartão?",
+          "answers": ["Apenas o que você acha", "O valor total da fatura incluindo taxas", "Ignorar taxas", "Apenas o valor redondo"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O registro retroativo (no fim do mês) é menos eficiente porque:",
+          "answers": ["É mais rápido", "Ocorre o esquecimento de detalhes e pequenos valores", "É mais preciso", "Não gasta papel"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Como validar se seu orçamento está funcionando?",
+          "answers": ["Olhando apenas o saldo final", "Comparando gastos registrados com o planejado", "Não validar", "Pedir um empréstimo"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O que é 'Conciliação Bancária' pessoal?",
+          "answers": ["Pedir dinheiro ao banco", "Conferir se os registros batem com o extrato", "Brigar com o gerente", "Esconder o saldo"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Se você registrou 200 de mercado e gastou 250, o que fazer?",
+          "answers": ["Nada", "Ajustar o registro e entender o desvio", "Apagar o gasto", "Mudar de mercado"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Anotar gastos em dinheiro vivo exige:",
+          "answers": ["Mais atenção, pois não há extrato automático", "Menos atenção", "Nenhuma atenção", "Esquecimento"],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "O registro de despesas ajuda a identificar 'vazamentos'?",
+          "answers": ["Não", "Sim, mostra para onde o dinheiro está indo sem percebermos", "Só se o cano quebrar", "Apenas em empresas"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Um orçamento sem registro é:",
+          "answers": ["Eficiente", "Apenas um desejo, não um controle", "O ideal", "Sustentável"],
+          "rightAnswerIndex": 1
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "dificulty": 2,
+      "rewards": { "xp": 340, "coins": 100 },
+      "text": {
+        "title": ["Integridade da Base de Dados", "Decisão Baseada em Fatos"],
+        "card": [
+          "Dados mal registrados levam a decisões erradas. Trate seu orçamento como um sistema crítico.",
+          "O registro de dados históricos permite prever comportamentos e sazonalidades futuras."
+        ]
+      },
+      "questions": [
+        {
+          "question": "Cenário: Você esqueceu de registrar gastos no cartão por 15 dias. Como recuperar a integridade?",
+          "answers": ["Chutar os valores", "Consultar o extrato/fatura e reconstruir os lançamentos", "Começar do zero e ignorar o passado", "Não fazer nada"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "A 'Tipologia Descritiva' (Bardin) no registro financeiro busca:",
+          "answers": ["Ocultar dados", "Apresentar os fatos de forma imparcial para análise", "Criar mentiras", "Aumentar o saldo"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Por que o registro histórico de 12 meses é valioso estrategicamente?",
+          "answers": ["Para ocupar espaço", "Para identificar gastos sazonais (IPTU, IPVA) e se preparar", "Para mostrar aos amigos", "Não tem valor"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "No cenário de fraude (Miranda/UFRGS), o registro detalhado ajuda a:",
+          "answers": ["Cair no golpe", "Identificar débitos não autorizados rapidamente", "Gastar mais", "Esconder dinheiro"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O uso de 'tags' ou categorias no registro permite:",
+          "answers": ["Confundir o plano", "Analisar quais áreas consomem mais recursos (Análise de Conteúdo)", "Nada", "Pagar menos"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Um erro de registro de 100 reais repetido por 12 meses gera um desvio de:",
+          "answers": ["100", "600", "1200", "2400"],
+          "rightAnswerIndex": 2
+        },
+        {
+          "question": "O registro de 'empréstimos a terceiros' deve ser tratado como:",
+          "answers": ["Receita garantida", "Saída de capital com risco de não retorno", "Investimento fixo", "Lazer"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "A 'Frequência de Dados' no orçamento indica:",
+          "answers": ["A cor das notas", "Quantas vezes um gasto se repete", "O nome do banco", "A sorte do mês"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Estrategicamente, o registro deve incluir 'Juros Pagos' para:",
+          "answers": ["Ficar feliz", "Visualizar o custo do endividamento e buscar eliminá-lo", "Esconder o erro", "Pagar mais"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Decidir baseado em 'sentimento' vs 'dados registrados':",
+          "answers": ["Sentimento é melhor", "Dados registrados reduzem o erro e o risco de déficit", "Dá no mesmo", "Dados atrapalham"],
+          "rightAnswerIndex": 1
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "dificulty": 0,
+      "rewards": { "xp": 170, "coins": 65 },
+      "text": {
+        "title": ["Agrupamento e Categorias", "Organizando os Arrays"],
+        "card": [
+          "Agrupar gastos por categorias facilita a visualização de onde seu dinheiro está indo.",
+          "Principais categorias: Habitação, Saúde, Transporte, Educação e Lazer."
+        ]
+      },
+      "questions": [
+        {
+          "question": "Para que serve o agrupamento de despesas?",
+          "answers": ["Para complicar", "Para facilitar a análise por áreas da vida", "Para gastar mais", "Para nada"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Em qual categoria entra a farmácia?",
+          "answers": ["Habitação", "Saúde", "Transporte", "Lazer"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Onde classificar a conta de internet?",
+          "answers": ["Saúde", "Habitação ou Comunicação", "Alimentação", "Educação"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Gasolina e ônibus pertencem a:",
+          "answers": ["Lazer", "Transporte", "Saúde", "Educação"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Supermercado é geralmente agrupado em:",
+          "answers": ["Transporte", "Alimentação", "Saúde", "Educação"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Onde entra o ingresso do cinema?",
+          "answers": ["Habitação", "Lazer", "Saúde", "Transporte"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Mensalidade escolar é da categoria:",
+          "answers": ["Lazer", "Educação", "Saúde", "Habitação"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Categorizar ajuda a identificar qual área está 'cara'?",
+          "answers": ["Não", "Sim, permite ver o peso de cada grupo no total", "Só se for em dólar", "Apenas no banco"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "A categoria 'Diversos' deve ser:",
+          "answers": ["A maior de todas", "Evitada ou mantida pequena para não ocultar gastos", "A única categoria", "Onde entra o salário"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Onde entra a reforma da casa?",
+          "answers": ["Saúde", "Habitação", "Transporte", "Educação"],
+          "rightAnswerIndex": 1
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "dificulty": 1,
+      "rewards": { "xp": 250, "coins": 75 },
+      "text": {
+        "title": ["Peso das Categorias", "Proporção Orçamentária"],
+        "card": [
+          "Calcule o percentual que cada categoria representa no seu orçamento total.",
+          "Isso ajuda a decidir onde o corte de gastos será mais impactante."
+        ]
+      },
+      "questions": [
+        {
+          "question": "Se gastou 1000 em Habitação e 500 em Alimentação, qual o total dessas duas?",
+          "answers": ["1000", "500", "1500", "2000"],
+          "rightAnswerIndex": 2
+        },
+        {
+          "question": "Sua receita é 2000. Se Habitação custa 1000, qual o peso desta categoria?",
+          "answers": ["25%", "50%", "10%", "100%"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Qual categoria costuma ser a mais 'elástica' (fácil de reduzir)?",
+          "answers": ["Habitação", "Lazer", "Saúde", "Educação"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Se Alimentação consome 40% da renda, o que fazer?",
+          "answers": ["Comer mais", "Analisar se há desperdícios ou compras supérfluas", "Ignorar", "Parar de registrar"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Agrupar gastos ajuda a criar metas por área?",
+          "answers": ["Não", "Sim, como 'limitar lazer a 200 reais'", "Só no Natal", "Apenas para empresas"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Onde classificar um seguro de vida?",
+          "answers": ["Lazer", "Seguros/Saúde", "Educação", "Transporte"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Se o grupo 'Transporte' subiu muito, qual a causa provável?",
+          "answers": ["Mais lazer", "Alta dos combustíveis ou uso excessivo de apps", "Menos comida", "Aumento do aluguel"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Cálculo: Renda 3000. Gastos: Habitação 1200, Saúde 300, Alimentação 600. Quanto sobra?",
+          "answers": ["1000", "900", "1500", "500"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Categorias muito genéricas atrapalham porque:",
+          "answers": ["São bonitas", "Escondem detalhes importantes do consumo", "São rápidas", "Não existem"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Na regra 50-30-20, a categoria 'Desejos Pessoais' (Lazer) deve ter:",
+          "answers": ["50%", "30%", "20%", "10%"],
+          "rightAnswerIndex": 1
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "dificulty": 2,
+      "rewards": { "xp": 350, "coins": 105 },
+      "text": {
+        "title": ["Análise de Similaridade", "Otimização de Portfólio"],
+        "card": [
+          "A 'Análise de Conteúdo' (Bardin) permite ver padrões de repetição entre categorias.",
+          "Otimize seu orçamento transferindo recursos de categorias ineficientes para ativos (Rara Journal)."
+        ]
+      },
+      "questions": [
+        {
+          "question": "Cenário: Categoria 'Educação' está em zero, mas 'Lazer' está em 40%. Estratégia?",
+          "answers": ["Manter assim", "Redirecionar parte do lazer para capacitação e aumento de renda futura", "Aumentar o lazer", "Pedir empréstimo"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Como a categorização ajuda a identificar fraudes (Miranda/UFRGS)?",
+          "answers": ["Mostrando categorias novas ou valores anômalos não feitos pelo usuário", "Aumentando o limite", "Escondendo os dados", "Não ajuda"],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Uma 'Margem Líquida' pessoal (Rara Journal) baixa exige análise de quais categorias?",
+          "answers": ["Apenas as receitas", "As categorias de maior peso para identificar ineficiências", "Nenhuma", "A categoria de sorte"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Cenário: Gastos com 'Saúde' subiram por 3 meses. Estratégia orçamentária?",
+          "answers": ["Ignorar", "Criar uma reserva específica ou ajustar outras categorias para compensar", "Fazer dívidas", "Parar o tratamento"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "A categorização permite o 'Tratamento de Resultados' (Bardin) ao:",
+          "answers": ["Apagar as contas", "Gerar indicadores claros de performance financeira", "Mudar o banco", "Não fazer nada"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O que indica uma categoria 'Habitação' consumindo 60% da renda líquida?",
+          "answers": ["Segurança total", "Alto risco de insolvência e falta de flexibilidade", "Sucesso financeiro", "Muita liquidez"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Na gestão familiar, as categorias ajudam a:",
+          "answers": ["Dividir responsabilidades e limites por área", "Causar brigas", "Esconder gastos", "Não ajuda"],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Qual categoria deve ser priorizada para 'Investimento em Ativos'?",
+          "answers": ["Lazer", "Reserva de Emergência / Investimentos", "Alimentação fora", "Roupas"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Se 'Impostos' é uma categoria alta, a estratégia fundamentalista sugere:",
+          "answers": ["Sonegar", "Planejamento tributário legal (ex: PGBL)", "Não pagar", "Reclamar"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "A análise cruzada entre categorias revela:",
+          "answers": ["A cor do extrato", "Hábitos de consumo e desvios do plano original", "O nome do gerente", "Nada"],
+          "rightAnswerIndex": 1
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "dificulty": 0,
+      "rewards": { "xp": 180, "coins": 70 },
+      "text": {
+        "title": ["Sazonalidade", "Gastos de Janeiro"],
+        "card": [
+          "Sazonalidade são gastos que ocorrem apenas em certas épocas do ano.",
+          "Exemplos: IPTU, IPVA, Matrícula Escolar e Datas Comemorativas."
+        ]
+      },
+      "questions": [
+        {
+          "question": "O que é um gasto sazonal?",
+          "answers": ["Ocorre todo mês", "Ocorre em épocas específicas do ano", "É um salário extra", "Nunca acontece"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Qual destes é um exemplo clássico de sazonalidade?",
+          "answers": ["Aluguel", "IPVA", "Condomínio", "Luz"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Janeiro é conhecido por quais gastos sazonais?",
+          "answers": ["Apenas Carnaval", "IPTU, IPVA e Material Escolar", "Nenhum", "Apenas férias"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O IPTU é um imposto sobre:",
+          "answers": ["Carros", "Imóveis", "Renda", "Consumo"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O IPVA é um imposto sobre:",
+          "answers": ["Casas", "Veículos automotores", "Salário", "Saúde"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Por que a sazonalidade quebra orçamentos não planejados?",
+          "answers": ["Porque são valores baixos", "Porque são valores altos que chegam 'de surpresa'", "Porque não existem", "Porque são receitas"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O Natal é um exemplo de sazonalidade de:",
+          "answers": ["Impostos", "Consumo/Presentes", "Saúde", "Educação"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Gastos sazonais são previsíveis?",
+          "answers": ["Não, nunca sabemos quando vêm", "Sim, ocorrem sempre nas mesmas datas anuais", "Apenas para videntes", "Só no banco"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Material escolar ocorre geralmente em:",
+          "answers": ["Julho", "Janeiro/Fevereiro", "Dezembro", "Agosto"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Qual a melhor forma de lidar com a sazonalidade?",
+          "answers": ["Ignorar", "Planejar e poupar com antecedência", "Pedir empréstimo em Janeiro", "Não pagar"],
+          "rightAnswerIndex": 1
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "dificulty": 1,
+      "rewards": { "xp": 260, "coins": 80 },
+      "text": {
+        "title": ["Provisionamento Mensal", "Diluindo o Impacto"],
+        "card": [
+          "A melhor estratégia para despesas anuais é o provisionamento mensal.",
+          "Divida o valor total por 12 e guarde essa quantia todo mês."
+        ]
+      },
+      "questions": [
+        {
+          "question": "Se o IPVA é 1200, quanto você deve guardar por mês para pagar à vista no ano que vem?",
+          "answers": ["50", "100", "200", "120"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "IPTU (600) + IPVA (1200) + Matrícula (1200). Total anual?",
+          "answers": ["2000", "3000", "1500", "4000"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Qual a vantagem de pagar impostos sazonais à vista?",
+          "answers": ["Pagar mais caro", "Obter descontos oferecidos pelo governo", "Nenhuma", "Aumentar a dívida"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Se você não provisionou e o IPTU chegou, o que acontece com seu orçamento de Janeiro?",
+          "answers": ["Fica igual", "Risco de déficit imediato", "Aumenta a receita", "Melhora o lazer"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O 13º salário pode ser usado para:",
+          "answers": ["Apenas festas", "Cobrir despesas sazonais do início do ano", "Ignorar as contas", "Dar de presente"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Cálculo: Se guardar 200/mês para o Natal, quanto terá em 10 meses?",
+          "answers": ["1000", "2000", "1500", "200"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Provisionar é um ato de:",
+          "answers": ["Improviso", "Planejamento preventivo", "Desespero", "Sorte"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Se o IPVA aumentou 10% em relação ao ano passado, sua provisão deve:",
+          "answers": ["Diminuir", "Ser ajustada para cima", "Ficar igual", "Ser cancelada"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Gastos sazonais devem ser registrados em qual etapa?",
+          "answers": ["Apenas quando ocorrem", "No planejamento anual preventivo", "Nunca", "No marketing"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "A falta de provisão para sazonalidade leva ao uso de:",
+          "answers": ["Investimentos", "Crédito caro (cheque especial/cartão)", "Ações", "Poupança"],
+          "rightAnswerIndex": 1
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "dificulty": 2,
+      "rewards": { "xp": 360, "coins": 110 },
+      "text": {
+        "title": ["Fluxo de Caixa Anualizado", "Gestão de Reservas"],
+        "card": [
+          "Um orçamento maduro olha 12 meses à frente para neutralizar picos de despesa.",
+          "Use a 'Análise Fundamentalista' para entender se sua renda anual cobre suas obrigações anuais (Rara Journal)."
+        ]
+      },
+      "questions": [
+        {
+          "question": "Cenário: Você tem 5000 de saldo, mas em 2 meses terá 6000 de impostos sazonais. Estratégia?",
+          "answers": ["Gastar os 5000 agora", "Pausar gastos não essenciais e focar em cobrir a diferença", "Pedir empréstimo", "Ignorar"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Como a sazonalidade afeta a 'Liquidez Corrente' (Rara Journal) no início do ano?",
+          "answers": ["Aumenta", "Diminui drasticamente se não houver provisão", "Fica estável", "Depende do banco"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O uso estratégico do 13º salário e férias deve prioritariamente:",
+          "answers": ["Aumentar o consumo supérfluo", "Provisionar gastos sazonais e reserva de emergência", "Ser apostado", "Ficar parado"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Por que promessas de 'rendimento garantido' (Miranda/UFRGS) são perigosas em épocas de sazonalidade alta?",
+          "answers": ["Porque são reais", "Porque o investidor, sob pressão de contas, busca soluções 'mágicas'", "Porque dão sorte", "Não são perigosas"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "A 'Análise Técnica' (Rara Journal) de gastos sazonais permite:",
+          "answers": ["Prever o valor exato", "Visualizar os picos de saída históricos e se antecipar", "Ignorar o passado", "Ganhar na bolsa"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Cenário: IPTU à vista tem 10% de desconto. Parcelado não tem desconto. Qual a melhor decisão financeira?",
+          "answers": ["Parcelar", "Pagar à vista com a provisão feita", "Não pagar", "Pagar parcelado e investir"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O provisionamento reduz o 'Risco de Insolvência' ao:",
+          "answers": ["Aumentar as dívidas", "Garantir que o capital para obrigações futuras já existe", "Diminuir o salário", "Nenhuma das anteriores"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "A falta de planejamento para sazonalidade é um erro de:",
+          "answers": ["Registro", "Planejamento e Avaliação", "Marketing", "Educação física"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O custo de não provisionar e usar o cheque especial é:",
+          "answers": ["Zero", "O valor dos juros altos somado ao imposto", "Menor que o desconto", "Um investimento"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Uma 'Gestão de Ativos' (Rara Journal) eficiente considera gastos sazonais como:",
+          "answers": ["Surpresas", "Passivos de curto prazo com data certa", "Ganhos", "Investimentos"],
+          "rightAnswerIndex": 1
+        }
+      ]
+    },
+    {
+      "order": 8,
+      "dificulty": 0,
+      "rewards": { "xp": 190, "coins": 75 },
+      "text": {
+        "title": ["Status do Orçamento", "Superávit vs Déficit"],
+        "card": [
+          "O status do seu orçamento é o resultado final: Receitas menos Despesas.",
+          "Pode ser Superávit (sobra), Equilíbrio (zero) ou Déficit (falta)."
+        ]
+      },
+      "questions": [
+        {
+          "question": "O que é Superávit?",
+          "answers": ["Quando falta dinheiro", "Quando as receitas são maiores que as despesas", "Quando o saldo é zero", "Quando o banco fecha"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O que é Déficit?",
+          "answers": ["Quando sobra dinheiro", "Quando as despesas são maiores que as receitas", "Quando o saldo é zero", "Um tipo de bônus"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O que significa orçamento em Equilíbrio?",
+          "answers": ["Receitas iguais às despesas", "Ficar rico", "Estar falido", "Não ter banco"],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Qual o status ideal para quem quer investir?",
+          "answers": ["Déficit", "Equilíbrio", "Superávit", "Nenhum"],
+          "rightAnswerIndex": 2
+        },
+        {
+          "question": "O Déficit geralmente leva ao:",
+          "answers": ["Investimento", "Endividamento", "Aumento de salário", "Superávit"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Para sair do Déficit, você deve:",
+          "answers": ["Aumentar despesas", "Aumentar receitas ou diminuir despesas", "Não fazer nada", "Gastar mais"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O saldo final é calculado em qual etapa?",
+          "answers": ["Planejamento", "Avaliação", "Marketing", "Sorte"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Sobrar 10 reais no mês é:",
+          "answers": ["Déficit", "Superávit", "Equilíbrio", "Prejuízo"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Faltar 100 reais no mês é:",
+          "answers": ["Déficit", "Superávit", "Equilíbrio", "Lucro"],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "O status do orçamento deve ser verificado:",
+          "answers": ["Uma vez por década", "Mensalmente", "Nunca", "Apenas no Natal"],
+          "rightAnswerIndex": 1
+        }
+      ]
+    },
+    {
+      "order": 8,
+      "dificulty": 1,
+      "rewards": { "xp": 270, "coins": 85 },
+      "text": {
+        "title": ["Cálculo do Saldo Final", "Margem Líquida"],
+        "card": [
+          "O saldo final é a métrica mais importante da sua saúde financeira imediata.",
+          "Trabalhe para aumentar sua margem de superávit todos os meses."
+        ]
+      },
+      "questions": [
+        {
+          "question": "Receita 3000, Despesas 2500. Qual o saldo?",
+          "answers": ["500 (Déficit)", "500 (Superávit)", "Zero", "3000"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Receita 2000, Despesas 2200. Qual o saldo?",
+          "answers": ["200 (Superávit)", "200 (Déficit)", "Zero", "2200"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Se o saldo é zero por 3 meses seguidos, você está em:",
+          "answers": ["Crescimento patrimonial", "Equilíbrio perigoso (sem margem de erro)", "Superávit", "Déficit"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Como aumentar o superávit sem ganhar mais?",
+          "answers": ["Gastar mais", "Reduzir despesas supérfluas", "Não pagar as contas", "Pedir empréstimo"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O superávit deve ser prioritariamente destinado a:",
+          "answers": ["Mais lazer", "Reserva de emergência e investimentos", "Novas dívidas", "Presentes"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Cálculo: Renda 5000. Fixas 3000, Variáveis 1500. Saldo?",
+          "answers": ["500", "Zero", "1000", "4500"],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Se as despesas caírem 10% e a renda subir 10%, o superávit:",
+          "answers": ["Diminui", "Aumenta significativamente", "Zera", "Fica igual"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Qual o perigo de um superávit não registrado?",
+          "answers": ["Ele rende mais", "Ser gasto sem planejamento ('dinheiro na mão é vendaval')", "Não tem perigo", "Aumenta as taxas"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O que indica um déficit recorrente?",
+          "answers": ["Sucesso financeiro", "Desajuste estrutural entre padrão de vida e renda", "Sorte", "Investimento"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O saldo final positivo é a base para a:",
+          "answers": ["Insolvência", "Independência Financeira", "Dívida", "Sazonalidade"],
+          "rightAnswerIndex": 1
+        }
+      ]
+    },
+    {
+      "order": 8,
+      "dificulty": 2,
+      "rewards": { "xp": 370, "coins": 115 },
+      "text": {
+        "title": ["Análise de Solvência", "Estratégia de Alocação"],
+        "card": [
+          "O status do orçamento reflete a eficiência da sua 'Gestão de Ativos' (Rara Journal).",
+          "Déficits persistentes indicam uma operação disfuncional que precede o colapso financeiro (Miranda/UFRGS)."
+        ]
+      },
+      "questions": [
+        {
+          "question": "Cenário: Família tem superávit de 500, mas paga 600 de juros de dívidas antigas. Status real?",
+          "answers": ["Superávit", "Déficit financeiro estrutural", "Equilíbrio", "Riqueza"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Como a 'Margem Líquida' (Rara Journal) pessoal afeta a tomada de decisão?",
+          "answers": ["Margem alta permite assumir riscos calculados em investimentos", "Não afeta", "Margem baixa é bom", "Margem exige dívidas"],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Um superávit destinado a pirâmides financeiras (Miranda/UFRGS) resulta em:",
+          "answers": ["Riqueza rápida", "Perda total do capital e colapso do orçamento", "Sustentabilidade", "Ganhos garantidos"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Qual o indicador fundamentalista (Rara Journal) de um orçamento saudável?",
+          "answers": ["Liquidez Corrente > 1 (Entradas e ativos curtos cobrem as saídas)", "Liquidez < 1", "Dívida > Renda", "Nenhum"],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Cenário: Inflação de 10% e reajuste salarial de 5%. Para manter o superávit, você deve:",
+          "answers": ["Gastar mais", "Reduzir o padrão de despesas em pelo menos 5%", "Não fazer nada", "Aumentar as dívidas"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O 'Tratamento de Resultados' (Bardin) de um déficit deve focar em:",
+          "answers": ["Esconder as contas", "Identificar a causa raiz (receita baixa ou despesa alta)", "Mudar o banco", "Pedir cartão"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Estrategicamente, o primeiro destino do superávit é:",
+          "answers": ["Ações de alto risco", "Reserva de Emergência (Liquidez Imediata)", "Carro novo", "Viagem"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "A incapacidade de gerar superávit em 12 meses indica:",
+          "answers": ["Inexistência de poupança e vulnerabilidade total", "Segurança", "Sucesso", "Planejamento"],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Como o 'Risco vs Retorno' se aplica ao superávit?",
+          "answers": ["Não se aplica", "Quanto maior o superávit, maior a capacidade de buscar retornos maiores", "Superávit é risco", "Sorte"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O colapso orçamentário (Miranda/UFRGS) ocorre quando:",
+          "answers": ["O superávit é alto", "Não há novos recursos para cobrir gastos crescentes", "O IPVA é pago", "A Selic cai"],
+          "rightAnswerIndex": 1
+        }
+      ]
+    },
+    {
+      "order": 9,
+      "dificulty": 0,
+      "rewards": { "xp": 200, "coins": 80 },
+      "text": {
+        "title": ["Gestão Familiar", "Finanças em Conjunto"],
+        "card": [
+          "O orçamento familiar exige diálogo e objetivos comuns entre todos os membros.",
+          "Definir limites coletivos ajuda a manter a saúde financeira da casa."
+        ]
+      },
+      "questions": [
+        {
+          "question": "Por que o diálogo familiar é importante?",
+          "answers": ["Para causar brigas", "Para alinhar gastos e objetivos comuns", "Para esconder dinheiro", "Não é importante"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "As crianças devem participar da educação financeira?",
+          "answers": ["Não", "Sim, de forma didática para entenderem o valor do dinheiro", "Apenas quando forem ricas", "Nunca"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Um 'objetivo comum' na família pode ser:",
+          "answers": ["Gastar tudo", "Uma viagem ou a casa própria", "Ter mais dívidas", "Cada um por si"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Quem deve conhecer o orçamento da casa?",
+          "answers": ["Apenas quem ganha mais", "Todos os responsáveis pelas decisões financeiras", "Ninguém", "O gerente do banco"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Esconder compras do parceiro(a) é:",
+          "answers": ["Estratégia", "Infidelidade financeira e risco ao plano", "Normal", "Divertido"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Limites de gastos devem ser:",
+          "answers": ["Secretos", "Acordados e respeitados por todos", "Ignorados", "Apenas para as crianças"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Reuniões financeiras familiares servem para:",
+          "answers": ["Criticar", "Avaliar o status do orçamento e ajustar a rota", "Pedir empréstimo", "Gritar"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O exemplo dos pais influencia os filhos?",
+          "answers": ["Não", "Sim, hábitos financeiros são aprendidos pelo exemplo", "Apenas na escola", "Nunca"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "A gestão familiar ajuda a reduzir:",
+          "answers": ["A receita", "O desperdício coletivo", "O salário", "A sorte"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Finanças compartilhadas exigem:",
+          "answers": ["Segredos", "Transparência e confiança", "Muita sorte", "Apostas"],
+          "rightAnswerIndex": 1
+        }
+      ]
+    },
+    {
+      "order": 9,
+      "dificulty": 1,
+      "rewards": { "xp": 280, "coins": 90 },
+      "text": {
+        "title": ["Divisão de Despesas", "Metas Coletivas"],
+        "card": [
+          "Dividir as contas proporcionalmente à renda de cada um é uma forma justa de gestão.",
+          "Metas compartilhadas (como reserva de emergência) aumentam a união e o foco."
+        ]
+      },
+      "questions": [
+        {
+          "question": "Se um ganha 2000 e outro 4000, e as contas são 3000. Qual a divisão proporcional (33%/66%)?",
+          "answers": ["1500 cada", "1000 e 2000", "500 e 2500", "3000 e zero"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O que fazer se um membro da família desrespeita o limite de gastos?",
+          "answers": ["Ignorar", "Conversar e reavaliar as prioridades e o plano", "Fazer mais dívidas", "Parar de falar"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Uma meta de 'Reserva de Emergência Familiar' deve cobrir:",
+          "answers": ["Um jantar", "3 a 6 meses das despesas totais da casa", "Nada", "Um carro novo"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "A divisão de tarefas (quem paga o quê) ajuda na:",
+          "answers": ["Confusão", "Organização e senso de responsabilidade", "Sorte", "Falta de controle"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Se a família quer economizar 500 reais, onde o esforço deve ser feito?",
+          "answers": ["Apenas por uma pessoa", "Coletivamente em categorias supérfluas", "Não economizar", "Pedir empréstimo"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O controle de gastos dos filhos (mesada) é uma ferramenta de:",
+          "answers": ["Punição", "Educação financeira prática", "Lazer", "Dívida"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Cenário: Receita conjunta 6000. Despesas 5500. Saldo para meta familiar?",
+          "answers": ["1000", "500", "Zero", "6000"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Como lidar com despesas individuais no orçamento conjunto?",
+          "answers": ["Não ter gastos individuais", "Definir um valor (mesada) para cada um", "Gastar sem controle", "Não registrar"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "A falta de alinhamento financeiro no casal é uma das maiores causas de:",
+          "answers": ["Riqueza", "Conflitos e divórcios", "Sorte", "Investimento"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O planejamento familiar deve considerar a 'Sazonalidade' do grupo (ex: férias)?",
+          "answers": ["Não", "Sim, para evitar dívidas no retorno", "Apenas no verão", "Nunca"],
+          "rightAnswerIndex": 1
+        }
+      ]
+    },
+    {
+      "order": 9,
+      "dificulty": 2,
+      "rewards": { "xp": 380, "coins": 120 },
+      "text": {
+        "title": ["Negociação Coletiva", "Proteção do Patrimônio Comum"],
+        "card": [
+          "A família deve agir como um comitê de investimentos, avaliando riscos coletivamente.",
+          "Proteger o patrimônio familiar exige negar ofertas duvidosas que prometem ganhos irreais (Ury)."
+        ]
+      },
+      "questions": [
+        {
+          "question": "Cenário: Um membro quer investir a reserva da família em uma 'oportunidade incrível' de 10% am. Decisão?",
+          "answers": ["Investir tudo", "Negar e proteger a reserva, identificando risco de fraude (Miranda/UFRGS)", "Investir metade", "Pedir empréstimo"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Como a 'Análise Fundamentalista' (Rara Journal) se aplica ao patrimônio familiar?",
+          "answers": ["Avaliando o valor real dos bens e dívidas do grupo", "Ignorando os bens", "Olhando apenas o dia", "Apostando"],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "O 'Senso Crítico' familiar (Miranda/UFRGS) é essencial para:",
+          "answers": ["Cair em golpes", "Filtrar propagandas enganosas e marketing agressivo", "Gastar mais", "Não ter amigos"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Cenário: Renda familiar caiu 20%. Qual a ação estratégica imediata?",
+          "answers": ["Manter gastos", "Reunião familiar para corte imediato de 20% em supérfluos", "Fazer empréstimo", "Não avisar ninguém"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O 'Tratamento de Resultados' (Bardin) em família permite:",
+          "answers": ["Esconder erros", "Aprender com desvios do orçamento e melhorar o próximo ciclo", "Nada", "Brigar"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Por que famosos em propagandas financeiras (Miranda/UFRGS) não garantem segurança?",
+          "answers": ["Porque eles são pobres", "Porque credibilidade de imagem não substitui regulação e fatos financeiros", "Porque são atores", "São sempre seguros"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Um orçamento familiar resiliente possui:",
+          "answers": ["Muitas dívidas", "Diversificação de renda e baixa imobilização", "Gasto alto", "Sorte"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "A 'Incapacidade de Negar' (Ury) em família leva a:",
+          "answers": ["Prosperidade", "Cedência a caprichos que destroem o superávit", "União", "Respeito"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O impacto estratégico da educação financeira na base familiar é:",
+          "answers": ["Nenhum", "Criação de sucessão patrimonial e mentalidade rica nos filhos", "Ter mais cartões", "Trabalhar menos"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Sustentabilidade familiar (Miranda/UFRGS) significa:",
+          "answers": ["Viver de aparências", "Equilíbrio entre consumo presente e segurança futura", "Gastar tudo hoje", "Não ter planos"],
+          "rightAnswerIndex": 1
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "dificulty": 0,
+      "rewards": { "xp": 210, "coins": 85 },
+      "text": {
+        "title": ["Ajuste de Rota", "Melhoria Contínua"],
+        "card": [
+          "O ajuste de rota é a fase de correção: se algo saiu do plano, você ajusta para o próximo mês.",
+          "O objetivo é eliminar desperdícios e otimizar o uso do seu dinheiro."
+        ]
+      },
+      "questions": [
+        {
+          "question": "O que é o ajuste de rota?",
+          "answers": ["Mudar de cidade", "Corrigir gastos e comportamentos após avaliar o orçamento", "Não fazer nada", "Pedir demissão"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Se você gastou muito em lazer este mês, o que fazer no próximo?",
+          "answers": ["Gastar mais", "Reduzir o lazer para compensar e equilibrar", "Esquecer", "Não pagar a luz"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O ajuste de rota serve para eliminar:",
+          "answers": ["O salário", "Desperdícios e gastos inúteis", "O banco", "A poupança"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Qual a etapa final do ciclo orçamentário?",
+          "answers": ["Planejamento", "Avaliação e Ajuste de Rota", "Marketing", "Sorte"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O ajuste de rota deve ser feito:",
+          "answers": ["Apenas em crise", "Regularmente para manter o plano nos trilhos", "Nunca", "Uma vez na vida"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Se o saldo está sobrando (Superávit), o ajuste de rota foca em:",
+          "answers": ["Gastar mais", "Investir melhor esse saldo", "Pagar juros", "Não fazer nada"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Cortar uma assinatura que ninguém usa é um:",
+          "answers": ["Erro", "Ajuste de rota eficiente", "Lazer", "Investimento"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O ajuste de rota ajuda a alcançar:",
+          "answers": ["Dívidas", "Metas e sonhos financeiros", "O fim do dinheiro", "A sorte"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Se a renda caiu, o ajuste de rota deve ser:",
+          "answers": ["De expansão", "De redução de despesas imediata", "De luxo", "Nenhum"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O ajuste de rota exige:",
+          "answers": ["Teimosia", "Flexibilidade e disciplina", "Sorte", "Apostas"],
+          "rightAnswerIndex": 1
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "dificulty": 1,
+      "rewards": { "xp": 290, "coins": 95 },
+      "text": {
+        "title": ["Otimização de Gastos", "Redirecionamento de Saldo"],
+        "card": [
+          "Identifique os 'ralos de dinheiro' e redirecione esses valores para suas metas.",
+          "Pequenos ajustes em várias categorias somam uma grande mudança no saldo final."
+        ]
+      },
+      "questions": [
+        {
+          "question": "Economizar 50 em 4 categorias diferentes gera quanto de saldo novo?",
+          "answers": ["50", "100", "200", "400"],
+          "rightAnswerIndex": 2
+        },
+        {
+          "question": "O que fazer com um superávit de 300 reais após o ajuste?",
+          "answers": ["Gastar em roupas", "Alocar na reserva de emergência", "Deixar parado na conta", "Não registrar"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Cenário: Gastos com 'Comida fora' estão em 800 e a meta é 400. Qual o ajuste?",
+          "answers": ["Reduzir 50%", "Aumentar a receita", "Não comer", "Pedir empréstimo"],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "A troca de um plano de celular caro por um barato é um:",
+          "answers": ["Ajuste de despesa variável", "Ajuste de despesa fixa", "Investimento", "Passivo"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O ajuste de rota baseado em dados evita o:",
+          "answers": ["Investimento", "Autoengano financeiro", "Superávit", "Sucesso"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Se o ajuste de rota for ignorado após um déficit:",
+          "answers": ["O problema se resolve só", "O endividamento crescerá no próximo mês", "Aumenta o salário", "Nada muda"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Qual o impacto de reduzir juros de dívidas no ajuste?",
+          "answers": ["Aumenta o custo", "Melhora a margem líquida e o superávit", "Nada", "Reduz a receita"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Um ajuste de rota bem feito transforma:",
+          "answers": ["Déficit em Superávit", "Superávit em Déficit", "Riqueza em Dívida", "Zero em Nada"],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "O redirecionamento de saldo para o 'Futuro' chama-se:",
+          "answers": ["Lazer", "Investimento", "Dívida", "Taxa"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "A frequência ideal para avaliar e ajustar a rota é:",
+          "answers": ["Diária", "Mensal", "Anual", "Década"],
+          "rightAnswerIndex": 1
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "dificulty": 2,
+      "rewards": { "xp": 390, "coins": 125 },
+      "text": {
+        "title": ["Ajuste Estratégico", "Consolidação Patrimonial"],
+        "card": [
+          "O ajuste de rota final foca em converter superávit em ativos reais e proteção (Rara Journal).",
+          "Eliminar ativos tóxicos ou promessas disfuncionais garante a sustentabilidade (Miranda/UFRGS)."
+        ]
+      },
+      "questions": [
+        {
+          "question": "Cenário: Família tem 1000 de superávit. Dívida no cartão com 15% juros am. Estratégia?",
+          "answers": ["Investir em ações", "Quitação imediata da dívida do cartão (Prioridade de Ajuste)", "Gastar em lazer", "Comprar um bem"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "A 'Tipologia Descritiva' (Miranda/UFRGS) no ajuste de rota serve para:",
+          "answers": ["Esconder os fatos", "Analisar imparcialmente o fluxo e decidir sem emoção", "Criar mentiras", "Aumentar as taxas"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Redirecionar superávit para 'Ativos de Longo Prazo' (Rara Journal) visa:",
+          "answers": ["Liquidez imediata", "Independência financeira e valorização patrimonial", "Gastar mais amanhã", "Sorte"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O 'Senso Crítico' no ajuste (Miranda/UFRGS) impede o investidor de:",
+          "answers": ["Economizar", "Cair em novas promessas de 'lucro fácil' para cobrir rombos", "Ganhar salário", "Ter banco"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O ajuste deve considerar a 'Sazonalidade' para:",
+          "answers": ["Gastar mais nas férias", "Prover recursos para despesas anuais inevitáveis no próximo ciclo", "Esquecer o IPTU", "Viver o presente"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Segundo Miranda (UFRGS), o ajuste de rota contra fraudes exige:",
+          "answers": ["Mais sorte", "Educação financeira e atualização constante", "Menos controle", "Confiança cega"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "A 'Margem Líquida' pessoal (Rara Journal) positiva e crescente indica:",
+          "answers": ["Eficiência na gestão entre ganhos e sobras", "Falência", "Desnecessidade de orçamento", "Sorte"],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Por que o diálogo familiar é a base do ajuste de rota estratégico?",
+          "answers": ["Para causar brigas", "Para definir limites coletivos e objetivos comuns de longo prazo", "Para esconder dívidas", "Não é necessário"],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O 'Tratamento de Resultados' (Bardin) no orçamento permite:",
+          "answers": ["Interpretar dados para melhoria contínua do sistema financeiro", "Jogar recibos fora", "Mudar os números", "Ignorar erros"],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "A meta final de todo ajuste orçamentário é a:",
+          "answers": ["Aumento do consumo", "Segurança e Sustentabilidade Financeira", "Ter mais cartões", "Trabalhar mais horas"],
+          "rightAnswerIndex": 1
+        }
+      ]
+    }
+  ]
+}

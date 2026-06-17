@@ -1,4 +1,4 @@
-import { createRegisterService } from "../services/CreateRegisterService.js";
+import { registerService } from "./registerService.js";
 import jwt from "jsonwebtoken";
 
 export async function registerController(req, res) {
@@ -24,17 +24,25 @@ export async function registerController(req, res) {
       });
     }
 
-    const newUser = await createRegisterService({ name, email, password });
+    const emojiRegex = /\p{Extended_Pictographic}/u;
+    if (
+      emojiRegex.test(name) ||
+      emojiRegex.test(password) ||
+      emojiRegex.test(email)
+    ) {
+      return res.status(400).json({ message: "Não deve conter emojis." });
+    }
+
+    const newUser = await registerService({ name, email, password });
 
     const token = jwt.sign(
       { id: newUser.id, email: newUser.email },
       process.env.JWT_SECRET,
-      { expiresIn: "1h" }
+      { expiresIn: "1h" },
     );
 
     return res.status(201).json({
       message: "Usuário cadastrado com sucesso!",
-      user: newUser,
       token,
     });
   } catch (err) {

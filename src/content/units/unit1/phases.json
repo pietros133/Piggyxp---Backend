@@ -1,0 +1,3544 @@
+{
+  "phases": [
+    {
+      "order": 1,
+      "dificulty": 0,
+      "rewards": {
+        "xp": 120,
+        "coins": 40
+      },
+      "text": {
+        "title": [
+          "Famosos e a Falsa Segurança"
+        ],
+        "card": [
+          "A psicologia financeira estuda como nossas emoções e preconceitos influenciam nossas decisões com o dinheiro. Golpistas utilizam o gatilho da autoridade ao usar pessoas famosas, como atores ou atletas, para promover negócios duvidosos e gerar uma falsa sensação de credibilidade. O apelo emocional do dinheiro fácil e rápido é usado para cegar o investidor leigo, fazendo-o acreditar que o lucro é garantido apenas porque uma celebridade está na propaganda. Identificar esse marketing agressivo é o primeiro passo para não cair em ciladas financeiras."
+        ]
+      },
+      "questions": [
+        {
+          "question": "O que a psicologia financeira busca entender em relação ao dinheiro?",
+          "answers": [
+            "Como as emoções influenciam nossas decisões",
+            "Apenas como os bancos guardam notas",
+            "Como imprimir dinheiro em casa",
+            "A história das moedas antigas"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Por que golpistas utilizam a imagem de pessoas famosas?",
+          "answers": [
+            "Para pagar menos impostos ao governo",
+            "Para gerar uma falsa sensação de segurança e credibilidade",
+            "Porque famosos são especialistas em economia",
+            "Para ajudar o famoso a ganhar seguidores"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Qual é o principal alvo dos esquemas de dinheiro fácil?",
+          "answers": [
+            "Investidores profissionais da bolsa",
+            "Órgãos que regulam o mercado",
+            "Pessoas leigas atraídas pelo apelo emocional",
+            "Empresas que fabricam cofres"
+          ],
+          "rightAnswerIndex": 2
+        },
+        {
+          "question": "O que caracteriza o marketing agressivo citado no texto?",
+          "answers": [
+            "Promessas de lucro rápido e uso de celebridades",
+            "Aulas gratuitas sobre poupança",
+            "Distribuição de panfletos em escolas",
+            "Venda de livros de história econômica"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Como devemos reagir ao ver um famoso indicando um investimento?",
+          "answers": [
+            "Investir imediatamente",
+            "Chamar amigos para ganhar bônus",
+            "Ter cautela e não acreditar apenas na imagem dele",
+            "Ignorar que o dinheiro é real"
+          ],
+          "rightAnswerIndex": 2
+        },
+        {
+          "question": "O termo 'dinheiro fácil' no contexto financeiro geralmente indica:",
+          "answers": [
+            "Um trabalho com salário alto",
+            "Um sinal de alerta para possíveis golpes",
+            "Um bônus dado pelo Banco Central",
+            "Uma moeda que não pesa no bolso"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Qual sentimento os golpistas tentam despertar no investidor?",
+          "answers": [
+            "Medo de investir",
+            "Tédio e cansaço",
+            "Confiança cega baseada na fama alheia",
+            "Vontade de estudar matemática"
+          ],
+          "rightAnswerIndex": 2
+        },
+        {
+          "question": "Segundo o texto, a imagem de um atleta em uma propaganda garante que o negócio é seguro?",
+          "answers": [
+            "Sim, pois atletas são honestos",
+            "Sim, se ele for muito famoso",
+            "Não, é apenas uma estratégia para gerar credibilidade",
+            "Sim, pois atletas entendem de finanças"
+          ],
+          "rightAnswerIndex": 2
+        },
+        {
+          "question": "Qual o objetivo final do marketing agressivo em pirâmides?",
+          "answers": [
+            "Educar a população",
+            "Atrair vítimas rapidamente",
+            "Vender produtos de qualidade",
+            "Organizar as contas do país"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O que é o 'gatilho da autoridade' mencionado?",
+          "answers": [
+            "Uma arma usada por policiais",
+            "Usar alguém respeitado para validar algo sem provas",
+            "Um botão que liga o computador",
+            "A regra de que o dono sempre tem razão"
+          ],
+          "rightAnswerIndex": 1
+        }
+      ]
+    },
+    {
+      "order": 1,
+      "dificulty": 1,
+      "rewards": {
+        "xp": 200,
+        "coins": 50
+      },
+      "text": {
+        "title": [
+          "O Discurso do Golpe"
+        ],
+        "card": [
+          "Golpistas modernizam seus ataques utilizando tecnologias como criptomoedas para confundir o público. Eles aprimoram o discurso com respostas prontas para todas as dúvidas e utilizam termos técnicos complexos para parecerem superiores. Muitas vezes, esses criminosos apresentam comportamentos narcisistas, tratando o investidor com arrogância caso ele faça muitas perguntas. Relatórios mostram que organizações fraudulentas focam em pessoas que buscam o enriquecimento sem esforço, mascarando a falta de um produto real com promessas de lucros impossíveis de serem atingidos em mercados legítimos."
+        ]
+      },
+      "questions": [
+        {
+          "question": "Como os golpistas costumam lidar com as dúvidas dos clientes?",
+          "answers": [
+            "Eles admitem que não sabem a resposta",
+            "Eles sugerem que o cliente procure um banco",
+            "Eles utilizam respostas prontas para passar confiança",
+            "Eles explicam os riscos detalhadamente"
+          ],
+          "rightAnswerIndex": 2
+        },
+        {
+          "question": "Qual tecnologia é citada como ferramenta para confundir o público?",
+          "answers": [
+            "Cartões de débito",
+            "Criptomoedas",
+            "Cadernetas de poupança",
+            "Cheques nominais"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O que caracteriza o comportamento narcisista do golpista?",
+          "answers": [
+            "Humildade ao explicar os erros",
+            "Arrogância e tentativa de parecer intelectualmente superior",
+            "Paciência com investidores iniciantes",
+            "Transparência total nos relatórios"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Por que o uso de termos técnicos complexos é uma estratégia?",
+          "answers": [
+            "Para ajudar o cliente a aprender",
+            "Para cumprir leis do Banco Central",
+            "Para gerar confusão e parecer que o negócio é avançado",
+            "Para facilitar a retirada do dinheiro"
+          ],
+          "rightAnswerIndex": 2
+        },
+        {
+          "question": "O que geralmente falta em um esquema de pirâmide financeira?",
+          "answers": [
+            "Um site na internet",
+            "Um produto ou serviço real e concreto",
+            "Pessoas querendo ganhar dinheiro",
+            "Propaganda em redes sociais"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Qual é a motivação de quem geralmente cai nesses golpes?",
+          "answers": [
+            "Busca por investimentos de baixo risco",
+            "Desejo de enriquecimento sem esforço",
+            "Vontade de pagar mais impostos",
+            "Necessidade de abrir uma conta poupança"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Como o golpista trata o investidor que questiona muito o negócio?",
+          "answers": [
+            "Com gratidão e bônus",
+            "Com respostas baseadas em dados da CVM",
+            "Com arrogância ou desvio de foco",
+            "Com silêncio total imediato"
+          ],
+          "rightAnswerIndex": 2
+        },
+        {
+          "question": "O que o texto afirma sobre o enriquecimento em mercados legítimos?",
+          "answers": [
+            "Que lucros milagrosos são comuns",
+            "Que promessas de pirâmides são impossíveis de atingir",
+            "Que não é necessário estudar para ganhar",
+            "Que criptomoedas garantem 10% ao dia"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "A modernização dos golpes tornou-os:",
+          "answers": [
+            "Mais fáceis de identificar por qualquer um",
+            "Mais imperceptíveis e dissimulados",
+            "Menos perigosos para a população",
+            "Ilegais apenas em alguns países"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O termo 'respostas prontas' sugere que o golpista:",
+          "answers": [
+            "É um gênio da matemática",
+            "Estudou profundamente a economia real",
+            "Segue um roteiro para ludibriar o investidor",
+            "Sempre diz a verdade absoluta"
+          ],
+          "rightAnswerIndex": 2
+        }
+      ]
+    },
+    {
+      "order": 1,
+      "dificulty": 2,
+      "rewards": {
+        "xp": 300,
+        "coins": 80
+      },
+      "text": {
+        "title": [
+          "Análise Crítica de Fraudes"
+        ],
+        "card": [
+          "De acordo com pesquisadores como Frankel (2012), as pirâmides financeiras e esquemas de Ponzi utilizam a dissimulação para camuflar operações ilegítimas. A diferença fundamental é que no esquema de Ponzi, o fraudador paga os investidores antigos com o capital de novos membros, sem que haja uma atividade produtiva real. A falta de regulação adequada e a ausência de um produto com capacidade de circulação no mercado são sinais claros de fraude. A educação financeira avançada exige o desenvolvimento de um senso crítico para identificar esses padrões antes que o capital seja alocado em ambientes sem procedência legal."
+        ]
+      },
+      "questions": [
+        {
+          "question": "Qual a principal característica do esquema de Ponzi segundo o texto?",
+          "answers": [
+            "Venda de produtos de luxo",
+            "Pagamento de antigos investidores com dinheiro de novos",
+            "Investimento em ações da bolsa de valores",
+            "Empréstimos bancários com juros baixos"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O que Frankel (2012) afirma sobre esses esquemas?",
+          "answers": [
+            "Que são formas modernas de poupança",
+            "Que utilizam a dissimulação para esconder a ilegalidade",
+            "Que são garantidos pelo governo americano",
+            "Que o risco é menor que na renda fixa"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Por que a 'ausência de um produto com capacidade de circulação' é um alerta?",
+          "answers": [
+            "Indica que a empresa é exclusiva",
+            "Significa que o lucro não vem de vendas reais, mas de novas entradas",
+            "Mostra que o produto é digital e infinito",
+            "Garante que o lucro será maior no futuro"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O que o texto sugere ser essencial para evitar golpes?",
+          "answers": [
+            "Seguir conselhos de parentes",
+            "Desenvolver um senso crítico através da educação financeira",
+            "Investir apenas em criptomoedas novas",
+            "Acreditar em promessas de risco zero"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O termo 'ambiente sem procedência legal' refere-se a:",
+          "answers": [
+            "Empresas registradas na bolsa de valores",
+            "Negócios que operam fora da lei ou sem autorização",
+            "Bancos que cobram taxas altas",
+            "Lojas que não aceitam cartão de crédito"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Qual o impacto da falta de regulação adequada mencionada?",
+          "answers": [
+            "Facilita a inovação financeira",
+            "Torna o investimento mais rentável",
+            "Abre brechas para a criação de novos esquemas fraudulentos",
+            "Reduz a inflação do país"
+          ],
+          "rightAnswerIndex": 2
+        },
+        {
+          "question": "Diferente de um negócio legítimo, o lucro nesses esquemas vem de:",
+          "answers": [
+            "Produção de bens e serviços",
+            "Apenas da valorização do dólar",
+            "Aporte de novos participantes",
+            "Juros pagos pelo Banco Central"
+          ],
+          "rightAnswerIndex": 2
+        },
+        {
+          "question": "A dissimulação citada por Frankel serve para:",
+          "answers": [
+            "Ajudar o investidor a entender o gráfico",
+            "Esconder o funcionamento real e ilegal do negócio",
+            "Pagar menos impostos de renda",
+            "Mostrar a transparência da empresa"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O que significa 'alocar capital' no contexto do texto?",
+          "answers": [
+            "Comprar equipamentos para a empresa",
+            "Colocar seu dinheiro em um investimento",
+            "Dividir o lucro com os sócios",
+            "Pedir um empréstimo no banco"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Qual a relação entre atividade produtiva e esquemas de Ponzi?",
+          "answers": [
+            "A atividade produtiva é a base do lucro",
+            "Não existe atividade produtiva real gerando o dinheiro",
+            "O governo fiscaliza a produção diariamente",
+            "O produto é sempre um serviço de consultoria"
+          ],
+          "rightAnswerIndex": 1
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "dificulty": 0,
+      "rewards": {
+        "xp": 130,
+        "coins": 45
+      },
+      "text": {
+        "title": [
+          "Projetos vs Sonhos Vazios"
+        ],
+        "card": [
+          "Existe uma diferença vital entre um projeto de formação de patrimônio e o desejo por lucro rápido. Um projeto real exige planejamento, estudo e tempo para ser executado de forma segura. Já as pirâmides financeiras vendem sonhos vazios: a promessa de ficar rico em tempo recorde sem qualquer esforço. Enquanto um investimento legítimo foca no longo prazo, os golpes exploram a impaciência das pessoas. Entender que o dinheiro não cresce magicamente ajuda a proteger suas economias contra promessas que são, na verdade, armadilhas disfarçadas de oportunidades."
+        ]
+      },
+      "questions": [
+        {
+          "question": "O que diferencia um projeto real de um sonho vazio?",
+          "answers": [
+            "A sorte de quem investe",
+            "Planejamento, estudo e tempo",
+            "O valor inicial do investimento",
+            "O número de amigos que participam"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Qual é a promessa principal das pirâmides financeiras?",
+          "answers": [
+            "Estudo constante e esforço",
+            "Riqueza em tempo recorde sem esforço",
+            "Lucros baixos e seguros",
+            "Educação financeira gratuita"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Investimentos legítimos costumam focar em qual período?",
+          "answers": [
+            "Apenas nas próximas 24 horas",
+            "No enriquecimento para o próximo final de semana",
+            "No longo prazo e na formação de patrimônio",
+            "Em nenhum período específico"
+          ],
+          "rightAnswerIndex": 2
+        },
+        {
+          "question": "O que os golpistas exploram na psicologia das pessoas?",
+          "answers": [
+            "A paciência e a calma",
+            "A vontade de estudar economia",
+            "A impaciência por ganhos imediatos",
+            "O desejo de pagar dívidas aos poucos"
+          ],
+          "rightAnswerIndex": 2
+        },
+        {
+          "question": "Por que o dinheiro não cresce 'magicamente'?",
+          "answers": [
+            "Porque os bancos não permitem",
+            "Porque investimentos reais dependem de atividade econômica",
+            "Porque a lei proíbe o crescimento",
+            "Porque o tempo para de passar"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Um projeto de formação de patrimônio busca:",
+          "answers": [
+            "Gastar tudo o que ganha hoje",
+            "Construir riqueza de forma sólida e segura",
+            "Encontrar uma mina de ouro no quintal",
+            "Acreditar em influenciadores digitais"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O termo 'tempo recorde' em promessas financeiras deve ser visto como:",
+          "answers": [
+            "Um sinal de grande eficiência",
+            "Um forte indício de possível golpe",
+            "Uma meta a ser buscada por todos",
+            "Uma regra do mercado moderno"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Qual o risco de focar apenas no lucro rápido?",
+          "answers": [
+            "Ganhar dinheiro demais e não saber o que fazer",
+            "Cair em armadilhas e perder as economias",
+            "Ter que pagar mais impostos",
+            "Se tornar um especialista em finanças"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O que ajuda a proteger as economias de uma pessoa?",
+          "answers": [
+            "Acreditar em todas as oportunidades que surgem",
+            "Entender que promessas mágicas são irreais",
+            "Seguir dicas de quem ficou rico rápido",
+            "Guardar o dinheiro embaixo do colchão"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Para ser executado com segurança, um plano financeiro precisa de:",
+          "answers": [
+            "Um famoso fazendo a propaganda",
+            "Sorte e intuição",
+            "Tempo, planejamento e estudo",
+            "Muitas curtidas nas redes sociais"
+          ],
+          "rightAnswerIndex": 2
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "dificulty": 1,
+      "rewards": {
+        "xp": 210,
+        "coins": 55
+      },
+      "text": {
+        "title": [
+          "O Custo da Falta de Conhecimento"
+        ],
+        "card": [
+          "A falta de educação financeira tem um custo alto: oito em cada dez brasileiros não sabem controlar suas próprias despesas, segundo dados do SPC e CNDL (2021). Esse desconhecimento abre espaço para o endividamento e para a dificuldade de formar patrimônio. Quando as pessoas não entendem noções econômicas básicas, tornam-se alvos fáceis para promessas de ganhos absurdos. O conhecimento é diretamente proporcional à autonomia financeira; quanto mais você entende como o dinheiro funciona, menor é a chance de depender de 'soluções mágicas' e maior é a sua capacidade de gerir o capital de forma efetiva."
+        ]
+      },
+      "questions": [
+        {
+          "question": "Segundo o estudo de 2021, quantos brasileiros não controlam suas despesas?",
+          "answers": [
+            "2 em cada 10",
+            "5 em cada 10",
+            "8 em cada 10",
+            "Todos os brasileiros"
+          ],
+          "rightAnswerIndex": 2
+        },
+        {
+          "question": "Quais órgãos comandaram o estudo sobre o controle de despesas?",
+          "answers": [
+            "Banco Central e CVM",
+            "SPC e CNDL",
+            "Polícia Federal e Receita",
+            "Prefeitura e Estado"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O que a falta de noções econômicas básicas favorece?",
+          "answers": [
+            "O acúmulo de riqueza",
+            "A formação de patrimônio rápido",
+            "O endividamento e a queda em golpes",
+            "O aumento do salário mínimo"
+          ],
+          "rightAnswerIndex": 2
+        },
+        {
+          "question": "A autonomia financeira é alcançada através de:",
+          "answers": [
+            "Sorte em sorteios",
+            "Empréstimos bancários",
+            "Conhecimento e educação financeira",
+            "Acreditar em robôs de lucro"
+          ],
+          "rightAnswerIndex": 2
+        },
+        {
+          "question": "O que significa dizer que o conhecimento é 'proporcional' à autonomia?",
+          "answers": [
+            "Que não existe relação entre eles",
+            "Que quanto mais estudo, mais controle sobre o dinheiro",
+            "Que estudar finanças faz perder dinheiro",
+            "Que apenas ricos precisam estudar"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Qual o principal perigo de não saber gerir o capital?",
+          "answers": [
+            "Tornar-se alvo de promessas de ganhos absurdos",
+            "Ter que trabalhar menos horas",
+            "Pagar as contas antes do vencimento",
+            "Entender a taxa Selic"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "O termo 'gerir o capital de forma efetiva' significa:",
+          "answers": [
+            "Gastar tudo o que recebe no dia",
+            "Administrar o dinheiro com sabedoria e planejamento",
+            "Pedir dinheiro emprestado para amigos",
+            "Esconder o dinheiro para não gastar"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Por que o desconhecimento financeiro é um problema em grande escala?",
+          "answers": [
+            "Porque as pessoas compram mais produtos",
+            "Porque dificulta a formação de patrimônio da população",
+            "Porque os bancos ganham menos taxas",
+            "Porque as redes sociais param de funcionar"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O que o texto chama de 'soluções mágicas'?",
+          "answers": [
+            "Novas tecnologias bancárias",
+            "Promessas irreais de ganhos sem esforço",
+            "Cursos de graduação em economia",
+            "Planilhas de controle de gastos"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "A educação financeira ajuda o cidadão a:",
+          "answers": [
+            "Ganhar na loteria toda semana",
+            "Diferenciar um golpe do que é financeiramente possível",
+            "Não precisar mais trabalhar",
+            "Gastar o dinheiro de outras pessoas"
+          ],
+          "rightAnswerIndex": 1
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "dificulty": 2,
+      "rewards": {
+        "xp": 310,
+        "coins": 85
+      },
+      "text": {
+        "title": [
+          "Diferenciando Investimento de Aposta"
+        ],
+        "card": [
+          "Para formar patrimônio real, é preciso distinguir investimentos de apostas arriscadas. Analistas sérios utilizam ferramentas como a Análise Fundamentalista, que foca no valor real de uma empresa (saúde financeira e patrimônio), e a Análise Técnica, que observa padrões e tendências de mercado. Golpistas tentam imitar essas técnicas, mas falham em fornecer dados transparentes. Enquanto um projeto sério aceita a volatilidade (oscilação natural) da renda variável, a pirâmide promete rentabilidade garantida e risco zero, algo que Bergo e Haro (2014) apontam como um sinal clássico de operação disfuncional."
+        ]
+      },
+      "questions": [
+        {
+          "question": "Qual o foco da Análise Fundamentalista?",
+          "answers": [
+            "O preço da ação nos próximos 5 minutos",
+            "O valor real da empresa baseado na saúde financeira",
+            "As cores do logotipo da companhia",
+            "O número de seguidores do dono no Instagram"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O que a Análise Técnica observa?",
+          "answers": [
+            "Padrões e tendências de comportamento do mercado",
+            "Apenas a opinião dos funcionários da empresa",
+            "A quantidade de dinheiro físico no cofre",
+            "As leis aprovadas pelo governo no dia"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "O que significa 'volatilidade' no mercado financeiro?",
+          "answers": [
+            "A garantia de que o preço nunca vai mudar",
+            "A oscilação natural dos preços dos ativos",
+            "A velocidade com que o banco abre",
+            "O bônus pago por indicar novos membros"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Qual a diferença entre a promessa de uma pirâmide e um projeto real?",
+          "answers": [
+            "Nenhuma, ambos buscam lucro",
+            "A pirâmide promete lucro garantido e risco zero",
+            "O projeto real garante que você nunca perderá",
+            "A pirâmide usa menos tecnologia que os bancos"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Segundo Bergo e Haro (2014), o 'risco zero' com lucro alto é:",
+          "answers": [
+            "A meta de todo investidor inteligente",
+            "Um sinal clássico de operação disfuncional ou fraude",
+            "Uma característica das criptomoedas",
+            "Garantido por lei em todos os países"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O que os golpistas tentam imitar para parecerem legítimos?",
+          "answers": [
+            "A aparência dos caixas eletrônicos",
+            "As técnicas de análise de mercado profissionais",
+            "O uniforme dos gerentes de banco",
+            "As propagandas de supermercado"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Diferente dos golpistas, analistas sérios fornecem:",
+          "answers": [
+            "Dados transparentes e fundamentados",
+            "Apenas palavras bonitas e elogios",
+            "Garantia de que o lucro será de 10% ao dia",
+            "Fotos de carros de luxo e viagens"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "A renda variável, por natureza, envolve:",
+          "answers": [
+            "Risco zero para quem estuda",
+            "Lucros fixos mensais inalteráveis",
+            "Possibilidade de perdas e oscilações",
+            "Apenas ganhos para novos membros"
+          ],
+          "rightAnswerIndex": 2
+        },
+        {
+          "question": "O que caracteriza uma 'operação disfuncional' citada no texto?",
+          "answers": [
+            "Um banco que fecha para o almoço",
+            "Um negócio que promete o que o mercado não pode entregar",
+            "Uma empresa que vende produtos baratos",
+            "Um aplicativo que demora para carregar"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Como o investidor pode identificar se uma técnica é falsa?",
+          "answers": [
+            "Verificando a transparência dos dados fornecidos",
+            "Vendo se o apresentador é famoso",
+            "Observando se o lucro é maior que 50% ao dia",
+            "Acreditando na intuição e na sorte"
+          ],
+          "rightAnswerIndex": 0
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "dificulty": 0,
+      "rewards": {
+        "xp": 140,
+        "coins": 50
+      },
+      "text": {
+        "title": [
+          "O Brilho Falso do Luxo"
+        ],
+        "card": [
+          "Esquemas de pirâmide financeira usam a venda de um 'estilo de vida luxuoso' como isca para atrair novas vítimas. Nas redes sociais, os golpistas ostentam carros importados, viagens internacionais e mansões, fazendo as pessoas se perguntarem: 'Por que não eu?'. Esse marketing agressivo foca em despertar o desejo de consumo imediato, escondendo o fato de que aquele luxo é pago com o dinheiro das próprias vítimas. O consumo consciente nos ensina a olhar além das aparências e a entender que a riqueza real é construída com trabalho e tempo, e não com promessas mágicas de ostentação fácil."
+        ]
+      },
+      "questions": [
+        {
+          "question": "O que os golpistas usam como 'isca' nas redes sociais?",
+          "answers": [
+            "Livros técnicos de economia",
+            "A ostentação de um estilo de vida luxuoso",
+            "Dicas de como economizar no mercado",
+            "Gráficos sobre a inflação no país"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Qual pergunta os golpistas querem que as pessoas façam ao ver o luxo?",
+          "answers": [
+            "Onde está o contrato?",
+            "Esse negócio é legal?",
+            "Por que não eu?",
+            "Qual é a taxa Selic?"
+          ],
+          "rightAnswerIndex": 2
+        },
+        {
+          "question": "De onde vem o dinheiro que paga o luxo exibido pelos golpistas?",
+          "answers": [
+            "De lucros reais na bolsa",
+            "Do dinheiro das próprias vítimas do esquema",
+            "De um prêmio da loteria",
+            "De heranças de família"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O marketing agressivo desses esquemas foca em despertar:",
+          "answers": [
+            "O desejo de estudar finanças",
+            "O consumo consciente e planejado",
+            "O desejo de consumo imediato e impulsivo",
+            "A paciência para investir por 30 anos"
+          ],
+          "rightAnswerIndex": 2
+        },
+        {
+          "question": "O que o consumo consciente nos ensina?",
+          "answers": [
+            "Que devemos comprar tudo o que vemos",
+            "A olhar além das aparências e propagandas",
+            "Que o luxo é a prova de que um negócio é bom",
+            "A investir apenas em quem tem carros caros"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "A riqueza real, segundo o texto, é construída com:",
+          "answers": [
+            "Promessas mágicas e sorte",
+            "Trabalho, planejamento e tempo",
+            "Indicação de novos amigos",
+            "Postagens em redes sociais"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Por que a ostentação é perigosa no mundo dos investimentos?",
+          "answers": [
+            "Porque atrai muitos impostos",
+            "Porque é usada para esconder riscos e fraudes",
+            "Porque os carros podem ser roubados",
+            "Porque gasta muita bateria do celular"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O termo 'ostentação fácil' refere-se a:",
+          "answers": [
+            "Ganhar um presente de um parente",
+            "Exibir luxo que não tem base em lucros reais",
+            "Comprar roupas em promoção",
+            "Trabalhar duro para comprar um carro"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Como devemos reagir a perfis que prometem riqueza rápida exibindo luxo?",
+          "answers": [
+            "Seguir todas as dicas e investir",
+            "Pedir dinheiro emprestado para participar",
+            "Desconfiar e analisar a origem dos ganhos",
+            "Curtir todas as fotos para ganhar bônus"
+          ],
+          "rightAnswerIndex": 2
+        },
+        {
+          "question": "A venda do 'estilo de vida luxuoso' é uma estratégia de:",
+          "answers": [
+            "Educação financeira avançada",
+            "Marketing para atrair vítimas para pirâmides",
+            "Bancos públicos federais",
+            "Instituições de caridade"
+          ],
+          "rightAnswerIndex": 1
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "dificulty": 1,
+      "rewards": {
+        "xp": 220,
+        "coins": 60
+      },
+      "text": {
+        "title": [
+          "Necessidades vs Desejos de Marketing"
+        ],
+        "card": [
+          "Saber diferenciar necessidades reais de desejos criados pelo marketing é fundamental para a saúde financeira. O marketing agressivo de esquemas fraudulentos tenta transformar o desejo de 'ser rico e famoso' em uma necessidade urgente, levando a decisões impulsivas. O consumo consciente exige que paremos para analisar se aquele 'investimento' milagroso realmente faz sentido ou se estamos sendo levados pelo desejo de ostentação. Controlar os impulsos e focar no que realmente precisamos ajuda a evitar que nossas economias sejam sugadas por armadilhas que vendem um estilo de vida insustentável."
+        ]
+      },
+      "questions": [
+        {
+          "question": "O que é fundamental para a saúde financeira?",
+          "answers": [
+            "Comprar tudo o que está na promoção",
+            "Diferenciar necessidades reais de desejos de marketing",
+            "Ter o celular mais caro do ano",
+            "Investir em todos os anúncios das redes sociais"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O marketing agressivo de golpes tenta criar qual sentimento?",
+          "answers": [
+            "Paciência e tranquilidade",
+            "Uma urgência em 'ser rico e famoso'",
+            "Vontade de poupar para a aposentadoria",
+            "Respeito às leis do Banco Central"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Decisões impulsivas financeiras geralmente levam a:",
+          "answers": [
+            "Enriquecimento sólido",
+            "Melhor controle de gastos",
+            "Erros e perda de dinheiro em armadilhas",
+            "Aumento da autonomia financeira"
+          ],
+          "rightAnswerIndex": 2
+        },
+        {
+          "question": "O que o consumo consciente exige do investidor?",
+          "answers": [
+            "Análise crítica antes de agir",
+            "Seguir os impulsos de compra",
+            "Acreditar em qualquer milagre financeiro",
+            "Comprar produtos apenas pela embalagem"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "O termo 'estilo de vida insustentável' refere-se a:",
+          "answers": [
+            "Viver de forma simples e poupar",
+            "Um padrão de gastos maior do que a renda real permite",
+            "Trabalhar em uma empresa de energia limpa",
+            "Comprar apenas o necessário no mercado"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Como o marketing de golpes manipula nossos desejos?",
+          "answers": [
+            "Ensinando a investir em renda fixa",
+            "Transformando sonhos em necessidades urgentes",
+            "Explicando os perigos da inflação",
+            "Mostrando como economizar luz e água"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Controlar os impulsos financeiros ajuda a:",
+          "answers": [
+            "Gastar mais em viagens de luxo",
+            "Evitar armadilhas e proteger economias",
+            "Perder oportunidades de lucro rápido",
+            "Ficar para trás nas redes sociais"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Um 'investimento milagroso' deve ser visto com:",
+          "answers": [
+            "Alegria e confiança imediata",
+            "Ceticismo e análise de procedência",
+            "Vontade de investir todo o salário",
+            "Indiferença total, pois milagres existem"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O que acontece quando o desejo de ostentação domina a razão?",
+          "answers": [
+            "Aumentamos nossa poupança",
+            "Ficamos mais protegidos contra golpes",
+            "Tornamo-nos alvos fáceis para pirâmides",
+            "Aprendemos mais sobre a taxa Selic"
+          ],
+          "rightAnswerIndex": 2
+        },
+        {
+          "question": "A saúde financeira depende de:",
+          "answers": [
+            "Sorte e dicas de famosos",
+            "Consumo consciente e controle de desejos",
+            "Gastar o máximo possível para parecer rico",
+            "Não planejar o futuro"
+          ],
+          "rightAnswerIndex": 1
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "dificulty": 2,
+      "rewards": {
+        "xp": 320,
+        "coins": 90
+      },
+      "text": {
+        "title": [
+          "A Lógica por trás da Ostentação"
+        ],
+        "card": [
+          "Na análise de fraudes, a ostentação serve para desviar o foco da falta de viabilidade econômica do negócio. O investidor educado utiliza indicadores de rentabilidade para verificar se os lucros prometidos são sustentáveis. Enquanto uma empresa legítima gera valor através da produção ou serviços, a pirâmide precisa de novos membros para pagar os antigos. Esse ciclo é insustentável no longo prazo. O consumo consciente e o conhecimento técnico funcionam como filtros, permitindo identificar que o luxo exibido por 'lideranças' é apenas um custo de marketing pago pelos novos entrantes para manter a ilusão de sucesso."
+        ]
+      },
+      "questions": [
+        {
+          "question": "Qual é a função da ostentação em esquemas de fraude?",
+          "answers": [
+            "Premiar os melhores funcionários",
+            "Desviar o foco da falta de viabilidade econômica",
+            "Mostrar a transparência das contas",
+            "Pagar impostos atrasados ao governo"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O que o investidor educado utiliza para avaliar promessas?",
+          "answers": [
+            "A quantidade de fotos de viagens do dono",
+            "Indicadores de rentabilidade e viabilidade",
+            "A cor do carro importado da propaganda",
+            "O número de seguidores em redes sociais"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Como uma empresa legítima gera valor real?",
+          "answers": [
+            "Através de novos membros entrando no grupo",
+            "Através da produção de bens ou prestação de serviços",
+            "Através de promessas de lucro de 10% ao dia",
+            "Através da ostentação em redes sociais"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Por que o ciclo de uma pirâmide é insustentável?",
+          "answers": [
+            "Porque os membros cansam de ganhar dinheiro",
+            "Porque depende infinitamente de novos entrantes para pagar os antigos",
+            "Porque o governo proíbe empresas de crescerem muito",
+            "Porque as redes sociais bloqueiam o marketing"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O termo 'viabilidade econômica' refere-se à capacidade de:",
+          "answers": [
+            "Um negócio se manter e lucrar de forma real e legal",
+            "Um golpista fugir com o dinheiro das pessoas",
+            "Uma pessoa gastar mais do que ganha",
+            "Um banco imprimir notas novas"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "O luxo exibido por líderes de pirâmides é, na verdade:",
+          "answers": [
+            "Um prêmio por sua inteligência",
+            "Um custo de marketing pago pelas próprias vítimas",
+            "A prova de que o investimento é seguro",
+            "Dinheiro doado pelo Banco Central"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Quais ferramentas funcionam como filtros contra golpes?",
+          "answers": [
+            "Sorte e intuição emocional",
+            "Consumo consciente e conhecimento técnico",
+            "Indicações de amigos e parentes",
+            "Cartões de crédito com limite alto"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O que significa 'novos entrantes' no contexto de pirâmides?",
+          "answers": [
+            "Novas tecnologias no mercado",
+            "Pessoas que acabaram de entrar no esquema",
+            "Novos impostos criados pelo governo",
+            "Novos tipos de cédulas de dinheiro"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Como identificar a ilusão de sucesso citada no texto?",
+          "answers": [
+            "Acreditando nas fotos de viagens",
+            "Analisando se o lucro vem de produção real ou de novas pessoas",
+            "Vendo se o dono da empresa é bonito e bem vestido",
+            "Contando quantos carros de luxo aparecem no vídeo"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Diferente da pirâmide, um negócio sustentável busca:",
+          "answers": [
+            "Lucrar apenas com a entrada de novos sócios",
+            "Gerar valor real e duradouro no mercado",
+            "Ostentar riqueza para atrair desatentos",
+            "Evitar o uso de indicadores de rentabilidade"
+          ],
+          "rightAnswerIndex": 1
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "dificulty": 0,
+      "rewards": {
+        "xp": 150,
+        "coins": 55
+      },
+      "text": {
+        "title": [
+          "O Tempo e o Dinheiro"
+        ],
+        "card": [
+          "O valor do dinheiro não é fixo; ele muda com o passar do tempo. Dois fatores principais influenciam isso: os juros, que remuneram quem guarda ou investe, e a inflação, que é o aumento geral dos preços e faz o dinheiro perder poder de compra. Entender essa lógica ajuda a perceber que promessas de lucros gigantescos em poucos dias são irreais. O crescimento real do patrimônio leva tempo. Ignorar o fator tempo é o erro mais comum de quem busca atalhos financeiros, facilitando o caminho para cair em golpes que prometem 'mágica' com suas economias."
+        ]
+      },
+      "questions": [
+        {
+          "question": "Por que o valor do dinheiro muda com o tempo?",
+          "answers": [
+            "Porque as notas ficam velhas",
+            "Devido aos juros e à inflação",
+            "Porque o governo troca as cores das notas",
+            "Porque o papel se desintegra"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O que é a inflação?",
+          "answers": [
+            "O aumento do tamanho das notas de dinheiro",
+            "O aumento geral dos preços que reduz o poder de compra",
+            "Um tipo de investimento seguro do governo",
+            "A taxa que o banco cobra para abrir uma conta"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O que os juros representam para quem investe?",
+          "answers": [
+            "Uma multa por guardar dinheiro",
+            "A remuneração por emprestar ou aplicar o capital",
+            "O valor que se perde para a inflação",
+            "Um imposto obrigatório para todos"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Promessas de lucros gigantescos em poucos dias são geralmente:",
+          "answers": [
+            "Oportunidades únicas de mercado",
+            "Irreais e sinais de possíveis golpes",
+            "Garantidas pelo Banco Central",
+            "Fruto de tecnologias secretas"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O que significa 'poder de compra'?",
+          "answers": [
+            "A força física para carregar sacolas",
+            "A quantidade de bens que uma quantia de dinheiro pode comprar",
+            "O limite do cartão de crédito",
+            "A vontade de gastar em promoções"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O crescimento real do patrimônio exige:",
+          "answers": [
+            "Sorte e rapidez",
+            "Tempo e paciência",
+            "Entrar em grupos de WhatsApp de dicas",
+            "Gastar todo o salário em criptomoedas"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Qual é o erro mais comum de quem busca atalhos financeiros?",
+          "answers": [
+            "Estudar demais sobre economia",
+            "Ignorar o fator tempo no crescimento do dinheiro",
+            "Pagar as contas sempre em dia",
+            "Consultar especialistas autorizados"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "A lógica do 'dinheiro no tempo' nos ensina a:",
+          "answers": [
+            "Gastar tudo hoje, pois amanhã vale menos",
+            "Ter paciência e entender que a riqueza leva tempo",
+            "Investir apenas em negócios que prometem 10% ao dia",
+            "Não guardar dinheiro, pois a inflação come tudo"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Esquemas de 'mágica' financeira costumam prometer:",
+          "answers": [
+            "Resultados consistentes a longo prazo",
+            "Resultados imediatos e absurdos",
+            "Explicações detalhadas sobre a inflação",
+            "Segurança total através de órgãos oficiais"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Se o preço de tudo aumenta, o seu dinheiro parado:",
+          "answers": [
+            "Ganha mais valor",
+            "Perde poder de compra (vale menos)",
+            "Fica exatamente igual",
+            "Multiplica-se sozinho"
+          ],
+          "rightAnswerIndex": 1
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "dificulty": 1,
+      "rewards": {
+        "xp": 230,
+        "coins": 65
+      },
+      "text": {
+        "title": [
+          "A Régua da Selic"
+        ],
+        "card": [
+          "No Brasil, a Taxa Selic é a taxa básica de juros, definida pelo Banco Central. Ela serve como a principal 'régua' para saber se um investimento é realista. Em períodos recentes, a Selic esteve em 13,75 por cento ao ano. Se um investimento seguro rende isso em um ano, promessas como as da Braiscompany, que ofereciam 8 por cento ao mês, são matematicamente insustentáveis e altamente suspeitas. Ao comparar qualquer oferta com a Selic, você percebe que retornos mensais próximos ao que o mercado paga em um ano inteiro indicam um risco altíssimo de fraude e perda total do capital."
+        ]
+      },
+      "questions": [
+        {
+          "question": "O que é a Taxa Selic?",
+          "answers": [
+            "Um imposto sobre vendas de carros",
+            "A taxa básica de juros da economia brasileira",
+            "Um bônus pago para quem usa cartão de crédito",
+            "A taxa de câmbio entre o Real e o Dólar"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Qual órgão define a Taxa Selic no Brasil?",
+          "answers": [
+            "CVM",
+            "Banco Central",
+            "Receita Federal",
+            "Braiscompany"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Qual valor da Selic é mencionado como referência no texto?",
+          "answers": [
+            "2% ao ano",
+            "13,75% ao ano",
+            "8% ao mês",
+            "50% ao semestre"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Por que a Selic é chamada de 'régua' no texto?",
+          "answers": [
+            "Porque serve para medir o tamanho das notas",
+            "Porque serve de parâmetro para comparar a realidade de outros lucros",
+            "Porque é usada para desenhar gráficos financeiros",
+            "Porque regula a altura dos prédios dos bancos"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Uma promessa de 8% ao mês é suspeita porque:",
+          "answers": [
+            "É um valor muito baixo para o mercado",
+            "É quase o que um investimento seguro rende em um ano inteiro",
+            "O governo proibiu o número 8 em contratos",
+            "A Braiscompany era uma empresa pública"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O termo 'matematicamente insustentável' significa que:",
+          "answers": [
+            "As contas são muito fáceis de fazer",
+            "A conta não fecha e o negócio vai quebrar",
+            "O lucro é tão alto que não dá para contar",
+            "A matemática não se aplica ao dinheiro"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Ao ver um retorno mensal absurdo, o investidor deve prever:",
+          "answers": [
+            "Riqueza garantida em 3 meses",
+            "Risco altíssimo de fraude e perda total",
+            "Um prêmio por ser corajoso",
+            "A aprovação imediata do Banco Central"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O que acontece se você ignora a comparação com a Selic?",
+          "answers": [
+            "Ganha mais dinheiro",
+            "Fica mais vulnerável a acreditar em golpes",
+            "Paga menos impostos",
+            "Torna-se um especialista em cripto"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Investimentos seguros no Brasil rendem:",
+          "answers": [
+            "10% ao dia garantido",
+            "Valores baseados na taxa Selic anual",
+            "Apenas o que o gerente do banco prometer",
+            "Nada, pois o dinheiro sempre some"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O caso da Braiscompany é citado para exemplificar:",
+          "answers": [
+            "Um sucesso de investimento nacional",
+            "Uma promessa de rendimento irreal e suspeita",
+            "A nova moeda digital do governo",
+            "Como usar robôs para ficar rico"
+          ],
+          "rightAnswerIndex": 1
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "dificulty": 2,
+      "rewards": {
+        "xp": 330,
+        "coins": 95
+      },
+      "text": {
+        "title": [
+          "Matemática dos Juros Compostos"
+        ],
+        "card": [
+          "A sustentabilidade matemática é a prova de fogo de qualquer investimento. Promessas de 8 por cento ao mês, através de juros compostos, fariam um capital dobrar em menos de um ano, o que é impossível de manter em larga escala. Esquemas como o de Bernie Madoff duraram anos simulando lucros constantes, mas colapsaram por serem pirâmides. O investidor educado entende que lucros reais dependem da volatilidade do mercado e que taxas astronômicas fixas são sinais de que o capital de novos clientes está sendo usado para pagar os antigos. Verifique sempre o lastro (garantia real) e a viabilidade lógica dos rendimentos antes de aportar."
+        ]
+      },
+      "questions": [
+        {
+          "question": "O que acontece com um capital que rende 8% ao mês com juros compostos?",
+          "answers": [
+            "Ele diminui com o tempo",
+            "Ele dobraria em menos de um ano",
+            "Ele ficaria parado devido à inflação",
+            "Ele seria recolhido pelo Banco Central"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Por que taxas fixas astronômicas são sinais de perigo?",
+          "answers": [
+            "Porque o mercado é volátil e não garante lucro fixo alto",
+            "Porque o banco não gosta de pagar muito",
+            "Porque a tecnologia dos robôs é lenta",
+            "Porque o governo quer todo o lucro para ele"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Quem foi Bernie Madoff mencionado no texto?",
+          "answers": [
+            "Um herói da economia mundial",
+            "Um fraudador que criou um gigante esquema de pirâmide",
+            "O inventor dos juros compostos",
+            "O atual presidente do Banco Central"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O que significa 'volatilidade do mercado'?",
+          "answers": [
+            "A segurança de que o preço vai subir",
+            "As oscilações e mudanças constantes nos preços",
+            "O tempo que o dinheiro leva para cair na conta",
+            "A velocidade da internet do banco"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "No esquema de Madoff, como os lucros eram pagos?",
+          "answers": [
+            "Com lucros reais da bolsa de valores",
+            "Usando o capital de novos clientes para pagar os antigos",
+            "Através de uma herança secreta",
+            "Pelo tesouro nacional dos Estados Unidos"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O termo 'lastro' no texto refere-se a:",
+          "answers": [
+            "O peso das moedas de ouro",
+            "Uma garantia real ou atividade que sustenta o valor",
+            "A velocidade de uma pirâmide",
+            "O contrato assinado em cartório"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Por que lucros astronômicos são impossíveis em larga escala?",
+          "answers": [
+            "Não haveria dinheiro suficiente no mundo para sustentar o crescimento",
+            "As pessoas ficariam ricas demais e parariam de trabalhar",
+            "O papel moeda iria acabar",
+            "Os robôs de investimento iriam superaquecer"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "O investidor educado faz o quê antes de 'aportar'?",
+          "answers": [
+            "Pede dinheiro para parentes",
+            "Verifica o lastro e a viabilidade lógica dos rendimentos",
+            "Acredita na palavra do dono da empresa",
+            "Investe tudo o que tem imediatamente"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O colapso de uma pirâmide ocorre quando:",
+          "answers": [
+            "O dono decide se aposentar",
+            "Não entram novos membros suficientes para pagar as promessas",
+            "O lucro passa de 100% ao dia",
+            "O sistema do banco entra em manutenção"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Qual a 'prova de fogo' de um investimento citada no texto?",
+          "answers": [
+            "A beleza do site da empresa",
+            "A sustentabilidade matemática dos lucros",
+            "A quantidade de famosos na propaganda",
+            "O valor do bônus por indicação"
+          ],
+          "rightAnswerIndex": 1
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "dificulty": 0,
+      "rewards": {
+        "xp": 160,
+        "coins": 60
+      },
+      "text": {
+        "title": [
+          "Onde Colocar seu Dinheiro"
+        ],
+        "card": [
+          "Ao escolher onde investir, você enfrenta o custo de oportunidade: ao escolher um caminho, você abre mão de outro. Optar pela segurança de instituições autorizadas é o oposto de arriscar tudo em esquemas duvidosos. No Brasil, investimentos legítimos são fiscalizados por órgãos como a CVM (Comissão de Valores Mobiliários) e o Banco Central. Antes de entregar seu dinheiro a qualquer empresa, verifique se ela tem registro nesses órgãos. Ignorar essa validação pode significar a perda total de suas economias em troca de uma promessa de lucro que nunca existiu."
+        ]
+      },
+      "questions": [
+        {
+          "question": "O que significa 'custo de oportunidade'?",
+          "answers": [
+            "O preço de um produto em promoção",
+            "O que você abre mão ao fazer uma escolha financeira",
+            "O valor que se ganha ao entrar em uma pirâmide",
+            "A taxa cobrada para abrir uma conta bancária"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Quais órgãos fiscalizam investimentos legítimos no Brasil?",
+          "answers": [
+            "CVM e Banco Central",
+            "Receita Federal e Polícia Militar",
+            "Prefeitura e Procon",
+            "Braiscompany e Atlas Quantum"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "O que significa a sigla CVM?",
+          "answers": [
+            "Comissão de Valores Mobiliários",
+            "Conselho de Vendas Mundiais",
+            "Central de Valor Mensal",
+            "Comitê de Verificação de Moedas"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "O que o investidor deve verificar antes de entregar seu dinheiro?",
+          "answers": [
+            "Se o dono da empresa é famoso",
+            "Se a empresa tem registro na CVM ou Banco Central",
+            "Se o escritório da empresa é bonito",
+            "Se a empresa promete lucro de 10% ao mês"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Optar por instituições autorizadas garante:",
+          "answers": [
+            "Lucro de 100% ao dia",
+            "Maior segurança e fiscalização do seu dinheiro",
+            "Que você nunca precisará trabalhar",
+            "Sorte em todos os seus negócios"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Qual o risco de ignorar a validação nos órgãos reguladores?",
+          "answers": [
+            "Pagar menos taxas ao banco",
+            "Perda total das economias em fraudes",
+            "Receber um bônus por coragem",
+            "Tornar-se um investidor profissional"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O Banco Central atua na:",
+          "answers": [
+            "Fiscalização e regulação do sistema financeiro",
+            "Venda de criptomoedas para a população",
+            "Propaganda de esquemas de pirâmide",
+            "Criação de anúncios em redes sociais"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Um investimento 'duvidoso' é aquele que:",
+          "answers": [
+            "Possui registro oficial na CVM",
+            "Não tem clareza e opera sem autorização",
+            "Paga lucros baseados na Selic",
+            "É oferecido por bancos tradicionais"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O termo 'escolher um caminho e abrir mão de outro' define:",
+          "answers": [
+            "A inflação",
+            "O custo de oportunidade",
+            "A taxa Selic",
+            "A psicologia do famoso"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "A validação em órgãos oficiais serve para:",
+          "answers": [
+            "Atrapalhar o investidor",
+            "Confirmar se a empresa é idônea e legalizada",
+            "Garantir que o lucro seja de 50% ao mês",
+            "Saber qual é a melhor criptomoeda"
+          ],
+          "rightAnswerIndex": 1
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "dificulty": 1,
+      "rewards": {
+        "xp": 240,
+        "coins": 70
+      },
+      "text": {
+        "title": [
+          "Regulação e Criptoativos"
+        ],
+        "card": [
+          "O mercado de criptomoedas é frequentemente usado por golpistas porque ainda não possui uma regulação completa sobre rastreio e tributação no Brasil. Isso facilita a ação de empresas como a Atlas Quantum, que prometiam lucros através de Bitcoin sem autorização da CVM. O investidor deve saber que, na renda variável, risco e retorno andam juntos. Se uma oferta promete retorno alto sem risco, ela viola a lógica do mercado. Consultar a reputação da empresa e a existência de processos administrativos nos órgãos competentes é uma responsabilidade do investidor para evitar prejuízos contra a economia popular."
+        ]
+      },
+      "questions": [
+        {
+          "question": "Por que golpistas usam muito o mercado de criptomoedas?",
+          "answers": [
+            "Porque é o mercado mais seguro do mundo",
+            "Devido à falta de regulação completa e dificuldade de rastreio",
+            "Porque o governo obriga o uso de Bitcoin",
+            "Porque as criptomoedas não valem nada"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Qual empresa é citada como exemplo de esquema com Bitcoin?",
+          "answers": [
+            "Banco do Brasil",
+            "Atlas Quantum",
+            "CVM",
+            "Petrobras"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Na renda variável, qual a relação entre risco e retorno?",
+          "answers": [
+            "Eles não possuem nenhuma relação",
+            "Eles andam juntos: maior potencial de ganho exige maior risco",
+            "Quanto maior o risco, menor o retorno",
+            "O risco desaparece quando o lucro é alto"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Uma oferta de 'retorno alto sem risco' é:",
+          "answers": [
+            "Uma inovação do mercado moderno",
+            "Uma violação da lógica básica do mercado",
+            "Um presente das empresas de cripto",
+            "Garantida pela tecnologia blockchain"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O que o investidor deve consultar antes de aplicar seu capital?",
+          "answers": [
+            "Apenas o número de curtidas no Instagram da empresa",
+            "A reputação e existência de processos em órgãos competentes",
+            "Se o dono da empresa tem carros de luxo",
+            "A previsão do tempo para o dia seguinte"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "A falta de tributação clara e rastreio em cripto facilita:",
+          "answers": [
+            "A vida do investidor honesto apenas",
+            "A prática de crimes e fraudes financeiras",
+            "O aumento da taxa Selic",
+            "A educação financeira nas escolas"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O termo 'crimes contra a economia popular' refere-se a:",
+          "answers": [
+            "Comprar produtos caros no supermercado",
+            "Esquemas que lesam um grande número de pessoas",
+            "Não pagar a conta de luz em dia",
+            "Pedir desconto em lojas de roupas"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Qual a responsabilidade do investidor mencionada no texto?",
+          "answers": [
+            "Nenhuma, a empresa deve fazer tudo",
+            "Verificar a legalidade e idoneidade da empresa",
+            "Chamar o maior número de amigos possível",
+            "Gastar todo o seu lucro em festas"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "A Atlas Quantum operava com autorização da CVM?",
+          "answers": [
+            "Sim, era totalmente legalizada",
+            "Não, operava sem autorização",
+            "Sim, mas apenas por um mês",
+            "O texto não menciona a Atlas Quantum"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "A lógica do mercado diz que retorno garantido e alto risco zero:",
+          "answers": [
+            "É o padrão dos investimentos em Bitcoin",
+            "É fisicamente impossível e sinal de fraude",
+            "É o que o Banco Central busca alcançar",
+            "Ocorre em todas as empresas da bolsa"
+          ],
+          "rightAnswerIndex": 1
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "dificulty": 2,
+      "rewards": {
+        "xp": 340,
+        "coins": 100
+      },
+      "text": {
+        "title": [
+          "O Escudo da Regulação"
+        ],
+        "card": [
+          "A proteção do investidor baseia-se no entendimento de que órgãos reguladores não garantem lucro, mas asseguram que a empresa segue regras de transparência. O MPF (Ministério Público Federal) alerta que pirâmides se identificam pela inexistência de produto real ou informações claras. Quando uma empresa como a Braiscompany movimenta 774 milhões de reais em 'Contas de Compensação' (termo contábil inadequado para gestão de terceiros), ela sinaliza falta de controle formal. A educação financeira avançada ensina a usar a consulta pública na CVM e no Banco Central como um escudo contra o colapso patrimonial e crimes financeiros sofisticados."
+        ]
+      },
+      "questions": [
+        {
+          "question": "O que os órgãos reguladores asseguram em relação às empresas?",
+          "answers": [
+            "Que o investidor terá lucro de 10% ao mês",
+            "Que a empresa segue regras de transparência e legalidade",
+            "Que o dono da empresa ficará rico",
+            "Que o dinheiro será dobrado em um ano"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Qual alerta o MPF faz sobre as pirâmides financeiras?",
+          "answers": [
+            "Que elas são boas para a economia popular",
+            "Que se identificam pela inexistência de produto real",
+            "Que o risco é menor que na poupança",
+            "Que elas devem ser incentivadas pelo governo"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O que significa a sigla MPF?",
+          "answers": [
+            "Ministério Público Federal",
+            "Movimento por Finanças",
+            "Mercado Público Financeiro",
+            "Mecanismo de Proteção Federal"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "O uso do termo 'Contas de Compensação' pela Braiscompany indicava:",
+          "answers": [
+            "Um lucro extraordinário e seguro",
+            "Falta de controle contábil formal e inadequação",
+            "Aprovação total do Banco Central",
+            "Que o dinheiro estava guardado em ouro"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Como o investidor pode usar a regulação como um 'escudo'?",
+          "answers": [
+            "Pedindo dinheiro emprestado para o governo",
+            "Fazendo consultas públicas na CVM e Banco Central",
+            "Acreditando em qualquer empresa com site bonito",
+            "Ignorando as notícias sobre crimes financeiros"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "A inexistência de informações claras sobre o negócio é:",
+          "answers": [
+            "Um segredo industrial aceitável",
+            "Um forte sinal de suspeita de fraude",
+            "Uma estratégia de marketing moderna",
+            "Uma exigência da Receita Federal"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O colapso patrimonial mencionado no texto ocorre quando:",
+          "answers": [
+            "O investidor perde todos os seus bens em um golpe",
+            "O investidor ganha uma herança inesperada",
+            "A inflação do país cai para zero",
+            "A taxa Selic aumenta muito"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Por que a contabilidade formal é importante para o investidor?",
+          "answers": [
+            "Para ele aprender a somar e subtrair",
+            "Para garantir que a gestão do dinheiro é profissional e legal",
+            "Para saber se o dono da empresa é generoso",
+            "Não é importante, pois o lucro é o que vale"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O termo 'crime financeiro sofisticado' sugere que a fraude:",
+          "answers": [
+            "É fácil de ser vista por qualquer criança",
+            "É bem planejada e usa termos difíceis para enganar",
+            "É legalizada pelo Banco Central",
+            "É feita apenas por pessoas pobres"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "A Braiscompany movimentou 774 milhões de reais sem:",
+          "answers": [
+            "Gastar nada com marketing",
+            "Controle formal adequado e autorização devida",
+            "A ajuda de nenhum computador",
+            "Ter nenhum cliente interessado"
+          ],
+          "rightAnswerIndex": 1
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "dificulty": 0,
+      "rewards": {
+        "xp": 170,
+        "coins": 65
+      },
+      "text": {
+        "title": [
+          "A Pressa é Inimiga do Lucro"
+        ],
+        "card": [
+          "Nos investimentos, os juros podem ser vistos como a recompensa por adiar o consumo. Se você quer ganhar muito e agora, está pagando o 'custo da impaciência'. Golpistas sabem que a pressa cega o julgamento e usam isso para oferecer atalhos perigosos. A troca intertemporal é o conceito de abrir mão de algo hoje (como gastar seu dinheiro) para ter algo maior no futuro. Quem ignora esse processo e tenta antecipar ganhos sem estudo acaba caindo em armadilhas. A paciência é a ferramenta mais barata e eficiente da educação financeira para proteger seu patrimônio contra propostas mágicas."
+        ]
+      },
+      "questions": [
+        {
+          "question": "Como os juros podem ser vistos segundo o texto?",
+          "answers": [
+            "Como uma multa por ser pobre",
+            "Como a recompensa por adiar o consumo",
+            "Como o valor que se paga por ser rico",
+            "Como uma taxa que o governo cobra de todos"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O que o texto chama de 'custo da impaciência'?",
+          "answers": [
+            "Pagar taxas extras no banco por pressa",
+            "Perder dinheiro em golpes ao tentar ganhar rápido",
+            "O valor da passagem de ônibus",
+            "A mensalidade da escola de finanças"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O que é 'troca intertemporal'?",
+          "answers": [
+            "Trocar dinheiro real por moedas antigas",
+            "Abrir mão de algo hoje para ter algo maior no futuro",
+            "Comprar produtos apenas no inverno",
+            "Trocar de emprego a cada três meses"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Por que a pressa é perigosa nos investimentos?",
+          "answers": [
+            "Porque faz o investidor correr muito rápido",
+            "Porque ela cega o julgamento e facilita a queda em golpes",
+            "Porque os bancos não atendem pessoas apressadas",
+            "Porque a internet cai quando estamos com pressa"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Tentar 'antecipar ganhos sem estudo' geralmente leva a:",
+          "answers": [
+            "Cair em armadilhas e perder patrimônio",
+            "Tornar-se o investidor mais rico do bairro",
+            "Ganhar um bônus do Banco Central",
+            "Aposentar-se aos 20 anos de idade"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Qual a ferramenta mais eficiente contra propostas mágicas?",
+          "answers": [
+            "A rapidez em investir",
+            "A paciência e a educação financeira",
+            "O uso de cartões de crédito internacionais",
+            "Seguir as dicas de influenciadores famosos"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Adiar o consumo significa:",
+          "answers": [
+            "Nunca mais comprar nada na vida",
+            "Escolher não gastar agora para investir para o futuro",
+            "Comprar apenas produtos que estão vencendo",
+            "Pedir dinheiro emprestado para não gastar o seu"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Os atalhos financeiros citados no texto são:",
+          "answers": [
+            "Caminhos seguros e rápidos para a riqueza",
+            "Propostas perigosas que escondem riscos",
+            "Dicas secretas dadas pelos grandes bancos",
+            "Novas leis criadas para ajudar o povo"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O patrimônio é protegido quando o investidor:",
+          "answers": [
+            "Age com calma e analisa as propostas",
+            "Investe tudo o que tem na primeira oportunidade",
+            "Acredita em promessas de lucro de 100% ao mês",
+            "Chama todos os seus familiares para um negócio novo"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "A educação financeira nos ensina que a riqueza sólida:",
+          "answers": [
+            "Acontece da noite para o dia",
+            "Depende de processos que levam tempo",
+            "Só é possível para quem já nasceu rico",
+            "É garantida por quem ostenta nas redes sociais"
+          ],
+          "rightAnswerIndex": 1
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "dificulty": 1,
+      "rewards": {
+        "xp": 250,
+        "coins": 75
+      },
+      "text": {
+        "title": [
+          "Troca Intertemporal e Juros"
+        ],
+        "card": [
+          "Investir é o ato de realizar uma troca intertemporal consciente: você sacrifica o consumo imediato em troca de juros, que são o preço do tempo. O investidor leigo, movido pela impaciência, muitas vezes busca 'pular' essa etapa do tempo através de pirâmides que prometem ganhos instantâneos. No entanto, o juro real é limitado pela capacidade produtiva da economia. Entender que não existem atalhos mágicos para o tempo é o que diferencia o investidor que constrói patrimônio daquele que vive em ciclos de endividamento e perdas financeiras por acreditar em ilusões de marketing."
+        ]
+      },
+      "questions": [
+        {
+          "question": "O que são juros segundo o texto?",
+          "answers": [
+            "Uma multa aplicada pelo governo",
+            "O preço do tempo no mercado financeiro",
+            "O lucro que o golpista tira de você",
+            "O valor das moedas de outros países"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O que o investidor 'sacrifica' ao investir?",
+          "answers": [
+            "Seus estudos e amigos",
+            "O consumo imediato",
+            "Sua conta no banco",
+            "O direito de usar dinheiro físico"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O investidor leigo tenta 'pular' a etapa do tempo através de:",
+          "answers": [
+            "Educação financeira profunda",
+            "Pirâmides que prometem ganhos instantâneos",
+            "Trabalho duro e poupança",
+            "Consultas à CVM e ao Banco Central"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O juro real é limitado por qual fator?",
+          "answers": [
+            "Pela vontade do dono da pirâmide",
+            "Pela capacidade produtiva da economia",
+            "Pelo número de curtidas no Instagram",
+            "Pela quantidade de notas impressas"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O que diferencia quem constrói patrimônio de quem vive endividado?",
+          "answers": [
+            "A sorte de ter nascido em uma família rica",
+            "Entender que não existem atalhos mágicos para o tempo",
+            "Saber qual é o esquema de pirâmide mais novo",
+            "Gastar todo o salário em promoções de luxo"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "A ilusão de marketing citada no texto foca em:",
+          "answers": [
+            "Ensinar o valor da paciência",
+            "Prometer ganhos que ignoram a lógica do tempo",
+            "Explicar como funciona o Banco Central",
+            "Mostrar os riscos reais da renda variável"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Sacrificar o consumo imediato significa:",
+          "answers": [
+            "Escolher não gastar tudo hoje para ter mais amanhã",
+            "Nunca mais comprar nada que você deseja",
+            "Vender tudo o que você possui agora",
+            "Pedir comida emprestada para não gastar"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Por que o juro é chamado de 'preço do tempo'?",
+          "answers": [
+            "Porque as notas de dinheiro têm relógios desenhados",
+            "Porque ele remunera a espera do investidor",
+            "Porque quanto mais tempo passa, menos o dinheiro vale sempre",
+            "Porque o tempo é cobrado em minutos pelos bancos"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Os ciclos de perdas financeiras ocorrem quando alguém:",
+          "answers": [
+            "Estuda demais antes de investir",
+            "Acredita em promessas de ganhos rápidos sem lastro",
+            "Prefere a segurança da taxa Selic",
+            "Usa planilhas para controlar os gastos"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "A troca intertemporal 'consciente' exige:",
+          "answers": [
+            "Agir sem pensar para não perder tempo",
+            "Entender os riscos e o tempo necessário para o retorno",
+            "Confiar cegamente no primeiro influenciador que aparecer",
+            "Gastar o dinheiro antes que a inflação aumente"
+          ],
+          "rightAnswerIndex": 1
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "dificulty": 2,
+      "rewards": {
+        "xp": 350,
+        "coins": 105
+      },
+      "text": {
+        "title": [
+          "Análise de Risco e Paciência"
+        ],
+        "card": [
+          "No mercado de capitais, a paciência é validada por ferramentas como a Análise Técnica, que estuda o comportamento dos preços históricos para identificar o 'momento certo' de agir. Diferente dos atalhos das pirâmides, essa análise reconhece que o mercado tem ciclos e tendências que não podem ser apressados. O investidor de elite entende o custo de oportunidade e sabe que a pressa gera erros de execução. Ao utilizar dados estatísticos e observar a volatilidade, ele protege seu capital da ansiedade, evitando cair em promessas de 'lucro garantido' que nada mais são do que iscas para quem não suporta esperar o tempo natural dos investimentos."
+        ]
+      },
+      "questions": [
+        {
+          "question": "O que a Análise Técnica estuda no mercado de capitais?",
+          "answers": [
+            "A vida pessoal dos donos das empresas",
+            "O comportamento dos preços históricos e tendências",
+            "A qualidade das propagandas na televisão",
+            "A quantidade de funcionários de um banco"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O que a Análise Técnica reconhece sobre o mercado?",
+          "answers": [
+            "Que o lucro é garantido em 24 horas",
+            "Que o mercado possui ciclos e tendências que levam tempo",
+            "Que a pressa ajuda a ganhar mais dinheiro",
+            "Que os dados estatísticos não servem para nada"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O investidor de elite sabe que a pressa gera:",
+          "answers": [
+            "Grandes fortunas em tempo recorde",
+            "Erros de execução e perdas financeiras",
+            "Aprovação imediata em órgãos reguladores",
+            "Bônus de velocidade pagos pelas corretoras"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Por que o 'lucro garantido' é chamado de isca no texto?",
+          "answers": [
+            "Porque é um prêmio para quem pesca na bolsa",
+            "Porque é uma promessa falsa para atrair quem é impaciente",
+            "Porque garante que o investidor sempre terá comida",
+            "Porque é o termo técnico para dividendos"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O que o uso de dados estatísticos permite ao investidor?",
+          "answers": [
+            "Ter a certeza absoluta do futuro",
+            "Proteger o capital contra a ansiedade e decisões emocionais",
+            "Ganhar o dobro do que a Selic paga sem nenhum risco",
+            "Não precisar mais de educação financeira"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O termo 'tempo natural dos investimentos' sugere que:",
+          "answers": [
+            "O dinheiro cresce como uma árvore na floresta",
+            "Existem limites e prazos reais para o capital render",
+            "Os investimentos param de render nos feriados",
+            "Só se deve investir em empresas de agricultura"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O investidor que não suporta esperar é o alvo de:",
+          "answers": [
+            "Bancos de investimento de prestígio",
+            "Promessas fraudulentas de lucro imediato",
+            "Cursos avançados de economia",
+            "Órgãos reguladores como a CVM"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "A volatilidade, quando observada com dados, ajuda a:",
+          "answers": [
+            "Eliminar todo o risco do mercado",
+            "Entender as oscilações e evitar pânico",
+            "Prometer lucro fixo para os amigos",
+            "Saber exatamente quem é o golpista"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "A pressa e a falta de paciência afetam o:",
+          "answers": [
+            "Julgamento crítico e a segurança do patrimônio",
+            "Tamanho das cédulas de dinheiro",
+            "Horário de funcionamento da bolsa de valores",
+            "Número de páginas dos livros de finanças"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Diferente das pirâmides, a Análise Técnica busca o:",
+          "answers": [
+            "Lucro sem risco",
+            "Momento certo baseado em dados e histórico",
+            "Atalho mais curto para a riqueza",
+            "Uso de famosos para validar o preço"
+          ],
+          "rightAnswerIndex": 1
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "dificulty": 0,
+      "rewards": {
+        "xp": 180,
+        "coins": 70
+      },
+      "text": {
+        "title": [
+          "Metas que Funcionam"
+        ],
+        "card": [
+          "Para ter sucesso financeiro, não basta 'querer ser rico'; é preciso traçar metas reais. Uma técnica muito usada é o método SMART. Isso significa que suas metas devem ser: Específicas (o que exatamente você quer), Mensuráveis (como medir o progresso), Atingíveis (é possível realizar?), Relevantes (é importante para você?) e Temporais (qual é o prazo?). Sem metas claras, você fica perdido e se torna um alvo fácil para promessas mágicas que parecem resolver todos os seus problemas de uma vez, mas que na verdade só buscam o seu dinheiro."
+        ]
+      },
+      "questions": [
+        {
+          "question": "O que significa o 'S' no método SMART (Específica)?",
+          "answers": [
+            "Saber quanto o vizinho ganha",
+            "Saber exatamente o que você quer alcançar",
+            "Sorte para ganhar dinheiro rápido",
+            "Segredo sobre seus investimentos"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "A característica 'Mensurável' de uma meta serve para:",
+          "answers": [
+            "Contar quantas notas de dinheiro você tem na carteira",
+            "Conseguir medir o seu progresso ao longo do tempo",
+            "Saber o tamanho do prédio do banco",
+            "Medir a distância até a corretora"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Uma meta 'Atingível' é aquela que:",
+          "answers": [
+            "Depende de um milagre para acontecer",
+            "É possível de ser realizada com os recursos que você tem",
+            "Promete transformar 1 real em 1 milhão em uma semana",
+            "Ninguém nunca conseguiu alcançar antes"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O que o 'T' (Temporal) representa no método SMART?",
+          "answers": [
+            "O tempo que você leva para gastar o dinheiro",
+            "Definir um prazo claro para alcançar o objetivo",
+            "A temperatura do mercado financeiro",
+            "O título de eleitor necessário para investir"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Por que metas irrelevantes devem ser evitadas?",
+          "answers": [
+            "Porque elas são fáceis demais",
+            "Porque não trazem motivação real nem propósito para o esforço",
+            "Porque o governo proíbe metas sem sentido",
+            "Porque elas não aparecem no método SMART"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Sem metas claras, o investidor corre o risco de:",
+          "answers": [
+            "Ganhar dinheiro demais por acidente",
+            "Tornar-se alvo fácil para promessas mágicas e golpes",
+            "Ter que estudar menos sobre economia",
+            "Receber prêmios dos órgãos reguladores"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O método SMART ajuda a transformar desejos em:",
+          "answers": [
+            "Sonhos impossíveis",
+            "Planos concretos e realizáveis",
+            "Bilhetes de loteria premiados",
+            "Esquemas de lucro rápido"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Uma meta específica evita:",
+          "answers": [
+            "A clareza sobre o objetivo",
+            "A confusão e a falta de foco",
+            "O ganho de juros no futuro",
+            "O pagamento de contas em dia"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Ter um prazo (Temporal) para uma meta serve para:",
+          "answers": [
+            "Criar compromisso e senso de urgência saudável",
+            "Fazer o dinheiro render mais rápido magicamente",
+            "Pagar menos taxas para o banco",
+            "Poder reclamar com o gerente se atrasar"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "As promessas mágicas citadas no texto geralmente ignoram:",
+          "answers": [
+            "O dinheiro do cliente",
+            "A lógica de metas reais e prazos possíveis",
+            "As redes sociais",
+            "O nome dos golpistas"
+          ],
+          "rightAnswerIndex": 1
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "dificulty": 1,
+      "rewards": {
+        "xp": 260,
+        "coins": 80
+      },
+      "text": {
+        "title": [
+          "Indicadores para Decisões"
+        ],
+        "card": [
+          "Investidores profissionais não decidem por emoção; eles usam indicadores baseados em dados reais. A Análise Fundamentalista avalia a saúde da empresa usando métricas como o ROI (Retorno sobre Investimento) e a Margem Líquida (lucro real por venda). Já a Análise Técnica usa gráficos para entender o volume financeiro e as tendências de curto prazo. Entender esses conceitos permite que você trace metas Mensuráveis e Atingíveis (do método SMART). Comparar esses dados com promessas de pirâmides revela que golpistas nunca fornecem indicadores auditáveis ou lógicos, baseando-se apenas em palavras bonitas."
+        ]
+      },
+      "questions": [
+        {
+          "question": "O que o ROI (Retorno sobre Investimento) mede?",
+          "answers": [
+            "O quanto de dinheiro a empresa gasta com café",
+            "A eficiência e o ganho em relação ao valor investido",
+            "O número de novos funcionários contratados",
+            "O tamanho do escritório da companhia"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O que a Margem Líquida informa ao investidor?",
+          "answers": [
+            "O lucro real que sobra de cada venda após todos os custos",
+            "O valor total que a empresa deve ao banco",
+            "A quantidade de produtos no estoque",
+            "A cor das notas de dinheiro que a empresa usa"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "A Análise Técnica utiliza gráficos para entender:",
+          "answers": [
+            "A vida dos acionistas",
+            "O volume financeiro e as tendências de preços",
+            "Os desenhos das notas de dinheiro",
+            "A árvore genealógica do dono da empresa"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Como os indicadores ajudam no método SMART?",
+          "answers": [
+            "Eles tornam as metas Específicas e Mensuráveis",
+            "Eles garantem que você nunca precisará de prazos",
+            "Eles transformam qualquer sonho em realidade amanhã",
+            "Eles eliminam a necessidade de ser relevante"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Por que investidores profissionais evitam decidir por emoção?",
+          "answers": [
+            "Porque eles não têm sentimentos",
+            "Para evitar erros e cair em promessas falsas sem base em dados",
+            "Porque a lei proíbe sentir emoção na bolsa",
+            "Porque decidir por emoção é mais caro nas taxas"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O que golpistas geralmente NÃO fornecem aos investidores?",
+          "answers": [
+            "Fotos de carros de luxo",
+            "Indicadores auditáveis ou dados lógicos",
+            "Promessas de lucros altos",
+            "Vídeos com palavras bonitas"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Um dado 'auditável' é aquele que:",
+          "answers": [
+            "Pode ser verificado e comprovado por terceiros",
+            "Só o dono da empresa pode ver",
+            "É escrito em uma língua secreta",
+            "Ninguém consegue entender"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "O volume financeiro em um gráfico indica:",
+          "answers": [
+            "A altura das pilhas de dinheiro",
+            "A quantidade de negociações feitas em um período",
+            "O barulho que o dinheiro faz ao cair",
+            "O peso das moedas em circulação"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "As metas 'Mensuráveis' dependem de:",
+          "answers": [
+            "Números e dados para acompanhar o progresso",
+            "Sorte e intuição do investidor",
+            "Muitas curtidas nas redes sociais",
+            "Acreditar sem questionar"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Comparar dados reais com promessas de pirâmides ajuda a:",
+          "answers": [
+            "Entrar mais rápido no esquema",
+            "Revelar a falsidade e a falta de lógica do golpe",
+            "Pagar menos impostos de renda",
+            "Aumentar o bônus de indicação"
+          ],
+          "rightAnswerIndex": 1
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "dificulty": 2,
+      "rewards": {
+        "xp": 360,
+        "coins": 110
+      },
+      "text": {
+        "title": [
+          "Dados contra a Fraude"
+        ],
+        "card": [
+          "Metas SMART avançadas exigem o uso de indicadores de mercado como o LPA (Lucro por Ação) e o IFR (Índice de Força Relativa) para validar a viabilidade de um ativo. Na Análise Fundamentalista, estuda-se o 'valor intrínseco' — o valor real baseado no patrimônio e resultados. Comparar o valor intrínseco com o preço de mercado revela se uma ação está subvalorizada ou sobrevalorizada. Pirâmides financeiras falham nessa análise porque não possuem patrimônio real nem geram lucro por operação produtiva. O investidor que domina esses dados cria metas temporais baseadas na realidade econômica, e não em fantasias de marketing agressivo."
+        ]
+      },
+      "questions": [
+        {
+          "question": "O que o indicador LPA (Lucro por Ação) representa?",
+          "answers": [
+            "O quanto de dinheiro o investidor perdeu",
+            "A parcela do lucro líquido da empresa que cabe a cada ação",
+            "O valor de mercado de um Bitcoin",
+            "A taxa que o banco cobra por transação"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O que é o IFR (Índice de Força Relativa)?",
+          "answers": [
+            "Um medidor da força física dos funcionários",
+            "Um indicador que mede a velocidade e a mudança dos movimentos de preços",
+            "A força da marca da empresa nas redes sociais",
+            "O peso total das barras de ouro no cofre"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O termo 'valor intrínseco' na Análise Fundamentalista refere-se a:",
+          "answers": [
+            "O preço que aparece na televisão",
+            "O valor real e justo baseado em fundamentos da empresa",
+            "O valor que o golpista diz que a ação vale",
+            "Um imposto novo criado pelo governo"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Uma ação 'subvalorizada' é aquela que:",
+          "answers": [
+            "Está com o preço abaixo do seu valor real intrínseco",
+            "Não vale nada e deve ser evitada",
+            "É vendida apenas para pessoas pobres",
+            "Tem o preço maior do que deveria"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Por que pirâmides financeiras falham na análise de patrimônio?",
+          "answers": [
+            "Porque elas têm prédios demais",
+            "Porque não possuem patrimônio real gerador de valor",
+            "Porque elas usam apenas moedas digitais",
+            "Porque o patrimônio é secreto por segurança"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "A meta 'Temporal' no nível avançado deve basear-se em:",
+          "answers": [
+            "Desejos de ficar rico rápido",
+            "Realidade econômica e ciclos de mercado",
+            "Previsões de videntes financeiros",
+            "Prazos dados por empresas sem registro"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O que significa 'sobrevalorizada'?",
+          "answers": [
+            "Uma ação que é muito amada por todos",
+            "Uma ação com preço acima do seu valor real justo",
+            "Uma ação que nunca para de subir",
+            "Uma ação garantida pela CVM"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "A operação produtiva de uma empresa legítima gera:",
+          "answers": [
+            "Apenas dívidas para os acionistas",
+            "Lucro real através de bens ou serviços",
+            "A necessidade de novas vítimas entrando",
+            "Bônus de indicação em Bitcoin"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Qual a importância de validar a viabilidade de um ativo?",
+          "answers": [
+            "Saber se o lucro prometido é fisicamente possível e real",
+            "Verificar se o site da empresa é rápido",
+            "Descobrir o endereço residencial do dono",
+            "Garantir que a propaganda seja bonita"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "O marketing agressivo de pirâmides geralmente vende:",
+          "answers": [
+            "Fantasias e lucros sem base em dados",
+            "Relatórios detalhados da Receita Federal",
+            "Análises técnicas baseadas em 100 anos de história",
+            "Produtos registrados no Banco Central"
+          ],
+          "rightAnswerIndex": 0
+        }
+      ]
+    },
+    {
+      "order": 8,
+      "dificulty": 0,
+      "rewards": {
+        "xp": 190,
+        "coins": 75
+      },
+      "text": {
+        "title": [
+          "Dono do Próprio Bolso"
+        ],
+        "card": [
+          "Autonomia financeira significa ter o conhecimento necessário para decidir por conta própria, sem depender de 'dicas mágicas'. De acordo com Santos (2021), essa autonomia é uma ferramenta de empoderamento que protege o indivíduo. Para ser independente, você deve aprender a consultar órgãos reguladores como a CVM (Comissão de Valores Mobiliários) e o Banco Central sempre que vir uma proposta de investimento. Internalizar essa visão crítica permite que você identifique mentiras e proteja o seu dinheiro, garantindo que ele seja usado para construir o seu futuro e não o luxo de golpistas."
+        ]
+      },
+      "questions": [
+        {
+          "question": "O que é autonomia financeira segundo o texto?",
+          "answers": [
+            "Gastar dinheiro sem precisar pedir para os pais",
+            "Ter conhecimento para decidir sobre o próprio dinheiro com segurança",
+            "Ter um cartão de crédito com limite infinito",
+            "Seguir todas as dicas de influenciadores digitais"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Segundo Santos (2021), a autonomia financeira funciona como:",
+          "answers": [
+            "Um peso para o investidor",
+            "Uma ferramenta de empoderamento e proteção",
+            "Um curso obrigatório nas faculdades",
+            "Uma taxa cobrada pelos bancos"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Para ser independente, o investidor deve aprender a:",
+          "answers": [
+            "Consultar órgãos reguladores como CVM e Banco Central",
+            "Fazer o que os amigos estão fazendo",
+            "Esconder o dinheiro embaixo do colchão",
+            "Acreditar em promessas de 10% de lucro ao dia"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "O que significa 'internalizar uma visão crítica'?",
+          "answers": [
+            "Criticar todas as pessoas que têm dinheiro",
+            "Adotar o hábito de analisar e questionar informações financeiras",
+            "Ficar com medo de investir em qualquer lugar",
+            "Trabalhar dentro de um banco como fiscal"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Depender de 'dicas mágicas' é perigoso porque:",
+          "answers": [
+            "A mágica não existe no mundo real do dinheiro",
+            "As dicas são gratuitas e o que é grátis não presta",
+            "O Banco Central proíbe dar dicas para amigos",
+            "Isso gasta o saldo do celular"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "A autonomia financeira ajuda a proteger o dinheiro contra:",
+          "answers": [
+            "O pagamento de contas em dia",
+            "Golpistas que vendem luxo falso",
+            "O aumento do limite do cartão",
+            "O estudo de novos indicadores"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Consultar órgãos reguladores serve para:",
+          "answers": [
+            "Garantir que a empresa é legal e autorizada",
+            "Ganhar um bônus do governo",
+            "Verificar se o dono da empresa é bonito",
+            "Saber qual é o feriado bancário"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "O investidor autônomo usa o dinheiro para:",
+          "answers": [
+            "Pagar o luxo de golpistas",
+            "Construir o próprio futuro com segurança",
+            "Entrar em todas as pirâmides que surgem",
+            "Comprar produtos apenas por impulso"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O conhecimento protege o indivíduo porque:",
+          "answers": [
+            "Ele permite ver através de promessas falsas",
+            "Ele faz o dinheiro aparecer do nada",
+            "Ele é a única coisa que o governo não tributa",
+            "Ele garante sorte em jogos de azar"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Qual a principal mensagem de Santos (2021) sobre finanças?",
+          "answers": [
+            "Que investir é apenas para quem tem muito dinheiro",
+            "Que a educação é a base para a liberdade e segurança",
+            "Que os bancos são os únicos lugares seguros",
+            "Que as redes sociais ensinam tudo o que precisamos"
+          ],
+          "rightAnswerIndex": 1
+        }
+      ]
+    },
+    {
+      "order": 8,
+      "dificulty": 1,
+      "rewards": {
+        "xp": 270,
+        "coins": 85
+      },
+      "text": {
+        "title": [
+          "Verificando a Realidade"
+        ],
+        "card": [
+          "A autonomia exige ação: nunca invista em algo que você não entende ou que não pode validar. Use os canais oficiais da CVM e do Banco Central para checar se a empresa tem autorização para gerir dinheiro de terceiros. Se uma oferta prometer 'lucro garantido em renda variável', ela está mentindo, pois a natureza desse mercado é a oscilação. Desenvolver essa autonomia permite que você filtre as propostas de marketing agressivo e identifique que muitas empresas, como as citadas nos relatórios de fraudes (Braiscompany, Atlas Quantum), operavam ilegalmente, sem os devidos selos de regulação."
+        ]
+      },
+      "questions": [
+        {
+          "question": "O que a autonomia financeira exige do investidor?",
+          "answers": [
+            "Que ele invista sem pensar para não perder tempo",
+            "Ação para validar e entender onde coloca o dinheiro",
+            "Que ele confie no gerente do banco de olhos fechados",
+            "Sorte para não ser enganado por parentes"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Uma empresa que 'gere dinheiro de terceiros' precisa de:",
+          "answers": [
+            "Autorização oficial de órgãos como a CVM",
+            "Apenas um site bonito e muitos seguidores",
+            "Um dono que more em outro país",
+            "Ter pelo menos dez carros de luxo"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Por que a promessa de 'lucro garantido em renda variável' é mentira?",
+          "answers": [
+            "Porque a renda variável nunca dá lucro",
+            "Porque a natureza desse mercado é a oscilação e o risco",
+            "Porque o governo proibiu a palavra 'garantido'",
+            "Porque os bancos querem todo o lucro para eles"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O que significa 'validar um investimento'?",
+          "answers": [
+            "Ver se o cartão de crédito passou na máquina",
+            "Checar se a empresa é legalizada e autorizada por órgãos oficiais",
+            "Validar o estacionamento do banco",
+            "Concordar com tudo o que o vendedor diz"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O que as empresas Braiscompany e Atlas Quantum tinham em comum?",
+          "answers": [
+            "Eram as empresas mais seguras do Brasil",
+            "Operavam ilegalmente sem os devidos selos de regulação",
+            "Eram bancos estatais fundados pelo governo",
+            "Vendiam produtos físicos de alta tecnologia"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Desenvolver autonomia permite ao investidor:",
+          "answers": [
+            "Gastar mais dinheiro em festas",
+            "Filtrar propostas de marketing agressivo e identificar fraudes",
+            "Ganhar o dobro de bônus por indicação",
+            "Não precisar mais pagar impostos"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O termo 'selos de regulação' refere-se a:",
+          "answers": [
+            "Adesivos colados nas cédulas de dinheiro",
+            "Certificações dadas por órgãos oficiais como CVM e Banco Central",
+            "Prêmios de beleza para os sites das empresas",
+            "Carimbos de correio para enviar contratos"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Se você não entende um investimento, você deve:",
+          "answers": [
+            "Investir mesmo assim para aprender na prática",
+            "Não investir até entender e validar o negócio",
+            "Pedir para um amigo investir por você",
+            "Acreditar que é uma tecnologia secreta e avançada"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O mercado de 'renda variável' é caracterizado por:",
+          "answers": [
+            "Rendimento fixo todo mês sem falta",
+            "Oscilações constantes nos preços dos ativos",
+            "Risco zero para quem tem autonomia",
+            "Garantia total de lucro pelo Banco Central"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Os canais oficiais da CVM e Banco Central são:",
+          "answers": [
+            "Privados e cobram caro pela consulta",
+            "Ferramentas públicas para verificar a legalidade de empresas",
+            "Usados apenas por grandes bancos e magnatas",
+            "Locais onde se compra Bitcoin diretamente"
+          ],
+          "rightAnswerIndex": 1
+        }
+      ]
+    },
+    {
+      "order": 8,
+      "dificulty": 2,
+      "rewards": {
+        "xp": 370,
+        "coins": 115
+      },
+      "text": {
+        "title": [
+          "Soberania no Mercado"
+        ],
+        "card": [
+          "A autonomia financeira atinge seu auge quando o investidor compreende os impactos jurídicos e econômicos das fraudes. Torres (2019) destaca que crimes contra a economia popular afetam desde donas de casa até magnatas, muitas vezes explorando a falta de regulamentação clara em novas tecnologias. A soberania financeira consiste em não delegar sua responsabilidade para terceiros sem fiscalização. Use a transparência como critério: empresas legítimas fornecem relatórios auditados e histórico de cotações realistas. Ignorar esses padrões de segurança sob o pretexto de 'inovação' é o caminho para o colapso patrimonial sistêmico."
+        ]
+      },
+      "questions": [
+        {
+          "question": "Segundo Torres (2019), quem é afetado por crimes contra a economia popular?",
+          "answers": [
+            "Apenas pessoas muito ricas",
+            "Apenas pessoas sem estudo",
+            "Desde donas de casa até magnatas (várias classes sociais)",
+            "Ninguém, pois o governo sempre devolve o dinheiro"
+          ],
+          "rightAnswerIndex": 2
+        },
+        {
+          "question": "O que Torres (2019) afirma sobre as novas tecnologias financeiras?",
+          "answers": [
+            "Que elas são sempre seguras e inovadoras",
+            "Que a falta de regulamentação clara nelas é explorada por criminosos",
+            "Que o governo deve proibir todas as novas tecnologias",
+            "Que elas garantem lucro para toda a população"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Em que consiste a soberania financeira mencionada no texto?",
+          "answers": [
+            "Em mandar no banco e ditar as regras",
+            "Em não delegar sua responsabilidade financeira para terceiros sem fiscalização",
+            "Em ter mais dinheiro que o governo do país",
+            "Em investir apenas em moedas de ouro físicas"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Qual critério fundamental deve ser usado para avaliar empresas?",
+          "answers": [
+            "A beleza das fotos nas redes sociais",
+            "A transparência e o fornecimento de relatórios auditados",
+            "O número de vezes que a empresa aparece na TV",
+            "A promessa de que você nunca terá prejuízo"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O termo 'relatórios auditados' refere-se a documentos que:",
+          "answers": [
+            "Foram verificados por profissionais independentes para garantir a verdade",
+            "O dono da empresa escreveu para elogiar o próprio negócio",
+            "São secretos e só podem ser vistos com autorização judicial",
+            "São usados para esconder dívidas do governo"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "O que significa 'colapso patrimonial sistêmico'?",
+          "answers": [
+            "Ganhar muito dinheiro em vários bancos ao mesmo tempo",
+            "A perda generalizada e grave de bens e dinheiro",
+            "Um novo sistema de segurança criado pela CVM",
+            "A troca de todas as notas de dinheiro por moedas digitais"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Por que o pretexto de 'inovação' é perigoso?",
+          "answers": [
+            "Porque inovação é sempre algo ruim para a economia",
+            "Porque é usado para justificar a falta de segurança e regulação",
+            "Porque inovações fazem o dinheiro valer menos",
+            "Porque apenas gênios entendem o que é inovação"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O histórico de cotações de uma empresa legítima deve ser:",
+          "answers": [
+            "Uma linha reta que sobe 10% todo dia",
+            "Realista e compatível com os movimentos do mercado",
+            "Mantido em segredo para não atrair concorrentes",
+            "Sempre maior que o lucro de todos os outros bancos"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "A autonomia financeira avançada protege contra:",
+          "answers": [
+            "Impactos jurídicos e econômicos de fraudes financeiras",
+            "O pagamento de dividendos aos acionistas",
+            "O uso de tecnologias seguras e regulamentadas",
+            "O ganho de juros sobre o capital investido"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Segundo o texto, a responsabilidade sobre o investimento é:",
+          "answers": [
+            "Totalmente da empresa que recebe o dinheiro",
+            "Do governo, que deve garantir lucro para todos",
+            "Do próprio investidor, que não deve delegar sem fiscalizar",
+            "Dos influenciadores que indicam o negócio"
+          ],
+          "rightAnswerIndex": 2
+        }
+      ]
+    },
+    {
+      "order": 9,
+      "dificulty": 0,
+      "rewards": {
+        "xp": 200,
+        "coins": 80
+      },
+      "text": {
+        "title": [
+          "Celebrando Ganhos Reais"
+        ],
+        "card": [
+          "Construir patrimônio é uma jornada de etapas, e comemorar cada uma delas é importante para manter o foco. No entanto, o ganho real e sustentável é aquele que vem de investimentos legítimos, que levam tempo para crescer. Pesquisas de Cutait (2019) mostram que 11 por cento dos brasileiros já foram enganados por promessas de lucros mágicos. Para não fazer parte dessa estatística, aprenda a gerir suas expectativas: se parece bom demais para ser verdade, provavelmente é um golpe. Comemore o lucro que vem do seu estudo e da sua paciência, pois esse é o único que permanece no longo prazo."
+        ]
+      },
+      "questions": [
+        {
+          "question": "Segundo Cutait (2019), qual a porcentagem de brasileiros já enganados por golpes?",
+          "answers": [
+            "2%",
+            "11%",
+            "50%",
+            "80%"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O que caracteriza um 'ganho sustentável'?",
+          "answers": [
+            "Acontece em 24 horas e sem risco",
+            "Vem de investimentos legítimos e leva tempo para crescer",
+            "É garantido por um influenciador famoso",
+            "Aparece de forma mágica na conta do banco"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O que significa 'gerir expectativas'?",
+          "answers": [
+            "Esperar ficar rico na próxima semana",
+            "Ter consciência da realidade e dos riscos dos investimentos",
+            "Acreditar que o lucro sempre será de 100% ao ano",
+            "Pedir para o gerente do banco aumentar seus lucros"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Por que devemos comemorar etapas da jornada financeira?",
+          "answers": [
+            "Para gastar todo o lucro em uma festa imediata",
+            "Para manter a motivação e o foco no planejamento de longo prazo",
+            "Para mostrar para os outros que somos ricos",
+            "Porque o governo obriga a comemorar lucros"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Se um lucro 'parece bom demais para ser verdade', ele geralmente é:",
+          "answers": [
+            "Uma oportunidade de ouro que ninguém viu",
+            "Um forte indício de golpe financeiro",
+            "Um presente do Banco Central",
+            "Uma falha no sistema do banco que você deve aproveitar"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O lucro que permanece no longo prazo vem de:",
+          "answers": [
+            "Sorte em pirâmides financeiras",
+            "Estudo, paciência e investimentos reais",
+            "Indicações de amigos em redes sociais",
+            "Gastar tudo o que ganha em apostas"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "A estatística de 11% citada por Cutait (2019) serve de alerta para:",
+          "answers": [
+            "Como é fácil ficar rico no Brasil",
+            "O perigo de acreditar em promessas de lucros mágicos",
+            "Como os bancos brasileiros são eficientes",
+            "O aumento da inflação no país"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Qual é a base para não ser enganado por promessas falsas?",
+          "answers": [
+            "Ter muita sorte no dia do investimento",
+            "Gerir expectativas e desconfiar de ganhos irreais",
+            "Seguir o maior número possível de influenciadores",
+            "Investir apenas em empresas que têm nomes estrangeiros"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Construir patrimônio é definido no texto como:",
+          "answers": [
+            "Uma corrida de 100 metros",
+            "Uma jornada de etapas que levam tempo",
+            "Um sorteio onde poucos ganham",
+            "Um segredo guardado pelos bancos"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O termo 'lucros mágicos' refere-se a:",
+          "answers": [
+            "Investimentos aprovados pela CVM",
+            "Promessas impossíveis de ganhos rápidos e fáceis",
+            "Rendimentos baseados na taxa Selic",
+            "A economia real de um país desenvolvido"
+          ],
+          "rightAnswerIndex": 1
+        }
+      ]
+    },
+    {
+      "order": 9,
+      "dificulty": 1,
+      "rewards": {
+        "xp": 280,
+        "coins": 90
+      },
+      "text": {
+        "title": [
+          "Expectativas e Realidade"
+        ],
+        "card": [
+          "A gestão de expectativas é o que separa o investidor consciente do alvo de pirâmides. No mercado real, ganhos mensais acima de 2 por cento já ligam o sinal de alerta, como aponta Siqueira (2019). Comparar isso com promessas de 8 por cento ao mês (Braiscompany) ou rendimentos fixos em criptoativos sem risco revela a inviabilidade do negócio. Comemore os ganhos que respeitam a lógica econômica. O investidor que busca o 'lucro recorde' a todo custo ignora a sustentabilidade financeira e acaba financiando o estilo de vida de criminosos, perdendo o capital que levou anos para poupar."
+        ]
+      },
+      "questions": [
+        {
+          "question": "Segundo Siqueira (2019), qual rendimento mensal já liga o sinal de alerta?",
+          "answers": [
+            "Qualquer valor acima de 0,1%",
+            "Ganhos mensais acima de 2%",
+            "Apenas se o ganho for de 100%",
+            "Rendimentos abaixo da inflação"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O que a gestão de expectativas ajuda a evitar?",
+          "answers": [
+            "O pagamento de dividendos",
+            "Tornar-se alvo de pirâmides financeiras",
+            "O ganho de juros compostos",
+            "Ter que estudar sobre economia"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "A promessa de 8% ao mês da Braiscompany é considerada:",
+          "answers": [
+            "Uma meta realista para iniciantes",
+            "Inviável e um sinal de alerta de fraude",
+            "O padrão dos bancos brasileiros",
+            "Um lucro baixo para o mercado de cripto"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O que significa 'sustentabilidade financeira' citada no texto?",
+          "answers": [
+            "Gastar todo o dinheiro em produtos ecológicos",
+            "A capacidade de um ganho se manter real e seguro a longo prazo",
+            "Ter um bônus por indicar amigos",
+            "Não pagar nenhuma taxa ao banco"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O investidor que busca 'lucro recorde' a todo custo geralmente:",
+          "answers": [
+            "Torna-se o mais bem-sucedido do mercado",
+            "Ignora os riscos e acaba perdendo suas economias",
+            "Recebe um prêmio de honra da CVM",
+            "Aprende mais rápido que os outros"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Qual o perigo de financiar o 'estilo de vida de criminosos'?",
+          "answers": [
+            "Perder o capital que levou anos para poupar",
+            "Ter que pagar multas para o governo",
+            "Ficar famoso por ser enganado",
+            "O criminoso ficar com raiva de você"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Ganhos fixos altos em criptoativos e sem risco são:",
+          "answers": [
+            "A maior inovação tecnológica atual",
+            "Uma impossibilidade lógica e sinal de fraude",
+            "Garantidos pelo Banco Central do Brasil",
+            "O que todos os bancos oferecem hoje"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O investidor consciente comemora ganhos que:",
+          "answers": [
+            "Dobram o seu dinheiro em uma semana",
+            "Respeitam a lógica econômica e a realidade do mercado",
+            "São indicados por famosos em redes sociais",
+            "Vêm de empresas sem registro na CVM"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O sinal de alerta mencionado por Siqueira serve para:",
+          "answers": [
+            "Fazer o investidor correr para investir logo",
+            "Identificar propostas que fogem do padrão de segurança",
+            "Avisar quando a bolsa de valores vai fechar",
+            "Sinalizar que a inflação está caindo"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Ignorar a lógica econômica leva ao:",
+          "answers": [
+            "Enriquecimento em tempo recorde",
+            "Aumento da autonomia financeira",
+            "Caminho do colapso do patrimônio pessoal",
+            "Sucesso total nos investimentos"
+          ],
+          "rightAnswerIndex": 2
+        }
+      ]
+    },
+    {
+      "order": 9,
+      "dificulty": 2,
+      "rewards": {
+        "xp": 380,
+        "coins": 120
+      },
+      "text": {
+        "title": [
+          "Lições de Grandes Colapsos"
+        ],
+        "card": [
+          "Analisar casos históricos é a melhor forma de celebrar o conhecimento e evitar erros. A BM&F Bovespa (índices positivos) representa o mercado real, enquanto a OGX (Petróleo) exemplifica como a falta de viabilidade gera quedas acentuadas. Esquemas gigantes como os de Bernie Madoff e Atlas Quantum (prejuízo de 7 bilhões de reais) mostram que mesmo negócios que parecem sólidos podem ser fraudes se não houver transparência e fiscalização. A sustentabilidade financeira depende de reconhecer que lucros irreais não possuem lastro produtivo. Comemore as etapas vencidas através do estudo de dados históricos, pois eles são o mapa para distinguir empresas legítimas de ilusões passageiras."
+        ]
+      },
+      "questions": [
+        {
+          "question": "Qual empresa é citada como exemplo de mercado real e índices positivos?",
+          "answers": [
+            "Braiscompany",
+            "BM&F Bovespa",
+            "Atlas Quantum",
+            "OGX Petróleo"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O que o caso da OGX (Petróleo) exemplifica?",
+          "answers": [
+            "Um sucesso absoluto de investimento",
+            "Como a falta de viabilidade gera quedas acentuadas e prejuízos",
+            "Um modelo perfeito de pirâmide financeira",
+            "A nova moeda digital do governo"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Qual foi o prejuízo estimado no caso da Atlas Quantum?",
+          "answers": [
+            "1 milhão de reais",
+            "7 bilhões de reais",
+            "100 mil reais",
+            "Não houve prejuízo real"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Mesmo negócios que 'parecem sólidos' podem ser fraudes se faltar:",
+          "answers": [
+            "Propaganda com famosos",
+            "Transparência e fiscalização rigorosa",
+            "Um site com cores bonitas",
+            "Um dono que more em outro país"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O que significa 'lastro produtivo'?",
+          "answers": [
+            "O peso das máquinas de uma fábrica",
+            "A base real de produção ou serviços que gera o lucro",
+            "O bônus pago para quem indica mais pessoas",
+            "A velocidade com que o lucro cai na conta"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O que o investidor aprende ao estudar dados históricos?",
+          "answers": [
+            "A prever os números da loteria",
+            "A distinguir empresas legítimas de ilusões passageiras",
+            "Que o passado nunca se repete nas finanças",
+            "Que não é preciso fiscalizar empresas grandes"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "A sustentabilidade financeira depende de reconhecer que:",
+          "answers": [
+            "Lucros irreais não possuem lastro produtivo",
+            "O governo sempre paga as dívidas das pirâmides",
+            "As criptomoedas sempre sobem 10% ao mês",
+            "Famosos nunca erram ao indicar investimentos"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Bernie Madoff é citado no texto como um exemplo de:",
+          "answers": [
+            "Um investidor que ajudou milhões a ficarem ricos",
+            "Um esquema gigante que parecia sólido mas era fraude",
+            "O criador da BM&F Bovespa",
+            "Um fiscal do Banco Central americano"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "As quedas acentuadas da OGX mostram que:",
+          "answers": [
+            "Investir em petróleo é sempre seguro",
+            "Promessas sem viabilidade real levam a grandes prejuízos",
+            "A bolsa de valores é uma pirâmide",
+            "O investidor deve ignorar os dados da empresa"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O 'mapa' para o investidor, segundo o texto, são:",
+          "answers": [
+            "As postagens de influenciadores",
+            "Os estudos de dados históricos e viabilidade",
+            "Os anúncios de lucro garantido",
+            "As conversas em grupos de amigos"
+          ],
+          "rightAnswerIndex": 1
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "dificulty": 0,
+      "rewards": {
+        "xp": 210,
+        "coins": 85
+      },
+      "text": {
+        "title": [
+          "Conheça seu Perfil"
+        ],
+        "card": [
+          "O autoconhecimento financeiro é o primeiro passo para o equilíbrio das contas. Você deve identificar o seu perfil: você é um investidor leigo (com pouco conhecimento) ou educado? O leigo é o alvo preferido de golpistas porque ele não tem propriedade para identificar fraudes. Ao estudar as noções econômicas básicas e aprender a controlar suas próprias despesas, você diminui o seu endividamento e ganha poder. Conhecer suas fraquezas emocionais, como o desejo por dinheiro fácil, permite criar barreiras contra promessas que usam o apelo visual e a fama para esconder riscos reais."
+        ]
+      },
+      "questions": [
+        {
+          "question": "Qual o primeiro passo para o equilíbrio das contas?",
+          "answers": [
+            "Ganhar na loteria",
+            "O autoconhecimento financeiro",
+            "Pedir um cartão de crédito novo",
+            "Gastar tudo o que ganhar hoje"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Por que o investidor leigo é o alvo preferido de golpistas?",
+          "answers": [
+            "Porque ele tem muito dinheiro guardado",
+            "Porque não tem propriedade para identificar fraudes",
+            "Porque ele gosta de pagar mais impostos",
+            "Porque ele não usa redes sociais"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O que ajuda a diminuir o endividamento pessoal?",
+          "answers": [
+            "Ignorar as faturas do cartão",
+            "Controlar despesas e estudar noções econômicas",
+            "Pedir dinheiro emprestado para pagar dívidas",
+            "Esperar que o governo perdoe as contas"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Conhecer fraquezas emocionais ajuda o investidor a:",
+          "answers": [
+            "Criar barreiras contra promessas de dinheiro fácil",
+            "Ficar mais triste com a sua situação financeira",
+            "Gastar mais dinheiro por impulso",
+            "Sentir inveja de quem ostenta luxo"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "O termo 'investidor leigo' refere-se a quem:",
+          "answers": [
+            "É dono de um banco famoso",
+            "Tem pouco conhecimento sobre o mercado financeiro",
+            "Trabalha fiscalizando a CVM",
+            "Já nasceu rico e não precisa estudar"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "As promessas de golpes costumam esconder:",
+          "answers": [
+            "Oportunidades únicas de ouro",
+            "Riscos reais e falta de viabilidade",
+            "A vontade de ajudar o próximo",
+            "Relatórios aprovados pelo governo"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O autoconhecimento permite identificar se você é:",
+          "answers": [
+            "Mais bonito que os outros investidores",
+            "Um investidor leigo ou educado",
+            "Um funcionário do Banco Central",
+            "Sócio oculto de uma grande empresa"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Identificar despesas ajuda a:",
+          "answers": [
+            "Ter controle sobre para onde o seu dinheiro está indo",
+            "Gastar o dobro do que você ganha por mês",
+            "Pagar apenas o que for mais caro",
+            "Não precisar mais usar planilhas"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "O 'dinheiro fácil' é uma isca emocional que foca em:",
+          "answers": [
+            "Pessoas que estudam muito economia",
+            "Nossas fraquezas e impaciência",
+            "Órgãos reguladores experientes",
+            "Investidores que buscam o longo prazo"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Ganhar poder sobre o próprio dinheiro exige:",
+          "answers": [
+            "Apenas sorte e intuição",
+            "Estudo, autocontrole e conhecimento",
+            "Seguir todas as postagens de famosos",
+            "Acreditar em qualquer promessa de bônus"
+          ],
+          "rightAnswerIndex": 1
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "dificulty": 1,
+      "rewards": {
+        "xp": 290,
+        "coins": 95
+      },
+      "text": {
+        "title": [
+          "Educação e Autonomia"
+        ],
+        "card": [
+          "O investidor educado diferencia-se pelo senso crítico. Conforme Bergo e Haro (2014), a educação financeira permite entender acontecimentos econômicos e criar barreiras contra a influência do marketing de pirâmides. A autonomia financeira é o resultado desse processo, capacitando o indivíduo a administrar recursos de forma consciente. Identificar seu perfil de investidor ajuda a escolher produtos adequados à sua realidade. O conhecimento financeiro é diretamente proporcional ao seu patrimônio: quanto mais você domina as regras do jogo, mais seguro está o seu futuro contra o endividamento e contra promessas irreais de riqueza instantânea."
+        ]
+      },
+      "questions": [
+        {
+          "question": "O que diferencia o investidor educado segundo o texto?",
+          "answers": [
+            "A quantidade de dinheiro que ele tem no banco",
+            "O seu senso crítico e capacidade de análise",
+            "O fato de ele usar roupas de marcas famosas",
+            "A sua sorte em encontrar novos negócios"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Segundo Bergo e Haro (2014), a educação financeira permite:",
+          "answers": [
+            "Ganhar bônus por indicar amigos em esquemas",
+            "Entender acontecimentos econômicos e criar barreiras contra golpes",
+            "Não precisar mais pagar nenhuma conta",
+            "Trabalhar menos e ganhar mais magicamente"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O que é autonomia financeira citada no texto?",
+          "answers": [
+            "Poder gastar sem limites e sem pensar",
+            "Capacidade de administrar recursos de forma consciente",
+            "Ter um cartão de crédito sem fatura",
+            "Receber dinheiro do governo todo mês"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "A autonomia financeira é resultado de qual processo?",
+          "answers": [
+            "Sorte e intuição emocional",
+            "Educação financeira e estudo constante",
+            "Ganhar um prêmio em um sorteio",
+            "Seguir dicas de pessoas que ostentam luxo"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Identificar o seu perfil de investidor serve para:",
+          "answers": [
+            "Escolher produtos adequados à sua realidade financeira",
+            "Saber qual é a cor de cartão mais bonita",
+            "Ganhar mais seguidores em redes sociais",
+            "Poder reclamar com o Banco Central"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Qual a relação entre conhecimento financeiro e patrimônio?",
+          "answers": [
+            "Não existe nenhuma relação entre eles",
+            "Eles são diretamente proporcionais (mais estudo, mais segurança)",
+            "Quanto mais estudo, menos dinheiro se ganha",
+            "Só se deve estudar finanças depois de ficar rico"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O investidor educado está mais seguro contra:",
+          "answers": [
+            "O ganho de lucros reais e dividendos",
+            "O endividamento e promessas irreais de riqueza",
+            "O uso de tecnologias de bancos tradicionais",
+            "A fiscalização de órgãos reguladores"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O termo 'regras do jogo' refere-se ao:",
+          "answers": [
+            "Funcionamento real do mercado financeiro e da economia",
+            "Manual de instruções de um videogame novo",
+            "Regulamento de um sorteio de redes sociais",
+            "Código de conduta para quem entra em pirâmides"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "O marketing de pirâmides tenta influenciar o investidor através de:",
+          "answers": [
+            "Dados lógicos e relatórios auditados pela CVM",
+            "Promessas de riqueza instantânea e marketing agressivo",
+            "Aulas gratuitas sobre a taxa Selic e inflação",
+            "Explicações detalhadas sobre os riscos do mercado"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "A administração consciente de recursos permite:",
+          "answers": [
+            "Gastar todo o capital em promessas mágicas",
+            "Preservar e aumentar o patrimônio com segurança",
+            "Ignorar as datas de vencimento das contas",
+            "Pedir empréstimos para sustentar o luxo"
+          ],
+          "rightAnswerIndex": 1
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "dificulty": 2,
+      "rewards": {
+        "xp": 390,
+        "coins": 125
+      },
+      "text": {
+        "title": [
+          "Autoconhecimento e Sustentabilidade"
+        ],
+        "card": [
+          "A sustentabilidade financeira individual depende da sua capacidade de identificar fraudes e gerir o seu capital com maturidade. De acordo com Savoia et al. (2007), a capacitação financeira no Brasil ainda é incipiente, o que exige um esforço pessoal maior para não ser ludibriado. O autoconhecimento avançado envolve reconhecer quando o seu desejo por lucro rápido está nublando o seu senso crítico. Estude casos como o da Braiscompany e Madoff para ver como o excesso de confiança e a falta de fiscalização pessoal levam à ruína. O conhecimento financeiro avançado é a vacina contra o endividamento sistêmico e o pilar para uma vida com verdadeira autonomia e prosperidade real."
+        ]
+      },
+      "questions": [
+        {
+          "question": "O que Savoia et al. (2007) afirmam sobre a capacitação financeira no Brasil?",
+          "answers": [
+            "Que ela é a melhor do mundo e muito avançada",
+            "Que ela é incipiente (está no começo e ainda é insuficiente)",
+            "Que todos os brasileiros já são especialistas em finanças",
+            "Que o governo proibiu a educação financeira em 2007"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O termo 'ludibriado' citado no texto significa:",
+          "answers": [
+            "Ser premiado por uma boa escolha",
+            "Ser enganado ou trapaceado em um golpe",
+            "Ganhar juros sobre um investimento seguro",
+            "Ser contratado por um banco importante"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O autoconhecimento avançado ajuda a reconhecer quando:",
+          "answers": [
+            "O desejo por lucro rápido nuba o senso crítico",
+            "A inflação do país está caindo para zero",
+            "O banco abre em um horário diferente",
+            "Os amigos estão ganhando mais dinheiro que você"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "Os casos da Braiscompany e Madoff mostram que a ruína vem da:",
+          "answers": [
+            "Falta de sorte em escolher os números certos",
+            "Falta de fiscalização pessoal e excesso de confiança",
+            "Intervenção excessiva da CVM e do Banco Central",
+            "Uso de computadores muito lentos para operar"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O que o texto chama de 'vacina contra o endividamento'?",
+          "answers": [
+            "Um novo remédio criado por economistas",
+            "O conhecimento financeiro avançado",
+            "Ganhar um bônus especial do banco",
+            "Pedir para o governo pagar suas dívidas"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "A sustentabilidade financeira individual depende de:",
+          "answers": [
+            "Identificar fraudes e gerir o capital com maturidade",
+            "Acreditar em qualquer promessa que apareça na TV",
+            "Saber qual influenciador tem o carro mais caro",
+            "Gastar todo o patrimônio em criptomoedas novas"
+          ],
+          "rightAnswerIndex": 0
+        },
+        {
+          "question": "O termo 'endividamento sistêmico' refere-se a:",
+          "answers": [
+            "Ter uma dívida pequena com um amigo",
+            "Um ciclo grave e generalizado de dívidas impagáveis",
+            "Um bônus pago pelo sistema do banco",
+            "A soma de todas as notas de dinheiro em circulação"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "Prosperidade real, segundo o texto, baseia-se em:",
+          "answers": [
+            "Sorte, ilusões e marketing agressivo",
+            "Autonomia, conhecimento e planejamento sólido",
+            "Indicação de amigos e parentes para novos esquemas",
+            "Acreditar em promessas de risco zero e lucro recorde"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O esforço pessoal maior é exigido porque:",
+          "answers": [
+            "O mercado financeiro é fácil demais para todos",
+            "A capacitação financeira geral ainda é insuficiente no país",
+            "Os bancos dão dinheiro para quem estuda menos",
+            "A lei obriga todos a serem especialistas"
+          ],
+          "rightAnswerIndex": 1
+        },
+        {
+          "question": "O 'senso crítico' é essencial para:",
+          "answers": [
+            "Aceitar todas as ofertas de marketing que surgem",
+            "Filtrar mentiras e proteger o patrimônio de colapsos",
+            "Pagar mais taxas de administração para fundos",
+            "Escolher o melhor filtro de fotos para redes sociais"
+          ],
+          "rightAnswerIndex": 1
+        }
+      ]
+    }
+  ]
+}

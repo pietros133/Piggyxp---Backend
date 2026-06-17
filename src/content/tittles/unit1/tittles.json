@@ -1,0 +1,16 @@
+{
+    "tittles": [
+        {
+        "difficulty": 0,
+        "tittle":"Aprendendo a Economizar"
+        },
+        {
+        "difficulty": 1,
+        "tittle":"Controlando Despesas"
+        },
+        {
+        "difficulty": 2,
+        "tittle":"Definindo Objetivos"
+        }
+    ]
+}

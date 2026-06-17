@@ -1,35 +1,109 @@
+import dotenv from "dotenv";
+dotenv.config();
+
 import "reflect-metadata";
 import express from "express";
 import cors from "cors";
-import dotenv from "dotenv";
 import { AppDataSource } from "./src/config/dbconnect.js";
-import registerRoutes from "./src/routes/registerRoutes.js";
-import uploadRoutes from "./src/routes/userImgRoutes.js";
-import path from "path";
+import { MongoDataSource } from "./src/mongo/database/mdbconnect.js";
+import { swaggerDocs } from "./src/config/swagger.js";
 
-dotenv.config();
+// Rotas
+import uploadRoutes from "./src/routes/userImgRoutes.js";
+import infoRoutes from "./src/routes/getUserInfoRoutes.js";
+import recoveryRoutes from "./src/routes/recoveryRoutes.js";
+import refreshToken from "./src/routes/refreshTokenRoutes.js";
+import difficultySelection from "./src/routes/difficultySelectionRoutes.js";
+import progressInfo from "./src/routes/getUserProgressInfoRoutes.js";
+import updateUser from "./src/routes/updateUserRoute.js";
+import updateImg from "./src/routes/updateImgRoute.js";
+import deleteUser from "./src/routes/deleteUserRoute.js";
+import getPhases from "./src/routes/getPhaseRoute.js";
+import phasesRoutes from "./src/routes/PhasesRoute.js";
+import getRanking from "./src/routes/RankingRoutes.js";
+import titlesRoute from "./src/routes/TitlesRoute.js";
+import getTitleRoute from "./src/routes/getTitlesRoute.js";
+import achievementsRoutes from "./src/routes/achievementsRoute.js";
+import finishRoute from "./src/routes/FinishPhaseRoute.js";
+import regenRoute from "./src/routes/regenLivesRoute.js";
+import missionRoute from "./src/routes/MissionRoute.js";
+import selectMissionRoute from "./src/routes/selectMissionRoute.js";
+import getMissionRoute from "./src/routes/getMissionRoute.js";
+import Livesroute from "./src/routes/LivesRoute.js";
+import updateMissionRoute from "./src/routes/UpdateMissionRoute.js";
+import NivelRoute from "./src/routes/NivelRoute.js";
+
+// Rotas Auth
+import loginRoutes from "./src/auth/login/loginRoutes.js";
+import registerRoutes from "./src/auth/cadastro/registerRoutes.js";
+
+// Rotas Loja
+import purchaseRoutes from "./src/routes/purchaseRoutes.js";
+//import paymentRoutes from "./src/routes/paymentRoutes.js";
+import productRoutes from "./src/routes/productRoutes.js";
 
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-app.use(express.json());
 app.use(cors());
+app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-app.use("/uploads", express.static(path.join(process.cwd(), "uploads")));
-
-// Rotas
-app.use("/api", registerRoutes);
 app.use("/api", uploadRoutes);
+app.use("/api", infoRoutes);
+app.use("/api", recoveryRoutes);
+app.use("/api", refreshToken);
+app.use("/api", difficultySelection);
+app.use("/api", progressInfo);
+app.use("/api", updateUser);
+app.use("/api", updateImg);
+app.use("/api", deleteUser);
+app.use("/api", getPhases);
+app.use("/api", phasesRoutes);
+app.use("/api", getRanking);
+app.use("/api", titlesRoute);
+app.use("/api", getTitleRoute);
+app.use("/api", achievementsRoutes);
+app.use("/api", finishRoute);
+app.use("/api", regenRoute);
+app.use("/api", missionRoute);
+app.use("/api", selectMissionRoute);
+app.use("/api", getMissionRoute);
+app.use("/api", updateMissionRoute);
+app.use("/api", Livesroute);
+app.use("/api", NivelRoute);
 
-AppDataSource.initialize()
-  .then(() => {
-    console.log("Banco de dados conectado !");
+// Rotas Auth
+app.use("/api", loginRoutes);
+app.use("/api", registerRoutes);
+
+// Rotas loja
+app.use("/api", purchaseRoutes);
+//app.use("/api", paymentRoutes);
+app.use("/api", productRoutes);
+
+// Swagger
+// app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerSpec));
+swaggerDocs(app);
+
+async function startServer() {
+  try {
+    AppDataSource.initialize().then(() => {
+      console.log("Banco SQL conectado");
+    });
+
+    MongoDataSource.initialize().then(() => {
+      console.log("MongoDB conectado");
+    });
 
     app.listen(PORT, () => {
-      console.log("Aplicação iniciada na porta " + PORT);
+      console.log(`Servidor rodando na porta ${PORT}`);
     });
-  })
-  .catch((err) => {
-    console.error("Erro ao conectar no banco: " + err);
-  });
+  } catch (err) {
+    console.error("Erro ao conectar nos bancos:", err);
+  }
+}
+
+startServer();
+
+export default app;

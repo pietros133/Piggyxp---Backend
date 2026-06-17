@@ -33,6 +33,37 @@ Este projeto foi pensado não apenas como um trabalho acadêmico, mas como um **
 
 A aplicação segue uma arquitetura baseada em **camadas**, garantindo organização, escalabilidade e fácil manutenção.
 
+Back-end desenvolvido como parte do **TCC**, responsável por toda a lógica de autenticação, progressão de usuário e regras de negócio de uma aplicação de **educação financeira gamificada**.
+
+O sistema gerencia usuários, autenticação segura, fases, progresso, XP, níveis e recompensas, seguindo boas práticas de arquitetura e separação de responsabilidades.
+
+---
+
+## Objetivo do Projeto
+
+Criar uma API robusta e organizada para servir como base de uma aplicação gamificada que incentiva jovens a aprenderem **educação financeira** por meio de missões, fases e recompensas virtuais.
+
+Este projeto foi pensado não apenas como um trabalho acadêmico, mas como um **projeto de portfólio profissional**, aplicando conceitos reais do mercado.
+
+---
+
+## Tecnologias Utilizadas
+
+- Node.js
+- JavaScript (ES Modules)
+- TypeORM
+- JWT (JSON Web Token)
+- Bcrypt
+- Banco de Dados SQL
+- Dotenv
+- Templates de e-mail em HTML
+
+---
+
+## Arquitetura do Back-End
+
+A aplicação segue uma arquitetura baseada em **camadas**, garantindo organização, escalabilidade e fácil manutenção.
+
 ---
 
 ## 1. Estrutura de Pastas
@@ -148,7 +179,7 @@ git push origin nomeBranch
 ### 5.1 Gerar migration automaticamente
 
 ```bash
-npx typeorm migration:generate -d src/config/dbconnect.js src/migrations/CreateUserTable
+npm run generate-migration
 ```
 
 > O parâmetro `-d` indica o caminho do arquivo `dbconnect.js`.
@@ -158,7 +189,7 @@ npx typeorm migration:generate -d src/config/dbconnect.js src/migrations/CreateU
 ### 5.2 Executar migrations
 
 ```bash
-npx typeorm migration:run
+npm run run-migration
 ```
 
 ---
@@ -166,7 +197,28 @@ npx typeorm migration:run
 ### 5.3 Reverter última migration
 
 ```bash
-npx typeorm migration:revert
+npm run revert-migration
+```
+
+---
+
+### Variáveis de Ambiente
+
+O Arquivo .env precisa estar na raiz do projeto
+
+```bash
+- DB_HOST               Endereço do servidor do banco
+- DB_PORT               Porta do banco
+- DB_USER               Usuário do banco
+- DB_PASSWORD           Senha do banco de dados
+- DB_NAME               Nome do banco que sua aplicação usa
+- PORT                  Porta onde sua API vai rodar
+- JWT_SECRET            Chaves secretas para gerar tokens de login.
+- JWT_REFRESH_SECRET    Chaves secretas para gerar tokens de login.
+- nodemailer_key        Senha do serviço de email.
+- CLOUDINARY_CLOUD_NAME Encontrados no dashboard do cloudinary
+- CLOUDINARY_API_KEY    Encontrados no dashboard do cloudinary
+- CLOUDINARY_API_SECRET Encontrados no dashboard do cloudinary
 ```
 ---
 ### Variáveis de Ambiente
