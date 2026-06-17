@@ -4,6 +4,6 @@ import { listProducts } from "../controllers/ProductController.js";
 
 const productRoutes = Router();
 
-productRoutes.get("/", listProducts);
+productRoutes.get("/product", listProducts);
 
 export default productRoutes;

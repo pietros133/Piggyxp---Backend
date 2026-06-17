@@ -5,6 +5,6 @@ import { purchaseWithCoins } from "../controllers/PurchaseController.js";
 
 const purchaseRoutes = Router();
 
-purchaseRoutes.post("/coins", authMiddleware, purchaseWithCoins);
+purchaseRoutes.post("/purchases/coins", authMiddleware, purchaseWithCoins);
 
 export default purchaseRoutes;

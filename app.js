@@ -31,11 +31,16 @@ import selectMissionRoute from "./src/routes/selectMissionRoute.js";
 import getMissionRoute from "./src/routes/getMissionRoute.js";
 import Livesroute from "./src/routes/LivesRoute.js";
 import updateMissionRoute from "./src/routes/UpdateMissionRoute.js";
-import NivelRoute from "./src/routes/NivelRoute.js"
+import NivelRoute from "./src/routes/NivelRoute.js";
 
 // Rotas Auth
 import loginRoutes from "./src/auth/login/loginRoutes.js";
 import registerRoutes from "./src/auth/cadastro/registerRoutes.js";
+
+// Rotas Loja
+import purchaseRoutes from "./src/routes/purchaseRoutes.js";
+//import paymentRoutes from "./src/routes/paymentRoutes.js";
+import productRoutes from "./src/routes/productRoutes.js";
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -71,6 +76,11 @@ app.use("/api", NivelRoute);
 // Rotas Auth
 app.use("/api", loginRoutes);
 app.use("/api", registerRoutes);
+
+// Rotas loja
+app.use("/api", purchaseRoutes);
+//app.use("/api", paymentRoutes);
+app.use("/api", productRoutes);
 
 // Swagger
 // app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerSpec));

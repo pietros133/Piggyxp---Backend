@@ -7,6 +7,7 @@
   "scripts": {
     "start": "nodemon app.js",
     "lint": "eslint .",
+    "lint-fix": "eslint --fix .",
     "generate-migration": "npx typeorm migration:generate -d src/config/dbconnect.js src/migrations/CreateUserTable",
     "run-migration": "npx typeorm migration:run -d src/config/dbconnect.js",
     "revert-migration": "npx typeorm migration:revert -d src/config/dbconnect.js"
@@ -20,6 +21,7 @@
     "express": "^5.2.1",
     "ioredis": "^5.10.0",
     "jsonwebtoken": "^9.0.3",
+    "mercadopago": "^3.1.0",
     "mongodb": "^6.21.0",
     "multer": "^2.0.2",
     "mysql2": "^3.15.3",

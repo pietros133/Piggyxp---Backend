@@ -5,6 +5,6 @@ import { createPaymentController } from "../controllers/PaymentController.js";
 
 const paymentRoutes = Router();
 
-paymentRoutes.post("/create", authMiddleware, createPaymentController);
+paymentRoutes.post("/payment/create", authMiddleware, createPaymentController);
 
 export default paymentRoutes;
