@@ -32,6 +32,7 @@ import getMissionRoute from "./src/routes/getMissionRoute.js";
 import Livesroute from "./src/routes/LivesRoute.js";
 import updateMissionRoute from "./src/routes/UpdateMissionRoute.js";
 import NivelRoute from "./src/routes/NivelRoute.js";
+import { healthCheck } from "./src/routes/healthCheck.js";
 
 // Rotas Auth
 import loginRoutes from "./src/auth/login/loginRoutes.js";
@@ -49,6 +50,7 @@ app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
+app.use("/health", healthCheck);
 app.use("/api", uploadRoutes);
 app.use("/api", infoRoutes);
 app.use("/api", recoveryRoutes);
