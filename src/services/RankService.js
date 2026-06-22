@@ -7,7 +7,7 @@ export async function RankService() {
 
   const result = await rankRepository.find({
     relations: ["user"],
-    order: { xp: "DESC", nivel: "DESC" },
+    order: { nivel: "DESC", xp: "DESC" },
     take: 10,
   });
   return result.map((item, index) => ({
