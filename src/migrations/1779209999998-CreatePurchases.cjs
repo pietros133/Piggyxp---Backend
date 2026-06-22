@@ -15,7 +15,7 @@ module.exports = class CreatePurchases1779209999998 {
             CONSTRAINT fk_purchase_user
             FOREIGN KEY (user_id)
             REFERENCES users(id)
-            ON DELETE RESTRICT,
+            ON DELETE CASCADE,
 
             CONSTRAINT fk_purchase_product
             FOREIGN KEY (product_id)
@@ -26,7 +26,6 @@ module.exports = class CreatePurchases1779209999998 {
   }
 
   async down(queryRunner) {
-    await queryRunner.query(`DROP TABLE purchases`);
+    await queryRunner.query("DROP TABLE purchases");
   }
-
-}
+};
