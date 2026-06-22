@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Ping Render URL
-        run: curl -f https://piggyxp-backend.onrender.com
+        run: curl -f https://piggyxp-backend.onrender.com/health
