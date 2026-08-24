@@ -1,17 +1,31 @@
-import { MongoDataSource } from "../mongo/database/mdbconnect.js";
-import { Titles } from "../mongo/models/Title.js";
+import {
+  collection,
+  query,
+  where,
+  getDocs,
+} from "firebase/firestore";
+
+import { db } from "../firebase/fbconnect.js";
 
 export async function getTitlesService(userDifficulty, userUnit) {
-  const titlesRepository = MongoDataSource.getMongoRepository(Titles);
+  const titlesCollection = collection(db, "titles");
 
-  const title = await titlesRepository.findOneBy({
-    difficulty: Number(userDifficulty),
-    unit: Number(userUnit),
-  });
+  const titlesQuery = query(
+    titlesCollection,
+    where("difficulty", "==", Number(userDifficulty)),
+    where("unit", "==", Number(userUnit))
+  );
 
-  if (!title) {
+  const snapshot = await getDocs(titlesQuery);
+
+  if (snapshot.empty) {
     throw new Error("Título não encontrado");
   }
 
-  return title;
+  const title = snapshot.docs[0];
+
+  return {
+    id: title.id,
+    ...title.data(),
+  };
 }

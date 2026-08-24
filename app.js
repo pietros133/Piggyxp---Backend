@@ -94,9 +94,11 @@ async function startServer() {
       console.log("Banco SQL conectado");
     });
 
+    /*
     MongoDataSource.initialize().then(() => {
       console.log("MongoDB conectado");
     });
+    */
 
     app.listen(PORT, () => {
       console.log(`Servidor rodando na porta ${PORT}`);

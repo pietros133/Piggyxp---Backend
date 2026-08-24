@@ -1,18 +1,36 @@
-import { MongoDataSource } from "../mongo/database/mdbconnect.js";
-import { Phases } from "../mongo/models/Phases.js";
+import {
+  collection,
+  query,
+  where,
+  getDocs,
+} from "firebase/firestore";
 
-export async function getPhasesService(userDifficulty, userOrder, userUnit) {
-  const phasesRepository = MongoDataSource.getMongoRepository(Phases);
+import { db } from "../firebase/fbconnect.js";
 
-  const phase = await phasesRepository.findOne({
-    dificulty: Number(userDifficulty),
-    order: Number(userOrder),
-    unit: Number(userUnit),
-  });
+export async function getPhasesService(
+  userDifficulty,
+  userOrder,
+  userUnit
+) {
+  const phasesCollection = collection(db, "phases");
 
-  if (!phase) {
+  const phasesQuery = query(
+    phasesCollection,
+    where("dificulty", "==", Number(userDifficulty)),
+    where("order", "==", Number(userOrder)),
+    where("unit", "==", Number(userUnit))
+  );
+
+  const snapshot = await getDocs(phasesQuery);
+
+  if (snapshot.empty) {
     throw new Error("Fase não encontrada");
   }
 
-  return phase;
+  const phaseDoc = snapshot.docs[0];
+
+  return {
+    id: phaseDoc.id,
+    ...phaseDoc.data(),
+  };
 }

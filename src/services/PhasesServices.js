@@ -1,42 +1,59 @@
 import fs from "fs";
 import path from "path";
-import { MongoDataSource } from "../mongo/database/mdbconnect.js";
-import { Phases } from "../mongo/models/Phases.js";
+import {
+  collection,
+  addDoc,
+} from "firebase/firestore";
+
+import { db } from "../firebase/fbconnect.js";
 
 export async function PhasesService() {
-  
-  const phasesRepository = MongoDataSource.getMongoRepository(Phases);
+  const phasesCollection = collection(db, "phases");
 
-  // Pasta que contém as unidades
   const unitsFolder = path.resolve("./src/content/units");
-  const unitDirs = fs.readdirSync(unitsFolder, { withFileTypes: true })
-    .filter(dirent => dirent.isDirectory())
-    .map(dirent => dirent.name);
+
+  const unitDirs = fs
+    .readdirSync(unitsFolder, { withFileTypes: true })
+    .filter((dirent) => dirent.isDirectory())
+    .map((dirent) => dirent.name);
 
   const insertedFiles = [];
 
   for (const unit of unitDirs) {
-    const phaseFilePath = path.join(unitsFolder, unit, "phases.json");
+    const phaseFilePath = path.join(
+      unitsFolder,
+      unit,
+      "phases.json"
+    );
 
-    if (!fs.existsSync(phaseFilePath)) continue; // pula se não existir
+    if (!fs.existsSync(phaseFilePath)) continue;
 
     const rawData = fs.readFileSync(phaseFilePath, "utf-8");
-    if (!rawData) continue; // pula se estiver vazio
+
+    if (!rawData) continue;
 
     const phasesData = JSON.parse(rawData);
-    if (!phasesData.phases || phasesData.phases.length === 0) continue; // pula se não tiver fases
 
-    // Adiciona o campo 'unit' em cada fase
-    const dataWithUnit = phasesData.phases.map(phase => ({
+    if (!phasesData.phases || phasesData.phases.length === 0) {
+      continue;
+    }
+
+    const dataWithUnit = phasesData.phases.map((phase) => ({
       ...phase,
-      unit:parseInt(unit.replace("unit", "")),
+      unit: parseInt(unit.replace("unit", "")),
     }));
 
-    const result = await phasesRepository.insertMany(dataWithUnit);
-    insertedFiles.push({ unit, insertedCount: result.insertedCount });
+    for (const phase of dataWithUnit) {
+      await addDoc(phasesCollection, phase);
+    }
+
+    insertedFiles.push({
+      unit,
+      insertedCount: dataWithUnit.length,
+    });
   }
 
   return {
-    files: insertedFiles
+    files: insertedFiles,
   };
 }
