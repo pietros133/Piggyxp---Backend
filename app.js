@@ -14,7 +14,6 @@ import infoRoutes from "./src/routes/getUserInfoRoutes.js";
 import recoveryRoutes from "./src/routes/recoveryRoutes.js";
 import refreshToken from "./src/routes/refreshTokenRoutes.js";
 import difficultySelection from "./src/routes/difficultySelectionRoutes.js";
-import progressInfo from "./src/routes/getUserProgressInfoRoutes.js";
 import updateUser from "./src/routes/updateUserRoute.js";
 import updateImg from "./src/routes/updateImgRoute.js";
 import deleteUser from "./src/routes/deleteUserRoute.js";
@@ -31,8 +30,8 @@ import selectMissionRoute from "./src/routes/selectMissionRoute.js";
 import getMissionRoute from "./src/routes/getMissionRoute.js";
 import Livesroute from "./src/routes/LivesRoute.js";
 import updateMissionRoute from "./src/routes/UpdateMissionRoute.js";
-import NivelRoute from "./src/routes/NivelRoute.js";
 import { healthCheck } from "./src/routes/healthCheck.js";
+import HomeRoutes from "./src/routes/home.routes.js";
 
 // Rotas Auth
 import loginRoutes from "./src/auth/login/loginRoutes.js";
@@ -56,7 +55,6 @@ app.use("/api", infoRoutes);
 app.use("/api", recoveryRoutes);
 app.use("/api", refreshToken);
 app.use("/api", difficultySelection);
-app.use("/api", progressInfo);
 app.use("/api", updateUser);
 app.use("/api", updateImg);
 app.use("/api", deleteUser);
@@ -73,7 +71,7 @@ app.use("/api", selectMissionRoute);
 app.use("/api", getMissionRoute);
 app.use("/api", updateMissionRoute);
 app.use("/api", Livesroute);
-app.use("/api", NivelRoute);
+app.use("/api", HomeRoutes);
 
 // Rotas Auth
 app.use("/api", loginRoutes);

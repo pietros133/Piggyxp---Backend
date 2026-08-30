@@ -35,7 +35,7 @@ export async function loginService({ email, password }) {
 
   // gerar JWT
   const token = jwt.sign({ userId: user.id }, process.env.JWT_SECRET, {
-    expiresIn: "15m",
+    expiresIn: "1d",
   });
 
   const refreshTokenValue = crypto.randomBytes(64).toString("hex");
@@ -108,17 +108,21 @@ export async function loginService({ email, password }) {
     const lastLogin = new Date(user.last_login);
 
     const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
-    const lastDay = new Date(lastLogin.getFullYear(), lastLogin.getMonth(), lastLogin.getDate());
+    const lastDay = new Date(
+      lastLogin.getFullYear(),
+      lastLogin.getMonth(),
+      lastLogin.getDate(),
+    );
 
     const diffTime = today - lastDay;
     const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
 
     if (diffDays === 1) {
       userProgress.offensive_days += 1;
-    } else if(diffDays > 1){
+    } else if (diffDays > 1) {
       userProgress.offensive_days = 1;
     }
-  
+
     user.last_login = now;
   }
 

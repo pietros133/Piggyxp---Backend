@@ -16,15 +16,15 @@ export async function selectMissionController(req, res) {
     jwt.verify(token, process.env.JWT_SECRET);
 
     // Controller do service
-    const { id } = req.body;
+    const { userId } = jwt.decode(token);
 
-    if (!id) {
+    if (!userId) {
       return res.status(400).json({
         message: "Informar o id é obrigatório",
       });
     }
 
-    const select = await selectMissionsService(id);
+    const select = await selectMissionsService(userId);
 
     return res.status(200).json(select);
   } catch (error) {

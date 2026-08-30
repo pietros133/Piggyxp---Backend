@@ -16,7 +16,7 @@ export async function RegenLivesController(req, res) {
     jwt.verify(token, process.env.JWT_SECRET);
 
     // Controller do service
-    const { id } = req.query;
+    const id = req.user.id;
 
     if (!id) {
       return res.status(400).json({
