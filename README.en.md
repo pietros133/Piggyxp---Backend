@@ -2,7 +2,8 @@
 # PiggyXP - Back-End API
 
 **Author:** Pietro Miranda
-🌐 **Read this README in other languages:**
+---
+**Read this README in other languages:**
 - 🇺🇸 [English Version](https://github.com/pietros133/Piggyxp---Backend/blob/main/README.en.md)
 
 ---
