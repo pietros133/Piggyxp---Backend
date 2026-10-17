@@ -1,7 +1,11 @@
 # PiggyXP - Back-End API
 
 **Autor:** Pietro Miranda  
+---
+**Read this README in other languages:**
+- 🇺🇸 [English Version](https://github.com/pietros133/Piggyxp---Backend/blob/main/README.en.md)
 
+---
 Back-end desenvolvido como parte do **TCC**, responsável por toda a lógica de autenticação, progressão de usuário e regras de negócio de uma aplicação de **educação financeira gamificada**.
 
 O sistema gerencia usuários, autenticação segura, fases, progresso, XP, níveis e recompensas, seguindo boas práticas de arquitetura e separação de responsabilidades.
